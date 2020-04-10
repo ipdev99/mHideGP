@@ -2,7 +2,7 @@
 
 # Pull prop settings from device/image files
 # ipdev99 @ xda-developers
-#
+
 # Originally (and still) written to grab needed/useful props for use with MagiskHidePropsConfig module
 # by Didgeridoohan @ xda-developers
 # https://forum.xda-developers.com/apps/magisk/module-magiskhide-props-config-t3789228
@@ -29,6 +29,8 @@
 # ro.build.version.security_patch=2020-02-01
 #
 
+# Set functions
+
 # MacOS/Linux
 set_prop_ramdisk() {
 	prop_file=ABORT
@@ -50,8 +52,10 @@ set_prop_system() {
 	elif [ -f /system/system/build.prop ]; then
 		prop_file=system/system/build.prop
 	fi
-	TDIR=/sdcard
+	TDIR=/sdcard/
 }
+
+#### Add elif use_getprop() to Android Device and also make use_getprop()
 
 check_prop_file() {
 	if [ $prop_file == "ABORT" ]; then
@@ -64,8 +68,6 @@ check_prop_file() {
 }
 
 get_prop_info() {
-# MOVE THE PROP PULL STUFF HERE..
-# Remember to change ramdisk/prop.defualt with $prop_file
 ## - OnePlus and others.
 cat $prop_file | grep ro.oxygen.version
 cat $prop_file | grep ro.product.device
@@ -99,6 +101,22 @@ cat $prop_file | grep ro.product.product
 
 #####
 
+add_notes(){
+echo "\"" >> $LOG
+echo "######" >> $LOG
+echo "## The above \" was added to close custom printslist list early." >> $LOG
+echo "## Just to clean it up a little. Lines below will not display on screen." >> $LOG
+echo "## Due to updates in Magisk and/or mHide module." >> $LOG
+echo "## The rest of the file is now block commented to hide/clean it up further." >> $LOG
+echo "######" >> $LOG
+echo "#" >> $LOG
+}
+
+# if getprop; then
+# 	set_prop_system
+# else
+# 	set_prop_ramdisk
+
 # Set prop file to use MacOS/Linux.
 set_prop_ramdisk
 
@@ -110,9 +128,8 @@ set_prop_ramdisk
 check_prop_file
 
 # Set variables 
-# DATE=$(date '+%Y%m%d')
-DATE=$(date '+%Y%m%d_%H%M')
-# LOG=props_"$NAME"-"$DATE".sh
+DATE=$(date '+%Y%m%d')
+# DATE=$(date '+%Y%m%d_%H%M')
 BPRINT=$(grep ro.bootimage.build.fingerprint $prop_file | cut -f2 -d '=');
 SDATE=$(grep ro.build.version.security_patch $prop_file | cut -f2 -d '=');
 aOS=$(grep ro.build.version.release $prop_file | cut -f2 -d '=');
@@ -138,13 +155,22 @@ else
 	MANF=$(grep ro.product.vendor.manufacturer $prop_file | cut -f2 -d '=');
 fi
 
-# Move log file after setting NAME
-LOG="$TDIR"/props_"$NAME"-"$DATE".sh
+# Set $LOG file after setting Name Model and Manufacturer and remove spaces from Name/Model for $LOG
+if grep -q ro.oxygen.version $prop_file; then
+	LOGDEV=${NAME// /_}
+else
+	LOGDEV=${MODL// /_}
+fi
 
+if [ $MANF == "Google" ] || [ $MANF == "google" ]; then
+	LOG="$TDIR"/props_"$LOGDEV"-"$DATE".sh
+elif [ $MANF == "OnePlus" ] || [ $MANF == "oneplus" ]; then
+	LOG="$TDIR"/props_"$LOGDEV"-"$DATE".sh
+else
+	LOG="$TDIR"/props_"$MANF"_"$LOGDEV"-"$DATE".sh
+fi
 
 # Set MagiskHidePropsConfig fingerprint.
-## MPRINT="$NAME"" "\("$aOS"\):"$MANF":"$MODL":="$BPRINT"__"$SDATE"
-
 if grep -q ro.oxygen.version $prop_file; then
 	MPRINT="$NAME"" "\("$aOS"\):"$MANF":"$MODL":="$BPRINT"__"$SDATE"
 else
@@ -167,6 +193,8 @@ echo $SDK
 echo $MANF
 echo $MODL
 echo $NAME
+# echo $LOGMAN
+echo $LOGDEV
 
 ## Improve notes about using recovery.img instead of boot.img on older devices.
 ## Still working on two part getprop to get/set variables in this script. One for SDK27/28 and above / one for SDK26/27 and below.
@@ -176,16 +204,11 @@ echo $NAME
 ## ro.build.version.sdk=29
 ## ro.build.version.release=10
 
-# Set mHide fingerprint and add a few notes to $LOG file.
+# Add mHide fingerprint to $LOG file.
 echo $MPRINT | tee -a $LOG
-echo "\"" >> $LOG
-echo "######" >> $LOG
-echo "## The above \" was added to close custom printslist list early." >> $LOG
-echo "## Just to clean it up a little. Lines below will not display on screen." >> $LOG
-echo "## Due to updates in Magisk and/or mHide module." >> $LOG
-echo "## The rest of the file is now block commented to hide/clean it up further." >> $LOG
-echo "######" | tee -a $LOG
-echo "#" | tee -a $LOG
+
+# Add a few notes to $LOG file.
+add_notes
 
 # - All devices.
 # - Add sed command to comment out lines when needed.
@@ -205,9 +228,11 @@ get_prop_info | sed 's/^/# /g' | tee -a $LOG
 
 # Add note about prop file used to $LOG
 echo "#" >> $LOG
-echo "# Pulled from "$prop_file"" >> $LOG
+echo "# # Pulled from "$prop_file"" >> $LOG
+echo "#" >> $LOG
 
-echo " "; echo "Done.";
+# Finish script
+echo " "; echo "Done."; echo " ";
 echo "Prop file saved as "$LOG""; echo " ";
 #
 exit 0;
