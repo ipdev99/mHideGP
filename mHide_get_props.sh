@@ -89,18 +89,6 @@ cat $prop_file | grep ro.product.build.fingerprint
 cat $prop_file | grep ro.product.product
 }
 
-
-#####
-
-# Add get_prop_all()
-# Basically dump the whole prop file.
-
-# Add get_props_more()
-# Grab some more usfull props.
-# Move some of the props from get_prop_info to get_props_more
-
-#####
-
 add_notes(){
 echo "\"" >> $LOG
 echo "######" >> $LOG
@@ -110,6 +98,16 @@ echo "## Due to updates in Magisk and/or mHide module." >> $LOG
 echo "## The rest of the file is now block commented to hide/clean it up further." >> $LOG
 echo "######" >> $LOG
 echo "#" >> $LOG
+}
+
+add_device_title(){
+if [ $SMANF == "Google" ] || [ $SMANF == "google" ]; then
+	echo "# "$LMODL"" >> $LOG
+elif [ $SMANF == "OnePlus" ] || [ $SMANF == "oneplus" ]; then
+	echo "# "$LMODL"" >> $LOG
+else
+	echo "# "$SMANF" "$LMODL"" >> $LOG
+fi
 }
 
 # if getprop; then
@@ -135,8 +133,7 @@ SDATE=$(grep ro.build.version.security_patch $prop_file | cut -f2 -d '=');
 aOS=$(grep ro.build.version.release $prop_file | cut -f2 -d '=');
 SDK=$(grep ro.build.version.sdk $prop_file | cut -f2 -d '=');
 
-# Readjusted for device simulation
-
+# Set variable names to variables. (Depends on the device and/or API/SDK/NDK version.)
 if grep -q ro.product.name $prop_file; then
 	NAME=$(grep ro.product.name $prop_file | cut -f2 -d '=');
 else
@@ -155,19 +152,33 @@ else
 	MANF=$(grep ro.product.vendor.manufacturer $prop_file | cut -f2 -d '=');
 fi
 
-# Set $LOG file after setting Name Model and Manufacturer and remove spaces from Name/Model for $LOG
+# # Add brand
+# if grep -q ro.product.brand $prop_file; then
+# 	BRAND=$(grep ro.product.brand $prop_file | cut -f2 -d '=');
+# elif grep -q ro.product.system.brand $prop_file; then
+# 	BRAND=$(grep ro.product.system.brand $prop_file | cut -f2 -d '=');
+# else
+# 	BRAND=$(grep ro.product.vendor.brand $prop_file | cut -f2 -d '=');
+# fi
+
+## Use BRAND instead.?.
+# Shorten manufacturer if need be. (Use only text before the space,)
+SMANF=${MANF/" "*}
+
+
+# Set $LOG file after setting Name Model and Manufacturer. Remove spaces from Name/Model for $LOG
 if grep -q ro.oxygen.version $prop_file; then
-	LOGDEV=${NAME// /_}
+	LMODL=${NAME// /_}
 else
-	LOGDEV=${MODL// /_}
+	LMODL=${MODL// /_}
 fi
 
-if [ $MANF == "Google" ] || [ $MANF == "google" ]; then
-	LOG="$TDIR"/props_"$LOGDEV"-"$DATE".sh
-elif [ $MANF == "OnePlus" ] || [ $MANF == "oneplus" ]; then
-	LOG="$TDIR"/props_"$LOGDEV"-"$DATE".sh
+if [ $SMANF == "Google" ] || [ $SMANF == "google" ]; then
+	LOG="$TDIR"/props_"$LMODL"-"$DATE".sh
+elif [ $SMANF == "OnePlus" ] || [ $SMANF == "oneplus" ]; then
+	LOG="$TDIR"/props_"$LMODL"-"$DATE".sh
 else
-	LOG="$TDIR"/props_"$MANF"_"$LOGDEV"-"$DATE".sh
+	LOG="$TDIR"/props_"$SMANF"_"$LMODL"-"$DATE".sh
 fi
 
 # Set MagiskHidePropsConfig fingerprint.
@@ -185,16 +196,17 @@ if [ "$SDK" == "" ]; then
 	echo " "
 fi
 
-## For testing 
-echo $TDIR
-echo $LOG
-echo $prop_file
-echo $SDK
-echo $MANF
-echo $MODL
-echo $NAME
-# echo $LOGMAN
-echo $LOGDEV
+# ## For testing
+# echo $TDIR
+# echo $LOG
+# echo $prop_file
+# echo $SDK
+# echo $MANF
+# echo $MODL
+# echo $NAME
+# echo $SMANF
+# echo $LMODL
+# echo $BRAND
 
 ## Improve notes about using recovery.img instead of boot.img on older devices.
 ## Still working on two part getprop to get/set variables in this script. One for SDK27/28 and above / one for SDK26/27 and below.
@@ -213,10 +225,12 @@ add_notes
 # - All devices.
 # - Add sed command to comment out lines when needed.
 echo ""
-echo "# "$MPRINT"" >> $LOG
-# cat $prop_file | grep ro.bootimage.build.fingerprint | tee -a $LOG
+
+# Add a title line to the props file.
+add_device_title
+
+# echo "# "$MPRINT"" >> $LOG
 cat $prop_file | grep ro.bootimage.build.fingerprint | sed 's/^/# /g' | tee -a $LOG
-# cat $prop_file | grep ro.build.version.security_patch | tee -a $LOG
 cat $prop_file | grep ro.build.version.security_patch | sed 's/^/# /g' | tee -a $LOG
 
 echo "#" | tee -a $LOG
@@ -229,7 +243,7 @@ get_prop_info | sed 's/^/# /g' | tee -a $LOG
 # Add note about prop file used to $LOG
 echo "#" >> $LOG
 echo "# # Pulled from "$prop_file"" >> $LOG
-echo "#" >> $LOG
+# echo "#" >> $LOG
 
 # Finish script
 echo " "; echo "Done."; echo " ";
