@@ -27,8 +27,9 @@ echo "######" >> $OUT
 echo "#" >> $OUT
 }
 
-## No sort order logic for now.
-## The output ($OUT) file will be in the order of the file name.
+## No sort order logic.
+## The output file is written in order of the prop_ file name.
+## The mHide_get_props script hopefully will name them in the correct order.
 
 
 # Set variables 
@@ -45,13 +46,13 @@ done
 # Add a few notes to $OUT file.
 add_notes
 
-# Add the reset from the props_* file(s) to the $OUT file.
+# Add all the rest of the props from the props_* file(s) to the $OUT file.
 for dProps in props_*; do
 cat $dProps | sed '/#/!d' | sed '/##/d' >> "$OUT"
 done
 
 # Finish script
 echo ""; echo "Done."; echo "";
-echo "Prop file saved as "$TDIR""$OUT""; echo " ";
+echo "Prop file saved as "$TDIR"/"$OUT""; echo " ";
 #
 exit 0;
