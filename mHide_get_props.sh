@@ -43,20 +43,6 @@ set_prop_ramdisk() {
 	TDIR=$(pwd)
 }
 
-# Android Device
-set_prop_system() {
-	prop_file=ABORT
-
-	if [ -f /system/build.prop ]; then
-		prop_file=/system/build.prop
-	elif [ -f /system/system/build.prop ]; then
-		prop_file=system/system/build.prop
-	fi
-	TDIR=/sdcard/
-}
-
-#### Add elif use_getprop() to Android Device and also make use_getprop()
-
 check_prop_file() {
 	if [ $prop_file == "ABORT" ]; then
 		echo " "
@@ -68,59 +54,50 @@ check_prop_file() {
 }
 
 get_prop_info() {
-## - OnePlus and others.
-cat $prop_file | grep ro.oxygen.version
-cat $prop_file | grep ro.product.device
-cat $prop_file | grep ro.product.brand
-cat $prop_file | grep ro.product.manufacturer
-cat $prop_file | grep ro.product.model
-cat $prop_file | grep ro.product.name
-## - Pixel and PH1 (Most most newer devices/Android 10.)
-cat $prop_file | grep ro.system.build.fingerprint
-cat $prop_file | grep ro.product.system
-cat $prop_file | grep ro.build.product
-# cat $prop_file | grep ro.vendor.build
-cat $prop_file | grep ro.vendor.build.fingerprint
-cat $prop_file | grep ro.vendor.build.security_patch
-cat $prop_file | grep ro.product.vendor
-cat $prop_file | grep ro.odm.build.fingerprint
-cat $prop_file | grep ro.product.odm
-cat $prop_file | grep ro.product.build.fingerprint
-cat $prop_file | grep ro.product.product
+	cat $prop_file | grep ro.oxygen.version
+	cat $prop_file | grep ro.product.device
+	cat $prop_file | grep ro.product.brand
+	cat $prop_file | grep ro.product.manufacturer
+	cat $prop_file | grep ro.product.model
+	cat $prop_file | grep ro.product.name
+	cat $prop_file | grep ro.system.build.fingerprint
+	cat $prop_file | grep ro.product.system
+	cat $prop_file | grep ro.build.product
+	# cat $prop_file | grep ro.vendor.build
+	cat $prop_file | grep ro.vendor.build.fingerprint
+	cat $prop_file | grep ro.vendor.build.security_patch
+	cat $prop_file | grep ro.product.vendor
+	cat $prop_file | grep ro.odm.build.fingerprint
+	cat $prop_file | grep ro.product.odm
+	cat $prop_file | grep ro.product.build.fingerprint
+	cat $prop_file | grep ro.product.product
 }
 
 add_notes(){
-echo "\"" >> $LOG
-echo "######" >> $LOG
-echo "## The above \" was added to close custom printslist list early." >> $LOG
-echo "## Just to clean it up a little. Lines below will not display on screen." >> $LOG
-echo "## Due to updates in Magisk and/or mHide module." >> $LOG
-echo "## The rest of the file is now block commented to hide/clean it up further." >> $LOG
-echo "######" >> $LOG
-echo "#" >> $LOG
+	echo "\"" >> $LOG
+	echo "######" >> $LOG
+	echo "## The above \" was added to close custom printslist list early." >> $LOG
+	echo "## Just to clean it up a little. Lines below will not display on screen." >> $LOG
+	echo "## Due to updates in Magisk and/or mHide module." >> $LOG
+	echo "## The rest of the file is now block commented to hide/clean it up further." >> $LOG
+	echo "######" >> $LOG
+	echo "#" >> $LOG
 }
 
 add_device_title(){
-if [ $SMANF == "Google" ] || [ $SMANF == "google" ]; then
-	echo "# "$LMODL"" >> $LOG
-elif [ $SMANF == "OnePlus" ] || [ $SMANF == "oneplus" ]; then
-	echo "# "$LMODL"" >> $LOG
-else
-	echo "# "$SMANF" "$LMODL"" >> $LOG
-fi
+	if [ $BRAND == "Google" ] || [ $BRAND == "google" ]; then
+		echo "# "$MODL"" >> $LOG
+	elif [ $BRAND == "OnePlus" ] || [ $BRAND == "oneplus" ]; then
+		echo "# "$NAME" ""[ "$OPMDL"]" >> $LOG
+	elif [ $BRAND == "Samsung" ] || [ $BRAND == "samsung" ]; then
+		echo "# "$BRAND" Marketing Name? ""[ "$MODL"]" >> $LOG
+	else
+		echo "# "$BRAND" "$MODL"" >> $LOG
+	fi
 }
-
-# if getprop; then
-# 	set_prop_system
-# else
-# 	set_prop_ramdisk
 
 # Set prop file to use MacOS/Linux.
 set_prop_ramdisk
-
-
-# Set prop file to use Android device. (Not ready/working yet.)
-# set_prop_system
 
 # Make sure prop file set.
 check_prop_file
@@ -152,40 +129,68 @@ else
 	MANF=$(grep ro.product.vendor.manufacturer $prop_file | cut -f2 -d '=');
 fi
 
-# # Add brand
-# if grep -q ro.product.brand $prop_file; then
-# 	BRAND=$(grep ro.product.brand $prop_file | cut -f2 -d '=');
-# elif grep -q ro.product.system.brand $prop_file; then
-# 	BRAND=$(grep ro.product.system.brand $prop_file | cut -f2 -d '=');
-# else
-# 	BRAND=$(grep ro.product.vendor.brand $prop_file | cut -f2 -d '=');
-# fi
-
-## Use BRAND instead.?.
-# Shorten manufacturer if need be. (Use only text before the space,)
-SMANF=${MANF/" "*}
-
-
-# Set $LOG file after setting Name Model and Manufacturer. Remove spaces from Name/Model for $LOG
-if grep -q ro.oxygen.version $prop_file; then
-	LMODL=${NAME// /_}
+if grep -q ro.product.brand $prop_file; then
+	BRAND=$(grep ro.product.brand $prop_file | cut -f2 -d '=');
+elif grep -q ro.product.system.brand $prop_file; then
+	BRAND=$(grep ro.product.system.brand $prop_file | cut -f2 -d '=');
 else
-	LMODL=${MODL// /_}
+	BRAND=$(grep ro.product.vendor.brand $prop_file | cut -f2 -d '=');
 fi
 
-if [ $SMANF == "Google" ] || [ $SMANF == "google" ]; then
+# OnePlus model(s)
+if grep -q ro.oxygen.version $prop_file; then
+	if grep -q ro.product.model $prop_file; then
+		OPMDL=$(grep ro.product.model $prop_file | cut -f2 -d '=' | cut -f2 -d " ");
+	elif grep -q ro.product.system.model $prop_file; then
+		OPMDL=$(grep ro.product.system.model $prop_file | cut -f2 -d '=' | cut -f2 -d " ");
+	else
+		OPMDL=$(grep ro.product.vendor.model $prop_file | cut -f2 -d '=' | cut -f2 -d " ");
+	fi;
+fi;
+
+# Set new variables for use in naming the $LOG file.
+# Remove spaces and change all to lowercase so the $LOG file(s) should list in the correct order when using the concat script.
+if grep -q ro.product.name $prop_file; then
+	LNAM=$(grep ro.product.name $prop_file | cut -f2 -d '=' | tr [:upper:] [:lower:]);
+else
+	LNAM=$(grep ro.product.vendor.name $prop_file | cut -f2 -d '=' | tr [:upper:] [:lower:]);
+fi
+
+if grep -q ro.product.model $prop_file; then
+	LMDL=$(grep ro.product.model $prop_file | cut -f2 -d '=' | tr [:upper:] [:lower:]);
+else
+	LMDL=$(grep ro.product.vendor.model $prop_file | cut -f2 -d '=' | tr [:upper:] [:lower:]);
+fi
+
+if grep -q ro.product.brand $prop_file; then
+	LBRND=$(grep ro.product.brand $prop_file | cut -f2 -d '=' | tr [:upper:] [:lower:]);
+elif grep -q ro.product.system.brand $prop_file; then
+	LBRND=$(grep ro.product.system.brand $prop_file | cut -f2 -d '=' | tr [:upper:] [:lower:]);
+else
+	LBRND=$(grep ro.product.vendor.brand $prop_file | cut -f2 -d '=' | tr [:upper:] [:lower:]);
+fi
+
+if grep -q ro.oxygen.version $prop_file; then
+	LMODL=${LNAM// /_}
+else
+	LMODL=${LMDL// /_}
+fi
+
+if [ $BRAND == "Google" ] || [ $BRAND == "google" ]; then
 	LOG="$TDIR"/props_"$LMODL"-"$DATE".sh
-elif [ $SMANF == "OnePlus" ] || [ $SMANF == "oneplus" ]; then
+elif [ $BRAND == "OnePlus" ] || [ $BRAND == "oneplus" ]; then
 	LOG="$TDIR"/props_"$LMODL"-"$DATE".sh
 else
-	LOG="$TDIR"/props_"$SMANF"_"$LMODL"-"$DATE".sh
+	LOG="$TDIR"/props_"$LBRND"_"$LMODL"-"$DATE".sh
 fi
 
 # Set MagiskHidePropsConfig fingerprint.
-if grep -q ro.oxygen.version $prop_file; then
+if [ $BRAND == "Google" ] || [ $BRAND == "google" ]; then
+	MPRINT="$MODL"" "\("$aOS"\):"$MANF":"$MODL":="$BPRINT"__"$SDATE"
+elif [ $BRAND == "OnePlus" ] || [ $BRAND == "oneplus" ]; then
 	MPRINT="$NAME"" "\("$aOS"\):"$MANF":"$MODL":="$BPRINT"__"$SDATE"
 else
-	MPRINT="$MODL"" "\("$aOS"\):"$MANF":"$MODL":="$BPRINT"__"$SDATE"
+	MPRINT="$BRAND"" ""$MODL"" "\("$aOS"\):"$MANF":"$MODL":="$BPRINT"__"$SDATE"
 fi
 
 # Note about older device and using boot.img
@@ -196,25 +201,7 @@ if [ "$SDK" == "" ]; then
 	echo " "
 fi
 
-# ## For testing
-# echo $TDIR
-# echo $LOG
-# echo $prop_file
-# echo $SDK
-# echo $MANF
-# echo $MODL
-# echo $NAME
-# echo $SMANF
-# echo $LMODL
-# echo $BRAND
-
-## Improve notes about using recovery.img instead of boot.img on older devices.
-## Still working on two part getprop to get/set variables in this script. One for SDK27/28 and above / one for SDK26/27 and below.
-## Due to the depreciation of older prop values and current prop values that do not exist on older devices.
-## Might fall back to using SDK level. if ((SDK < 28)); then
-## For now, using if/then/else to pull the preferred prop value.
-## ro.build.version.sdk=29
-## ro.build.version.release=10
+## Still need to improve notes about using recovery.img instead of boot.img on older devices.
 
 # Add mHide fingerprint to $LOG file.
 echo $MPRINT | tee -a $LOG
@@ -222,14 +209,13 @@ echo $MPRINT | tee -a $LOG
 # Add a few notes to $LOG file.
 add_notes
 
-# - All devices.
-# - Add sed command to comment out lines when needed.
+# Extra echo just to clean up screen output.
 echo ""
 
 # Add a title line to the props file.
 add_device_title
 
-# echo "# "$MPRINT"" >> $LOG
+# cat prop file | grep fingerprint and security date | sed command to add beginning comment [# ] | tee -a to add it to $LOG
 cat $prop_file | grep ro.bootimage.build.fingerprint | sed 's/^/# /g' | tee -a $LOG
 cat $prop_file | grep ro.build.version.security_patch | sed 's/^/# /g' | tee -a $LOG
 
@@ -243,7 +229,6 @@ get_prop_info | sed 's/^/# /g' | tee -a $LOG
 # Add note about prop file used to $LOG
 echo "#" >> $LOG
 echo "# # Pulled from "$prop_file"" >> $LOG
-# echo "#" >> $LOG
 
 # Finish script
 echo " "; echo "Done."; echo " ";
