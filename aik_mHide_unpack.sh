@@ -8,40 +8,107 @@
 # https://forum.xda-developers.com/apps/magisk/module-magiskhide-props-config-t3789228
 
 # To pull props from a boot or recovery image file requires unpacking the image.
-# This script relies on AIK 
+# This script relies on AIK
 # by osm0sis @ xda-developers
 # https://forum.xda-developers.com/showthread.php?t=2073775
 
 # To use.
+# Install AIK
 # Copy the boot or recovery image files into the AIK directory
-# Copy aik_mHide_get_props.sh concat_mHide_get_props.sh and mHide_get_props.sh into the AIK directory
+# Copy aik_mHide_get_props.sh and mHide_get_props.sh into the AIK directory
 # Run aik_mHide_get_props.sh
 #
 # If used with another method, make sure to make changes in the script accordingly.
 
 
-# Set variables 
-TDIR=$(pwd)
-# DATE=$(date '+%Y%m%d')
-# DATE=$(date '+%Y%m%d_%H%M')
+# Set functions
 
-# Unpack and run mHide_get_props on all image files in the directory
+check_files() {
+	if [ ! -f mHide_get_props.sh ]; then
+		echo " Missing mHide_get_props script. "
+		exit 1;
+	elif [ ! -f cleanup.sh ]; then
+		echo " Missing AIK cleanup script. "
+		exit 1;
+	elif [ ! -f unpackimg.sh ]; then
+		echo " Missing AIK unpackimg script. "
+		exit 1;
+	fi
+}
+
+add_notes() {
+	echo "\"" >> $OUT
+	echo "######" >> $OUT
+	echo "## The above \" was added to close custom printslist list early." >> $OUT
+	echo "## Just to clean it up a little. Lines below will not display on screen." >> $OUT
+	echo "## Due to updates in Magisk and/or mHide module." >> $OUT
+	echo "## The rest of the file is now block commented to hide/clean it up further." >> $OUT
+	echo "######" >> $OUT
+	echo "#" >> $OUT
+}
+
+backup() {
+	if [ -f "$OUT" ]; then
+		BACKUPDATE=$(date -r "$OUT" '+%Y%m%d_%H%M')
+		mv "$OUT" "$OUT"_"$BACKUPDATE"
+		chmod 0664 "$OUT"_"$BACKUPDATE"
+		echo "Your previous "$OUT" file was renamed to "$TDIR"/"$OUT"_"$BACKUPDATE""
+	fi
+}
+
+
+# Set variables
+
+TDIR=$(pwd)
+DATE=$(date '+%Y%m%d')
+# DATE=$(date '+%Y%m%d_%H%M')
+OUT=mHide-printslist-"$DATE".sh
+
+
+check_files
+
+# Unpack and run mHide_get_props on all image files in the current directory
 for img in *.img; do
     {
-	"$TDIR"/unpackimg.sh "$img"
-	"$TDIR"/mHide_get_props.sh
-	"$TDIR"/cleanup.sh
+	"$TDIR"/unpackimg.sh "$img" > /dev/null
+	"$TDIR"/mHide_get_props.sh > /dev/null
+	"$TDIR"/cleanup.sh > /dev/null
 }
 done
 
-# Run the concat script
-"$TDIR"/concat_mHide_get_props.sh
+# Concatenate (Merge multiple prop_* files into a new file.)
+## The output file is written in order of the prop_ file name.
+## The mHide_get_props script will hopefully name them in the correct order.
 
-# Remove the seperate props_ files
-echo "Remove the seperate props_ files."
-rm props_*.sh
+# Backup if needed
+echo ""
+backup
+
+# Add mHide fingerprint from the props_* files(s) to $OUT file.
+for mPrint in props_*; do
+cat $mPrint | sed '1!d' >> "$OUT"
+done
+
+# Add a few notes to $OUT file.
+add_notes
+
+# Add all the rest of the props from the props_* file(s) to the $OUT file.
+for dProps in props_*; do
+cat $dProps | sed '/#/!d' | sed '/##/d' >> "$OUT"
+done
+
+# Cleanup
+# (Not sure if I like the echo clutter. Removed for now.)
+## echo ""; echo "Removing the separate props files.";
+for file in props_*.sh; do
+	{
+	## echo $file
+	rm $file
+	}
+done
 
 # Finish script
-echo ""; echo "Done."; echo"";
+echo "Prop file saved as "$TDIR"/"$OUT""
+echo ""; echo "Done."; echo "";
 #
 exit 0;

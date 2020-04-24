@@ -30,8 +30,8 @@
 #
 
 # Set functions
-
 # MacOS/Linux
+
 set_prop_ramdisk() {
 	prop_file=ABORT
 
@@ -40,7 +40,6 @@ set_prop_ramdisk() {
 	elif [ -f ramdisk/default.prop ]; then
 		prop_file=ramdisk/default.prop
 	fi
-	TDIR=$(pwd)
 }
 
 check_prop_file() {
@@ -54,26 +53,26 @@ check_prop_file() {
 }
 
 get_prop_info() {
-	cat $prop_file | grep ro.oxygen.version
-	cat $prop_file | grep ro.product.device
-	cat $prop_file | grep ro.product.brand
-	cat $prop_file | grep ro.product.manufacturer
-	cat $prop_file | grep ro.product.model
-	cat $prop_file | grep ro.product.name
-	cat $prop_file | grep ro.system.build.fingerprint
-	cat $prop_file | grep ro.product.system
-	cat $prop_file | grep ro.build.product
-	# cat $prop_file | grep ro.vendor.build
-	cat $prop_file | grep ro.vendor.build.fingerprint
-	cat $prop_file | grep ro.vendor.build.security_patch
-	cat $prop_file | grep ro.product.vendor
-	cat $prop_file | grep ro.odm.build.fingerprint
-	cat $prop_file | grep ro.product.odm
-	cat $prop_file | grep ro.product.build.fingerprint
-	cat $prop_file | grep ro.product.product
+	grep ro.oxygen.version $prop_file
+	grep ro.product.device $prop_file
+	grep ro.product.brand $prop_file
+	grep ro.product.manufacturer $prop_file
+	grep ro.product.model $prop_file
+	grep ro.product.name $prop_file
+	grep ro.system.build.fingerprint $prop_file
+	grep ro.product.system $prop_file
+	grep ro.build.product $prop_file
+	grep ro.vendor.build.fingerprint $prop_file
+	grep ro.vendor.build.security_patch $prop_file
+	# grep ro.vendor.build $prop_file
+	grep ro.product.vendor $prop_file
+	grep ro.odm.build.fingerprint $prop_file
+	grep ro.product.odm $prop_file
+	grep ro.product.build.fingerprint $prop_file
+	grep ro.product.product $prop_file
 }
 
-add_notes(){
+add_notes() {
 	echo "\"" >> $LOG
 	echo "######" >> $LOG
 	echo "## The above \" was added to close custom printslist list early." >> $LOG
@@ -84,7 +83,7 @@ add_notes(){
 	echo "#" >> $LOG
 }
 
-add_device_title(){
+add_device_title() {
 	if [ $BRAND == "Google" ] || [ $BRAND == "google" ]; then
 		echo "# "$MODL"" >> $LOG
 	elif [ $BRAND == "OnePlus" ] || [ $BRAND == "oneplus" ]; then
@@ -96,15 +95,17 @@ add_device_title(){
 	fi
 }
 
-# Set prop file to use MacOS/Linux.
+# Set prop file to use.
 set_prop_ramdisk
 
 # Make sure prop file set.
 check_prop_file
 
-# Set variables 
+# Set variables
+
 DATE=$(date '+%Y%m%d')
 # DATE=$(date '+%Y%m%d_%H%M')
+TDIR=$(pwd)
 BPRINT=$(grep ro.bootimage.build.fingerprint $prop_file | cut -f2 -d '=');
 SDATE=$(grep ro.build.version.security_patch $prop_file | cut -f2 -d '=');
 aOS=$(grep ro.build.version.release $prop_file | cut -f2 -d '=');
@@ -215,9 +216,9 @@ echo ""
 # Add a title line to the props file.
 add_device_title
 
-# cat prop file | grep fingerprint and security date | sed command to add beginning comment [# ] | tee -a to add it to $LOG
-cat $prop_file | grep ro.bootimage.build.fingerprint | sed 's/^/# /g' | tee -a $LOG
-cat $prop_file | grep ro.build.version.security_patch | sed 's/^/# /g' | tee -a $LOG
+# grep fingerprint and security date | sed command to add beginning comment [# ] | tee -a to add it to $LOG
+grep ro.bootimage.build.fingerprint $prop_file | sed 's/^/# /g' | tee -a $LOG
+grep ro.build.version.security_patch $prop_file | sed 's/^/# /g' | tee -a $LOG
 
 echo "#" | tee -a $LOG
 #

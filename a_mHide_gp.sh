@@ -8,8 +8,9 @@
 # https://forum.xda-developers.com/apps/magisk/module-magiskhide-props-config-t3789228
 
 # To use. Copy this script to the device.
-# Run from adb shell (or a terminal app) using the sh command. sh NameOfScript.sh
 # Run from a file manager that is able to execute a script file.
+# Run from adb shell (or a terminal app) using the sh command.
+#  sh NameOfScript.sh
 #
 
 # Set functions
@@ -35,7 +36,7 @@ get_prop_info_a() {
 	getprop | grep ro.product.product
 }
 
-add_notes(){
+add_notes() {
 	echo "\"" >> $LOG
 	echo "######" >> $LOG
 	echo "## The above \" was added to close custom printslist list early." >> $LOG
@@ -46,7 +47,7 @@ add_notes(){
 	echo "#" >> $LOG
 }
 
-add_device_title(){
+add_device_title() {
 	if [ $BRAND == "Google" ] || [ $BRAND == "google" ]; then
 		echo "# "$MODL"" >> $LOG
 	elif [ $BRAND == "OnePlus" ] || [ $BRAND == "oneplus" ]; then
@@ -58,7 +59,7 @@ add_device_title(){
 	fi
 }
 
-# Remove brakets /\[ /\] and replace the /: / with /=/ 
+# Remove brakets /\[ /\] and replace the /: / with /=/
 sed_props_a() {
 	sed 's/\[//g
 	s/\]//g
@@ -87,7 +88,7 @@ add_printslist() {
 }
 
 
-# Set variables 
+# Set variables
 DATE=$(date '+%Y%m%d')
 # DATE=$(date '+%Y%m%d_%H%M')
 BPRINT=$(getprop | grep ro.bootimage.build.fingerprint | sed_props_a | cut -f2 -d '=');
