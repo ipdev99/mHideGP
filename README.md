@@ -31,13 +31,18 @@ Useful when using mHideGP alone to collect props files.
 - Write up the instructions and explanation.  
 - Fix/Finish the batch (Windows) port.  
   
-
 ### Recent changes
-- Use work-a-round for Android when calling getprop too many times gave a brokenpipe error.
+- work-a-round for Android when calling getprop too many times gave a brokenpipe error.
 - Testing a combined script for MacOS/Linux/Android..  
 Think I'll keep it.  
 - Reworked everything again.
 - Still needs some cleanup.
+- Update to be more compatible in Android.  
+Now works with Termux.  
+-- [Terminal Emulator for Android](https://play.google.com/store/apps/details?id=jackpal.androidterm&hl=en_US)  
+-- [Termux](https://play.google.com/store/apps/details?id=com.termux&hl=en_US)  
+- Running from a file manager still seems to fail.
+
 
 ### How to use
 _- Add later._  
