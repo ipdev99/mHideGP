@@ -24,7 +24,6 @@
 
 # To use on device.
 # Copy this script to the device.
-# Run from a file manager that is able to execute a script file.
 # Run from adb shell (or a terminal app) using the sh command.
 #  sh mHideGP.sh
 #
@@ -39,10 +38,10 @@ TDIR=$(pwd)
 # Set functions
 
 # set_prop_file() {
-# 	if [ $AndroidDevice == "TRUE" ]; then
+# 	if [ $AndroidDevice = "TRUE" ]; then
 # 		# Android device
 # 		set_prop_android
-# 	elif [ $AndroidDevice == "FALSE" ]; then
+# 	elif [ $AndroidDevice = "FALSE" ]; then
 # 		# MacOS/Linux
 # 		set_prop_ramdisk
 # 	else
@@ -76,7 +75,7 @@ set_prop_android() {
 }
 
 check_prop_file() {
-	if [ $prop_file == "ABORT" ]; then
+	if [ $prop_file = "ABORT" ]; then
 		echo " "
 		echo " No prop file found. "
 		echo " Aborting ...  "
@@ -84,6 +83,16 @@ check_prop_file() {
 		exit 1;
 	fi
 }
+
+# check_prop_file() {
+# 	if [ $prop_file = "ABORT" ]; then
+# 		echo " "
+# 		echo " No prop file found. "
+# 		echo " Aborting ...  "
+# 		echo " "
+# 		exit 1;
+# 	fi
+# }
 
 get_prop_info() {
 	grep ro.oxygen.version $prop_file
@@ -117,11 +126,11 @@ add_notes() {
 }
 
 add_device_title() {
-	if [ $BRAND == "Google" ] || [ $BRAND == "google" ]; then
+	if [ $BRAND = "Google" ] || [ $BRAND = "google" ]; then
 		echo "# "$MODL"" >> $LOG
-	elif [ $BRAND == "OnePlus" ] || [ $BRAND == "oneplus" ]; then
+	elif [ $BRAND = "OnePlus" ] || [ $BRAND = "oneplus" ]; then
 		echo "# "$NAME" ""[ "$OPMDL"]" >> $LOG
-	elif [ $BRAND == "Samsung" ] || [ $BRAND == "samsung" ]; then
+	elif [ $BRAND = "Samsung" ] || [ $BRAND = "samsung" ]; then
 		echo "# "$BRAND" Marketing Name? ""[ "$MODL"]" >> $LOG
 	else
 		echo "# "$BRAND" "$MODL"" >> $LOG
@@ -201,10 +210,16 @@ else
 fi
 
 if grep -q ro.product.model $prop_file; then
-	LMDL=$(grep ro.product.model $prop_file | cut -f2 -d '=' | tr [:upper:] [:lower:]);
+	LMODL=$(grep ro.product.model $prop_file | cut -f2 -d '=' | sed 's/ /_/g' | tr [:upper:] [:lower:]);
 else
-	LMDL=$(grep ro.product.vendor.model $prop_file | cut -f2 -d '=' | tr [:upper:] [:lower:]);
+	LMODL=$(grep ro.product.vendor.model $prop_file | cut -f2 -d '=' | sed 's/ /_/g' | tr [:upper:] [:lower:]);
 fi
+
+# if grep -q ro.product.model $prop_file; then
+# 	LMDL=$(grep ro.product.model $prop_file | cut -f2 -d '=' | tr [:upper:] [:lower:]);
+# else
+# 	LMDL=$(grep ro.product.vendor.model $prop_file | cut -f2 -d '=' | tr [:upper:] [:lower:]);
+# fi
 
 if grep -q ro.product.brand $prop_file; then
 	LBRND=$(grep ro.product.brand $prop_file | cut -f2 -d '=' | tr [:upper:] [:lower:]);
@@ -215,30 +230,43 @@ else
 fi
 
 if grep -q ro.oxygen.version $prop_file; then
-	LMODL=${LNAM// /_}
-else
-	LMODL=${LMDL// /_}
+	if grep -q ro.product.model $prop_file; then
+		LMODL=$(grep ro.product.name $prop_file | cut -f2 -d '=' | sed 's/ /_/g' | tr [:upper:] [:lower:]);
+	else
+		LMODL=$(grep ro.product.vendor.name $prop_file | cut -f2 -d '=' | sed 's/ /_/g' | tr [:upper:] [:lower:]);
+	fi
 fi
 
-if [ $BRAND == "Google" ] || [ $BRAND == "google" ]; then
+# 	#LMODL=${$LNAM }
+# # else
+# 	LMODL=${$LMDL | sed 's/ /_/g'}
+# fi
+
+# if grep -q ro.oxygen.version $prop_file; then
+# 	LMODL=${LNAM// /_}
+# else
+# 	LMODL=${LMDL// /_}
+# fi
+
+if [ $BRAND = "Google" ] || [ $BRAND = "google" ]; then
 	LOG="$TDIR"/props_"$LMODL"-"$DATE".sh
-elif [ $BRAND == "OnePlus" ] || [ $BRAND == "oneplus" ]; then
+elif [ $BRAND = "OnePlus" ] || [ $BRAND = "oneplus" ]; then
 	LOG="$TDIR"/props_"$LMODL"-"$DATE".sh
 else
 	LOG="$TDIR"/props_"$LBRND"_"$LMODL"-"$DATE".sh
 fi
 
 # Set MagiskHidePropsConfig fingerprint.
-if [ $BRAND == "Google" ] || [ $BRAND == "google" ]; then
+if [ $BRAND = "Google" ] || [ $BRAND = "google" ]; then
 	MPRINT="$MODL"" "\("$aOS"\):"$MANF":"$MODL":="$BPRINT"__"$SDATE"
-elif [ $BRAND == "OnePlus" ] || [ $BRAND == "oneplus" ]; then
+elif [ $BRAND = "OnePlus" ] || [ $BRAND = "oneplus" ]; then
 	MPRINT="$NAME"" "\("$aOS"\):"$MANF":"$MODL":="$BPRINT"__"$SDATE"
 else
 	MPRINT="$BRAND"" ""$MODL"" "\("$aOS"\):"$MANF":"$MODL":="$BPRINT"__"$SDATE"
 fi
 
 # Note about older device and using boot.img
-if [ "$SDK" == "" ]; then
+if [ "$SDK" = "" ]; then
 	echo " "
 	echo " No SDK level found. "
 	echo " You may need to use a recovery.img instead. "
