@@ -83,13 +83,15 @@ for img in *.img; do
 }
 done
 
+# Extra echo just to clean up screen output.
+echo ""
+
+# Backup if needed
+backup
+
 # Concatenate (Merge multiple prop_ files into a new file.)
 ## The output file is written in order of the prop_ file name.
 ## The mHideGP script will hopefully name them in the correct order.
-
-# Backup if needed
-# echo ""
-backup
 
 # Add mHide fingerprint from the props_ files(s) to $OUT file.
 for mPrint in props_*; do
