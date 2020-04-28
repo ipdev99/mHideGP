@@ -71,6 +71,9 @@ OUT=mHide-printslist-"$DATE".sh
 
 check_files
 
+# Start clean
+"$TDIR"/cleanup.sh > /dev/null
+
 # Unpack and run mHide_get_props on all image files in the current directory
 for img in *.img; do
     {
@@ -85,7 +88,7 @@ done
 ## The mHideGP script will hopefully name them in the correct order.
 
 # Backup if needed
-echo ""
+# echo ""
 backup
 
 # Add mHide fingerprint from the props_ files(s) to $OUT file.
