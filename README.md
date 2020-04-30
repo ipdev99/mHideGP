@@ -41,7 +41,9 @@ Think I'll keep it.
 Now works with Termux.  
 -- [Terminal Emulator for Android](https://play.google.com/store/apps/details?id=jackpal.androidterm&hl=en_US)  
 -- [Termux](https://play.google.com/store/apps/details?id=com.termux&hl=en_US)  
-- Running from a file manager still seems to fail.
+- Running from a file manager still seems to fail.  
+- Switch to using the _UTC_ build date for naming generated mHide prop files.  
+Allows multiple device fingerprints without duplication.
 
 
 ### How to use
