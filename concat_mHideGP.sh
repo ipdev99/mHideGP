@@ -51,7 +51,7 @@ OUT=mHide-printslist-"$DATE".sh
 backup
 
 # Add mHide fingerprint from the props_* files(s) to $OUT file.
-for mPrint in props_*; do
+for mPrint in props_*.sh; do
 cat $mPrint | sed '1!d' >> "$OUT"
 done
 
@@ -59,7 +59,7 @@ done
 add_notes
 
 # Add all the rest of the props from the props_* file(s) to the $OUT file.
-for dProps in props_*; do
+for dProps in props_*.sh; do
 cat $dProps | sed '/#/!d' | sed '/##/d' >> "$OUT"
 done
 

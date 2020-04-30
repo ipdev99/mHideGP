@@ -94,7 +94,7 @@ backup
 ## The mHideGP script will hopefully name them in the correct order.
 
 # Add mHide fingerprint from the props_ files(s) to $OUT file.
-for mPrint in props_*; do
+for mPrint in props_*.sh; do
 cat $mPrint | sed '1!d' >> "$OUT"
 done
 
@@ -102,7 +102,7 @@ done
 add_notes
 
 # Add all the rest of the device props from the props_ file(s) to the $OUT file.
-for dProps in props_*; do
+for dProps in props_*.sh; do
 cat $dProps | sed '/#/!d' | sed '/##/d' >> "$OUT"
 done
 
@@ -115,6 +115,10 @@ for file in props_*.sh; do
 	rm $file
 	}
 done
+
+# Correct permissions
+chmod 0664 "$OUT"
+# chmod 0664 props_*.sh
 
 # Finish script
 echo "New mHide-printslist file saved as "$OUT""
