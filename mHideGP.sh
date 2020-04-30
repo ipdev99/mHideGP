@@ -86,6 +86,7 @@ check_prop_file() {
 
 get_prop_info() {
 	grep ro.oxygen.version $prop_file
+	# grep ro.build.date $prop_file
 	grep ro.product.device $prop_file
 	grep ro.product.brand $prop_file
 	grep ro.product.manufacturer $prop_file
@@ -94,6 +95,7 @@ get_prop_info() {
 	grep ro.system.build.fingerprint $prop_file
 	grep ro.product.system $prop_file
 	grep ro.build.product $prop_file
+	# grep ro.build.version.incremental $prop_file
 	grep ro.vendor.build.fingerprint $prop_file
 	grep ro.vendor.build.security_patch $prop_file
 	# grep ro.vendor.build $prop_file
@@ -151,6 +153,7 @@ BPRINT=$(grep ro.bootimage.build.fingerprint $prop_file | cut -f2 -d '=');
 SDATE=$(grep ro.build.version.security_patch $prop_file | cut -f2 -d '=');
 aOS=$(grep ro.build.version.release $prop_file | cut -f2 -d '=');
 SDK=$(grep ro.build.version.sdk $prop_file | cut -f2 -d '=');
+BUTC=$(grep ro.build.date.utc $prop_file | cut -f2 -d '=');
 
 # Set variable names to variables. (Depends on the device and/or API/SDK/NDK version.)
 if grep -q ro.product.name $prop_file; then
@@ -213,20 +216,13 @@ else
 	LBRND=$(grep ro.product.vendor.brand $prop_file | cut -f2 -d '=' | tr [:upper:] [:lower:]);
 fi
 
-if grep -q ro.oxygen.version $prop_file; then
-	if grep -q ro.product.model $prop_file; then
-		LMODL=$(grep ro.product.name $prop_file | cut -f2 -d '=' | sed 's/ /_/g' | tr [:upper:] [:lower:]);
-	else
-		LMODL=$(grep ro.product.vendor.name $prop_file | cut -f2 -d '=' | sed 's/ /_/g' | tr [:upper:] [:lower:]);
-	fi
-fi
-
+# Set LOG file.
 if [ $BRAND = "Google" ] || [ $BRAND = "google" ]; then
-	LOG="$TDIR"/props_"$LMODL"-"$DATE".sh
+	LOG="$TDIR"/props_"$LMODL"_"$BUTC".sh
 elif [ $BRAND = "OnePlus" ] || [ $BRAND = "oneplus" ]; then
-	LOG="$TDIR"/props_"$LMODL"-"$DATE".sh
+	LOG="$TDIR"/props_"$LNAM"_"$BUTC".sh
 else
-	LOG="$TDIR"/props_"$LBRND"_"$LMODL"-"$DATE".sh
+	LOG="$TDIR"/props_"$LBRND"_"$LMODL"_"$BUTC".sh
 fi
 
 # Set MagiskHidePropsConfig fingerprint.
@@ -274,8 +270,8 @@ echo ""
 get_prop_info | sed 's/^/# /g' | tee -a $LOG
 
 # Add note about prop file used to $LOG
-echo "#" >> $LOG
-echo "# # Pulled from "$prop_file"" >> $LOG
+## echo "#" >> $LOG
+echo "# # - Pulled from "$prop_file" -" >> $LOG
 
 # Finish script
 echo " "; echo "Done."; echo " ";
