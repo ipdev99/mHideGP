@@ -44,6 +44,8 @@ Now works with Termux.
 - Running from a file manager still seems to fail.  
 - Switch to using the _UTC_ build date for naming generated mHide prop files.  
 Allows multiple device fingerprints without duplication.
+- Running from a file manager might be fixed. (?)  
+-- [FX File Explorer](https://play.google.com/store/apps/details?id=nextapp.fx)  
 
 
 ### How to use
