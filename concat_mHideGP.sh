@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Merge multiple props_ files into a new file.
+# Merge multiple mhp files into a new file.
 # ipdev99 @ xda-developers
 
 # Originally (and still) written for use with MagiskHidePropsConfig module
@@ -8,7 +8,7 @@
 # https://forum.xda-developers.com/apps/magisk/module-magiskhide-props-config-t3789228
 
 # This script is written to be used in conjunction with the mHideGP script to
-# combine multiple output props_ files into a new file. (mHide-printslist-YYYYMMDD.sh)
+# combine multiple output mhp files into a new file. (mHide-printslist-YYYYMMDD.sh)
 
 # If you use a different method to collect prop files
 # Make sure to adjust this script accordingly.
@@ -24,22 +24,20 @@ add_notes() {
 	echo "## Due to updates in Magisk and/or mHide module." >> $OUT
 	echo "## The rest of the file is now block commented to hide/clean it up further." >> $OUT
 	echo "######" >> $OUT
-	echo "#" >> $OUT
+	# echo "#" >> $OUT
 }
 
 backup() {
 	if [ -f "$OUT" ]; then
-		BACKUPDATE=$(date -r "$OUT" '+%Y%m%d_%H%M')
-		mv "$OUT" "$OUT"_"$BACKUPDATE"
-		echo""
-		echo "Your previous "$OUT" file was renamed to "$TDIR"/"$OUT"_"$BACKUPDATE""
+		FLTM=$(date -r "$OUT" '+%H%M')
+		BACKUPFILE=$(printf "$OUT" | sed 's/.sh/.'"$FLTM"'/g')
+		mv "$OUT" "$BACKUPFILE"
 	fi
 }
 
 ## No sort order logic.
-## The output file is written in order of the prop_ file name.
-## The mHide_get_props script hopefully will name them in the correct order.
-
+## The output file is written in order of the mhp file name.
+## The mHideGP script hopefully will name them in the correct order.
 
 # Set variables
 TDIR=$(pwd)
@@ -50,20 +48,33 @@ OUT=mHide-printslist-"$DATE".sh
 # Backup if needed
 backup
 
-# Add mHide fingerprint from the props_* files(s) to $OUT file.
-for mPrint in props_*.sh; do
+# Add mHide fingerprint from the mhp files(s) to $OUT file.
+for mPrint in mhp_*.sh; do
 cat $mPrint | sed '1!d' >> "$OUT"
 done
 
 # Add a few notes to $OUT file.
 add_notes
 
-# Add all the rest of the props from the props_* file(s) to the $OUT file.
-for dProps in props_*.sh; do
+# Add all the rest of the device props from the mhp file(s) to the $OUT file.
+for dProps in mhp_*.sh; do
 cat $dProps | sed '/#/!d' | sed '/##/d' >> "$OUT"
 done
 
- Finish script
+# Correct permissions
+chmod 0664 "$OUT"
+
+for file in mhp_*.sh; do
+chmod 0664 "$file"
+done
+
+# Check for backup.
+if [ -f "$BACKUPFILE" ]; then
+	echo ""; echo "Your previous "$OUT" file was renamed to "$BACKUPFILE""; echo "";
+	chmod 0664 "$BACKUPFILE"
+fi
+
+# Finish script
 echo "New mHide-printslist file saved as "$OUT""
 echo ""; echo "Done."; echo "";
 #
