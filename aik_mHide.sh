@@ -19,8 +19,8 @@
 # Run aik_mHide.sh
 #
 # This will run the unpack and mHideGP scripts on all image files in the directory.
-# Merge the generated props_ files into mHide-printslist-DATE.sh.
-# Remove all the generated props_ files.
+# Merge the generated mhp files into mHide-printslist-DATE.sh.
+# Remove all the generated mph files.
 
 # If used with another method, make sure to make changes in the script(s) accordingly.
 
@@ -48,15 +48,13 @@ add_notes() {
 	echo "## Due to updates in Magisk and/or mHide module." >> $OUT
 	echo "## The rest of the file is now block commented to hide/clean it up further." >> $OUT
 	echo "######" >> $OUT
-	echo "#" >> $OUT
 }
 
 backup() {
 	if [ -f "$OUT" ]; then
-		BACKUPDATE=$(date -r "$OUT" '+%Y%m%d_%H%M')
-		mv "$OUT" "$OUT"_"$BACKUPDATE"
-		chmod 0664 "$OUT"_"$BACKUPDATE"
-		echo "Your previous "$OUT" file was renamed to "$OUT"_"$BACKUPDATE""
+		FLTM=$(date -r "$OUT" '+%H%M')
+		BACKUPFILE=$(printf "$OUT" | sed 's/.sh/.'"$FLTM"'/g')
+		mv "$OUT" "$BACKUPFILE"
 	fi
 }
 
@@ -68,7 +66,7 @@ DATE=$(date '+%Y%m%d')
 # DATE=$(date '+%Y%m%d_%H%M')
 OUT=mHide-printslist-"$DATE".sh
 
-
+# Check for required files.
 check_files
 
 # Start clean
@@ -89,27 +87,27 @@ echo ""
 # Backup if needed
 backup
 
-# Concatenate (Merge multiple prop_ files into a new file.)
-## The output file is written in order of the prop_ file name.
+# Concatenate (Merge multiple files into a new file.)
+## The output file is written in order of the mhp file name(s).
 ## The mHideGP script will hopefully name them in the correct order.
 
-# Add mHide fingerprint from the props_ files(s) to $OUT file.
-for mPrint in props_*.sh; do
+# Add mHide fingerprint from the mhp files(s) to $OUT file.
+for mPrint in mhp_*.sh; do
 cat $mPrint | sed '1!d' >> "$OUT"
 done
 
 # Add a few notes to $OUT file.
 add_notes
 
-# Add all the rest of the device props from the props_ file(s) to the $OUT file.
-for dProps in props_*.sh; do
+# Add all the rest of the device props from the mhp file(s) to the $OUT file.
+for dProps in mhp_*.sh; do
 cat $dProps | sed '/#/!d' | sed '/##/d' >> "$OUT"
 done
 
 # Cleanup
 # (Not sure if I like the echo clutter. Removed for now.)
-## echo ""; echo "Removing the separate props files.";
-for file in props_*.sh; do
+## echo ""; echo "Removing the separate mhp file(s).";
+for file in mhp_*.sh; do
 	{
 	## echo $file
 	rm $file
@@ -118,7 +116,12 @@ done
 
 # Correct permissions
 chmod 0664 "$OUT"
-# chmod 0664 props_*.sh
+
+# Check for backup.
+if [ -f "$BACKUPFILE" ]; then
+	echo ""; echo "Your previous "$OUT" file was renamed to "$BACKUPFILE""; echo "";
+	chmod 0664 "$BACKUPFILE"
+fi
 
 # Finish script
 echo "New mHide-printslist file saved as "$OUT""
