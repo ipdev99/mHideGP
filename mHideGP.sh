@@ -26,6 +26,8 @@
 # Copy this script to the device.
 # Run from adb shell (or a terminal app) using the sh command.
 #  sh mHideGP.sh
+# Run from a file manager that is able to execute a script file.
+#  Note in the set_prop_android function.
 #
 
 # Set main variables
@@ -67,6 +69,18 @@ set_prop_ramdisk() {
 set_prop_android() {
 	prop_file=ABORT
 
+	# Fix for using a file manager. (?)
+	if [ "$TDIR" = "/" ]; then
+		if [ -d sdcard/Download ]; then
+			TDIR=/sdcard/Download
+		else
+			TDIR=/sdcard
+		fi;
+
+		# Switch to target directory.
+		cd "$TDIR"
+	fi;
+
 	getprop | sed 's/\]: \[/=/g; s/\[//g; s/\]//g' > getprop.props
 
 	if [ -f getprop.props ]; then
@@ -87,6 +101,7 @@ check_prop_file() {
 get_prop_info() {
 	grep ro.oxygen.version $prop_file
 	# grep ro.build.date $prop_file
+	grep ro.display.series $prop_file
 	grep ro.product.device $prop_file
 	grep ro.product.brand $prop_file
 	grep ro.product.manufacturer $prop_file
@@ -106,6 +121,27 @@ get_prop_info() {
 	grep ro.product.product $prop_file
 }
 
+get_prop_secure() {
+	grep ro.oem_unlock_supported $prop_file
+	grep ro.adb.secure $prop_file
+	grep ro.debuggable $prop_file
+	grep ro.secure $prop_file
+	grep ro.build.tags $prop_file
+	grep ro.build.type $prop_file
+	grep ro.system.build.tags $prop_file
+	grep ro.system.build.type $prop_file
+	grep ro.vendor.build.tags $prop_file
+	grep ro.vendor.build.type $prop_file
+	grep ro.odm.build.tags $prop_file
+	grep ro.odm.build.type $prop_file
+	grep ro.product.build.tags $prop_file
+	grep ro.product.build.type $prop_file
+}
+
+# get_prop_device() {
+# 	# grep PROP $prop_file
+# }
+
 add_notes() {
 	echo "\"" >> $LOG
 	echo "######" >> $LOG
@@ -115,20 +151,30 @@ add_notes() {
 	echo "## The rest of the file is now block commented to hide/clean it up further." >> $LOG
 	echo "######" >> $LOG
 	echo "#" >> $LOG
+	echo "#" >> $LOG
 }
 
 add_device_title() {
 	if [ $BRAND = "Google" ] || [ $BRAND = "google" ]; then
-		echo "# "$MODL"" >> $LOG
+		echo "# "$MODL" [Build Date - "$BDATE"]" >> $LOG
 	elif [ $BRAND = "OnePlus" ] || [ $BRAND = "oneplus" ]; then
-		echo "# "$NAME" ""[ "$OPMDL"]" >> $LOG
-	elif [ $BRAND = "Samsung" ] || [ $BRAND = "samsung" ]; then
-		echo "# "$BRAND" Marketing Name? ""[ "$MODL"]" >> $LOG
+		if grep -q ro.display.series $prop_file; then
+		echo "# "$OPDSPLY" ["$OPMDL"] [Build Date - "$BDATE"]" >> $LOG
+		else
+			echo "# "$DEVICE" ["$OPMDL"] [Build Date - "$BDATE"]" >> $LOG
+		fi
 	else
-		echo "# "$BRAND" "$MODL"" >> $LOG
+		echo "# "$BRAND" "$MODL" [Build Date - "$BDATE"]" >> $LOG
 	fi
 }
 
+backup() {
+	if [ -f "$LOG" ]; then
+		FLTM=$(date -r "$LOG" '+%H%M')
+		BACKUPFILE=$(printf "$LOG" | sed 's/.sh/.'"$FLTM"'/g')
+		mv "$LOG" "$BACKUPFILE"
+	fi
+}
 
 # Set prop file to use.
 # Determine if running on MacOS/Linux or an Android device.
@@ -154,13 +200,16 @@ SDATE=$(grep ro.build.version.security_patch $prop_file | cut -f2 -d '=');
 aOS=$(grep ro.build.version.release $prop_file | cut -f2 -d '=');
 SDK=$(grep ro.build.version.sdk $prop_file | cut -f2 -d '=');
 BUTC=$(grep ro.build.date.utc $prop_file | cut -f2 -d '=');
+# Add sed to remove double space in some build dates.
+BDATE=$(grep ro.build.date= $prop_file | sed 's/  / /g' | cut -f2,3,6 -d ' ');
 
 # Set variable names to variables. (Depends on the device and/or API/SDK/NDK version.)
-if grep -q ro.product.name $prop_file; then
-	NAME=$(grep ro.product.name $prop_file | cut -f2 -d '=');
-else
-	NAME=$(grep ro.product.vendor.name $prop_file | cut -f2 -d '=');
-fi
+
+# if grep -q ro.product.name $prop_file; then
+# 	NAME=$(grep ro.product.name $prop_file | cut -f2 -d '=');
+# else
+# 	NAME=$(grep ro.product.vendor.name $prop_file | cut -f2 -d '=');
+# fi
 
 if grep -q ro.product.model $prop_file; then
 	MODL=$(grep ro.product.model $prop_file | cut -f2 -d '=');
@@ -182,8 +231,27 @@ else
 	BRAND=$(grep ro.product.vendor.brand $prop_file | cut -f2 -d '=');
 fi
 
-# OnePlus model(s)
-if grep -q ro.oxygen.version $prop_file; then
+if grep -q ro.product.device= $prop_file; then
+	DEVICE=$(grep ro.product.device= $prop_file | cut -f2 -d '=');
+elif grep -q ro.product.system.device $prop_file; then
+	DEVICE=$(grep ro.product.system.device $prop_file | cut -f2 -d '=');
+elif grep -q ro.product.vendor.device $prop_file; then
+	DEVICE=$(grep ro.product.vendor.device $prop_file | cut -f2 -d '=');
+else
+	DEVICE=$(grep ro.build.product= $prop_file | cut -f2 -d '=');
+fi
+
+if grep -q ro.display.series $prop_file; then
+	DSPLY=$(grep ro.display.series $prop_file | cut -f2 -d '=');
+fi
+
+# Brand/Device specific
+
+if [ $BRAND = "OnePlus" ] || [ $BRAND = "oneplus" ]; then
+	if grep -q ro.display.series $prop_file; then
+		OPDSPLY=$(grep ro.display.series $prop_file | cut -f2 -d '=');
+	fi;
+
 	if grep -q ro.product.model $prop_file; then
 		OPMDL=$(grep ro.product.model $prop_file | cut -f2 -d '=' | cut -f2 -d " ");
 	elif grep -q ro.product.system.model $prop_file; then
@@ -193,14 +261,25 @@ if grep -q ro.oxygen.version $prop_file; then
 	fi;
 fi;
 
-# Set new variables for use in naming the $LOG file.
-# Remove spaces and change all to lowercase so the $LOG file(s) should list in the correct order
+# Set variables for use in naming the $LOG file.
+# Remove spaces and change all to lowercase so the mhp_ file(s) should list in the correct order
 # when using the concat script.
-if grep -q ro.product.name $prop_file; then
-	LNAM=$(grep ro.product.name $prop_file | cut -f2 -d '=' | tr [:upper:] [:lower:]);
+
+if grep -q ro.product.device= $prop_file; then
+	LDEVICE=$(grep ro.product.device= $prop_file | cut -f2 -d '=' | tr [:upper:] [:lower:]);
+elif grep -q ro.product.system.device $prop_file; then
+	LDEVICE=$(grep ro.product.system.device $prop_file | cut -f2 -d '=' | tr [:upper:] [:lower:]);
+elif grep -q ro.product.vendor.device $prop_file; then
+	LDEVICE=$(grep ro.product.vendor.device $prop_file | cut -f2 -d '=' | tr [:upper:] [:lower:]);
 else
-	LNAM=$(grep ro.product.vendor.name $prop_file | cut -f2 -d '=' | tr [:upper:] [:lower:]);
+	LDEVICE=$(grep ro.build.product= $prop_file | cut -f2 -d '=' | tr [:upper:] [:lower:]);
 fi
+
+# if grep -q ro.product.name $prop_file; then
+# 	LNAM=$(grep ro.product.name $prop_file | cut -f2 -d '=' | tr [:upper:] [:lower:]);
+# else
+# 	LNAM=$(grep ro.product.vendor.name $prop_file | cut -f2 -d '=' | tr [:upper:] [:lower:]);
+# fi
 
 if grep -q ro.product.model $prop_file; then
 	LMODL=$(grep ro.product.model $prop_file | cut -f2 -d '=' | sed 's/ /_/g' | tr [:upper:] [:lower:]);
@@ -216,23 +295,45 @@ else
 	LBRND=$(grep ro.product.vendor.brand $prop_file | cut -f2 -d '=' | tr [:upper:] [:lower:]);
 fi
 
-# Set LOG file.
-if [ $BRAND = "Google" ] || [ $BRAND = "google" ]; then
-	LOG="$TDIR"/props_"$LMODL"_"$BUTC".sh
-elif [ $BRAND = "OnePlus" ] || [ $BRAND = "oneplus" ]; then
-	LOG="$TDIR"/props_"$LNAM"_"$BUTC".sh
-else
-	LOG="$TDIR"/props_"$LBRND"_"$LMODL"_"$BUTC".sh
+if grep -q ro.display.series $prop_file; then
+	LDSPLY=$(grep ro.display.series $prop_file | cut -f2 -d '=' | sed 's/ /_/g' | tr [:upper:] [:lower:]);
 fi
 
+# Set LOG file.
+
+# Generic
+LOG="$TDIR"/mhp_"$LBRND"_"$LMODL"_"$BUTC".sh
+
+# Google
+if [ $BRAND = "Google" ] || [ $BRAND = "google" ]; then
+	LOG="$TDIR"/mhp_"$LMODL"_"$BUTC".sh
+fi;
+
+# OnePlus
+if [ $BRAND = "OnePlus" ] || [ $BRAND = "oneplus" ]; then
+	LOG="$TDIR"/mhp_"$LDEVICE"_"$BUTC".sh
+else
+	LOG="$TDIR"/mhp_"$LBRND"_"$LMODL"_"$BUTC".sh
+fi;
+
 # Set MagiskHidePropsConfig fingerprint.
+
+# Generic
+MPRINT="$BRAND"" ""$MODL"" "\("$aOS"\):"$MANF":"$MODL":="$BPRINT"__"$SDATE"
+
+# Google
 if [ $BRAND = "Google" ] || [ $BRAND = "google" ]; then
 	MPRINT="$MODL"" "\("$aOS"\):"$MANF":"$MODL":="$BPRINT"__"$SDATE"
-elif [ $BRAND = "OnePlus" ] || [ $BRAND = "oneplus" ]; then
-	MPRINT="$NAME"" "\("$aOS"\):"$MANF":"$MODL":="$BPRINT"__"$SDATE"
-else
-	MPRINT="$BRAND"" ""$MODL"" "\("$aOS"\):"$MANF":"$MODL":="$BPRINT"__"$SDATE"
-fi
+fi;
+
+# OnePlus
+if [ $BRAND = "OnePlus" ] || [ $BRAND = "oneplus" ]; then
+	if grep -q ro.display.series $prop_file; then
+		MPRINT="$DSPLY"" "\("$aOS"\):"$MANF":"$MODL":="$BPRINT"__"$SDATE"
+	else
+		MPRINT="$DEVICE"" "\("$aOS"\):"$MANF":"$MODL":="$BPRINT"__"$SDATE"
+	fi;
+fi;
 
 # Note about older device and using boot.img
 if [ "$SDK" = "" ]; then
@@ -242,9 +343,13 @@ if [ "$SDK" = "" ]; then
 	echo " "
 fi
 
-## Still need to improve notes about using recovery.img instead of boot.img on older devices.
+## Still need to improve note about using recovery.img instead of boot.img on older devices
+## and/or newer devices that do not contain a ramdisk in the boot image.
 
 ###### Finally here we go...
+
+# Backup if needed
+backup
 
 # Add mHide fingerprint to $LOG file.
 echo $MPRINT | tee -a $LOG
@@ -266,15 +371,41 @@ echo "#" | tee -a $LOG
 #
 echo ""
 
-# get_prop_info | sed command to add beginning comment [# ] | tee -a to add it to $LOG
-get_prop_info | sed 's/^/# /g' | tee -a $LOG
+# Add beginning comment [# ] and remove the obsolete note line(s) in the $LOG file
+get_prop_info | sed 's/^/# /g' | sed '/obsolete/d' | tee -a $LOG
+echo "#" | tee -a $LOG
+# get_prop_secure | sed 's/^/# /g' | tee -a $LOG
+# echo "#" | tee -a $LOG
 
 # Add note about prop file used to $LOG
-## echo "#" >> $LOG
-echo "# # - Pulled from "$prop_file" -" >> $LOG
+echo "# # Pulled from "$prop_file"" >> $LOG
+# echo "#" >> $LOG
+
+# Cleanup
+
+# # Android device
+# if [ -f getprop.props ]; then
+# 	rm getprop.props
+# fi
+
+# Android device
+if [ -f getprop.props ]; then
+	echo ""
+	echo "When run on an Android device."
+	echo "An extra file is generated. (getprop.props)"
+	mv getprop.props "$LBRND"_"$LMODL"_"$BUTC"-getprop.props
+	echo "This extra file has been saved as "$LBRND"_"$LMODL"_"$BUTC"-getprop.props"
+	echo "Keep it or delete it as you wish.."
+fi
+
+# Note backup
+if [ -f "$BACKUPFILE" ]; then
+	echo ""; echo "Your previous "$LOG" file was renamed to "$BACKUPFILE""; echo "";
+	chmod 0664 "$BACKUPFILE"
+fi
 
 # Finish script
 echo " "; echo "Done."; echo " ";
-echo "Prop file saved as "$LOG""; echo " ";
+echo "New prop file saved as "$LOG""; echo " ";
 #
 exit 0;
