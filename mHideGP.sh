@@ -35,24 +35,7 @@
 DATE=$(date '+%Y%m%d')
 # DATE=$(date '+%Y%m%d_%H%M')
 TDIR=$(pwd)
-# AndroidDevice=ABORT
-
-# Set functions
-
-# set_prop_file() {
-# 	if [ $AndroidDevice = "TRUE" ]; then
-# 		# Android device
-# 		set_prop_android
-# 	elif [ $AndroidDevice = "FALSE" ]; then
-# 		# MacOS/Linux
-# 		set_prop_ramdisk
-# 	else
-# 		echo ""
-# 		echo "Can not determine if running on MacOS/Linux or an Android device."
-# 		echo ""; echo "$AndroidDevice"; echo "";
-# 		exit 1;
-# 	fi
-# }
+# ANDROID=""
 
 # MacOS/Linux
 set_prop_ramdisk() {
@@ -180,16 +163,13 @@ backup() {
 # Determine if running on MacOS/Linux or an Android device.
 if [ -f /system/bin/sh ] || [ -f /system/bin/toybox ] || [ -f /system/bin/toolbox ]; then
 	# Android device
-	# AndroidDevice=TRUE
+	ANDROID=TRUE
 	set_prop_android
 else
 	# MacOS/Linux
-	# AndroidDevice=FALSE
+	ANDROID=FALSE
 	set_prop_ramdisk
 fi
-
-# # Set prop file to use.
-# set_prop_file
 
 # Make sure prop file set.
 check_prop_file
@@ -401,8 +381,15 @@ fi
 # Note backup
 if [ -f "$BACKUPFILE" ]; then
 	echo ""; echo "Your previous "$LOG" file was renamed to "$BACKUPFILE""; echo "";
-	chmod 0664 "$BACKUPFILE"
 fi
+
+# Correct permissions if needed
+if [ $ANDROID = "FALSE" ]; then
+	chmod 0664 "$LOG"
+	if [ -f "$BACKUPFILE" ]; then
+		chmod 0664 "$BACKUPFILE"
+	fi;
+fi;
 
 # Finish script
 echo " "; echo "Done."; echo " ";
