@@ -37,6 +37,8 @@ DATE=$(date '+%Y%m%d')
 TDIR=$(pwd)
 # ANDROID=""
 
+# Set functions
+
 # MacOS/Linux
 set_prop_ramdisk() {
 	prop_file=ABORT
@@ -292,8 +294,6 @@ fi;
 # OnePlus
 if [ $BRAND = "OnePlus" ] || [ $BRAND = "oneplus" ]; then
 	LOG="$TDIR"/mhp_"$LDEVICE"_"$BUTC".sh
-else
-	LOG="$TDIR"/mhp_"$LBRND"_"$LMODL"_"$BUTC".sh
 fi;
 
 # Set MagiskHidePropsConfig fingerprint.
