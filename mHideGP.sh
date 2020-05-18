@@ -144,13 +144,15 @@ add_device_title() {
 		echo "# "$MODL" [Build Date - "$BDATE"]" >> $LOG
 	elif [ $BRAND = "OnePlus" ] || [ $BRAND = "oneplus" ]; then
 		if grep -q ro.display.series $prop_file; then
-		echo "# "$OPDSPLY" ["$OPMDL"] [Build Date - "$BDATE"]" >> $LOG
+			echo "# "$OPDSPLY" ["$OPMDL"] [Build Date - "$BDATE"]" >> $LOG
 		else
 			echo "# "$DEVICE" ["$OPMDL"] [Build Date - "$BDATE"]" >> $LOG
-		fi
+		fi;
+	elif [ $BRAND = "Redmi" ] || [ $BRAND = "xiaomi" ]; then
+		echo "# "$MANF" "$MODL" [Build Date - "$BDATE"]" >> $LOG
 	else
 		echo "# "$BRAND" "$MODL" [Build Date - "$BDATE"]" >> $LOG
-	fi
+	fi;
 }
 
 backup() {
@@ -281,6 +283,12 @@ if grep -q ro.display.series $prop_file; then
 	LDSPLY=$(grep ro.display.series $prop_file | cut -f2 -d '=' | sed 's/ /_/g' | tr [:upper:] [:lower:]);
 fi
 
+if grep -q ro.product.manufacture $prop_file; then
+	LMAN=$(grep ro.product.manufacture $prop_file | cut -f2 -d '=' | tr [:upper:] [:lower:]);
+else
+	LMAN=$(grep ro.product.vendor.manufacturer $prop_file | cut -f2 -d '=' | tr [:upper:] [:lower:]);
+fi
+
 # Set LOG file.
 
 # Generic
@@ -294,6 +302,11 @@ fi;
 # OnePlus
 if [ $BRAND = "OnePlus" ] || [ $BRAND = "oneplus" ]; then
 	LOG="$TDIR"/mhp_"$LDEVICE"_"$BUTC".sh
+fi;
+
+# Xiaomi
+if [ $BRAND = "Redmi" ]; then
+	LOG="$TDIR"/mhp_"$LMAN"_"$LMODL"_"$BUTC".sh
 fi;
 
 # Set MagiskHidePropsConfig fingerprint.
@@ -313,6 +326,11 @@ if [ $BRAND = "OnePlus" ] || [ $BRAND = "oneplus" ]; then
 	else
 		MPRINT="$DEVICE"" "\("$aOS"\):"$MANF":"$MODL":="$BPRINT"__"$SDATE"
 	fi;
+fi;
+
+# Xiaomi
+if [ $BRAND = "Redmi" ] || [ $BRAND = "xiaomi" ]; then
+	MPRINT="$MANF"" ""$MODL"" "\("$aOS"\):"$MANF":"$MODL":="$BPRINT"__"$SDATE"
 fi;
 
 # Note about older device and using boot.img
