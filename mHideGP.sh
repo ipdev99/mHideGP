@@ -86,6 +86,8 @@ check_prop_file() {
 get_prop_info() {
 	grep ro.oxygen.version $prop_file
 	# grep ro.build.date $prop_file
+	grep ro.build.version.release $prop_file
+	grep ro.build.version.sdk $prop_file
 	grep ro.display.series $prop_file
 	grep ro.product.device $prop_file
 	grep ro.product.brand $prop_file
@@ -148,8 +150,11 @@ add_device_title() {
 		else
 			echo "# "$DEVICE" ["$OPMDL"] [Build Date - "$BDATE"]" >> $LOG
 		fi;
-	elif [ $BRAND = "Redmi" ] || [ $BRAND = "xiaomi" ]; then
-		echo "# "$MANF" "$MODL" [Build Date - "$BDATE"]" >> $LOG
+	elif [ $DMDL = "Redmi" ] || [ $DMDL = "redmi" ]; then
+		echo "# "$MODL" [Build Date - "$BDATE"]" >> $LOG
+	elif [ $BRAND = "SAMSUNG" ] || [ $BRAND = "samsung" ]; then
+		echo "# Samsung "$MODL" [Build Date - "$BDATE"]" >> $LOG
+
 	else
 		echo "# "$BRAND" "$MODL" [Build Date - "$BDATE"]" >> $LOG
 	fi;
@@ -179,7 +184,6 @@ fi
 check_prop_file
 
 # Set variables
-BPRINT=$(grep ro.bootimage.build.fingerprint $prop_file | cut -f2 -d '=');
 SDATE=$(grep ro.build.version.security_patch $prop_file | cut -f2 -d '=');
 aOS=$(grep ro.build.version.release $prop_file | cut -f2 -d '=');
 SDK=$(grep ro.build.version.sdk $prop_file | cut -f2 -d '=');
@@ -194,6 +198,12 @@ BDATE=$(grep ro.build.date= $prop_file | sed 's/  / /g' | cut -f2,3,6 -d ' ');
 # else
 # 	NAME=$(grep ro.product.vendor.name $prop_file | cut -f2 -d '=');
 # fi
+
+if grep -q ro.bootimage.build.fingerprint $prop_file; then
+	BPRINT=$(grep ro.bootimage.build.fingerprint $prop_file | cut -f2 -d '=');
+else
+	BPRINT=$(grep ro.build.fingerprint $prop_file | cut -f2 -d '=');
+fi
 
 if grep -q ro.product.model $prop_file; then
 	MODL=$(grep ro.product.model $prop_file | cut -f2 -d '=');
@@ -227,6 +237,12 @@ fi
 
 if grep -q ro.display.series $prop_file; then
 	DSPLY=$(grep ro.display.series $prop_file | cut -f2 -d '=');
+fi
+
+if grep -q ro.product.model $prop_file; then
+	DMDL=$(grep ro.product.model $prop_file | cut -f2 -d '=' | cut -f1 -d' ');
+else
+	DMDL=$(grep ro.product.vendor.model $prop_file | cut -f2 -d '=' | cut -f1 -d' ');
 fi
 
 # Brand/Device specific
@@ -304,15 +320,20 @@ if [ $BRAND = "OnePlus" ] || [ $BRAND = "oneplus" ]; then
 	LOG="$TDIR"/mhp_"$LDEVICE"_"$BUTC".sh
 fi;
 
-# Xiaomi
-if [ $BRAND = "Redmi" ]; then
-	LOG="$TDIR"/mhp_"$LMAN"_"$LMODL"_"$BUTC".sh
+# Readmi
+if [ $DMDL = "Redmi" ] || [ $DMDL = "redmi" ]; then
+	LOG="$TDIR"/mhp_"$LMODL"_"$BUTC".sh
 fi;
 
 # Set MagiskHidePropsConfig fingerprint.
 
 # Generic
 MPRINT="$BRAND"" ""$MODL"" "\("$aOS"\):"$MANF":"$MODL":="$BPRINT"__"$SDATE"
+
+# Essential
+if [ $BRAND = "Essential" ] || [ $BRAND = "essential" ]; then
+	MPRINT=Essential" ""$MODL"" "\("$aOS"\):"$MANF":"$MODL":="$BPRINT"__"$SDATE"
+fi;
 
 # Google
 if [ $BRAND = "Google" ] || [ $BRAND = "google" ]; then
@@ -328,9 +349,14 @@ if [ $BRAND = "OnePlus" ] || [ $BRAND = "oneplus" ]; then
 	fi;
 fi;
 
-# Xiaomi
-if [ $BRAND = "Redmi" ] || [ $BRAND = "xiaomi" ]; then
-	MPRINT="$MANF"" ""$MODL"" "\("$aOS"\):"$MANF":"$MODL":="$BPRINT"__"$SDATE"
+# Redmi
+if [ $DMDL = "Redmi" ] || [ $DMDL = "redmi" ]; then
+	MPRINT="$MODL"" "\("$aOS"\):"$MANF":"$MODL":="$BPRINT"__"$SDATE"
+fi;
+
+# Samsung
+if [ $BRAND = "SAMSUNG" ] || [ $BRAND = "samsung" ]; then
+	MPRINT=Samsung" ""$MODL"" "\("$aOS"\):"$MANF":"$MODL":="$BPRINT"__"$SDATE"
 fi;
 
 # Note about older device and using boot.img
@@ -362,7 +388,12 @@ echo ""
 add_device_title
 
 # grep fingerprint and security date | sed command to add beginning comment [# ] | tee -a to add it to $LOG
-grep ro.bootimage.build.fingerprint $prop_file | sed 's/^/# /g' | tee -a $LOG
+if grep -q ro.bootimage.build.fingerprint $prop_file; then
+	grep ro.bootimage.build.fingerprint $prop_file | sed 's/^/# /g' | tee -a $LOG
+else
+	grep ro.build.fingerprint $prop_file | sed 's/^/# /g' | tee -a $LOG
+fi
+
 grep ro.build.version.security_patch $prop_file | sed 's/^/# /g' | tee -a $LOG
 
 echo "#" | tee -a $LOG
