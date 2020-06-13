@@ -50,6 +50,15 @@ set_prop_ramdisk() {
 	fi
 }
 
+# Experimental -- Not sure if I will keep this or integrate it better
+set_prop_other() {
+	prop_file=ABORT
+
+	if [ -f build.prop ]; then
+		prop_file=build.prop
+	fi
+}
+
 # Android device
 set_prop_android() {
 	prop_file=ABORT
@@ -168,16 +177,28 @@ backup() {
 	fi
 }
 
+ignore_prop_file() {
+ 	if [ ! $BRAND ]; then
+ 		# Ignore bad prop file
+ 		exit 1;
+ 	fi;
+}
+
 # Set prop file to use.
+
 # Determine if running on MacOS/Linux or an Android device.
 if [ -f /system/bin/sh ] || [ -f /system/bin/toybox ] || [ -f /system/bin/toolbox ]; then
 	# Android device
 	ANDROID=TRUE
 	set_prop_android
-else
+elif [ -d ramdisk ]; then
 	# MacOS/Linux
 	ANDROID=FALSE
 	set_prop_ramdisk
+else
+	# Other
+	ANDROID=FALSE
+	set_prop_other
 fi
 
 # Make sure prop file set.
@@ -218,11 +239,11 @@ else
 fi
 
 if grep -q ro.product.brand $prop_file; then
-	BRAND=$(grep ro.product.brand $prop_file | cut -f2 -d '=');
+	BRAND=$(grep ro.product.brand= $prop_file | cut -f2 -d '=');
 elif grep -q ro.product.system.brand $prop_file; then
-	BRAND=$(grep ro.product.system.brand $prop_file | cut -f2 -d '=');
+	BRAND=$(grep ro.product.system.brand= $prop_file | cut -f2 -d '=');
 else
-	BRAND=$(grep ro.product.vendor.brand $prop_file | cut -f2 -d '=');
+	BRAND=$(grep ro.product.vendor.brand= $prop_file | cut -f2 -d '=');
 fi
 
 if grep -q ro.product.device= $prop_file; then
@@ -244,6 +265,9 @@ if grep -q ro.product.model $prop_file; then
 else
 	DMDL=$(grep ro.product.vendor.model $prop_file | cut -f2 -d '=' | cut -f1 -d' ');
 fi
+
+# Ignore bad prop file
+ignore_prop_file
 
 # Brand/Device specific
 
@@ -287,12 +311,12 @@ else
 	LMODL=$(grep ro.product.vendor.model $prop_file | cut -f2 -d '=' | sed 's/ /_/g' | tr [:upper:] [:lower:]);
 fi
 
-if grep -q ro.product.brand $prop_file; then
-	LBRND=$(grep ro.product.brand $prop_file | cut -f2 -d '=' | tr [:upper:] [:lower:]);
-elif grep -q ro.product.system.brand $prop_file; then
-	LBRND=$(grep ro.product.system.brand $prop_file | cut -f2 -d '=' | tr [:upper:] [:lower:]);
+if grep -q ro.product.brand= $prop_file; then
+	LBRND=$(grep ro.product.brand= $prop_file | cut -f2 -d '=' | tr [:upper:] [:lower:]);
+elif grep -q ro.product.system.brand= $prop_file; then
+	LBRND=$(grep ro.product.system.brand= $prop_file | cut -f2 -d '=' | tr [:upper:] [:lower:]);
 else
-	LBRND=$(grep ro.product.vendor.brand $prop_file | cut -f2 -d '=' | tr [:upper:] [:lower:]);
+	LBRND=$(grep ro.product.vendor.brand= $prop_file | cut -f2 -d '=' | tr [:upper:] [:lower:]);
 fi
 
 if grep -q ro.display.series $prop_file; then
@@ -359,6 +383,16 @@ if [ $BRAND = "SAMSUNG" ] || [ $BRAND = "samsung" ]; then
 	MPRINT=Samsung" ""$MODL"" "\("$aOS"\):"$MANF":"$MODL":="$BPRINT"__"$SDATE"
 fi;
 
+# Experimental -- Not sure if I will keep this or integrate it better
+# Set from certified.list
+if [ -f certified.list ]; then
+	if grep -q "$DEVICE" certified.list; then
+		CERTBRAND=$(grep "$MODL" certified.list | grep "$DEVICE" | cut -f1);
+		CERTNAME=$(grep "$MODL" certified.list | grep "$DEVICE" | cut -f2);
+		MPRINT="$CERTBRAND"" ""$CERTNAME"" "\("$aOS"\):"$MANF":"$MODL":="$BPRINT"__"$SDATE"
+	fi;
+fi;
+
 # Note about older device and using boot.img
 if [ "$SDK" = "" ]; then
 	echo " "
@@ -368,7 +402,8 @@ if [ "$SDK" = "" ]; then
 fi
 
 ## Still need to improve note about using recovery.img instead of boot.img on older devices
-## and/or newer devices that do not contain a ramdisk in the boot image.
+## and/or newer devices that do not contain a ramdisk in the boot image
+## Move note to ignore bad prop file function
 
 ###### Finally here we go...
 
@@ -376,7 +411,8 @@ fi
 backup
 
 # Add mHide fingerprint to $LOG file.
-echo $MPRINT | tee -a $LOG
+# echo $MPRINT | tee -a $LOG
+echo $MPRINT | sed 's/__$//g' | tee -a $LOG
 
 # Add a few notes to $LOG file.
 add_notes
@@ -386,6 +422,21 @@ echo ""
 
 # Add a title line to the props file.
 add_device_title
+
+# Experimental -- Not sure if I will keep this or integrate it better
+# Needs more cleanup due to shared variations in the certified list
+# Retail Branding  Marketing Name  Device  Model
+
+# Add tag from certified list
+if [ -f certified.list ]; then
+	if grep -q "$DEVICE" certified.list; then
+		echo "#" | tee -a $LOG
+		echo "# -- Experimental --" | tee -a $LOG
+		echo "# Device is on certified list" | tee -a $LOG
+		grep "$MODL" certified.list | grep "$DEVICE" | sed 's/\t/  /g; s/^/# /g' | tee -a $LOG
+		echo "#" | tee -a $LOG
+	fi;
+fi;
 
 # grep fingerprint and security date | sed command to add beginning comment [# ] | tee -a to add it to $LOG
 if grep -q ro.bootimage.build.fingerprint $prop_file; then
