@@ -116,6 +116,9 @@ done
 
 # Correct permissions
 chmod 0664 "$OUT"
+for file in *.img; do
+	chmod 0664 $file
+done
 
 # Check for backup.
 if [ -f "$BACKUPFILE" ]; then
