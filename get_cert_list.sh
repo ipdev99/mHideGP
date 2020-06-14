@@ -81,7 +81,7 @@ fi;
 curl https://storage.googleapis.com/play_public/supported_devices.html -o "$RAW"
 
 # Convert html table to a usable list. Not sure if the '/--/d' will work on MacOS, still need to test..
-rep -B4 '</tr>' $RAW | sed '/--/d' | tr --delete '\n' | sed2 | sed3 | sed4 | sed5 | sed6 | tee $OUT
+grep -B4 '</tr>' $RAW | sed '/--/d' | tr --delete '\n' | sed2 | sed3 | sed4 | sed5 | sed6 | tee $OUT
 
 # # All in one.. No extra spaces or tabs Still not sure if the '/--/d' will work on MacOS. Will test later..
 # grep -B4 '</tr>' $RAW | sed '/--/d' | tr --delete '\n' | sed 's/^[ \t]*//g; s/> *</></g' | sed 's/<th>//g; s/<td>//g; s/<\/th>/\t/g; s/<\/td>/\t/g' | sed 's/<\/tr>/\n/g' | sed 's/\t$//g' | sed 's/\&amp;/\&/g; s/\&#34;/\"/g; s/\&#39;/'\''/g' | tee $OUT
