@@ -10,21 +10,29 @@ _Unpack and Merge multiple image files into a mHide-printslist file._
 
 - Requires Android Image Kitchen (AIK)  
 Requires the mHideGP script.  
-- Add..
+- Not required but, using a certified.list file, will make the output files cleaner.  
+
+**concat_mHideGP**  
+_Merge multiple prop files into a mHide-printslist file._  
+
+- Standalone script to merge multiple mHideGP prop file.  
+_Useful when using mHideGP to collect props files._  
+
+**get\_cert_list**  
+_Download and convert google's public certified device list into a usable file._  
+
+- Downloads (curl) the public certified list html file and formats it into a new file _certified.list_.  
+Formatted with tab spacing for the four columns.
+_Retail Branding, Marketing Name,  Device,  Model_  
+- Add..  
 
 **mHideGP**  
 _The workhorse script_  
 
 - Combined script that runs on MacOS, Linux and Android.  
-- Add..
-
-**concat_mHideGP**  
-_Merge multiple prop files into a mHide-printslist file._  
-
-- Slightly updated standalone.  
-Useful when using mHideGP alone to collect props files.  
+- This script will create a file with the device properties that are useful to use with MagiskHidePropsConfig.  
+When run on an Android device, it will also save the results from a full _getprop_.  
 - Add..  
-
 
 ### To Do
 - Write this README file.  
@@ -32,20 +40,12 @@ Useful when using mHideGP alone to collect props files.
 - Fix/Finish the batch (Windows) port.  
   
 ### Recent changes
-- work-a-round for Android when calling getprop too many times gave a brokenpipe error.
-- Testing a combined script for MacOS/Linux/Android..  
-Think I'll keep it.  
-- Reworked everything again.
-- Still needs some cleanup.
-- Update to be more compatible in Android.  
-Now works with Termux.  
--- [Terminal Emulator for Android](https://play.google.com/store/apps/details?id=jackpal.androidterm&hl=en_US)  
--- [Termux](https://play.google.com/store/apps/details?id=com.termux&hl=en_US)  
-- Running from a file manager still seems to fail.  
-- Switch to using the _UTC_ build date for naming generated mHide prop files.  
-Allows multiple device fingerprints without duplication.
-- Running from a file manager might be fixed. (?)  
--- [FX File Explorer](https://play.google.com/store/apps/details?id=nextapp.fx)  
+- New script to pull and make a certified device list.  
+- Added an ignore prop check in mHideGP for prop files that do not have a _brand_.  
+  - Will have to work on this later.  
+- Half added support to use a build.prop file.  
+  - _Check for and use build.prop if ramdisk directory is missing.(Linux/MacOS)_  
+- Some small cleanup of scripts.
 
 
 ### How to use
