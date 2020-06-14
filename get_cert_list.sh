@@ -73,8 +73,11 @@ if [ ! -d xfiles ]; then
 fi;
 
 # Backup if needed
-if [ ! -f xfiles/"$FLDT"_certified.list ]; then
-	backup
+FLDT=$(date -r "$TARGET" '+%Y%m%d')
+if [ -f "$TARGET" ]; then
+	if [ ! -f xfiles/"$FLDT"_certified.list ]; then
+		backup
+	fi;
 fi;
 
 # Pull public certified device list.
