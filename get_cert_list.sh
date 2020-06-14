@@ -3,7 +3,7 @@
 # Pull (curl) and convert google's public certified device list into a usable file.
 # ipdev99 @ xda-developers
 
-#
+# Tested on Linux (fedora 32) and MacOS (v10.13.6)
 
 # Set variables
 
@@ -34,27 +34,30 @@ sed2() {
 	'
 }
 
-# Remove html tags <th> and <td> Replace html tags </th> and </td> with a tab
+# Remove html tags <th> and <td> Replace html tags </th> and </td> to < and </tr> to >
 sed3() {
 	sed '
 	s/<th>//g
 	s/<td>//g
-	s/<\/th>/\t/g
-	s/<\/td>/\t/g
+	s/<\/th>/</g
+	s/<\/td>/</g
+	s/<\/tr>/>/g
 	'
 }
 
-# Replace html tag </tr> with new line
-sed4() {
-	sed '
-	s/<\/tr>/\n/g
-	'
-}
+# Tab and newline are done with translate (tr '<' '\t' | tr '>' '\n')
+# # Replace html tag </tr> with new line
+# sed4() {
+# 	sed '
+# 	s/<\/tr>/\n/g
+# 	'
+# }
 
-# Remove tab at end of line
+# Remove '<' at end of line and remove empty lines.
 sed5() {
 	sed '
-	s/\t$//g
+	s/<$//g
+	/^$/d
 	'
 }
 
@@ -83,11 +86,8 @@ fi;
 # Pull public certified device list.
 curl https://storage.googleapis.com/play_public/supported_devices.html -o "$RAW"
 
-# Convert html table to a usable list. Not sure if the '/--/d' will work on MacOS, still need to test..
-grep -B4 '</tr>' $RAW | sed '/--/d' | tr --delete '\n' | sed2 | sed3 | sed4 | sed5 | sed6 | tee $OUT
-
-# # All in one.. No extra spaces or tabs Still not sure if the '/--/d' will work on MacOS. Will test later..
-# grep -B4 '</tr>' $RAW | sed '/--/d' | tr --delete '\n' | sed 's/^[ \t]*//g; s/> *</></g' | sed 's/<th>//g; s/<td>//g; s/<\/th>/\t/g; s/<\/td>/\t/g' | sed 's/<\/tr>/\n/g' | sed 's/\t$//g' | sed 's/\&amp;/\&/g; s/\&#34;/\"/g; s/\&#39;/'\''/g' | tee $OUT
+# Convert html table to a usable list. tr --delete,  sed '\n' and sed '\t' did not work on MacOS.
+grep -B4 '</tr>' $RAW | sed '/--/d' | tr -d '\n' | sed2 | sed3 | tr '>' '\n' | sed5 | tr '<' '\t' | sed6 | tee $OUT
 
 # Copy to target
 cp $OUT $TARGET
