@@ -40,12 +40,12 @@ When run on an Android device, it will also save the results from a full _getpro
 - Fix/Finish the batch (Windows) port.  
   
 ### Recent changes
-- New script to pull and make a certified device list.  
+- Script to pull and make a certified device list. _(MacOS/Linux)_  
 - Added an ignore prop check in mHideGP for prop files that do not have a _brand_.  
   - Will have to work on this later.  
-- Half added support to use a build.prop file.  
-  - _Check for and use build.prop if ramdisk directory is missing.(Linux/MacOS)_  
-- Some small cleanup of scripts.
+- Added support to mHideGP for other prop files.  
+  - _Looks for build.prop, prop.default, default.prop and getprop.props if prop files can not be found in a ramdisk directory._  
+- Some small cleanup of scripts.  
 
 
 ### How to use
