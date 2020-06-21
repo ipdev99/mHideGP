@@ -27,59 +27,74 @@
 # Run from adb shell (or a terminal app) using the sh command.
 #  sh mHideGP.sh
 # Run from a file manager that is able to execute a script file.
-#  Note in the set_prop_android function.
+#  Note: May or may not work depending on file manager..
 #
 
 # Set main variables
 
+# ANDROID=""
 DATE=$(date '+%Y%m%d')
 # DATE=$(date '+%Y%m%d_%H%M')
 TDIR=$(pwd)
-# ANDROID=""
+SCRIPT=mHideGP.sh
 
-# Set functions
+# Set main functions
 
-# MacOS/Linux
-set_prop_ramdisk() {
+set_target_directory() {
+	if [ ! -f "$SCRIPT" ]; then
+		TDIR=$(lsof 2>/dev/null | grep -o '[^ ]*$' | grep "$SCRIPT" | sed 's/\/'"$SCRIPT"'//g');
+		# Move to target directory
+		cd $TDIR
+	fi
+}
+
+exit_0() {
+	if [ $ANDROID = "TRUE" ]; then
+		return 0;
+	else
+		exit 0;
+	fi
+}
+
+exit_1() {
+	if [ $ANDROID = "TRUE" ]; then
+		return 1;
+	else
+		exit 1;
+	fi
+}
+
+# Set additional functions
+
+backup() {
+	if [ -f "$LOG" ]; then
+		FLTM=$(date -r "$LOG" '+%H%M')
+		BACKUPFILE=$(printf "$LOG" | sed 's/.sh/.'"$FLTM"'/g')
+		mv "$LOG" "$BACKUPFILE"
+	fi
+}
+
+set_prop_file() {
 	prop_file=ABORT
 
 	if [ -f ramdisk/prop.default ]; then
 		prop_file=ramdisk/prop.default
 	elif [ -f ramdisk/default.prop ]; then
 		prop_file=ramdisk/default.prop
-	fi
-}
-
-# Experimental -- Not sure if I will keep this or integrate it better
-set_prop_other() {
-	prop_file=ABORT
-
-	if [ -f build.prop ]; then
+	elif [ -f build.prop ]; then
 		prop_file=build.prop
-	fi
-}
-
-# Android device
-set_prop_android() {
-	prop_file=ABORT
-
-	# Fix for using a file manager. (?)
-	if [ "$TDIR" = "/" ]; then
-		if [ -d sdcard/Download ]; then
-			TDIR=/sdcard/Download
-		else
-			TDIR=/sdcard
-		fi;
-
-		# Switch to target directory.
-		cd "$TDIR"
-	fi;
-
-	getprop | sed 's/\]: \[/=/g; s/\[//g; s/\]//g' > getprop.props
-
-	if [ -f getprop.props ]; then
+	elif [ -f prop.default ]; then
+		prop_file=prop.default
+	elif [ -f default.prop ]; then
+		prop_file=default.prop
+	elif [ -f getprop.props ]; then
 		prop_file=getprop.props
-	fi
+	elif [ "$ANDROID" = "TRUE" ]; then
+		getprop | sed 's/\]: \[/=/g; s/\[//g; s/\]//g' > getprop.props
+		if [ -f getprop.props ]; then
+			prop_file=getprop.props
+		fi;
+	fi;
 }
 
 check_prop_file() {
@@ -88,8 +103,19 @@ check_prop_file() {
 		echo " No prop file found. "
 		echo " Aborting ...  "
 		echo " "
-		exit 1;
+		exit_1;
 	fi
+}
+
+ignore_prop_file() {
+ 	if [ ! $BRAND ]; then
+ 		echo " "
+ 		echo " Device Brand was not found. "
+ 		echo " This prop file is ignored. "
+ 		echo " Aborting ...  "
+ 		echo " "
+ 		exit_1;
+ 	fi;
 }
 
 get_prop_info() {
@@ -169,37 +195,21 @@ add_device_title() {
 	fi;
 }
 
-backup() {
-	if [ -f "$LOG" ]; then
-		FLTM=$(date -r "$LOG" '+%H%M')
-		BACKUPFILE=$(printf "$LOG" | sed 's/.sh/.'"$FLTM"'/g')
-		mv "$LOG" "$BACKUPFILE"
-	fi
-}
 
-ignore_prop_file() {
- 	if [ ! $BRAND ]; then
- 		# Ignore bad prop file
- 		exit 1;
- 	fi;
-}
-
-# Set prop file to use.
-
-# Determine if running on MacOS/Linux or an Android device.
+# Determine if running on an Android device or MacOS/Linux.
 if [ -f /system/bin/sh ] || [ -f /system/bin/toybox ] || [ -f /system/bin/toolbox ]; then
 	# Android device
 	ANDROID=TRUE
-	set_prop_android
-elif [ -d ramdisk ]; then
+else
 	# MacOS/Linux
 	ANDROID=FALSE
-	set_prop_ramdisk
-else
-	# Other
-	ANDROID=FALSE
-	set_prop_other
 fi
+
+# Reset target directory if needed.
+set_target_directory
+
+# Set prop file to use.
+set_prop_file
 
 # Make sure prop file set.
 check_prop_file
@@ -266,7 +276,9 @@ else
 	DMDL=$(grep ro.product.vendor.model $prop_file | cut -f2 -d '=' | cut -f1 -d' ');
 fi
 
-# Ignore bad prop file
+# Check and ignore if certain values can not be determined.
+## Still need to work on this.
+## Maybe set main log values (and/or log file name values) to unknown when not found so an alternative log file can still be generated?
 ignore_prop_file
 
 # Brand/Device specific
@@ -403,7 +415,6 @@ fi
 
 ## Still need to improve note about using recovery.img instead of boot.img on older devices
 ## and/or newer devices that do not contain a ramdisk in the boot image
-## Move note to ignore bad prop file function
 
 ###### Finally here we go...
 
@@ -495,4 +506,4 @@ fi;
 echo " "; echo "Done."; echo " ";
 echo "New prop file saved as "$LOG""; echo " ";
 #
-exit 0;
+exit_0;
