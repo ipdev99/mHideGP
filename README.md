@@ -1,8 +1,24 @@
 ## mHide Get Props
-Script files to generate prop files from a device or image.  
-Formatted to be used as a custom prints list with  
-the MagiskHidePropsConfig magisk module.
-
+Originally (and still) written to be used with MagiskHide Props Config Magisk module.  
+_This script is written to be used in a lot of different situations._  
+  
+The main purpose of mHideGP is to gather prop values from a stock boot image, stock recovery image or the device itself.  
+  
+mHideGP will generate a file named _mhp_Brand_Model_BuildDateTime_ or _mhp_Model_BuildDateTime_ (depending on the device) that will contain the system build fingerprint, security date and other needed and useful device props.  
+  
+The mhp file is formatted to be used as a custom fingerprint list for the MagiskHide Props Config module.  
+_You will need to rename the mhp file to ```printslist```  
+  See the MagiskHide Props Config instructions on using a custom fingerprint list._  
+  
+If a boot or recovery image is used, you will need to unpack the image file first.  
+mHideGP relies on the use of _Android Image Kitchen (AIK)_ by osm0sis for unpacking a boot or recovery image.  
+_If used with a different method to unpack an image file, make sure to make changes in the script file(s) accordingly._  
+  
+- Information and download links for Android Image Kitchen and MagiskHide Props Config, can be found on xda-Developers.  
+  [_Android Image Kitchen (AIK)_](https://forum.xda-developers.com/showthread.php?t=2073775) by osm0sis.  
+  [_MagiskHide Props Config_](https://forum.xda-developers.com/apps/magisk/module-magiskhide-props-config-t3789228) by Didgeridoohan.  
+  
+---  
 
 ### Scripts
 **aik_mHide**  
