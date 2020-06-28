@@ -356,6 +356,11 @@ if [ $BRAND = "OnePlus" ] || [ $BRAND = "oneplus" ]; then
 	LOG="$TDIR"/mhp_"$LDEVICE"_"$BUTC".sh
 fi;
 
+# Poco
+if [ $DMDL = "POCO" ] || [ $DMDL = "poco" ]; then
+	LOG="$TDIR"/mhp_"$LMODL"_"$BUTC".sh
+fi;
+
 # Readmi
 if [ $DMDL = "Redmi" ] || [ $DMDL = "redmi" ]; then
 	LOG="$TDIR"/mhp_"$LMODL"_"$BUTC".sh
@@ -399,9 +404,16 @@ fi;
 # Set from certified.list
 if [ -f certified.list ]; then
 	if grep -q "$DEVICE" certified.list; then
-		CERTBRAND=$(grep "$MODL" certified.list | grep "$DEVICE" | cut -f1);
-		CERTNAME=$(grep "$MODL" certified.list | grep "$DEVICE" | cut -f2);
-		MPRINT="$CERTBRAND"" ""$CERTNAME"" "\("$aOS"\):"$MANF":"$MODL":="$BPRINT"__"$SDATE"
+		CERTBRAND=$(grep "$MODL" certified.list | grep "$DEVICE" | tr -d '\n' | cut -f1);
+		CERTNAME=$(grep "$MODL" certified.list | grep "$DEVICE" | tr -d '\n' | cut -f2);
+		CERTMRKNAME=$(grep "$MODL" certified.list | grep "$DEVICE" | tr -d '\n' | cut -f2 | cut -f1 -d' ');
+		if [ $CERTBRAND = "Google" ] || [ $CERTBRAND = "OnePlus" ] || [ $CERTBRAND = "POCO" ] || [ $CERTBRAND = "Redmi" ]; then
+			MPRINT="$CERTNAME"" "\("$aOS"\):"$MANF":"$MODL":="$BPRINT"__"$SDATE"
+		elif [ $CERTMRKNAME = "POCO" ] || [ $CERTMRKNAME = "Redmi" ]; then
+			MPRINT="$CERTNAME"" "\("$aOS"\):"$MANF":"$MODL":="$BPRINT"__"$SDATE"
+		else
+			MPRINT="$CERTBRAND"" ""$CERTNAME"" "\("$aOS"\):"$MANF":"$MODL":="$BPRINT"__"$SDATE"
+		fi;
 	fi;
 fi;
 
@@ -444,7 +456,7 @@ if [ -f certified.list ]; then
 		echo "#" | tee -a $LOG
 		echo "# -- Experimental --" | tee -a $LOG
 		echo "# Device is on certified list" | tee -a $LOG
-		grep "$MODL" certified.list | grep "$DEVICE" | sed 's/\t/  /g; s/^/# /g' | tee -a $LOG
+		grep "$MODL" certified.list | grep "$DEVICE" | tr '\t' '>' | sed 's/>/  /g; s/^/# /g' | tee -a $LOG
 		echo "#" | tee -a $LOG
 	fi;
 fi;
