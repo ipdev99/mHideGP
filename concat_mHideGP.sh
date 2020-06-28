@@ -97,18 +97,23 @@ for dProps in mhp_*.sh; do
 cat $dProps | sed '/#/!d' | sed '/##/d' >> "$OUT"
 done
 
-# Correct permissions
-chmod 0664 "$OUT"
 
-for file in mhp_*.sh; do
-chmod 0664 "$file"
-done
+# Cleanup
 
-# Check for backup.
+# Note backup
 if [ -f "$BACKUPFILE" ]; then
-	echo ""; echo "Your previous "$OUT" file was renamed to "$BACKUPFILE""; echo "";
-	chmod 0664 "$BACKUPFILE"
+	echo ""; echo "Your previous "$LOG" file was renamed to "$BACKUPFILE""; echo "";
 fi
+
+# Correct permissions if needed
+if [ $ANDROID = "FALSE" ]; then
+	for file in mhp_*; do
+		chmod 0664 "$file"
+	done;
+	for file in mHide-*; do
+		chmod 0664 "$file"
+	done;
+fi;
 
 # Finish script
 echo "New mHide-printslist file saved as "$OUT""
