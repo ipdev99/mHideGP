@@ -13,8 +13,22 @@
 # If you use a different method to collect prop files
 # Make sure to adjust this script accordingly.
 
+# Set variables
+TDIR=$(pwd)
+DATE=$(date '+%Y%m%d')
+# DATE=$(date '+%Y%m%d_%H%M')
+OUT=mHide-printslist-"$DATE".sh
+SCRIPT=concat_mHideGP.sh
 
 # Set functions
+
+set_target_directory() {
+	if [ ! -f "$SCRIPT" ]; then
+		TDIR=$(lsof 2>/dev/null | grep -o '[^ ]*$' | grep "$SCRIPT" | sed 's/\/'"$SCRIPT"'//g');
+		# Move to target directory
+		cd $TDIR
+	fi
+}
 
 add_notes() {
 	echo "\"" >> $OUT
@@ -55,11 +69,17 @@ exit_1() {
 ## The output file is written in order of the mhp file name.
 ## The mHideGP script hopefully will name them in the correct order.
 
-# Set variables
-TDIR=$(pwd)
-DATE=$(date '+%Y%m%d')
-# DATE=$(date '+%Y%m%d_%H%M')
-OUT=mHide-printslist-"$DATE".sh
+# Determine if running on an Android device or MacOS/Linux.
+if [ -f /system/bin/sh ] || [ -f /system/bin/toybox ] || [ -f /system/bin/toolbox ]; then
+	# Android device
+	ANDROID=TRUE
+else
+	# MacOS/Linux
+	ANDROID=FALSE
+fi
+
+# Reset target directory if needed.
+set_target_directory
 
 # Backup if needed
 backup
