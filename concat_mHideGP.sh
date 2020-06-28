@@ -35,6 +35,22 @@ backup() {
 	fi
 }
 
+exit_0() {
+	if [ $ANDROID = "TRUE" ]; then
+		return 0;
+	else
+		exit 0;
+	fi
+}
+
+exit_1() {
+	if [ $ANDROID = "TRUE" ]; then
+		return 1;
+	else
+		exit 1;
+	fi
+}
+
 ## No sort order logic.
 ## The output file is written in order of the mhp file name.
 ## The mHideGP script hopefully will name them in the correct order.
@@ -78,4 +94,4 @@ fi
 echo "New mHide-printslist file saved as "$OUT""
 echo ""; echo "Done."; echo "";
 #
-exit 0;
+exit_0;
