@@ -60,7 +60,11 @@ When run on an Android device, it will also save the results from a full _getpro
 - Added an ignore prop check in mHideGP for prop files that do not have a _brand_.  
   - Will have to work on this later.  
 - Added support to mHideGP for other prop files.  
-  - _Looks for build.prop, prop.default, default.prop and getprop.props if prop files can not be found in a ramdisk directory._  
+  _build.prop, prop.default, default.prop or getprop.props_  
+  _If prop.default or default.prop file can not be found in a ramdisk directory._  
+- Update concat_mHideGP to work on Android.  
+- Update aik\_mHide script to work on Android with AIK-mobile.  
+  _Root is needed to use AIK-Mobile_  
 - Some small cleanup of scripts.  
 
 
