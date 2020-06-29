@@ -24,8 +24,24 @@
 
 # If used with another method, make sure to make changes in the script(s) accordingly.
 
+# Set variables
+
+TDIR=$(pwd)
+DATE=$(date '+%Y%m%d')
+# DATE=$(date '+%Y%m%d_%H%M')
+OUT=mHide-printslist-"$DATE".sh
+SCRIPT=aik_mHide.sh
+
 
 # Set functions
+
+set_target_directory() {
+	if [ ! -f "$SCRIPT" ]; then
+		TDIR=$(lsof 2>/dev/null | grep -o '[^ ]*$' | grep "$SCRIPT" | sed 's/\/'"$SCRIPT"'//g');
+		# Move to target directory
+		cd $TDIR
+	fi
+}
 
 check_files() {
 	if [ ! -f mHideGP.sh ]; then
@@ -58,13 +74,33 @@ backup() {
 	fi
 }
 
+exit_0() {
+	if [ $ANDROID = "TRUE" ]; then
+		return 0;
+	else
+		exit 0;
+	fi
+}
 
-# Set variables
+exit_1() {
+	if [ $ANDROID = "TRUE" ]; then
+		return 1;
+	else
+		exit 1;
+	fi
+}
 
-TDIR=$(pwd)
-DATE=$(date '+%Y%m%d')
-# DATE=$(date '+%Y%m%d_%H%M')
-OUT=mHide-printslist-"$DATE".sh
+# Determine if running on an Android device or MacOS/Linux.
+if [ -f /system/bin/sh ] || [ -f /system/bin/toybox ] || [ -f /system/bin/toolbox ]; then
+	# Android device
+	ANDROID=TRUE
+else
+	# MacOS/Linux
+	ANDROID=FALSE
+fi
+
+# Reset target directory if needed.
+set_target_directory
 
 # Check for required files.
 check_files
@@ -73,13 +109,25 @@ check_files
 "$TDIR"/cleanup.sh > /dev/null
 
 # Unpack and run mHide_get_props on all image files in the current directory
-for img in *.img; do
-    {
-	"$TDIR"/unpackimg.sh "$img" > /dev/null
-	"$TDIR"/mHideGP.sh > /dev/null
-	"$TDIR"/cleanup.sh > /dev/null
-}
-done
+if [ $ANDROID = "TRUE" ]; then
+	for img in *.img; do
+		{
+			"$TDIR"/unpackimg.sh "$img" > /dev/null
+			sh "$TDIR"/mHideGP.sh > /dev/null
+			"$TDIR"/cleanup.sh > /dev/null
+		}
+    done
+fi
+
+if [ $ANDROID = "FALSE" ]; then
+	for img in *.img; do
+		{
+			"$TDIR"/unpackimg.sh "$img" > /dev/null
+			"$TDIR"/mHideGP.sh > /dev/null
+			"$TDIR"/cleanup.sh > /dev/null
+		}
+    done
+fi
 
 # Extra echo just to clean up screen output.
 echo ""
@@ -114,20 +162,27 @@ for file in mhp_*.sh; do
 	}
 done
 
-# Correct permissions
-chmod 0664 "$OUT"
-for file in *.img; do
-	chmod 0664 $file
-done
-
-# Check for backup.
+# Note backup
 if [ -f "$BACKUPFILE" ]; then
-	echo ""; echo "Your previous "$OUT" file was renamed to "$BACKUPFILE""; echo "";
-	chmod 0664 "$BACKUPFILE"
+	echo ""; echo "Your previous "$LOG" file was renamed to "$BACKUPFILE""; echo "";
 fi
+
+# Correct permissions if needed
+for file in mhc_*; do
+	chmod 0664 $file 2>/dev/null
+done;
+for file in mhp_*; do
+	chmod 0664 $file 2>/dev/null
+done;
+for file in mHide-*; do
+	chmod 0664 $file 2>/dev/null
+done;
+for file in *.img; do
+	chmod 0664 $file 2>/dev/null
+done;
 
 # Finish script
 echo "New mHide-printslist file saved as "$OUT""
 echo ""; echo "Done."; echo "";
 #
-exit 0;
+exit_0;
