@@ -110,8 +110,10 @@ check_files
 
 # Unpack and run mHide_get_props on all image files in the current directory
 if [ $ANDROID = "TRUE" ]; then
+	echo ""
 	for img in *.img; do
 		{
+			echo "$img"
 			"$TDIR"/unpackimg.sh "$img" > /dev/null
 			sh "$TDIR"/mHideGP.sh > /dev/null
 			"$TDIR"/cleanup.sh > /dev/null
@@ -164,7 +166,7 @@ done
 
 # Note backup
 if [ -f "$BACKUPFILE" ]; then
-	echo ""; echo "Your previous "$LOG" file was renamed to "$BACKUPFILE""; echo "";
+	echo ""; echo "Your previous "$OUT" file was renamed to "$BACKUPFILE""; echo "";
 fi
 
 # Correct permissions if needed
