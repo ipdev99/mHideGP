@@ -22,14 +22,6 @@ SCRIPT=concat_mHideGP.sh
 
 # Set functions
 
-set_target_directory() {
-	if [ ! -f "$SCRIPT" ]; then
-		TDIR=$(lsof 2>/dev/null | grep -o '[^ ]*$' | grep "$SCRIPT" | sed 's/\/'"$SCRIPT"'//g');
-		# Move to target directory
-		cd $TDIR
-	fi
-}
-
 add_notes() {
 	echo "\"" >> $OUT
 	echo "######" >> $OUT
@@ -65,9 +57,13 @@ exit_1() {
 	fi
 }
 
-## No sort order logic.
-## The output file is written in order of the mhp file name.
-## The mHideGP script hopefully will name them in the correct order.
+set_target_directory() {
+	if [ ! -f "$SCRIPT" ]; then
+		TDIR=$(lsof 2>/dev/null | grep -o '[^ ]*$' | grep "$SCRIPT" | sed 's/\/'"$SCRIPT"'//g');
+		# Move to target directory
+		cd $TDIR
+	fi
+}
 
 # Determine if running on an Android device or MacOS/Linux.
 if [ -f /system/bin/sh ] || [ -f /system/bin/toybox ] || [ -f /system/bin/toolbox ]; then
@@ -84,6 +80,10 @@ set_target_directory
 # Backup if needed
 backup
 
+## No sort order logic.
+## The output file is written in order of the mhp file name.
+## The mHideGP script hopefully will name them in the correct order.
+
 # Add mHide fingerprint from the mhp files(s) to $OUT file.
 for mPrint in mhp_*.sh; do
 cat $mPrint | sed '1!d' >> "$OUT"
@@ -97,23 +97,26 @@ for dProps in mhp_*.sh; do
 cat $dProps | sed '/#/!d' | sed '/##/d' >> "$OUT"
 done
 
-
 # Cleanup
 
 # Note backup
 if [ -f "$BACKUPFILE" ]; then
-	echo ""; echo "Your previous "$LOG" file was renamed to "$BACKUPFILE""; echo "";
+	echo ""; echo "Your previous "$OUT" file was renamed to "$BACKUPFILE""; echo "";
 fi
 
 # Correct permissions if needed
-if [ $ANDROID = "FALSE" ]; then
-	for file in mhp_*; do
-		chmod 0664 "$file"
-	done;
-	for file in mHide-*; do
-		chmod 0664 "$file"
-	done;
-fi;
+for file in mhc_*; do
+	chmod 0664 $file 2>/dev/null
+done;
+for file in mhp_*; do
+	chmod 0664 $file 2>/dev/null
+done;
+for file in mHide-*; do
+	chmod 0664 $file 2>/dev/null
+done;
+for file in *.img; do
+	chmod 0664 $file 2>/dev/null
+done;
 
 # Finish script
 echo "New mHide-printslist file saved as "$OUT""
