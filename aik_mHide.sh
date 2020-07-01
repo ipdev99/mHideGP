@@ -46,13 +46,13 @@ set_target_directory() {
 check_files() {
 	if [ ! -f mHideGP.sh ]; then
 		echo " Missing mHideGP script."
-		exit 1;
+		exit_1;
 	elif [ ! -f cleanup.sh ]; then
 		echo " Missing AIK cleanup script."
-		exit 1;
+		exit_1;
 	elif [ ! -f unpackimg.sh ]; then
 		echo " Missing AIK unpackimg script."
-		exit 1;
+		exit_1;
 	fi
 }
 
