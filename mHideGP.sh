@@ -67,10 +67,10 @@ exit_1() {
 # Set additional functions
 
 backup() {
-	if [ -f "$LOG" ]; then
-		FLTM=$(date -r "$LOG" '+%H%M')
-		BACKUPFILE=$(printf "$LOG" | sed 's/.sh/.'"$FLTM"'/g')
-		mv "$LOG" "$BACKUPFILE"
+	if [ -f "$MHGP" ]; then
+		FLTM=$(date -r "$MHGP" '+%H%M')
+		BACKUPFILE=$(printf "$MHGP" | sed 's/.sh/.'"$FLTM"'/g')
+		mv "$MHGP" "$BACKUPFILE"
 	fi
 }
 
@@ -165,33 +165,33 @@ get_prop_secure() {
 # }
 
 add_notes() {
-	echo "\"" >> $LOG
-	echo "######" >> $LOG
-	echo "## The above \" was added to close custom printslist list early." >> $LOG
-	echo "## Just to clean it up a little. Lines below will not display on screen." >> $LOG
-	echo "## Due to updates in Magisk and/or mHide module." >> $LOG
-	echo "## The rest of the file is now block commented to hide/clean it up further." >> $LOG
-	echo "######" >> $LOG
-	echo "#" >> $LOG
-	echo "#" >> $LOG
+	echo "\"" >> $MHGP
+	echo "######" >> $MHGP
+	echo "## The above \" was added to close custom printslist list early." >> $MHGP
+	echo "## Just to clean it up a little. Lines below will not display on screen." >> $MHGP
+	echo "## Due to updates in Magisk and/or mHide module." >> $MHGP
+	echo "## The rest of the file is now block commented to hide/clean it up further." >> $MHGP
+	echo "######" >> $MHGP
+	echo "#" >> $MHGP
+	echo "#" >> $MHGP
 }
 
 add_device_title() {
 	if [ $BRAND = "Google" ] || [ $BRAND = "google" ]; then
-		echo "# "$MODL" [Build Date - "$BDATE"]" >> $LOG
+		echo "# "$MODL" [Build Date - "$BDATE"]" >> $MHGP
 	elif [ $BRAND = "OnePlus" ] || [ $BRAND = "oneplus" ]; then
 		if grep -q ro.display.series $prop_file; then
-			echo "# "$OPDSPLY" ["$OPMDL"] [Build Date - "$BDATE"]" >> $LOG
+			echo "# "$OPDSPLY" ["$OPMDL"] [Build Date - "$BDATE"]" >> $MHGP
 		else
-			echo "# "$DEVICE" ["$OPMDL"] [Build Date - "$BDATE"]" >> $LOG
+			echo "# "$DEVICE" ["$OPMDL"] [Build Date - "$BDATE"]" >> $MHGP
 		fi;
 	elif [ $DMDL = "Redmi" ] || [ $DMDL = "redmi" ]; then
-		echo "# "$MODL" [Build Date - "$BDATE"]" >> $LOG
+		echo "# "$MODL" [Build Date - "$BDATE"]" >> $MHGP
 	elif [ $BRAND = "SAMSUNG" ] || [ $BRAND = "samsung" ]; then
-		echo "# Samsung "$MODL" [Build Date - "$BDATE"]" >> $LOG
+		echo "# Samsung "$MODL" [Build Date - "$BDATE"]" >> $MHGP
 
 	else
-		echo "# "$BRAND" "$MODL" [Build Date - "$BDATE"]" >> $LOG
+		echo "# "$BRAND" "$MODL" [Build Date - "$BDATE"]" >> $MHGP
 	fi;
 }
 
@@ -278,7 +278,7 @@ fi
 
 # Check and ignore if certain values can not be determined.
 ## Still need to work on this.
-## Maybe set main log values (and/or log file name values) to unknown when not found so an alternative log file can still be generated?
+## Maybe set main MHGP values (and/or MHGP file name values) to unknown when not found so an alternative MHGP file can still be generated?
 ignore_prop_file
 
 # Brand/Device specific
@@ -297,7 +297,7 @@ if [ $BRAND = "OnePlus" ] || [ $BRAND = "oneplus" ]; then
 	fi;
 fi;
 
-# Set variables for use in naming the $LOG file.
+# Set variables for use in naming the $MHGP file.
 # Remove spaces and change all to lowercase so the mhp_ file(s) should list in the correct order
 # when using the concat script.
 
@@ -341,29 +341,29 @@ else
 	LMAN=$(grep ro.product.vendor.manufacturer $prop_file | cut -f2 -d '=' | tr [:upper:] [:lower:]);
 fi
 
-# Set LOG file.
+# Set MHGP file name.
 
 # Generic
-LOG="$TDIR"/mhp_"$LBRND"_"$LMODL"_"$BUTC".sh
+MHGP="$TDIR"/mhp_"$LBRND"_"$LMODL"_"$BUTC".sh
 
 # Google
 if [ $BRAND = "Google" ] || [ $BRAND = "google" ]; then
-	LOG="$TDIR"/mhp_"$LMODL"_"$BUTC".sh
+	MHGP="$TDIR"/mhp_"$LMODL"_"$BUTC".sh
 fi;
 
 # OnePlus
 if [ $BRAND = "OnePlus" ] || [ $BRAND = "oneplus" ]; then
-	LOG="$TDIR"/mhp_"$LDEVICE"_"$BUTC".sh
+	MHGP="$TDIR"/mhp_"$LDEVICE"_"$BUTC".sh
 fi;
 
 # Poco
 if [ $DMDL = "POCO" ] || [ $DMDL = "poco" ]; then
-	LOG="$TDIR"/mhp_"$LMODL"_"$BUTC".sh
+	MHGP="$TDIR"/mhp_"$LMODL"_"$BUTC".sh
 fi;
 
 # Readmi
 if [ $DMDL = "Redmi" ] || [ $DMDL = "redmi" ]; then
-	LOG="$TDIR"/mhp_"$LMODL"_"$BUTC".sh
+	MHGP="$TDIR"/mhp_"$LMODL"_"$BUTC".sh
 fi;
 
 # Set MagiskHidePropsConfig fingerprint.
@@ -433,11 +433,11 @@ fi
 # Backup if needed
 backup
 
-# Add mHide fingerprint to $LOG file.
-# echo $MPRINT | tee -a $LOG
-echo $MPRINT | sed 's/__$//g' | tee -a $LOG
+# Add mHide fingerprint to $MHGP file.
+# echo $MPRINT | tee -a $MHGP
+echo $MPRINT | sed 's/__$//g' | tee -a $MHGP
 
-# Add a few notes to $LOG file.
+# Add a few notes to $MHGP file.
 add_notes
 
 # Extra echo just to clean up screen output.
@@ -453,36 +453,36 @@ add_device_title
 # Add tag from certified list
 if [ -f certified.list ]; then
 	if grep -q "$DEVICE" certified.list; then
-		echo "#" | tee -a $LOG
-		echo "# -- Experimental --" | tee -a $LOG
-		echo "# Device is on certified list" | tee -a $LOG
-		grep "$MODL" certified.list | grep "$DEVICE" | tr '\t' '>' | sed 's/>/  /g; s/^/# /g' | tee -a $LOG
-		echo "#" | tee -a $LOG
+		echo "#" | tee -a $MHGP
+		echo "# -- Experimental --" | tee -a $MHGP
+		echo "# Device is on certified list" | tee -a $MHGP
+		grep "$MODL" certified.list | grep "$DEVICE" | tr '\t' '>' | sed 's/>/  /g; s/^/# /g' | tee -a $MHGP
+		echo "#" | tee -a $MHGP
 	fi;
 fi;
 
-# grep fingerprint and security date | sed command to add beginning comment [# ] | tee -a to add it to $LOG
+# grep fingerprint and security date | sed command to add beginning comment [# ] | tee -a to add it to $MHGP
 if grep -q ro.bootimage.build.fingerprint $prop_file; then
-	grep ro.bootimage.build.fingerprint $prop_file | sed 's/^/# /g' | tee -a $LOG
+	grep ro.bootimage.build.fingerprint $prop_file | sed 's/^/# /g' | tee -a $MHGP
 else
-	grep ro.build.fingerprint $prop_file | sed 's/^/# /g' | tee -a $LOG
+	grep ro.build.fingerprint $prop_file | sed 's/^/# /g' | tee -a $MHGP
 fi
 
-grep ro.build.version.security_patch $prop_file | sed 's/^/# /g' | tee -a $LOG
+grep ro.build.version.security_patch $prop_file | sed 's/^/# /g' | tee -a $MHGP
 
-echo "#" | tee -a $LOG
+echo "#" | tee -a $MHGP
 #
 echo ""
 
-# Add beginning comment [# ] and remove the obsolete note line(s) in the $LOG file
-get_prop_info | sed 's/^/# /g' | sed '/obsolete/d' | tee -a $LOG
-echo "#" | tee -a $LOG
-# get_prop_secure | sed 's/^/# /g' | tee -a $LOG
-# echo "#" | tee -a $LOG
+# Add beginning comment [# ] and remove the obsolete note line(s) in the $MHGP file
+get_prop_info | sed 's/^/# /g' | sed '/obsolete/d' | tee -a $MHGP
+echo "#" | tee -a $MHGP
+# get_prop_secure | sed 's/^/# /g' | tee -a $MHGP
+# echo "#" | tee -a $MHGP
 
-# Add note about prop file used to $LOG
-echo "# # Pulled from "$prop_file"" >> $LOG
-# echo "#" >> $LOG
+# Add note about prop file used to $MHGP
+echo "# # Pulled from "$prop_file"" >> $MHGP
+# echo "#" >> $MHGP
 
 # Cleanup
 
@@ -503,12 +503,12 @@ fi
 
 # Note backup
 if [ -f "$BACKUPFILE" ]; then
-	echo ""; echo "Your previous "$LOG" file was renamed to "$BACKUPFILE""; echo "";
+	echo ""; echo "Your previous "$MHGP" file was renamed to "$BACKUPFILE""; echo "";
 fi
 
 # Correct permissions if needed
 if [ $ANDROID = "FALSE" ]; then
-	chmod 0664 "$LOG"
+	chmod 0664 "$MHGP"
 	if [ -f "$BACKUPFILE" ]; then
 		chmod 0664 "$BACKUPFILE"
 	fi;
@@ -516,6 +516,6 @@ fi;
 
 # Finish script
 echo " "; echo "Done."; echo " ";
-echo "New prop file saved as "$LOG""; echo " ";
+echo "New prop file saved as "$MHGP""; echo " ";
 #
 exit_0;
