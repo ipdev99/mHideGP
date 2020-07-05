@@ -454,7 +454,7 @@ add_device_title
 if [ -f certified.list ]; then
 	if grep -q "$DEVICE" certified.list; then
 		echo "#" | tee -a $MHGP
-		echo "# -- Experimental --" | tee -a $MHGP
+		## echo "# -- Experimental --" | tee -a $MHGP
 		echo "# Device is on certified list" | tee -a $MHGP
 		grep "$MODL" certified.list | grep "$DEVICE" | tr '\t' '>' | sed 's/>/  /g; s/^/# /g' | tee -a $MHGP
 		echo "#" | tee -a $MHGP
