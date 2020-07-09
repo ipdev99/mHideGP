@@ -66,6 +66,15 @@ exit_1() {
 
 # Set additional functions
 
+check_for_sdk() {
+	if [ "$SDK" = "" ]; then
+		echo " "
+		echo " No SDK level found. "
+		echo " You may need to use a recovery.img instead. " >&2
+		echo " "
+	fi
+}
+
 backup() {
 	if [ -f "$MHGP" ]; then
 		FLTM=$(date -r "$MHGP" '+%H%M')
@@ -100,7 +109,7 @@ set_prop_file() {
 check_prop_file() {
 	if [ $prop_file = "ABORT" ]; then
 		echo " "
-		echo " No prop file found. "
+		echo " No prop file found. " >&2
 		echo " Aborting ...  "
 		echo " "
 		exit_1;
@@ -111,7 +120,7 @@ ignore_prop_file() {
  	if [ ! $BRAND ]; then
  		echo " "
  		echo " Device Brand was not found. "
- 		echo " This prop file is ignored. "
+ 		echo " This prop file is ignored. " >&2
  		echo " Aborting ...  "
  		echo " "
  		exit_1;
@@ -417,20 +426,15 @@ if [ -f certified.list ]; then
 	fi;
 fi;
 
-# Note about older device and using boot.img
-if [ "$SDK" = "" ]; then
-	echo " "
-	echo " No SDK level found. "
-	echo " You may need to use a recovery.img instead. "
-	echo " "
-fi
+# Check for SDK version.
+check_for_sdk
 
 ## Still need to improve note about using recovery.img instead of boot.img on older devices
 ## and/or newer devices that do not contain a ramdisk in the boot image
 
 ###### Finally here we go...
 
-# Backup if needed
+# Backup if needed.
 backup
 
 # Add mHide fingerprint to $MHGP file.
