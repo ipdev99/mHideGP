@@ -3,7 +3,7 @@
 # Pull prop settings from image files using AIK
 # ipdev99 @ xda-developers
 
-# Originally (and still) written to grab needed/useful props for use with MagiskHidePropsConfig module
+# Originally (and still) written to grab needed/useful props for use with MagiskHide Props Config module
 # by Didgeridoohan @ xda-developers
 # https://forum.xda-developers.com/apps/magisk/module-magiskhide-props-config-t3789228
 
@@ -15,8 +15,8 @@
 # To use.
 # Install AIK
 # Copy the boot and/or recovery image file(s) into the AIK directory
-# Copy aik_mHide.sh and mHideGP.sh into the AIK directory
-# Run aik_mHide.sh
+# Copy aik_mHideGP.sh and mHideGP.sh into the AIK directory
+# Run aik_mHideGP.sh
 #
 # This will run the unpack and mHideGP scripts on all image files in the directory.
 # Merge the generated mhp files into mHide-printslist-DATE.sh.
@@ -30,31 +30,10 @@ TDIR=$(pwd)
 DATE=$(date '+%Y%m%d')
 # DATE=$(date '+%Y%m%d_%H%M')
 OUT=mHide-printslist-"$DATE".sh
-SCRIPT=aik_mHide.sh
+SCRIPT=aik_mHideGP.sh
 
 
 # Set functions
-
-set_target_directory() {
-	if [ ! -f "$SCRIPT" ]; then
-		TDIR=$(lsof 2>/dev/null | grep -o '[^ ]*$' | grep "$SCRIPT" | sed 's/\/'"$SCRIPT"'//g');
-		# Move to target directory
-		cd $TDIR
-	fi
-}
-
-check_files() {
-	if [ ! -f mHideGP.sh ]; then
-		echo " Missing mHideGP script."
-		exit_1;
-	elif [ ! -f cleanup.sh ]; then
-		echo " Missing AIK cleanup script."
-		exit_1;
-	elif [ ! -f unpackimg.sh ]; then
-		echo " Missing AIK unpackimg script."
-		exit_1;
-	fi
-}
 
 add_notes() {
 	echo "\"" >> $OUT
@@ -74,6 +53,19 @@ backup() {
 	fi
 }
 
+check_files() {
+	if [ ! -f mHideGP.sh ]; then
+		echo " Missing mHideGP script."
+		exit_1;
+	elif [ ! -f cleanup.sh ]; then
+		echo " Missing AIK cleanup script."
+		exit_1;
+	elif [ ! -f unpackimg.sh ]; then
+		echo " Missing AIK unpackimg script."
+		exit_1;
+	fi
+}
+
 exit_0() {
 	if [ $ANDROID = "TRUE" ]; then
 		return 0;
@@ -87,6 +79,14 @@ exit_1() {
 		return 1;
 	else
 		exit 1;
+	fi
+}
+
+set_target_directory() {
+	if [ ! -f "$SCRIPT" ]; then
+		TDIR=$(lsof 2>/dev/null | grep -o '[^ ]*$' | grep "$SCRIPT" | sed 's/\/'"$SCRIPT"'//g');
+		# Move to target directory
+		cd $TDIR
 	fi
 }
 
@@ -108,31 +108,40 @@ check_files
 # Start clean
 "$TDIR"/cleanup.sh > /dev/null
 
-# Unpack and run mHide_get_props on all image files in the current directory
+# Extra echo just to clean up screen output.
+echo ""
+
+# Unpack and run mHideGP on all image files in the current directory
 if [ $ANDROID = "TRUE" ]; then
 	echo ""
-	for img in *.img; do
+	for image in *.img; do
 		{
-			echo "$img"
-			"$TDIR"/unpackimg.sh "$img" > /dev/null
-			sh "$TDIR"/mHideGP.sh > /dev/null
+			echo "$image"
+			"$TDIR"/unpackimg.sh "$image" > /dev/null
+			if [ -d ramdisk ]; then
+				sh "$TDIR"/mHideGP.sh > /dev/null
+			else
+				echo " No prop file found. "
+			fi;
 			"$TDIR"/cleanup.sh > /dev/null
 		}
     done
 fi
 
 if [ $ANDROID = "FALSE" ]; then
-	for img in *.img; do
+	for image in *.img; do
 		{
-			"$TDIR"/unpackimg.sh "$img" > /dev/null
-			"$TDIR"/mHideGP.sh > /dev/null
+			echo "$image"
+			"$TDIR"/unpackimg.sh "$image" > /dev/null 2>&1
+			if [ -d ramdisk ]; then
+				"$TDIR"/mHideGP.sh > /dev/null
+			else
+				echo " No prop file found. "
+			fi;
 			"$TDIR"/cleanup.sh > /dev/null
 		}
     done
 fi
-
-# Extra echo just to clean up screen output.
-echo ""
 
 # Backup if needed
 backup
