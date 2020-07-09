@@ -54,15 +54,19 @@ backup() {
 }
 
 check_files() {
+	echo ""
 	if [ ! -f mHideGP.sh ]; then
 		echo " Missing mHideGP script."
-		exit_1;
+		echo ""
+		exit 1;
 	elif [ ! -f cleanup.sh ]; then
 		echo " Missing AIK cleanup script."
-		exit_1;
+		echo ""
+		exit 1;
 	elif [ ! -f unpackimg.sh ]; then
 		echo " Missing AIK unpackimg script."
-		exit_1;
+		echo ""
+		exit 1;
 	fi
 }
 
@@ -121,7 +125,7 @@ if [ $ANDROID = "TRUE" ]; then
 			if [ -d ramdisk ]; then
 				sh "$TDIR"/mHideGP.sh > /dev/null
 			else
-				echo " No prop file found. "
+				echo " No ramdisk directory found. "
 			fi;
 			"$TDIR"/cleanup.sh > /dev/null
 		}
@@ -136,7 +140,7 @@ if [ $ANDROID = "FALSE" ]; then
 			if [ -d ramdisk ]; then
 				"$TDIR"/mHideGP.sh > /dev/null
 			else
-				echo " No prop file found. "
+				echo " No ramdisk directory found. "
 			fi;
 			"$TDIR"/cleanup.sh > /dev/null
 		}
