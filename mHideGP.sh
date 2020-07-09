@@ -112,7 +112,7 @@ check_prop_file() {
 		echo " No prop file found. " >&2
 		echo " Aborting ...  "
 		echo " "
-		exit_1;
+		exit 1;
 	fi
 }
 
@@ -123,7 +123,7 @@ ignore_prop_file() {
  		echo " This prop file is ignored. " >&2
  		echo " Aborting ...  "
  		echo " "
- 		exit_1;
+		exit 1;
  	fi;
 }
 
@@ -397,6 +397,11 @@ if [ $BRAND = "OnePlus" ] || [ $BRAND = "oneplus" ]; then
 	else
 		MPRINT="$DEVICE"" "\("$aOS"\):"$MANF":"$MODL":="$BPRINT"__"$SDATE"
 	fi;
+fi;
+
+# Poco
+if [ $DMDL = "POCO" ] || [ $DMDL = "poco" ]; then
+	MPRINT="$MODL"" "\("$aOS"\):"$MANF":"$MODL":="$BPRINT"__"$SDATE"
 fi;
 
 # Redmi
