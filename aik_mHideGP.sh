@@ -179,7 +179,7 @@ done
 
 # Note backup
 if [ -f "$BACKUPFILE" ]; then
-	echo ""; echo "Your previous "$OUT" file was renamed to "$BACKUPFILE""; echo "";
+	echo ""; echo "Your previous "$OUT" file was renamed to "$BACKUPFILE"";
 fi
 
 # Correct permissions if needed
@@ -197,7 +197,7 @@ for file in *.img; do
 done;
 
 # Finish script
-echo "New mHide-printslist file saved as "$OUT""
+echo ""; echo "New mHide-printslist file saved as "$OUT""
 echo ""; echo "Done."; echo "";
 #
 exit_0;
