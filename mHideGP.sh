@@ -267,6 +267,8 @@ fi
 
 if grep -q ro.product.device= $prop_file; then
 	DEVICE=$(grep ro.product.device= $prop_file | cut -f2 -d '=');
+elif grep -q ro.product.product.device $prop_file; then
+	DEVICE=$(grep ro.product.product.device $prop_file | cut -f2 -d '=');
 elif grep -q ro.product.system.device $prop_file; then
 	DEVICE=$(grep ro.product.system.device $prop_file | cut -f2 -d '=');
 elif grep -q ro.product.vendor.device $prop_file; then
@@ -423,7 +425,7 @@ if [ -f certified.list ]; then
 		CERTMRKNAME=$(grep "$MODL" certified.list | grep "$DEVICE" | tr -d '\n' | cut -f2 | cut -f1 -d' ');
 		if [ $CERTBRAND = "Google" ] || [ $CERTBRAND = "OnePlus" ] || [ $CERTBRAND = "POCO" ] || [ $CERTBRAND = "Redmi" ]; then
 			MPRINT="$CERTNAME"" "\("$aOS"\):"$MANF":"$MODL":="$BPRINT"__"$SDATE"
-		elif [ $CERTMRKNAME = "POCO" ] || [ $CERTMRKNAME = "Redmi" ]; then
+		elif [ $CERTMRKNAME = "Nexus" ] || [ $CERTMRKNAME = "POCO" ] || [ $CERTMRKNAME = "Redmi" ]; then
 			MPRINT="$CERTNAME"" "\("$aOS"\):"$MANF":"$MODL":="$BPRINT"__"$SDATE"
 		else
 			MPRINT="$CERTBRAND"" ""$CERTNAME"" "\("$aOS"\):"$MANF":"$MODL":="$BPRINT"__"$SDATE"
