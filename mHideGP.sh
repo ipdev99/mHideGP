@@ -395,10 +395,15 @@ fi;
 # OnePlus
 if [ $BRAND = "OnePlus" ] || [ $BRAND = "oneplus" ]; then
 	if grep -q ro.display.series $prop_file; then
-		MPRINT="$DSPLY"" "\("$aOS"\):"$MANF":"$MODL":="$BPRINT"__"$SDATE"
+		MPRINT="$DSPLY"" "\["$OPMDL"\]" "\("$aOS"\):"$MANF":"$MODL":="$BPRINT"__"$SDATE"
 	else
-		MPRINT="$DEVICE"" "\("$aOS"\):"$MANF":"$MODL":="$BPRINT"__"$SDATE"
+		MPRINT="$DEVICE"" "\["$OPMDL"\]" "\("$aOS"\):"$MANF":"$MODL":="$BPRINT"__"$SDATE"
 	fi;
+fi;
+
+# LG
+if [ $BRAND = "lge" ] || [ $BRAND = "LGE" ]; then
+	MPRINT=LG" "\["$MODL"\]" "\("$aOS"\):"$MANF":"$MODL":="$BPRINT"__"$SDATE"
 fi;
 
 # Poco
@@ -413,7 +418,7 @@ fi;
 
 # Samsung
 if [ $BRAND = "SAMSUNG" ] || [ $BRAND = "samsung" ]; then
-	MPRINT=Samsung" ""$MODL"" "\("$aOS"\):"$MANF":"$MODL":="$BPRINT"__"$SDATE"
+	MPRINT=Samsung" "\["$MODL"\]" "\("$aOS"\):"$MANF":"$MODL":="$BPRINT"__"$SDATE"
 fi;
 
 # Experimental -- Not sure if I will keep this or integrate it better
@@ -423,8 +428,14 @@ if [ -f certified.list ]; then
 		CERTBRAND=$(grep "$MODL" certified.list | grep "$DEVICE" | tr -d '\n' | cut -f1);
 		CERTNAME=$(grep "$MODL" certified.list | grep "$DEVICE" | tr -d '\n' | cut -f2);
 		CERTMRKNAME=$(grep "$MODL" certified.list | grep "$DEVICE" | tr -d '\n' | cut -f2 | cut -f1 -d' ');
-		if [ $CERTBRAND = "Google" ] || [ $CERTBRAND = "OnePlus" ] || [ $CERTBRAND = "POCO" ] || [ $CERTBRAND = "Redmi" ]; then
+		if [ $CERTBRAND = "Google" ] || [ $CERTBRAND = "POCO" ] || [ $CERTBRAND = "Redmi" ]; then
 			MPRINT="$CERTNAME"" "\("$aOS"\):"$MANF":"$MODL":="$BPRINT"__"$SDATE"
+		elif [ $CERTBRAND = "LGE" ] || [ $CERTBRAND = "LGU+" ]; then
+			MPRINT=LG" ""$CERTNAME"" "\["$MODL"\]" "\("$aOS"\):"$MANF":"$MODL":="$BPRINT"__"$SDATE"
+		elif [ $CERTBRAND = "OnePlus" ]; then
+			MPRINT="$CERTNAME"" "\["$OPMDL"\]" "\("$aOS"\):"$MANF":"$MODL":="$BPRINT"__"$SDATE"
+		elif [ $CERTBRAND = "Samsung" ]; then
+			MPRINT="$CERTBRAND"" ""$CERTNAME"" "\["$MODL"\]" "\("$aOS"\):"$MANF":"$MODL":="$BPRINT"__"$SDATE"
 		elif [ $CERTMRKNAME = "Nexus" ] || [ $CERTMRKNAME = "POCO" ] || [ $CERTMRKNAME = "Redmi" ]; then
 			MPRINT="$CERTNAME"" "\("$aOS"\):"$MANF":"$MODL":="$BPRINT"__"$SDATE"
 		else
@@ -503,14 +514,16 @@ echo "# # Pulled from "$prop_file"" >> $MHGP
 # fi
 
 # Android device
-if [ -f getprop.props ]; then
-	echo ""
-	echo "When run on an Android device."
-	echo "An extra file is generated. (getprop.props)"
-	mv getprop.props "$LBRND"_"$LMODL"_"$BUTC"-getprop.props
-	echo "This extra file has been saved as "$LBRND"_"$LMODL"_"$BUTC"-getprop.props"
-	echo "Keep it or delete it as you wish.."
-fi
+if [ $ANDROID = "TRUE" ]; then
+	if [ -f getprop.props ]; then
+		echo ""
+		echo "When run on an Android device."
+		echo "An extra file is generated. (getprop.props)"
+		mv getprop.props "$LBRND"_"$LMODL"_"$BUTC"-getprop.props
+		echo "This extra file has been saved as "$LBRND"_"$LMODL"_"$BUTC"-getprop.props"
+		echo "Keep it or delete it as you wish.."
+	fi;
+fi;
 
 # Note backup
 if [ -f "$BACKUPFILE" ]; then
