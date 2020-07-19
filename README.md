@@ -34,7 +34,7 @@ When run on an Android device, it will still check for a device prop file. If no
 
 **concat_mHideGP**  
   
-This script will merge all the _mhP_ files created by mHideGP into a new file named _mHide-printslist-CurrentDate_.  
+This script will merge all the _mhp_ files created by mHideGP into a new file named _mHide-printslist-CurrentDate_.  
   
 
 **aik_mHideGP**  
