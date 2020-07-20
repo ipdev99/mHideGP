@@ -377,7 +377,7 @@ if [ $DMDL = "Redmi" ] || [ $DMDL = "redmi" ]; then
 	MHGP="$TDIR"/mhp_"$LMODL"_"$BUTC".sh
 fi;
 
-# Set MagiskHidePropsConfig fingerprint.
+# Set MagiskHide Props Config fingerprint.
 
 # Generic
 MPRINT="$BRAND"" ""$MODL"" "\("$aOS"\):"$MANF":"$MODL":="$BPRINT"__"$SDATE"
@@ -422,25 +422,34 @@ if [ $BRAND = "SAMSUNG" ] || [ $BRAND = "samsung" ]; then
 fi;
 
 # Experimental -- Not sure if I will keep this or integrate it better
-# Set from certified.list
+# Set MagiskHide Props Config fingerprint from certified.list
+
 if [ -f certified.list ]; then
 	if grep -q "$DEVICE" certified.list; then
 		CERTBRAND=$(grep "$MODL" certified.list | grep "$DEVICE" | tr -d '\n' | cut -f1);
 		CERTNAME=$(grep "$MODL" certified.list | grep "$DEVICE" | tr -d '\n' | cut -f2);
 		CERTMRKNAME=$(grep "$MODL" certified.list | grep "$DEVICE" | tr -d '\n' | cut -f2 | cut -f1 -d' ');
-		if [ $CERTBRAND = "Google" ] || [ $CERTBRAND = "POCO" ] || [ $CERTBRAND = "Redmi" ]; then
-			MPRINT="$CERTNAME"" "\("$aOS"\):"$MANF":"$MODL":="$BPRINT"__"$SDATE"
-		elif [ $CERTBRAND = "LGE" ] || [ $CERTBRAND = "LGU+" ]; then
-			MPRINT=LG" ""$CERTNAME"" "\["$MODL"\]" "\("$aOS"\):"$MANF":"$MODL":="$BPRINT"__"$SDATE"
-		elif [ $CERTBRAND = "OnePlus" ]; then
-			MPRINT="$CERTNAME"" "\["$OPMDL"\]" "\("$aOS"\):"$MANF":"$MODL":="$BPRINT"__"$SDATE"
-		elif [ $CERTBRAND = "Samsung" ]; then
-			MPRINT="$CERTBRAND"" ""$CERTNAME"" "\["$MODL"\]" "\("$aOS"\):"$MANF":"$MODL":="$BPRINT"__"$SDATE"
-		elif [ $CERTMRKNAME = "Nexus" ] || [ $CERTMRKNAME = "POCO" ] || [ $CERTMRKNAME = "Redmi" ]; then
-			MPRINT="$CERTNAME"" "\("$aOS"\):"$MANF":"$MODL":="$BPRINT"__"$SDATE"
-		else
-			MPRINT="$CERTBRAND"" ""$CERTNAME"" "\("$aOS"\):"$MANF":"$MODL":="$BPRINT"__"$SDATE"
-		fi;
+	fi;
+
+	if grep -q "$DEVICE" certified.list | grep "$MODL" | grep "Xiaomi"; then
+		echo " Xiaomi device found ";
+		CERTBRAND=$(grep "$MODL" certified.list | grep "$DEVICE" | grep Xiaomi | tr -d '\n' | cut -f1);
+		CERTNAME=$(grep "$MODL" certified.list | grep "$DEVICE" | grep Xiaomi | tr -d '\n' | cut -f2);
+		CERTMRKNAME=$(grep "$MODL" certified.list | grep "$DEVICE" | grep Xiaomi | tr -d '\n' | cut -f2 | cut -f1 -d' ');
+	fi;
+
+	if [ "$CERTBRAND" = "Google" ] || [ "$CERTBRAND" = "POCO" ] || [ "$CERTBRAND" = "Redmi" ]; then
+		MPRINT="$CERTNAME"" "\("$aOS"\):"$MANF":"$MODL":="$BPRINT"__"$SDATE"
+	elif [ "$CERTBRAND" = "LGE" ] || [ "$CERTBRAND" = "LGU+" ]; then
+		MPRINT=LG" ""$CERTNAME"" "\["$MODL"\]" "\("$aOS"\):"$MANF":"$MODL":="$BPRINT"__"$SDATE"
+	elif [ "$CERTBRAND" = "OnePlus" ]; then
+		MPRINT="$CERTNAME"" "\["$OPMDL"\]" "\("$aOS"\):"$MANF":"$MODL":="$BPRINT"__"$SDATE"
+	elif [ "$CERTBRAND" = "Samsung" ]; then
+		MPRINT="$CERTBRAND"" ""$CERTNAME"" "\["$MODL"\]" "\("$aOS"\):"$MANF":"$MODL":="$BPRINT"__"$SDATE"
+	elif [ "$CERTMRKNAME" = "Nexus" ] || [ "$CERTMRKNAME" = "POCO" ] || [ "$CERTMRKNAME" = "Redmi" ]; then
+		MPRINT="$CERTNAME"" "\("$aOS"\):"$MANF":"$MODL":="$BPRINT"__"$SDATE"
+	else
+		MPRINT="$CERTBRAND"" ""$CERTNAME"" "\("$aOS"\):"$MANF":"$MODL":="$BPRINT"__"$SDATE"
 	fi;
 fi;
 
