@@ -432,7 +432,6 @@ if [ -f certified.list ]; then
 	fi;
 
 	if grep -q "$DEVICE" certified.list | grep "$MODL" | grep "Xiaomi"; then
-		echo " Xiaomi device found ";
 		CERTBRAND=$(grep "$MODL" certified.list | grep "$DEVICE" | grep Xiaomi | tr -d '\n' | cut -f1);
 		CERTNAME=$(grep "$MODL" certified.list | grep "$DEVICE" | grep Xiaomi | tr -d '\n' | cut -f2);
 		CERTMRKNAME=$(grep "$MODL" certified.list | grep "$DEVICE" | grep Xiaomi | tr -d '\n' | cut -f2 | cut -f1 -d' ');
@@ -479,15 +478,14 @@ add_device_title
 
 # Experimental -- Not sure if I will keep this or integrate it better
 # Needs more cleanup due to shared variations in the certified list
-# Retail Branding  Marketing Name  Device  Model
+# Retail Branding   Marketing Name   Device   Model
 
 # Add tag from certified list
 if [ -f certified.list ]; then
 	if grep -q "$DEVICE" certified.list; then
 		echo "#" | tee -a $MHGP
-		## echo "# -- Experimental --" | tee -a $MHGP
 		echo "# Device is on certified list" | tee -a $MHGP
-		grep "$MODL" certified.list | grep "$DEVICE" | tr '\t' '>' | sed 's/>/  /g; s/^/# /g' | tee -a $MHGP
+		grep "$MODL" certified.list | grep "$DEVICE" | tr '\t' '>' | sed 's/>/   /g; s/^/# /g' | tee -a $MHGP
 		echo "#" | tee -a $MHGP
 	fi;
 fi;
