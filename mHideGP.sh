@@ -431,13 +431,20 @@ if [ -f certified.list ]; then
 		CERTMRKNAME=$(grep "$MODL" certified.list | grep "$DEVICE" | tr -d '\n' | cut -f2 | cut -f1 -d' ');
 	fi;
 
-	if grep -q "$DEVICE" certified.list | grep "$MODL" | grep "Xiaomi"; then
+	if [ $BRAND = "Xiaomi" ] || [ $BRAND = "xiaomi" ]; then
 		CERTBRAND=$(grep "$MODL" certified.list | grep "$DEVICE" | grep Xiaomi | tr -d '\n' | cut -f1);
 		CERTNAME=$(grep "$MODL" certified.list | grep "$DEVICE" | grep Xiaomi | tr -d '\n' | cut -f2);
 		CERTMRKNAME=$(grep "$MODL" certified.list | grep "$DEVICE" | grep Xiaomi | tr -d '\n' | cut -f2 | cut -f1 -d' ');
+		if [ "$CERTBRAND" = "" ]; then
+			CERTBRAND=$(grep "$MODL" certified.list | grep "$DEVICE" | tr -d '\n' | cut -f1);
+			CERTNAME=$(grep "$MODL" certified.list | grep "$DEVICE" | tr -d '\n' | cut -f2);
+			CERTMRKNAME=$(grep "$MODL" certified.list | grep "$DEVICE" | tr -d '\n' | cut -f2 | cut -f1 -d' ');
+		fi;
 	fi;
 
 	if [ "$CERTBRAND" = "Google" ] || [ "$CERTBRAND" = "POCO" ] || [ "$CERTBRAND" = "Redmi" ]; then
+		MPRINT="$CERTNAME"" "\("$aOS"\):"$MANF":"$MODL":="$BPRINT"__"$SDATE"
+	elif [ "$CERTMRKNAME" = "Nexus" ] || [ "$CERTMRKNAME" = "POCO" ] || [ "$CERTMRKNAME" = "Redmi" ]; then
 		MPRINT="$CERTNAME"" "\("$aOS"\):"$MANF":"$MODL":="$BPRINT"__"$SDATE"
 	elif [ "$CERTBRAND" = "LGE" ] || [ "$CERTBRAND" = "LGU+" ]; then
 		MPRINT=LG" ""$CERTNAME"" "\["$MODL"\]" "\("$aOS"\):"$MANF":"$MODL":="$BPRINT"__"$SDATE"
@@ -445,8 +452,6 @@ if [ -f certified.list ]; then
 		MPRINT="$CERTNAME"" "\["$OPMDL"\]" "\("$aOS"\):"$MANF":"$MODL":="$BPRINT"__"$SDATE"
 	elif [ "$CERTBRAND" = "Samsung" ]; then
 		MPRINT="$CERTBRAND"" ""$CERTNAME"" "\["$MODL"\]" "\("$aOS"\):"$MANF":"$MODL":="$BPRINT"__"$SDATE"
-	elif [ "$CERTMRKNAME" = "Nexus" ] || [ "$CERTMRKNAME" = "POCO" ] || [ "$CERTMRKNAME" = "Redmi" ]; then
-		MPRINT="$CERTNAME"" "\("$aOS"\):"$MANF":"$MODL":="$BPRINT"__"$SDATE"
 	else
 		MPRINT="$CERTBRAND"" ""$CERTNAME"" "\("$aOS"\):"$MANF":"$MODL":="$BPRINT"__"$SDATE"
 	fi;
