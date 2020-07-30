@@ -107,7 +107,7 @@ if [ -f "$BACKUPFILE" ]; then
 fi
 
 # Finish script
-echo "New Certified list file saved as "$TARGET""
+echo ""; echo "New Certified list file saved as "$TARGET"";
 echo ""; echo "Done."; echo "";
 #
 exit 0;
