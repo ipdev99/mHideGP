@@ -126,7 +126,7 @@ if [ $ANDROID = "TRUE" ]; then
 				echo " No ramdisk directory found. "
 			fi
 			if [ -f ramdisk/prop.default ] || [ -f ramdisk/default.prop ]; then
-					sh "$TDIR"/mHideGP.sh > /dev/null
+				sh "$TDIR"/mHideGP.sh > /dev/null
 			else
 				echo " No prop file found. "
 			fi;
