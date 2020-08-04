@@ -122,10 +122,13 @@ if [ $ANDROID = "TRUE" ]; then
 		{
 			echo "$image"
 			"$TDIR"/unpackimg.sh "$image" > /dev/null
-			if [ -d ramdisk ]; then
-				sh "$TDIR"/mHideGP.sh > /dev/null
-			else
+			if [ ! -d ramdisk ]; then
 				echo " No ramdisk directory found. "
+			fi
+			if [ -f ramdisk/prop.default ] || [ -f ramdisk/default.prop ]; then
+					sh "$TDIR"/mHideGP.sh > /dev/null
+			else
+				echo " No prop file found. "
 			fi;
 			"$TDIR"/cleanup.sh > /dev/null
 		}
