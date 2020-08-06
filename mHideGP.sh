@@ -12,7 +12,7 @@
 # by osm0sis @ xda-developers
 # https://forum.xda-developers.com/showthread.php?t=2073775
 
-# To use on computer. (MacOS/Linux)
+# To use a boot or recovery image file. (Android, Linux and MacOS)
 # Install AIK
 # Copy the boot or recovery image files into the AIK directory
 # Copy mHideGP.sh into the AIK directory
@@ -22,12 +22,18 @@
 #
 # If used with another method, make sure to make changes in the script accordingly.
 
-# To use on device.
+# To use on a stock device. (Android)
+#  Note: This will generate a getprops.prop file along with the mhp file.
 # Copy this script to the device.
 # Run from adb shell (or a terminal app) using the sh command.
 #  sh mHideGP.sh
 # Run from a file manager that is able to execute a script file.
 #  Note: May or may not work depending on file manager..
+
+# To use with a prop file. (Android, Linux and MacOS)
+# Copy this script and a build.prop, default.prop, prop.default or getprop.props
+# file into the same directory.
+# Run mHideGP.sh
 #
 
 # Set main variables
@@ -50,7 +56,7 @@ set_target_directory() {
 
 exit_0() {
 	if [ $ANDROID = "TRUE" ]; then
-		return 0;
+		return 0; exit 0;
 	else
 		exit 0;
 	fi
@@ -58,7 +64,7 @@ exit_0() {
 
 exit_1() {
 	if [ $ANDROID = "TRUE" ]; then
-		return 1;
+		return 1; exit 1;
 	else
 		exit 1;
 	fi
@@ -125,6 +131,36 @@ ignore_prop_file() {
  		echo " "
 		exit 1;
  	fi;
+}
+
+rename_prop_files() {
+	if [ -f build.prop ]; then
+		# echo ""
+		mv build.prop "$APFN"-build.prop
+		echo "build.prop file has been renamed to "$APFN"-build.prop"
+		echo "Keep it or delete it as you wish.."
+	fi
+
+	if [ -f prop.default ]; then
+		# echo ""
+		mv prop.default "$APFN"-prop.default
+		echo "prop.default file has been renamed as "$APFN"-prop.default"
+		echo "Keep it or delete it as you wish.."
+	fi
+
+	if [ -f default.prop ]; then
+		# echo ""
+		mv default.prop "$APFN"-default.prop
+		echo "default.prop file has been renamed as "$APFN"-default.prop"
+		echo "Keep it or delete it as you wish.."
+	fi
+
+	if [ -f getprop.props ]; then
+		# echo ""
+		mv getprop.props "$APFN"-getprop.props
+		echo "getprop.props file has been renamed as "$APFN"-getprop.props"
+		echo "Keep it or delete it as you wish.."
+	fi
 }
 
 get_prop_info() {
@@ -377,6 +413,31 @@ if [ $DMDL = "Redmi" ] || [ $DMDL = "redmi" ]; then
 	MHGP="$TDIR"/mhp_"$LMODL"_"$BUTC".sh
 fi;
 
+# Set name to use for additional prop files in the current directory.
+
+# Generic
+APFN="$LBRND"_"$LMODL"_"$BUTC"
+
+# Google
+if [ $BRAND = "Google" ] || [ $BRAND = "google" ]; then
+	APFN="$LMODL"_"$BUTC"
+fi;
+
+# OnePlus
+if [ $BRAND = "OnePlus" ] || [ $BRAND = "oneplus" ]; then
+	APFN="$LDEVICE"_"$BUTC"
+fi;
+
+# Poco
+if [ $DMDL = "POCO" ] || [ $DMDL = "poco" ]; then
+	APFN="$LMODL"_"$BUTC"
+fi;
+
+# Readmi
+if [ $DMDL = "Redmi" ] || [ $DMDL = "redmi" ]; then
+	APFN="$LMODL"_"$BUTC"
+fi;
+
 # Set MagiskHide Props Config fingerprint.
 
 # Generic
@@ -525,21 +586,27 @@ echo "# # Pulled from "$prop_file"" >> $MHGP
 # 	rm getprop.props
 # fi
 
-# Android device
-if [ $ANDROID = "TRUE" ]; then
-	if [ -f getprop.props ]; then
-		echo ""
-		echo "When run on an Android device."
-		echo "An extra file is generated. (getprop.props)"
-		mv getprop.props "$LBRND"_"$LMODL"_"$BUTC"-getprop.props
-		echo "This extra file has been saved as "$LBRND"_"$LMODL"_"$BUTC"-getprop.props"
-		echo "Keep it or delete it as you wish.."
-	fi;
-fi;
+# Rename additional prop files if needed.
+if [ -f build.prop ] || [ -f default.prop ] || [ -f prop.default ] || [ -f getprop.props ]; then
+	echo ""; echo " If an additional prop file is found or used, it will be renamed.";
+	rename_prop_files
+fi
+
+# # Android device
+# if [ $ANDROID = "TRUE" ]; then
+# 	if [ -f getprop.props ]; then
+# 		echo ""
+# 		echo "When run on an Android device."
+# 		echo "An extra file is generated. (getprop.props)"
+# 		mv getprop.props "$LBRND"_"$LMODL"_"$BUTC"-getprop.props
+# 		echo "This extra file has been saved as "$LBRND"_"$LMODL"_"$BUTC"-getprop.props"
+# 		echo "Keep it or delete it as you wish.."
+# 	fi;
+# fi;
 
 # Note backup
 if [ -f "$BACKUPFILE" ]; then
-	echo ""; echo "Your previous "$MHGP" file was renamed to "$BACKUPFILE""; echo "";
+	echo ""; echo " Your previous "$MHGP" file was renamed to "$BACKUPFILE""; # echo "";
 fi
 
 # Correct permissions if needed
@@ -551,7 +618,7 @@ if [ $ANDROID = "FALSE" ]; then
 fi;
 
 # Finish script
-echo " "; echo "Done."; echo " ";
-echo "New prop file saved as "$MHGP""; echo " ";
+echo ""; echo " Done."; echo "";
+echo " New prop file saved as "$MHGP""; echo "";
 #
 exit_0;
