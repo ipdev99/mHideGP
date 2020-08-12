@@ -16,6 +16,7 @@
 # Install AIK
 # Copy the boot and/or recovery image file(s) into the AIK directory
 # Copy aik_mHideGP.sh and mHideGP.sh into the AIK directory
+# Copy extra prop files into the AIK directory (optional) (See Update Note below.)
 # Run aik_mHideGP.sh
 #
 # This will run the unpack and mHideGP scripts on all image files in the directory.
@@ -23,6 +24,12 @@
 # Remove all the generated mph files.
 
 # If used with another method, make sure to make changes in the script(s) accordingly.
+
+# Update Note.
+# This script now supports additional prop files.
+# It will also look for files ending in: build.prop default.prop prop.default or getprop.props
+# in the same (AIK) directory.
+#
 
 # Set variables
 
@@ -72,7 +79,7 @@ check_files() {
 
 exit_0() {
 	if [ $ANDROID = "TRUE" ]; then
-		return 0;
+		return 0; exit 0;
 	else
 		exit 0;
 	fi
@@ -80,9 +87,31 @@ exit_0() {
 
 exit_1() {
 	if [ $ANDROID = "TRUE" ]; then
-		return 1;
+		return 1; exit 1;
 	else
 		exit 1;
+	fi
+}
+
+rename_prop_files() {
+	if [ -f build.prop ]; then
+		FLDT=$(date -r build.prop '+%Y%m%d')
+		mv build.prop "$FLDT"_build.prop
+	fi
+
+	if [ -f prop.default ]; then
+		FLDT=$(date -r prop.default '+%Y%m%d')
+		mv prop.default "$FLDT"_prop.default
+	fi
+
+	if [ -f default.prop ]; then
+		FLDT=$(date -r default.prop '+%Y%m%d')
+		mv default.prop "$FLDT"_default.prop
+	fi
+
+	if [ -f getprop.props ]; then
+		FLDT=$(date -r getprop.props '+%Y%m%d')
+		mv getprop.props "$FLDT"_getprop.props
 	fi
 }
 
@@ -109,15 +138,18 @@ set_target_directory
 # Check for required files.
 check_files
 
+# Rename additional prop files if needed.
+rename_prop_files
+
 # Start clean
 "$TDIR"/cleanup.sh > /dev/null
 
-# Extra echo just to clean up screen output.
-echo ""
+# # Extra echo just to clean up screen output.
+# echo ""
 
-# Unpack and run mHideGP on all image files in the current directory
+# Unpack and run mHideGP on all image files in the current directory.
 if [ $ANDROID = "TRUE" ]; then
-	echo ""
+	# echo "-- Image Files. --"; echo "";
 	for image in *.img; do
 		{
 			echo "$image"
@@ -135,6 +167,7 @@ if [ $ANDROID = "TRUE" ]; then
 fi
 
 if [ $ANDROID = "FALSE" ]; then
+	# echo "-- Image Files. --"; echo "";
 	for image in *.img; do
 		{
 			echo "$image"
@@ -150,6 +183,49 @@ if [ $ANDROID = "FALSE" ]; then
 		}
     done
 fi
+
+# Run mHideGP on additional prop files in the current directory.
+AdditionalPropFile=('build.prop' 'default.prop' 'prop.default' 'getprop.props')
+
+if [ $ANDROID = "TRUE" ]; then
+	# echo ""; echo "-- Additional Prop Files. --"; echo "";
+	for pfile in "${AdditionalPropFile[@]}"; do
+		{
+			for propfile in *"$pfile"; do
+				{
+					if [ -f "$propfile" ]; then
+						echo "$propfile"
+						mv "$propfile" "$pfile"
+						sh "$TDIR"/mHideGP.sh > /dev/null
+						if [ -f "$pfile" ]; then
+							mv "$pfile" "$propfile"
+						fi;
+					fi;
+				}
+			done;
+		}
+	done;
+fi;
+
+if [ $ANDROID = "FALSE" ]; then
+	# echo ""; echo "-- Additional Prop Files. --"; echo "";
+	for pfile in "${AdditionalPropFile[@]}"; do
+		{
+			for propfile in *"$pfile"; do
+				{
+					if [ -f "$propfile" ]; then
+						echo "$propfile"
+						mv "$propfile" "$pfile"
+						"$TDIR"/mHideGP.sh > /dev/null
+						if [ -f "$pfile" ]; then
+							mv "$pfile" "$propfile"
+						fi;
+					fi;
+				}
+			done;
+		}
+	done;
+fi;
 
 # Backup if needed
 backup
