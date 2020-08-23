@@ -48,9 +48,8 @@ SCRIPT=mHideGP.sh
 
 set_target_directory() {
 	if [ ! -f "$SCRIPT" ]; then
-		TDIR=$(lsof 2>/dev/null | grep -o '[^ ]*$' | grep "$SCRIPT" | sed 's/\/'"$SCRIPT"'//g');
-		# Move to target directory
-		cd $TDIR
+		TDIR=$(lsof 2>/dev/null | grep -o '[^ ]*$' | grep -m1 "$SCRIPT" | sed 's/\/'"$SCRIPT"'//g');
+		cd $TDIR;
 	fi
 }
 
@@ -250,7 +249,7 @@ else
 	ANDROID=FALSE
 fi
 
-# Reset target directory if needed.
+# Reset and move to the target directory if needed.
 set_target_directory
 
 # Set prop file to use.
