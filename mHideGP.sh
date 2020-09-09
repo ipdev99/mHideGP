@@ -503,9 +503,9 @@ if [ -f certified.list ]; then
 	fi;
 
 	if [ "$CERTBRAND" = "Google" ] || [ "$CERTBRAND" = "POCO" ] || [ "$CERTBRAND" = "Redmi" ]; then
-		MPRINT="$CERTNAME"" "\("$aOS"\):"$MANF":"$MODL":="$BPRINT"__"$SDATE"
+		MPRINT="$CERTNAME"" "\("$aOS"\):"$MANF":"$MODL"="$BPRINT"__"$SDATE"
 	elif [ "$CERTMRKNAME" = "Nexus" ] || [ "$CERTMRKNAME" = "POCO" ] || [ "$CERTMRKNAME" = "Redmi" ]; then
-		MPRINT="$CERTNAME"" "\("$aOS"\):"$MANF":"$MODL":="$BPRINT"__"$SDATE"
+		MPRINT="$CERTNAME"" "\("$aOS"\):"$MANF":"$MODL"="$BPRINT"__"$SDATE"
 	elif [ "$CERTBRAND" = "LGE" ] || [ "$CERTBRAND" = "LGU+" ]; then
 		MPRINT=LG" ""$CERTNAME"" "\["$MODL"\]" "\("$aOS"\):"$MANF":"$MODL"="$BPRINT"__"$SDATE"
 	elif [ "$CERTBRAND" = "OnePlus" ]; then
