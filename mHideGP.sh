@@ -260,7 +260,7 @@ check_prop_file
 
 # Set variables
 SDATE=$(grep ro.build.version.security_patch $prop_file | cut -f2 -d '=');
-aOS=$(grep ro.build.version.release $prop_file | cut -f2 -d '=');
+aOS=$(grep ro.build.version.release= $prop_file | cut -f2 -d '=');
 SDK=$(grep ro.build.version.sdk $prop_file | cut -f2 -d '=');
 BUTC=$(grep ro.build.date.utc $prop_file | cut -f2 -d '=');
 # Add sed to remove double space in some build dates.
