@@ -276,20 +276,26 @@ BDATE=$(grep ro.build.date= $prop_file | sed 's/  / /g' | cut -f2,3,6 -d ' ');
 
 if grep -q ro.bootimage.build.fingerprint $prop_file; then
 	BPRINT=$(grep ro.bootimage.build.fingerprint $prop_file | cut -f2 -d '=');
-else
+elif grep -q ro.build.fingerprint $prop_file; then
 	BPRINT=$(grep ro.build.fingerprint $prop_file | cut -f2 -d '=');
+else
+	BPRINT=$(grep ro.system.build.fingerprint $prop_file | cut -f2 -d '=');
 fi
 
 if grep -q ro.product.model $prop_file; then
 	MODL=$(grep ro.product.model $prop_file | cut -f2 -d '=');
-else
+elif grep -q ro.product.vendor.model $prop_file; then
 	MODL=$(grep ro.product.vendor.model $prop_file | cut -f2 -d '=');
+else
+	MODL=$(grep ro.product.system.model $prop_file | cut -f2 -d '=');
 fi
 
 if grep -q ro.product.manufacture $prop_file; then
 	MANF=$(grep ro.product.manufacture $prop_file | cut -f2 -d '=');
-else
+elif grep -q ro.product.vendor.manufacturer $prop_file; then
 	MANF=$(grep ro.product.vendor.manufacturer $prop_file | cut -f2 -d '=');
+else
+	MANF=$(grep ro.product.system.manufacturer $prop_file | cut -f2 -d '=');
 fi
 
 if grep -q ro.product.brand $prop_file; then
@@ -318,8 +324,10 @@ fi
 
 if grep -q ro.product.model $prop_file; then
 	DMDL=$(grep ro.product.model $prop_file | cut -f2 -d '=' | cut -f1 -d' ');
-else
+elif grep -q ro.product.vendor.model $prop_file; then
 	DMDL=$(grep ro.product.vendor.model $prop_file | cut -f2 -d '=' | cut -f1 -d' ');
+else
+	DMDL=$(grep ro.product.system.model $prop_file | cut -f2 -d '=' | cut -f1 -d' ');
 fi
 
 # Check and ignore if certain values can not be determined.
@@ -365,8 +373,10 @@ fi
 
 if grep -q ro.product.model $prop_file; then
 	LMODL=$(grep ro.product.model $prop_file | cut -f2 -d '=' | sed 's/ /_/g' | tr [:upper:] [:lower:]);
-else
+elif grep -q ro.product.vendor.model $prop_file; then
 	LMODL=$(grep ro.product.vendor.model $prop_file | cut -f2 -d '=' | sed 's/ /_/g' | tr [:upper:] [:lower:]);
+else
+	LMODL=$(grep ro.product.system.model $prop_file | cut -f2 -d '=' | sed 's/ /_/g' | tr [:upper:] [:lower:]);
 fi
 
 if grep -q ro.product.brand= $prop_file; then
@@ -383,8 +393,10 @@ fi
 
 if grep -q ro.product.manufacture $prop_file; then
 	LMAN=$(grep ro.product.manufacture $prop_file | cut -f2 -d '=' | tr [:upper:] [:lower:]);
-else
+elif grep -q ro.product.vendor.manufacturer $prop_file; then
 	LMAN=$(grep ro.product.vendor.manufacturer $prop_file | cut -f2 -d '=' | tr [:upper:] [:lower:]);
+else
+	LMAN=$(grep ro.product.system.manufacturer $prop_file | cut -f2 -d '=' | tr [:upper:] [:lower:]);
 fi
 
 # Set MHGP file name.
@@ -558,9 +570,11 @@ fi;
 # grep fingerprint and security date | sed command to add beginning comment [# ] | tee -a to add it to $MHGP
 if grep -q ro.bootimage.build.fingerprint $prop_file; then
 	grep ro.bootimage.build.fingerprint $prop_file | sed 's/^/# /g' | tee -a $MHGP
-else
+elif grep -q ro.build.fingerprint $prop_file; then
 	grep ro.build.fingerprint $prop_file | sed 's/^/# /g' | tee -a $MHGP
-fi
+else
+	grep ro.system.build.fingerprint $prop_file | sed 's/^/# /g' | tee -a $MHGP
+fi;
 
 grep ro.build.version.security_patch $prop_file | sed 's/^/# /g' | tee -a $MHGP
 
