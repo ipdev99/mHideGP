@@ -2185,6 +2185,7 @@ BQru	BQ-5730L	BQru-5730L	BQ-5730L
 BQru	BQ-5731L Magic S	BQru-5731L	BQ-5731L
 BQru	BQ-5732L	BQru-5732L	BQ-5732L
 BQru	BQ-5740G	BQru-5740G	BQ-5740G
+BQru	BQ-5740G_7731	BQru-5740G_7731	BQ-5740G
 BQru	BQ-6000L Aurora	BQru-6000L	BQ-6000L
 BQru	BQ-6001 L	BQru-6001L	BQ-6001L
 BQru	BQ-6010G	BQru_6010G	BQ-6010G
@@ -17484,6 +17485,8 @@ Orange	Neva start	Neva_start	Orange Neva start
 Orange	Nura	M812	Orange Nura
 Orange	Nura2	m823_orange	Nura 2
 Orange	Orange	Rise_55	Orange Rise 55
+Orange	Orange Neva play	Neva_play	Orange Neva play
+Orange	Orange Neva zen	Neva_zen	Orange Neva zen
 Orange	Orange Nola play	Nola_play	Orange Nola play
 Orange	Orange Rise 33	Rise33	Orange_Rise_33
 Orange	Orange Rise 53	Rise_53	Orange Rise 53
@@ -19964,7 +19967,6 @@ Samsung	Galaxy A51	a51	SM-A515U
 Samsung	Galaxy A51	a51	SM-A515U1
 Samsung	Galaxy A51	a51	SM-A515W
 Samsung	Galaxy A51	a51	SM-S515DL
-Samsung	Galaxy A51 5G	SC-54A	SC-54A
 Samsung	Galaxy A51 5G	a51x	SM-A5160
 Samsung	Galaxy A51 5G	a51x	SM-A516B
 Samsung	Galaxy A51 5G	a51x	SM-A516N
@@ -21742,6 +21744,7 @@ Samsung	Galaxy Tab Active2	gtactive2wifi	SM-T390
 Samsung	Galaxy Tab Active3	gtactive3	SM-T575
 Samsung	Galaxy Tab Active3	gtactive3	SM-T575N
 Samsung	Galaxy Tab Active3	gtactive3	SM-T577
+Samsung	Galaxy Tab Active3	gtactive3	SM-T577U
 Samsung	Galaxy Tab Active3	gtactive3wifi	SM-T570
 Samsung	Galaxy Tab Advanced2	gtaxladwifikx	SM-T583
 Samsung	Galaxy Tab E	gtel3g	SM-T561M
