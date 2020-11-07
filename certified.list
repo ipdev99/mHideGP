@@ -2864,6 +2864,7 @@ Bluebird	EF501	EF501	EF501
 Bluebird	EF501R	EF501	EF501
 Bluebird	EF501R	EF501	EF501R_RU
 Bluebird	EF550	EF550	EF550
+Bluebird	EF550	EF550R	EF550R
 Bluebird	HF450	HF450	HF450
 Bluebird	HF550	HF550	HF550
 Bluebird	HF550	HF550	HF550_RU
@@ -5146,6 +5147,7 @@ Envizen Digital	V100MD	V100MD	V100MD
 Envizen Digital	V917G	GK-MID9022	V917G
 Envizen Digital	VMD1029	VMD1029	VMD1029
 Epson	Epson	embt4	EMBT4
+Epson	Projector	sti6200d101	Projector
 Epson	STI6110	Bushi	STI6110
 Epson	embt4	embt4	EMBT4
 Epson	embt4cn	embt4	EMBT4
@@ -10881,6 +10883,7 @@ Itel	S42	itel-S42	itel S42
 Itel	SP591	itel-W6004	itel W6004
 Itel	Vision1	itel-L6005	itel L6005
 Itel	Vision1 Plus(P36 Pro LTE)	itel-L6501	itel L6501
+Itel	Vision1Pro	itel-L6502	itel L6502
 Itel	it1355	itel_it1355	itel it1355
 Itel	it1355M	itel_it1355M	itel it1355M
 Itel	it1407	itel_it1407	itel it1407
@@ -10918,6 +10921,7 @@ Itel	itel A11	itel_A11	itel A11
 Itel	itel A14	itel-A14	itel A14
 Itel	itel A14	itel-A14	itel A14TZ
 Itel	itel A14 Max	itel-W4003	itel W4003
+Itel	itel A14 Plus	itel-W4002	itel W4002
 Itel	itel A14S	itel-A14S	itel A14S
 Itel	itel A16	itel-A16	itel A16
 Itel	itel A16	itel-A16	itel A16TZ
@@ -13929,6 +13933,7 @@ Lenovo	Lenovo Tab P10	X705F	Lenovo TB-X705F
 Lenovo	Lenovo Tab P10	X705L	Lenovo TB-X705L
 Lenovo	Lenovo Tab P10	X705M	Lenovo TB-X705M
 Lenovo	Lenovo Tab P11	J606F	Lenovo TB-J606F
+Lenovo	Lenovo Tab P11	J606L	Lenovo TB-J606L
 Lenovo	Lenovo Tab P11 Pro	J706F	Lenovo TB-J706F
 Lenovo	Lenovo Tab P11 Pro	J706L	Lenovo TB-J706L
 Lenovo	Lenovo Tab V7	PB-6505M	Lenovo PB-6505M
@@ -15396,6 +15401,7 @@ Mobicell	Mobicel ICE	ICE	ICE
 Mobicell	Mobicel_R1	Mobicel_R1	Mobicel_R1
 Mobicell	Mobicel_R6	Mobicel_R6	Mobicel_R6
 Mobicell	NEO	NEO	NEO
+Mobicell	NEO LTE	Neo_LTE	Neo LTE
 Mobicell	ONYX	ONYX	ONYX
 Mobicell	PLAY	PLAY	PLAY
 Mobicell	PLUM	PLUM	PLUM
@@ -16807,6 +16813,9 @@ Nokia	Nokia 3.1 Plus	ROO	Nokia 3.1 Plus
 Nokia	Nokia 3.1 Plus	ROON_sprout	Nokia 3.1 Plus
 Nokia	Nokia 3.1 Plus	ROO_sprout	Nokia 3.1 Plus
 Nokia	Nokia 3.2	DPL_sprout	Nokia 3.2
+Nokia	Nokia 3.4	DRS	Nokia 3.4
+Nokia	Nokia 3.4	DRSA_sprout	Nokia 3.4
+Nokia	Nokia 3.4	DRS_sprout	Nokia 3.4
 Nokia	Nokia 4.2	PAN_sprout	Nokia 4.2
 Nokia	Nokia 4.2	Panther_00EEE	Nokia 4.2
 Nokia	Nokia 5	ND1	TA-1024
@@ -19679,6 +19688,7 @@ SPC Mobile	L60 Turbo	L60_Turbo	L60 Turbo
 SPC Mobile	L70_Lite	L70_Lite	L70_Lite
 SPC Mobile	L70_PRO	L70_PRO	L70_PRO
 SPC Mobile	L80	L80	L80
+SPC Mobile	L80_S	L80_S	L80_S
 SPC Mobile	Lightyear	Lightyear	Lightyear
 SPC Mobile	S19	S19	S19
 SPC Mobile	SPC GEN	SPC_GEN	SPC GEN
