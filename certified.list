@@ -2111,6 +2111,7 @@ BMobile	Bmobile_AX688	Bmobile_AX688	AX688
 BMobile	Bmobile_AX688	Bmobile_AX688	AX688+
 BMobile	Bmobile_AX751_PLUS	Bmobile_AX751_PLUS	AX751+
 BMobile	Bmobile_AX752	Bmobile_AX752	AX752
+BMobile	Bmobile_B60Pro	Bmobile_B60Pro	Bmobile_B60Pro
 BMobile	Bmoblie AX683	Bmobile_AX683_MV04	AX683
 BMobile	FUN 4	Bmobile_FUN_4_2018	FUN 4 2018
 BMobile	Speed 5	Bmobile_SPEED5	Speed 5
@@ -5405,6 +5406,7 @@ Explay	Vega	Vega	Vega
 Explay	Winner	T4728	Winner
 Explay	Winner 7	T4729	Winner7
 Explay	Winner 8	T4730	Winner8
+Express Gifts Limited	EGL11QF6	EGL11QF6	EGL11QF6
 Express Gifts Limited	EGL1529I	EGL1529I	EGL1529I
 Express Gifts Limited	EGL15QF6	EGL15QF6	EGL15QF6
 Express Gifts Limited	EGLM103	EGLM103	EGLM103
@@ -6026,6 +6028,7 @@ Gear Mobile	GM10	GM10	GM10
 Gear Mobile	GM30	GM30	GM30
 Gear Mobile	GM7	GM7	GM7
 Gear Mobile	Space	Space	Space
+Gear Mobile	Space_Pro	Space_Pro	Space_Pro
 Geecoo	G1	G1	G1
 Geecoo	G1_3g	G1_3g	G1_3g
 Geecoo	G2	G2	G2
@@ -7672,6 +7675,7 @@ Hisense		t958	HS-T958
 Hisense		t960	HS-T960
 Hisense	55H6SG	Vision	Vision
 Hisense	700T	HSSDM660QC	HLTE700T
+Hisense	9980	taishan	SmartTV 8K FFM
 Hisense	A2	HS8937QC	Hisense A2
 Hisense	A2M	HS8953QC	Hisense A2M
 Hisense	A2T	HS8953QC	Hisense A2T
@@ -12663,6 +12667,7 @@ LGE	LG V50 ThinQ	flashlmdd	LM-V500N
 LGE	LG V60 ThinQ	timelm	LM-V600
 LGE	LG V60 ThinQ	timelm	LM-V600N
 LGE	LG V60 ThinQ 5G	L-51A	L-51A
+LGE	LG VELVET	L-52A	L-52A
 LGE	LG Venice	u0_cdma	LG-LG730
 LGE	LG Viper 4G LTE	cayman	LG-LS840
 LGE	LG Volt	my70ds	LG-H422
@@ -13219,6 +13224,9 @@ Lanix	Ilium X500B	Ilium_X500B	Ilium X500B
 Lanix	Ilium X510	Ilium_X510	Ilium X510
 Lanix	Ilium X520	Ilium_X520	Ilium X520
 Lanix	Ilium X710	Ilium_X710	Ilium X710
+Lanix	IliumPad_RX10	IliumPad_RX10	ILIUM_PAD_RX10
+Lanix	IliumPad_RX7	IliumPad_RX7	ILIUM_PAD_RX7
+Lanix	IliumPad_RX8	IliumPad_RX8	IliumPad_RX8
 Lanix	Ilium_Alpha7	Ilium_Alpha7	Ilium Alpha 7
 Lanix	Ilium_Alpha_1TT	Ilium_Alpha_1TT	Ilium Alpha 1T
 Lanix	Ilium_Alpha_5T	Ilium_Alpha_5T	Ilium Alpha 5T
@@ -18568,6 +18576,7 @@ Polaroid	SIGMA 5	SIGMA-5	SIGMA-5
 Polaroid	SOHO	SOHO	SOHO
 Polaroid	V45M	V45M	CARBON_PRO4543
 Polaroid	V7	nuclear-M7021	V7
+Polaroid	midcb232pr_EEA	midcb232pr	midcb232pr
 Polestar	Polestar	ihu_abl_car	Polestar
 Polestar	Polestar Emu	ihu_emulator	Polestar 2
 Polytron	P500	P500	P500
@@ -19034,6 +19043,7 @@ Pritom	K7	K7	K7
 Pritom	K7_EEA	K7	K7
 Pritom	L10	L10	L10
 Pritom	L10_EEA	L10_EEA	L10_EEA
+Pritom	L10_PRO_EEA	L10_PRO_EEA	L10_PRO_EEA
 Pritom	L8	L8	L8
 Pritom	P7PRO	P7PRO	P7PRO
 Pritom	P7PRO_1	P7PRO_1	P7PRO_1
@@ -22481,6 +22491,7 @@ Samtech	TWIFI-04	TWIFI-04	TWIFI-04
 Samtech	TWIFI-06	TWIFI-06	TWIFI-06
 Samtech	TWIFI_07	TWIFI-07	TWIFI-07
 Sanaeko	FX9	SANAEKO	FX9
+Sandata	Sandata	Sandata_T5	T5
 Sankey	TAB1012FKY	TAB1012FKY	TAB1012FKY
 Sankey	TAB7A3G05	TAB7A3G05	TAB7A3G05
 Sansei	TS10A1	TS10A1	TS10A1
@@ -22540,6 +22551,7 @@ Seemahale Telecoms	ST5000	ST5000	ST5000
 Seiki	North America	hongik	Seiki Android TV
 Seiki	North America	uguisudani	Seiki Android TV 2K
 Selectron	T856G	T856G	T856G
+Selfix	ES733	ES733	ES733
 Selfix	SELFIX_ES732_EXPERIUS	EXPERIUS	SELFIX_ES732_EXPERIUS
 Selfix	X7	X7	X7
 Selvas	BrailleSense Polaris	polaris	BrailleSensePolaris
