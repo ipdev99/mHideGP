@@ -4316,6 +4316,7 @@ Datalogic	MEMOR 1	M1_PISTOL	Memor 1
 Datalogic	Memor 20	Q10	Memor 20
 Datalogic	Memor 20	Q10A	Memor 20
 Datalogic	Memor K	memor_k	Memor K
+Datalogic	Skorpio X5	sx5	Skorpio X5
 Datamini	K508101	K508101	K508101
 Datamini	K908H4G	K908H4G	K908H4G
 Datamini	T104G	T104G	T104G
@@ -14858,6 +14859,7 @@ Maxtron	smart	smart	smart
 Maxvi	MS502_Orion	MS502_Orion	MS502_Orion
 Maxvi	Maxvi_MS401	Maxvi_MS401	Maxvi_MS401
 Maxwest	Astro 5 Go LTE	Astro_5_GO_LTE	Astro_5_GO_LTE
+Maxwest	Astro 5 PRO	Astro_5_PRO	Astro 5 PRO
 Maxwest	Astro 5N LTE	Astro_5N_LTE	Astro_5N_LTE
 Maxwest	Astro 5P	Astro_5P	Astro 5P
 Maxwest	Astro_4P	Astro_4P	Astro_4P
@@ -26570,6 +26572,7 @@ Unonu	W50A	W50A	W50A
 Unonu	W55G	W55G	W55G
 Unonu	W55_PLUS_B125	W55_PLUS	W55_PLUS
 Unonu	W55_PLUS_B18	W55_PLUS	W55_PLUS
+Unonu	W57A	UNONU_W57A	UNONU W57A
 Unonu	X4G	X4G	UNONU X4G
 Unonu	X4G	X4G	X4G
 Uphone	SPURT R3	SPURT_R3	SPURT R3
