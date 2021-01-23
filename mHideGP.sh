@@ -405,22 +405,22 @@ fi
 MHGP="$TDIR"/mhp_"$LBRND"_"$LMODL"_"$BUTC".sh
 
 # Google
-if [ $BRAND = "Google" ] || [ $BRAND = "google" ]; then
+if [ "$BRAND" = "Google" ] || [ "$BRAND" = "google" ]; then
 	MHGP="$TDIR"/mhp_"$LMODL"_"$BUTC".sh
 fi;
 
 # OnePlus
-if [ $BRAND = "OnePlus" ] || [ $BRAND = "oneplus" ]; then
+if [ "$BRAND" = "OnePlus" ] || [ "$BRAND" = "oneplus" ]; then
 	MHGP="$TDIR"/mhp_"$LDEVICE"_"$BUTC".sh
 fi;
 
 # Poco
-if [ $DMDL = "POCO" ] || [ $DMDL = "poco" ]; then
+if [ "$DMDL" = "POCO" ] || [ "$DMDL" = "poco" ]; then
 	MHGP="$TDIR"/mhp_"$LMODL"_"$BUTC".sh
 fi;
 
 # Readmi
-if [ $DMDL = "Redmi" ] || [ $DMDL = "redmi" ]; then
+if [ "$DMDL" = "Redmi" ] || [ "$DMDL" = "redmi" ]; then
 	MHGP="$TDIR"/mhp_"$LMODL"_"$BUTC".sh
 fi;
 
@@ -430,22 +430,22 @@ fi;
 APFN="$LBRND"_"$LMODL"_"$BUTC"
 
 # Google
-if [ $BRAND = "Google" ] || [ $BRAND = "google" ]; then
+if [ "$BRAND" = "Google" ] || [ "$BRAND" = "google" ]; then
 	APFN="$LMODL"_"$BUTC"
 fi;
 
 # OnePlus
-if [ $BRAND = "OnePlus" ] || [ $BRAND = "oneplus" ]; then
+if [ "$BRAND" = "OnePlus" ] || [ "$BRAND" = "oneplus" ]; then
 	APFN="$LDEVICE"_"$BUTC"
 fi;
 
 # Poco
-if [ $DMDL = "POCO" ] || [ $DMDL = "poco" ]; then
+if [ "$DMDL" = "POCO" ] || [ "$DMDL" = "poco" ]; then
 	APFN="$LMODL"_"$BUTC"
 fi;
 
 # Readmi
-if [ $DMDL = "Redmi" ] || [ $DMDL = "redmi" ]; then
+if [ "$DMDL" = "Redmi" ] || [ "$DMDL" = "redmi" ]; then
 	APFN="$LMODL"_"$BUTC"
 fi;
 
@@ -455,17 +455,17 @@ fi;
 MPRINT="$BRAND"" ""$MODL"" "\("$aOS"\):"$MANF":"$MODL"="$BPRINT"__"$SDATE"
 
 # Essential
-if [ $BRAND = "Essential" ] || [ $BRAND = "essential" ]; then
+if [ "$BRAND" = "Essential" ] || [ "$BRAND" = "essential" ]; then
 	MPRINT=Essential" ""$MODL"" "\("$aOS"\):"$MANF":"$MODL"="$BPRINT"__"$SDATE"
 fi;
 
 # Google
-if [ $BRAND = "Google" ] || [ $BRAND = "google" ]; then
+if [ "$BRAND" = "Google" ] || [ "$BRAND" = "google" ]; then
 	MPRINT="$MODL"" "\("$aOS"\):"$MANF":"$MODL"="$BPRINT"__"$SDATE"
 fi;
 
 # OnePlus
-if [ $BRAND = "OnePlus" ] || [ $BRAND = "oneplus" ]; then
+if [ "$BRAND" = "OnePlus" ] || [ "$BRAND" = "oneplus" ]; then
 	if grep -q ro.display.series $prop_file; then
 		MPRINT="$DSPLY"" "\["$OPMDL"\]" "\("$aOS"\):"$MANF":"$MODL"="$BPRINT"__"$SDATE"
 	else
@@ -474,22 +474,22 @@ if [ $BRAND = "OnePlus" ] || [ $BRAND = "oneplus" ]; then
 fi;
 
 # LG
-if [ $BRAND = "lge" ] || [ $BRAND = "LGE" ]; then
+if [ "$BRAND" = "lge" ] || [ "$BRAND" = "LGE" ]; then
 	MPRINT=LG" "\["$MODL"\]" "\("$aOS"\):"$MANF":"$MODL"="$BPRINT"__"$SDATE"
 fi;
 
 # Poco
-if [ $DMDL = "POCO" ] || [ $DMDL = "poco" ]; then
+if [ "$DMDL" = "POCO" ] || [ "$DMDL" = "poco" ]; then
 	MPRINT="$MODL"" "\("$aOS"\):"$MANF":"$MODL"="$BPRINT"__"$SDATE"
 fi;
 
 # Redmi
-if [ $DMDL = "Redmi" ] || [ $DMDL = "redmi" ]; then
+if [ "$DMDL" = "Redmi" ] || [ "$DMDL" = "redmi" ]; then
 	MPRINT="$MODL"" "\("$aOS"\):"$MANF":"$MODL"="$BPRINT"__"$SDATE"
 fi;
 
 # Samsung
-if [ $BRAND = "SAMSUNG" ] || [ $BRAND = "samsung" ]; then
+if [ "$BRAND" = "SAMSUNG" ] || [ "$BRAND" = "samsung" ]; then
 	MPRINT=Samsung" "\["$MODL"\]" "\("$aOS"\):"$MANF":"$MODL"="$BPRINT"__"$SDATE"
 fi;
 
