@@ -259,75 +259,75 @@ set_prop_file
 check_prop_file
 
 # Set variables
-SDATE=$(grep ro.build.version.security_patch $prop_file | cut -f2 -d '=');
-aOS=$(grep ro.build.version.release= $prop_file | cut -f2 -d '=');
-SDK=$(grep ro.build.version.sdk $prop_file | cut -f2 -d '=');
-BUTC=$(grep ro.build.date.utc $prop_file | cut -f2 -d '=');
+SDATE=$(grep -m1 ro.build.version.security_patch $prop_file | cut -f2 -d '=');
+aOS=$(grep -m1 ro.build.version.release= $prop_file | cut -f2 -d '=');
+SDK=$(grep -m1 ro.build.version.sdk $prop_file | cut -f2 -d '=');
+BUTC=$(grep -m1 ro.build.date.utc $prop_file | cut -f2 -d '=');
 # Add sed to remove double space in some build dates.
-BDATE=$(grep ro.build.date= $prop_file | sed 's/  / /g' | cut -f2,3,6 -d ' ');
+BDATE=$(grep -m1 ro.build.date= $prop_file | sed 's/  / /g' | cut -f2,3,6 -d ' ');
 
 # Set variable names to variables. (Depends on the device and/or API/SDK/NDK version.)
 
 # if grep -q ro.product.name $prop_file; then
-# 	NAME=$(grep ro.product.name $prop_file | cut -f2 -d '=');
+# 	NAME=$(grep -m1 ro.product.name $prop_file | cut -f2 -d '=');
 # else
-# 	NAME=$(grep ro.product.vendor.name $prop_file | cut -f2 -d '=');
+# 	NAME=$(grep -m1 ro.product.vendor.name $prop_file | cut -f2 -d '=');
 # fi
 
 if grep -q ro.bootimage.build.fingerprint $prop_file; then
-	BPRINT=$(grep ro.bootimage.build.fingerprint $prop_file | cut -f2 -d '=');
+	BPRINT=$(grep -m1 ro.bootimage.build.fingerprint $prop_file | cut -f2 -d '=');
 elif grep -q ro.build.fingerprint $prop_file; then
-	BPRINT=$(grep ro.build.fingerprint $prop_file | cut -f2 -d '=');
+	BPRINT=$(grep -m1 ro.build.fingerprint $prop_file | cut -f2 -d '=');
 else
-	BPRINT=$(grep ro.system.build.fingerprint $prop_file | cut -f2 -d '=');
+	BPRINT=$(grep -m1 ro.system.build.fingerprint $prop_file | cut -f2 -d '=');
 fi
 
 if grep -q ro.product.model $prop_file; then
-	MODL=$(grep ro.product.model $prop_file | cut -f2 -d '=');
+	MODL=$(grep -m1 ro.product.model $prop_file | cut -f2 -d '=');
 elif grep -q ro.product.vendor.model $prop_file; then
-	MODL=$(grep ro.product.vendor.model $prop_file | cut -f2 -d '=');
+	MODL=$(grep -m1 ro.product.vendor.model $prop_file | cut -f2 -d '=');
 else
-	MODL=$(grep ro.product.system.model $prop_file | cut -f2 -d '=');
+	MODL=$(grep -m1 ro.product.system.model $prop_file | cut -f2 -d '=');
 fi
 
 if grep -q ro.product.manufacture $prop_file; then
-	MANF=$(grep ro.product.manufacture $prop_file | cut -f2 -d '=');
+	MANF=$(grep -m1 ro.product.manufacture $prop_file | cut -f2 -d '=');
 elif grep -q ro.product.vendor.manufacturer $prop_file; then
-	MANF=$(grep ro.product.vendor.manufacturer $prop_file | cut -f2 -d '=');
+	MANF=$(grep -m1 ro.product.vendor.manufacturer $prop_file | cut -f2 -d '=');
 else
-	MANF=$(grep ro.product.system.manufacturer $prop_file | cut -f2 -d '=');
+	MANF=$(grep -m1 ro.product.system.manufacturer $prop_file | cut -f2 -d '=');
 fi
 
 if grep -q ro.product.brand $prop_file; then
-	BRAND=$(grep ro.product.brand= $prop_file | cut -f2 -d '=');
+	BRAND=$(grep -m1 ro.product.brand= $prop_file | cut -f2 -d '=');
 elif grep -q ro.product.system.brand $prop_file; then
-	BRAND=$(grep ro.product.system.brand= $prop_file | cut -f2 -d '=');
+	BRAND=$(grep -m1 ro.product.system.brand= $prop_file | cut -f2 -d '=');
 else
-	BRAND=$(grep ro.product.vendor.brand= $prop_file | cut -f2 -d '=');
+	BRAND=$(grep -m1 ro.product.vendor.brand= $prop_file | cut -f2 -d '=');
 fi
 
 if grep -q ro.product.device= $prop_file; then
-	DEVICE=$(grep ro.product.device= $prop_file | cut -f2 -d '=');
+	DEVICE=$(grep -m1 ro.product.device= $prop_file | cut -f2 -d '=');
 elif grep -q ro.product.product.device $prop_file; then
-	DEVICE=$(grep ro.product.product.device $prop_file | cut -f2 -d '=');
+	DEVICE=$(grep -m1 ro.product.product.device $prop_file | cut -f2 -d '=');
 elif grep -q ro.product.system.device $prop_file; then
-	DEVICE=$(grep ro.product.system.device $prop_file | cut -f2 -d '=');
+	DEVICE=$(grep -m1 ro.product.system.device $prop_file | cut -f2 -d '=');
 elif grep -q ro.product.vendor.device $prop_file; then
-	DEVICE=$(grep ro.product.vendor.device $prop_file | cut -f2 -d '=');
+	DEVICE=$(grep -m1 ro.product.vendor.device $prop_file | cut -f2 -d '=');
 else
-	DEVICE=$(grep ro.build.product= $prop_file | cut -f2 -d '=');
+	DEVICE=$(grep -m1 ro.build.product= $prop_file | cut -f2 -d '=');
 fi
 
 if grep -q ro.display.series $prop_file; then
-	DSPLY=$(grep ro.display.series $prop_file | cut -f2 -d '=');
+	DSPLY=$(grep -m1 ro.display.series $prop_file | cut -f2 -d '=');
 fi
 
 if grep -q ro.product.model $prop_file; then
-	DMDL=$(grep ro.product.model $prop_file | cut -f2 -d '=' | cut -f1 -d' ');
+	DMDL=$(grep -m1 ro.product.model $prop_file | cut -f2 -d '=' | cut -f1 -d' ');
 elif grep -q ro.product.vendor.model $prop_file; then
-	DMDL=$(grep ro.product.vendor.model $prop_file | cut -f2 -d '=' | cut -f1 -d' ');
+	DMDL=$(grep -m1 ro.product.vendor.model $prop_file | cut -f2 -d '=' | cut -f1 -d' ');
 else
-	DMDL=$(grep ro.product.system.model $prop_file | cut -f2 -d '=' | cut -f1 -d' ');
+	DMDL=$(grep -m1 ro.product.system.model $prop_file | cut -f2 -d '=' | cut -f1 -d' ');
 fi
 
 # Check and ignore if certain values can not be determined.
@@ -339,15 +339,15 @@ ignore_prop_file
 
 if [ $BRAND = "OnePlus" ] || [ $BRAND = "oneplus" ]; then
 	if grep -q ro.display.series $prop_file; then
-		OPDSPLY=$(grep ro.display.series $prop_file | cut -f2 -d '=');
+		OPDSPLY=$(grep -m1 ro.display.series $prop_file | cut -f2 -d '=');
 	fi;
 
 	if grep -q ro.product.model $prop_file; then
-		OPMDL=$(grep ro.product.model $prop_file | cut -f2 -d '=' | cut -f2 -d " ");
+		OPMDL=$(grep -m1 ro.product.model $prop_file | cut -f2 -d '=' | cut -f2 -d " ");
 	elif grep -q ro.product.system.model $prop_file; then
-		OPMDL=$(grep ro.product.system.model $prop_file | cut -f2 -d '=' | cut -f2 -d " ");
+		OPMDL=$(grep -m1 ro.product.system.model $prop_file | cut -f2 -d '=' | cut -f2 -d " ");
 	else
-		OPMDL=$(grep ro.product.vendor.model $prop_file | cut -f2 -d '=' | cut -f2 -d " ");
+		OPMDL=$(grep -m1 ro.product.vendor.model $prop_file | cut -f2 -d '=' | cut -f2 -d " ");
 	fi;
 fi;
 
@@ -356,47 +356,47 @@ fi;
 # when using the concat script.
 
 if grep -q ro.product.device= $prop_file; then
-	LDEVICE=$(grep ro.product.device= $prop_file | cut -f2 -d '=' | tr [:upper:] [:lower:]);
+	LDEVICE=$(grep -m1 ro.product.device= $prop_file | cut -f2 -d '=' | tr [:upper:] [:lower:]);
 elif grep -q ro.product.system.device $prop_file; then
-	LDEVICE=$(grep ro.product.system.device $prop_file | cut -f2 -d '=' | tr [:upper:] [:lower:]);
+	LDEVICE=$(grep -m1 ro.product.system.device $prop_file | cut -f2 -d '=' | tr [:upper:] [:lower:]);
 elif grep -q ro.product.vendor.device $prop_file; then
-	LDEVICE=$(grep ro.product.vendor.device $prop_file | cut -f2 -d '=' | tr [:upper:] [:lower:]);
+	LDEVICE=$(grep -m1 ro.product.vendor.device $prop_file | cut -f2 -d '=' | tr [:upper:] [:lower:]);
 else
-	LDEVICE=$(grep ro.build.product= $prop_file | cut -f2 -d '=' | tr [:upper:] [:lower:]);
+	LDEVICE=$(grep -m1 ro.build.product= $prop_file | cut -f2 -d '=' | tr [:upper:] [:lower:]);
 fi
 
 # if grep -q ro.product.name $prop_file; then
-# 	LNAM=$(grep ro.product.name $prop_file | cut -f2 -d '=' | tr [:upper:] [:lower:]);
+# 	LNAM=$(grep -m1 ro.product.name $prop_file | cut -f2 -d '=' | tr [:upper:] [:lower:]);
 # else
-# 	LNAM=$(grep ro.product.vendor.name $prop_file | cut -f2 -d '=' | tr [:upper:] [:lower:]);
+# 	LNAM=$(grep -m1 ro.product.vendor.name $prop_file | cut -f2 -d '=' | tr [:upper:] [:lower:]);
 # fi
 
 if grep -q ro.product.model $prop_file; then
-	LMODL=$(grep ro.product.model $prop_file | cut -f2 -d '=' | sed 's/ /_/g' | tr [:upper:] [:lower:]);
+	LMODL=$(grep -m1 ro.product.model $prop_file | cut -f2 -d '=' | sed 's/ /_/g' | tr [:upper:] [:lower:]);
 elif grep -q ro.product.vendor.model $prop_file; then
-	LMODL=$(grep ro.product.vendor.model $prop_file | cut -f2 -d '=' | sed 's/ /_/g' | tr [:upper:] [:lower:]);
+	LMODL=$(grep -m1 ro.product.vendor.model $prop_file | cut -f2 -d '=' | sed 's/ /_/g' | tr [:upper:] [:lower:]);
 else
-	LMODL=$(grep ro.product.system.model $prop_file | cut -f2 -d '=' | sed 's/ /_/g' | tr [:upper:] [:lower:]);
+	LMODL=$(grep -m1 ro.product.system.model $prop_file | cut -f2 -d '=' | sed 's/ /_/g' | tr [:upper:] [:lower:]);
 fi
 
 if grep -q ro.product.brand= $prop_file; then
-	LBRND=$(grep ro.product.brand= $prop_file | cut -f2 -d '=' | tr [:upper:] [:lower:]);
+	LBRND=$(grep -m1 ro.product.brand= $prop_file | cut -f2 -d '=' | tr [:upper:] [:lower:]);
 elif grep -q ro.product.system.brand= $prop_file; then
-	LBRND=$(grep ro.product.system.brand= $prop_file | cut -f2 -d '=' | tr [:upper:] [:lower:]);
+	LBRND=$(grep -m1 ro.product.system.brand= $prop_file | cut -f2 -d '=' | tr [:upper:] [:lower:]);
 else
-	LBRND=$(grep ro.product.vendor.brand= $prop_file | cut -f2 -d '=' | tr [:upper:] [:lower:]);
+	LBRND=$(grep -m1 ro.product.vendor.brand= $prop_file | cut -f2 -d '=' | tr [:upper:] [:lower:]);
 fi
 
 if grep -q ro.display.series $prop_file; then
-	LDSPLY=$(grep ro.display.series $prop_file | cut -f2 -d '=' | sed 's/ /_/g' | tr [:upper:] [:lower:]);
+	LDSPLY=$(grep -m1 ro.display.series $prop_file | cut -f2 -d '=' | sed 's/ /_/g' | tr [:upper:] [:lower:]);
 fi
 
 if grep -q ro.product.manufacture $prop_file; then
-	LMAN=$(grep ro.product.manufacture $prop_file | cut -f2 -d '=' | tr [:upper:] [:lower:]);
+	LMAN=$(grep -m1 ro.product.manufacture $prop_file | cut -f2 -d '=' | tr [:upper:] [:lower:]);
 elif grep -q ro.product.vendor.manufacturer $prop_file; then
-	LMAN=$(grep ro.product.vendor.manufacturer $prop_file | cut -f2 -d '=' | tr [:upper:] [:lower:]);
+	LMAN=$(grep -m1 ro.product.vendor.manufacturer $prop_file | cut -f2 -d '=' | tr [:upper:] [:lower:]);
 else
-	LMAN=$(grep ro.product.system.manufacturer $prop_file | cut -f2 -d '=' | tr [:upper:] [:lower:]);
+	LMAN=$(grep -m1 ro.product.system.manufacturer $prop_file | cut -f2 -d '=' | tr [:upper:] [:lower:]);
 fi
 
 # Set MHGP file name.
