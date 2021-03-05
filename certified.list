@@ -3318,6 +3318,7 @@ Camfone	Hero_XR_Plus	Hero_XR_Plus	Hero_XR_Plus
 Camfone	Honey Y1	Honey_Y1	Honey Y1
 Camfone	Honey_Y2s	Honey_Y2s	Honey Y2s
 Camfone	Mega 10	Mega_10	Mega 10
+Canal Digital	Allente 1	OnePlace2	Allente 1
 Canal Digital	OnePlace	canal_sat_bcm	S70CDS
 Candi	Blaze	Blaze	Blaze
 Candi	Cola S	Candi_M671M3	M671M3
@@ -3329,6 +3330,7 @@ Capstone	CAP-001M	CAP-001M	CAP-001M
 Captiva	CAPTIVA Pad 10 3G Plus	Pad_10_3G_Plus	Captiva Pad 10 3G Plus
 Captiva	Pad 10 2-in-1	Pad_10_2_in_1	Pad_10_2_in_1
 Captiva	Pad 10 3G pLUS	Pad_10_3G_Plus	Captiva Pad 10 3G Plus
+Carbon Mobile	Carbon 1 Mark II	C1M2BD_R2	Carbon 1 Mark II
 Carbon Mobile	Carbon Mobile	C1M2BD_R1	C1M2BD_R1
 CarePad	C101	C101	C101
 Carrefour	CT1000	Carrefour	CT1000
@@ -3379,6 +3381,7 @@ Casper	VIA_A1_Plus	BBL7551TC	VIA_A1_Plus
 Casper	VIA_A3	VIA_A3	VIA_A3
 Casper	VIA_E3	VIA_E3	VIA_E3
 Casper	VIA_E4	VIA_E4	VIA_E4
+Casper	VIA_F20	VIA_F20	VIA_F20
 Casper	VIA_F3	VIA_F3	VIA_F3
 Casper	VIA_G5	VIA_G5	VIA G5
 Casper	VIA_L30	VIA_L30	VIA_L30
@@ -4804,6 +4807,7 @@ Digilite	TR10CS1	TR10CS1_3	TR10CS1
 Diginnos	DG-A97QT	DG_A97QT	DG-A97QT
 Diginnos	DG-D07S/GP	DG-D07SGP	DG-D07SGP
 Diginnos	DG-Q08M	DG-Q08M	DG-Q08M
+Digiquest	Italy	tamachi	Digiquest 2K Android TV
 Digiquest	Italy	yeongdeungpo	Digiquest 4K Android TV
 Digital2	Deluxe	nuclear-D2_Deluxe	Digital2-Deluxe
 Digital2	Platinum	D2-963G	Digital2 Platinum
@@ -5701,6 +5705,7 @@ Evertek	M10_Max	EVERTEK_M10_Max	M10+Max
 Evertek	M10_Pro	Evertek_M10_Pro	M10_Pro
 Evertek	M20	M20	M20
 Evertek	M20 Mini	M20_Mini	M20 Mini
+Evertek	M20 NANO	M20_NANO	M20 NANO
 Evertek	M20_S	M20_S	M20 S
 Evertek	V4	V4	EVERTEK V4
 Evertek	V4 Nano	V4_Nano	V4 Nano
@@ -5823,6 +5828,7 @@ FLEX MOBILE	S9	S9	S9
 FOXXD	MIRO	L590A	L590A
 FPT Telecom	FPT ATV Play Box	DV8236	FPT ATV Play Box
 FPT Telecom	SEI500FPT	SEI500FPT	FPT Play Box +
+FPT Telecom	SEI610FPT	SEI610FPT	FPT Play Box S
 FPT Trading	A15	A15_01	A15
 FPT Trading	FPT S68 4G	FPT_S68_4G	FPT S68 4G
 FPT Trading	FPT X10	X10	FPT_X10
@@ -6379,6 +6385,7 @@ GOODTEL	G2_EEA	G2_EEA	G2_EEA
 GOODTEL	G3_EEA	G3_EEA	G3_EEA
 GOODTEL	G6	G6	G6
 GOODTEL	G6_EEA	G6_EEA	G6
+GOtv	SEI600GO	HND	SEI600GO
 GP-electronic	YC-102D	YC-102D	YC-102D
 GP-electronic	YC-3135D	YC-3135D	YC-3135D
 GP-electronic	YC-83T	YC-83T	YC-83T
@@ -10556,6 +10563,7 @@ Hurricane	Sprint	Sprint	Sprint
 Hurricane	Storm	Storm	Storm
 Hurricane	Surge	Surge	Surge
 Hurricane	Swift	Swift	Swift
+Hurricane	T10	T10	T10
 Hurricane	Touch	Touch	Touch
 Hurricane	Ultra	Ultra	Ultra
 Hurricane	Vega	Vega	Vega
@@ -10646,6 +10654,9 @@ Hyundai	Hyundai_Eternity_G50W	HT1G50KFBK	Hyundai_Eternity_G50W
 Hyundai	Hyundai_Eternity_G57	HT2G57L	Hyundai_Eternity_G57L
 Hyundai	Hyundai_Eternity_G60	HT3G60L	Hyundai_Eternity_G60
 Hyundai	Hyundai_Home	Hyundai_Home	HTSH10W216
+Hyundai	Italy	tamachi	HYUNDAI 2K Android TV
+Hyundai	Italy	yeongdeungpo	HYUNDAI 4K Android TV
+Hyundai	K131	E505	E505
 Hyundai	Koral	Koral_10WB1	10WB1
 Hyundai	Koral	Koral_7WB1	7WB1
 Hyundai	Koral	Koral_7WC1	7WC1
@@ -11784,6 +11795,8 @@ K-Touch	Pace 2 Lite	Pace_2_Lite	Pace 2 Lite
 K-Touch	Touch 2C	Touch2c	K-Touch Tou ch 2c
 KAAN	A1	KAAN_A1	KAAN_A1
 KAAN	KAAN_N2	KAAN_N2	KAAN_N2
+KAGIS	Australia	tamachi	KAGIS Android TV
+KAGIS	Australia	yeongdeungpo	KAGIS Android TV
 KANSELIR	KTB-168	KTB-168	KTB-168
 KAZAM	TROOPER X3.5	KAZAM	Trooper_X35
 KAZAM	TROOPER X4.0	KAZAM	Trooper_X40
@@ -13692,6 +13705,7 @@ LGE	VELVET	caymanlm	LM-G900
 LGE	VELVET	caymanlm	LM-G900N
 LGE	VELVET	caymanlm	LM-G910N
 LGE	VELVET	caymanslm	LM-G910
+LGE	VELVET	mcaymanlm	LM-G900MM
 LGE	VELVET	mcaymanlm	LM-G900TM
 LGE	VU3	vu3	LG-F300K
 LGE	VU3	vu3	LG-F300L
@@ -14889,6 +14903,7 @@ Lenovo	Yoga Smart Tab	YT-X705F	Lenovo YT-X705F
 Lenovo	Yoga Smart Tab	YT-X705L	Lenovo YT-X705L
 Lenovo	Yoga Smart Tab	YT-X705M	Lenovo YT-X705M
 Lenovo	Yoga Smart Tab	YT-X705X	Lenovo YT-X705X
+Lenovo	Yoga Tab 13(ROW)	K606F	Lenovo YT-K606F
 Lenovo	YogaTablet2 -1050F	YT2	YOGA Tablet 2-1050F
 Lenovo	YogaTbalet2-830F	YT2	YOGA Tablet 2-830F
 Lenovo	Z2	z2r	Lenovo Z2
@@ -15435,6 +15450,7 @@ Mafe	P2_Power	P2_Power	P2_Power
 Mafe	V9	V9	V9
 Mafe	Z1	Z1	Z1
 Mafe	Z2	Z2	Z2
+Magenta TV	OTT-G1	DV6067Y	OTT-G1
 MagentaTV	DV6067Y-T	DV6067Y_TVStick	DV6067Y-T
 MagentaTV	OTT-G1	DV6067Y	OTT-G1
 Majestic	JACK	JACK	JACK
@@ -16044,6 +16060,7 @@ Micromax	Evok Power	Q4260	Micromax Q4260
 Micromax	IN1b	E6523	Micromax E6523
 Micromax	IN1b	E7533	Micromax E7533
 Micromax	IN_Note1	E7746	IN_Note1
+Micromax	In_Note1	E7746	IN_Note1
 Micromax	Infinity N Series N12	N8301	N8301
 Micromax	Ione Note	N8305	ione note
 Micromax	MAD	A94	Micromax A94
@@ -16114,6 +16131,7 @@ MiiA	MiiA	TA10CA1_2	TA10CA1
 Mikona	MFHD_BT1067QC16IPS2	MFHD_BT1067QC16IPS2	MFHD_BT1067QC16IPS2
 Mikona	MHDBT10267	MHDBT10267	MHDBT10267
 Mikona	MIKONA	MSW_BT767QC8TN	MSW_BT767QC8TN
+Minister	Android TV	R1	ATV R1
 Mint	Clover	M4CR	M4CR
 Mint	Clover	M4CR	M4CRD
 Mint	Emerald	Emerald	Emerald_M55CR
@@ -16171,6 +16189,7 @@ Miophone	Mio Phone	MioPhone2016	Mio Phone 2016
 Miophone	Mio Phone	MioPhone2017	MioPhone2017
 Mira	X1	X1	X1
 Mira	X2	X2	X2
+Mira	X3	X3	X3
 Mira	X4	X4	X4
 Mirage	43T	MI-JI-43T	MI-JI-43T
 Mirage	44T	MI-JI-44T	MI-JI-44T
@@ -16513,7 +16532,6 @@ Motorola		umts_spyder	XT910S
 Motorola		umts_venus2	XT610
 Motorola		wifi_hubble	MZ604
 Motorola		zepp	MB501
-Motorola	Athena	bathena	Motorola Defy
 Motorola	Atrix	olympus	MB860
 Motorola	Atrix	olympus	MB861
 Motorola	Atrix	olympus	ME860
@@ -16776,6 +16794,7 @@ Motorola	Motoroi	sholest	Milestone XT720
 Motorola	Motoroi	sholest	Motorola XT720
 Motorola	Motoroi	sholest	XT720
 Motorola	Motorola Android 9.0 TV	shibuya	FlipkartTV
+Motorola	Motorola Defy	bathena	Motorola Defy
 Motorola	Motorola one	deen_sprout	motorola one
 Motorola	Motosmart	XT389	XT389
 Motorola	Motosmart	XT390	XT390
@@ -20566,6 +20585,7 @@ Redmi	Redmi K30i 5G	picasso	Redmi K30i 5G
 Redmi	Redmi K40	alioth	M2012K11AC
 Redmi	Redmi K40 Pro	haydn	M2012K11C
 Redmi	Redmi K40 Pro +	haydn	M2012K11C
+Redmi	Redmi Note 10 Pro	sweet	M2101K6G
 Redmi	Redmi Note 7	lavender	Redmi Note 7
 Redmi	Redmi Note 8	ginkgo	GINKGO
 Redmi	Redmi Note 8	ginkgo	Redmi Note 8
@@ -20917,6 +20937,7 @@ STG Telecom	STG S1	STG_S1	STG S1
 STG Telecom	STG S10	STG_S10	STG S10
 STG Telecom	STG X1	STG_X1	STG X1
 STG Telecom	STG X2	STG_X2	STG X2
+STG Telecom	STG X20	STG_X20	STG X20
 STG Telecom	STG X3	STG_X3	STG X3
 STG Telecom	STG-KeyTab	STG-KeyTab	STG-KeyTab
 STG Telecom	STG_A1	STG_A1	STG A1
@@ -21194,6 +21215,8 @@ Samsung	Galaxy A30s	a30s	SM-A307GT
 Samsung	Galaxy A31	a31	SM-A315F
 Samsung	Galaxy A31	a31	SM-A315G
 Samsung	Galaxy A31	a31	SM-A315N
+Samsung	Galaxy A32	a32	SM-A325F
+Samsung	Galaxy A32	a32	SM-A325M
 Samsung	Galaxy A32 5G	SCG08	SCG08
 Samsung	Galaxy A32 5G	a32x	SM-A326B
 Samsung	Galaxy A32 5G	a32x	SM-A326BR
@@ -21209,6 +21232,7 @@ Samsung	Galaxy A41	a41	SM-A415F
 Samsung	Galaxy A42 5G	a42xq	SM-A4260
 Samsung	Galaxy A42 5G	a42xq	SM-A426B
 Samsung	Galaxy A42 5G	a42xq	SM-A426N
+Samsung	Galaxy A42 5G	a42xuq	SM-A426U
 Samsung	Galaxy A5	a53g	SM-A500H
 Samsung	Galaxy A5	a5lte	SM-A500F
 Samsung	Galaxy A5	a5lte	SM-A500G
@@ -21337,6 +21361,8 @@ Samsung	Galaxy A71 5G	a71x	SM-A716B
 Samsung	Galaxy A71 5G	a71xq	SM-A716U
 Samsung	Galaxy A71 5G	a71xq	SM-A716U1
 Samsung	Galaxy A71 5G	a71xq	SM-A716V
+Samsung	Galaxy A72	a72q	SM-A725F
+Samsung	Galaxy A72	a72q	SM-A725M
 Samsung	Galaxy A8	SCV32	SCV32
 Samsung	Galaxy A8	a8elte	SM-A800F
 Samsung	Galaxy A8	a8elte	SM-A800YZ
@@ -21596,6 +21622,7 @@ Samsung	Galaxy Express	expresslte	GT-I8730
 Samsung	Galaxy Express	expresslte	GT-I8730T
 Samsung	Galaxy Express	expressziglteatt	SAMSUNG-SGH-I437Z
 Samsung	Galaxy Express2	wilcoxlte	SM-G3815
+Samsung	Galaxy F02s	a02q	SM-E025F
 Samsung	Galaxy F12	f12	SM-F127G
 Samsung	Galaxy F41	f41	SM-F415F
 Samsung	Galaxy F62	f62	SM-E625F
@@ -22005,6 +22032,7 @@ Samsung	Galaxy M31	m31	SM-M315F
 Samsung	Galaxy M31s	m31s	SM-M317F
 Samsung	Galaxy M40	m40	SM-M405F
 Samsung	Galaxy M51	m51	SM-M515F
+Samsung	Galaxy M62	m62	SM-M625F
 Samsung	Galaxy Mega 2	mega23g	SM-G750H
 Samsung	Galaxy Mega 5.8	crater	GT-I9152
 Samsung	Galaxy Mega 5.8	crater3gctc	SCH-P709
@@ -23408,12 +23436,14 @@ Samsung	Galaxy Xcover	GT-S5690	GT-S5690
 Samsung	Galaxy Xcover	GT-S5690L	GT-S5690L
 Samsung	Galaxy Xcover	GT-S5690M	GT-S5690M
 Samsung	Galaxy Xcover	GT-S5690R	GT-S5690R
+Samsung	Galaxy Xcover 5	xcover5	SM-G525F
 Samsung	Galaxy Xcover2	skomer	GT-S7710
 Samsung	Galaxy Xcover2	skomer	GT-S7710L
 Samsung	Galaxy Xcover3	xcover3lte	SM-G388F
 Samsung	Galaxy Xcover3	xcover3velte	SM-G389F
 Samsung	Galaxy Xcover4	xcover4lte	SM-G390Y
 Samsung	Galaxy Xcover4	xcover4ltecan	SM-G390W
+Samsung	Galaxy Xcover5	xcover5	SM-G525F
 Samsung	Galaxy Y	GT-S5360	GT-S5360
 Samsung	Galaxy Y	GT-S5360B	GT-S5360B
 Samsung	Galaxy Y	GT-S5360L	GT-S5360L
@@ -23810,6 +23840,7 @@ Sharp	AQUOS sense4 plus	VG2	SH-M16
 Sharp	AQUOS sense4 plus	VG2	SH-S40P
 Sharp	AQUOS sense5G	SH-53A	SH-53A
 Sharp	AQUOS sense5G	Sarah	A004SH
+Sharp	AQUOS sense5G	Sarah	SH-M17
 Sharp	AQUOS sense5G	WJG	SHG03
 Sharp	AQUOS zero	SG801SH	801SH
 Sharp	AQUOS zero	SH-Z10	SH-Z10
@@ -24042,6 +24073,7 @@ Sigma Mobile	X-Treme_PQ51	X-Treme_PQ51	X-Treme_PQ51
 Sigma Mobile	X-treme PQ20	X-treme_PQ20	X-treme_PQ20
 Sigma Mobile	X-treme PQ29	X-treme_PQ29	X-treme_PQ29
 Sigma Mobile	X-treme PQ36	X-treme_PQ36	X-treme_PQ36
+Sigma Mobile	X-treme PQ38	X_treme_PQ38	X-TREME_PQ38
 Sigma Mobile	X-treme PQ53	X-treme_PQ53	X-treme PQ53
 Sigma Mobile	X-treme PQ54	X-treme_PQ54	X-treme_PQ54
 Sigma Mobile	X-treme_PQ54 MAX	X-treme_PQ54_MAX	X-treme_PQ54 MAX
@@ -26727,6 +26759,8 @@ TCT (Alcatel)	tbd	Mickey6TFUMTS	A576BL
 TCT (Alcatel)	tbd	U50A_PLUS_ATT	Alcatel_5059R
 TCT (Alcatel)	tmn smarta8	ONE_TOUCH_991D_gsm	moche smart a8
 TCT (Alcatel)	tmn smarta8	ONE_TOUCH_991D_gsm	tmn smart a8
+TD SYSTEMS	Spain	tamachi	TD SYSTEMS Android TV
+TD SYSTEMS	Spain	yeongdeungpo	TD SYSTEMS Android TV
 TDS	VIP6102W	vip6102w	VIP6102W
 TECHNOLOGIA Y CRATIVIDAD	M103H	M103H	M103H
 TECO	K5T	ikebukuro	AI PONT
@@ -26778,6 +26812,7 @@ TOPELOTEK	KIDS710	KIDS710	KIDS710
 TOPELOTEK	TOPELOTEK	KIDS08	KIDS08
 TOPELOTEK	TOPELOTEK	KIDS09	KIDS09
 TOPELOTEK	Y8	Y8	Y8
+TOPJOY	PNC450	PNC450	PNC450
 TOSCIDO	P101	P101	P101
 TOSCIDO	P101-EEA	P101-EEA	P101-EEA
 TOSCIDO	T12-EEA	T12-EEA	T12-EEA
@@ -27297,6 +27332,7 @@ Telma	telma_i401	telma_i401	telma i401
 TeloSystems	TE580P	TE580P	TE580P
 TeloSystems	TE580PS	TE580PS	TE580PS
 TeloSystems	TE590P	TE590P_E	TE590P_E
+TeloSystems	TE590P	TE590P_O	TE590P_O
 TeloSystems	TELO_TE610	TELO_TE610	TELO_TE610
 TeloSystems	TELO_TE610_O	TELO_TE610_O	TELO_TE610_O
 Telus	HMB2213PW22TS	HMB2213PW22TS	HMB2213PW22TS
@@ -28473,6 +28509,7 @@ Vivo	V2057A	PD2057	V2057A
 Vivo	V2059A	PD2047	V2059A
 Vivo	V2061A	PD2061	V2061A
 Vivo	V2065A	PD2065	V2065A
+Vivo	V2066BA	PD2066B	V2066BA
 Vivo	V2068A	PD2068	V2068A
 Vivo	V2072A	PD2072	V2072A
 Vivo	V2099A	PD2034D	V2099A
@@ -28746,6 +28783,7 @@ Vonino	Jax_X_TM	JAX	Jax X
 Vonino	Magnet M1_A7	Magnet_M1_A7	Magnet M1
 Vonino	Magnet_G10	Magnet_G10	Magnet_G10
 Vonino	Magnet_G20	Magnet_G50	Magnet_G20
+Vonino	Magnet_G25	Magnet_G50	Magnet_G25
 Vonino	Magnet_G30_EEA	Magnet_G30	Magnet_G30
 Vonino	Magnet_G30_lite	Magnet_G30	Magnet_G30_lite
 Vonino	Magnet_G40	Magnet_G50	Magnet_G40
@@ -28810,7 +28848,6 @@ Voto	VOTO V2i`	VOTO_V2i	VOTO V2i
 Voto	VOTO V3	VOTO_V3	VOTO V3
 Voto	VX	VX	VX
 Voto	Voto V5X	VOTO_V5X	VOTO V5X
-Vsmart	55KD6800	samseong	VINATV 4K
 Vsmart	Active 1	PQ6001	Active 1
 Vsmart	Active 1 +	PQ6002	Active 1+
 Vsmart	Active 1+	PQ6002	Active 1+
@@ -28833,6 +28870,7 @@ Vsmart	Star	V320A	Star
 Vsmart	Star 3	sugarcane	Star 3
 Vsmart	Star 4	willowpro	Star 4
 Vsmart	VINATV 4K	TR2001	VINATV 4K
+Vsmart	VINATV 4K	samseong	VINATV 4K
 Vsmart	VINTV 2K	TR2002	VINTV 2K
 Vsun	MARS  Touch	MARS_TOUCH	MARS TOUCH
 Vsun	MARS Nocam	MARS_NOCAM	MARS NOCAM
@@ -29084,10 +29122,12 @@ Wiko	PULP 4G	l5421	PULP 4G
 Wiko	PULP FAB	S5260	PULP FAB
 Wiko	PULP FAB	S5260	SLIDE2
 Wiko	PULP FAB 4G	l5261	PULP FAB 4G
+Wiko	Power U10	W-V745	W-V745-OPE
 Wiko	Power U10	W-V745	W-V745-TVM
 Wiko	Power U20	W-V750BN	W-V750BN-OPE
 Wiko	Power U20	W-V750BN	W-V750BN-TVM
 Wiko	Power U30	W-V755	W-V755-EEA
+Wiko	Power U30	W-V755	W-V755-TVM
 Wiko	RAINBOW	s5501	RAINBOW
 Wiko	RAINBOW 4G	l5503	RAINBOW 4G
 Wiko	RAINBOW JAM	S5254AP24K	RAINBOW JAM
@@ -29231,6 +29271,7 @@ Wiko	Y61	W-K560	W-K560-ID
 Wiko	Y61	W-K560	W-K560-OPE
 Wiko	Y61	W-K560	W-K560-TVM
 Wiko	Y61	W-K560	W-K560-TVM1G
+Wiko	Y62	W-K610	W-K610-EEA
 Wiko	Y62	W-K610	W-K610-TVM
 Wiko	Y80	W-V720	W-V720-CA
 Wiko	Y80	W-V720	W-V720-EEA
@@ -29560,7 +29601,6 @@ Xiaomi	Mi 10T Pro	apollo	M2007J3SG
 Xiaomi	Mi 10T pro	apollo	M2007J3SI
 Xiaomi	Mi 10i	gauguininpro	M2007J17I
 Xiaomi	Mi 11	venus	M2011K2C
-Xiaomi	Mi 11 Lite 5G	renoir	M2101K9G
 Xiaomi	Mi 3	pisces	MI 3
 Xiaomi	Mi 4c	libra	Mi-4c
 Xiaomi	Mi 4i	ferrari	Mi 4i
@@ -29687,6 +29727,7 @@ YOTOPT	X109	X109	X109
 YOTOPT	Y103_EEA	Y103_EEA	Y103_EEA
 YOTOPT	Y3-EEA	Y3-EEA	Y3-EEA
 YOTOPT	Y5-EEA	Y5-EEA	Y5-EEA
+YOUIN	SEI600EN	HND	YOU-BOX
 YQSVAIOR	YQ-SVAIOR-EEA	YQ-SVAIOR-EEA	YQ-SVAIOR-EEA
 YQSVAIOR	YQ10	YQ10	YQ10
 YQSVAIOR	YQ11	YQ11	YQ11
@@ -31490,6 +31531,10 @@ beafon	M5	M5	M5
 beafon	M6	M6	M6
 beafon	M6s	M6s	M6s
 beafon	MX1	MX1	MX1
+benco	AF9010_F	AF9010_F	AF9010_F
+benco	AF9020	AF9020	AF9020
+benco	AF9030	AF9030	AF9030
+benco	AH9910	AH9910	AH9910
 benco	benco Y30	AF9030	AF9030
 benco	benco Y41	AH9910	AH9910
 benco	benco Y41	AN9910	AN9910
@@ -31722,6 +31767,7 @@ iHunt	S100ApeX	S100ApeX	S100ApeX
 iHunt	S10_Tank_2019	S10_Tank_2019	S10_Tank_2019
 iHunt	S21_Plus_2021_EEA	S21_Plus_2021_EEA	S21 Plus 2021_EEA
 iHunt	S21_Ultra_4G_2021_EEA	S21_Ultra_4G	S21 Ultra 4G 2021_EEA
+iHunt	S30 ULTRA APEX 2021	S30_ULTRA_APEX_2021	S30 ULTRA APEX 2021
 iHunt	S60 Discovery Plus	S60_Discovery_Plus	S60 Discovery Plus
 iHunt	S60_Discovery_2019	S60_Discovery_2019	S60_Discovery_2019
 iHunt	TITAN P11000 PRO	TITAN_P11000_PRO	TITAN_P11000_PRO
