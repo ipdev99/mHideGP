@@ -1024,8 +1024,8 @@ Aprix	Tab64	AprixTab64	Aprix Tab64
 Aprix	Tab64_T	Tab64_T	Tab64_T
 Aprix	Tab8ii	Tab8ii	Tab8ii
 Aprix	X4	Aprix_X4	Aprix_X4
-Aqua	APAC	hanyang	AQUA Android TV
 Aqua	APAC	nippori	AQUA Android TV 2K
+Aqua	AQUA android TV	hanyang	AQUA Android TV
 Aqua	S1 Jazz	S1_Jazz	S1 Jazz
 Arcelik	B55L 9682 5AS	arcelik_eu	arcelik_uhd_powermax_at
 Archos		A101S	ARCHOS 101G9
@@ -2454,10 +2454,10 @@ Barnes and Noble	NOOK® HD	hummingbird	BNTV400
 Barnes and Noble	NOOK® HD+	ovation	BNTV600
 Barnes and Noble	Nook Tablet 7”	st16c7bnn	BNTV450
 Battcell	M7042F	M7042F	M7042F
-Bauhn	Australia	hanyang	Tempo Android TV
 Bauhn	Australia	nippori	Bauhn Android TV 2K
 Bauhn	BAUHN	bangbae	BAUHN 4K Android TV
 Bauhn	Bauhn	komagome	BAUHN 2K Android TV
+Bauhn	Bauhn android TV	hanyang	Tempo Android TV
 Becrypt	Convex 430	granite	Becrypt Convex 430
 Becrypt	Convex 430	granite	Becrypt Indigo 430
 Beeline	Beebox	SWG2001A	SWG2001A-A
@@ -2764,7 +2764,6 @@ Blackview	Tab9_NEU	Tab9_NEU	Tab 9
 Blackview	Tab9_RU	Tab9_RU	Tab 9
 Blaupunkt	A-STREAM	GMP	A-STREAM
 Blaupunkt	Atlantis_A10_G403	Atlantis_A10_G403	Atlantis_A10_G403
-Blaupunkt	Australia	hanyang	BP Android TV
 Blaupunkt	Australia	nippori	BP Android TV 2K
 Blaupunkt	B-STREAM	JFK	B-STREAM
 Blaupunkt	BATV10	ICN	BATV10
@@ -2778,11 +2777,13 @@ Blaupunkt	Blaupunkt SL 01	Blaupunkt_SL_01	Blaupunkt SL 01
 Blaupunkt	Blaupunkt SL 02	Blaupunkt_SL_02	Blaupunkt SL 02
 Blaupunkt	Blaupunkt SL 04	Blaupunkt_SL_04	Blaupunkt SL 04
 Blaupunkt	Blaupunkt SM 01	Blaupunkt_SM_01	Blaupunkt SM 01
+Blaupunkt	Blaupunkt android TV	hanyang	BLAUPUNKT Android TV
+Blaupunkt	Blaupunkt android TV	hanyang	BP 4K Android TV
+Blaupunkt	Blaupunkt android TV	hanyang	BP Android TV
 Blaupunkt	Blaupunkt_SM_02	Blaupunkt_SM_02	Blaupunkt_SM_02
 Blaupunkt	Czech/Ukraine/Russia	nippori	BLAUPUNKT Android TV 2K
 Blaupunkt	Discovery_A10_302	Discovery_A10_302	Discovery_A10_302
 Blaupunkt	EU	tamachi	BLAUPUNKT FHD Android TV
-Blaupunkt	Ecuador	hanyang	BP 4K Android TV
 Blaupunkt	Ecuador	nippori	BP 2K Android TV
 Blaupunkt	Endeavour101	Blaupunkt	Endeavour101
 Blaupunkt	Guardian	Guardian	Guardian
@@ -2797,7 +2798,6 @@ Blaupunkt	SM 05	Blaupunkt_SM_05	Blaupunkt SM 05
 Blaupunkt	SM_02_2019	SM_02_2019	SM 02 2019
 Blaupunkt	Soundphone_S1	Soundphone_S1	Soundphone_S1
 Blaupunkt	TX01	TX01	TX01
-Blaupunkt	Ukraine,Czech	hanyang	BLAUPUNKT Android TV
 Blu	A-200	A200	A200
 Blu	A200	A200	A200
 Blu	A250	A250	A250
@@ -5233,8 +5233,8 @@ Dual	Dual	komagome	Dual 2K Android TV
 Dunns	Dunns Slinger	DunnsSlinger	Dunns Slinger
 Dunns	ETAB_M9041G	ETAB_M9041G	ETAB_M9041G
 Dunns	Smarty II	Smarty_II	Smarty_II
-Durabrand	Central America	hanyang	Durabrand 4K Android TV
 Durabrand	Central America	nippori	Durabrand 2K Android TV
+Durabrand	Durabrand android TV	hanyang	Durabrand 4K Android TV
 Duubee	D601L	Gaia	D601L
 Duubee	DT1052	DT1052	DT1052
 Duubee	W1	W1	W1
@@ -5294,13 +5294,14 @@ EKINOX	G1 Pro	G1_Pro	G1 Pro
 EKINOX	G2	G2	G2
 EKINOX	K5	K5	K5
 EKO	Ara 5.7 A5719	A5719	Ara 5.7 A5719
-EKO	Australia	hanyang	Ayonz Android TV
 EKO	Australia	nippori	EKO Android TV 2K
 EKO	EKO	bangbae	EKO 4K Android TV
 EKO	EKO	komagome	EKO 2K Android TV
 EKO	EKO OMEGA LTE Q60	EKO_OMEGA_LTE_Q60	EKO OMEGA LTE Q60
 EKO	EKO OMEGA Q55	EKO_OMEGA_Q55	EKO OMEGA Q55
 EKO	EKO Star LTE G60	EKO_Star_LTE_G60	EKO Star LTE G60
+EKO	EKO android TV	hanyang	Ayonz Android TV
+EKO	EKO android TV ISDB	hanyang	EKO 4K Android TV
 EKO	Star 4.0 G40	Star_4_0_G40	Star 4.0 G40
 EKO	Star 5.0 G50	Star_5_0_G50	Star 5.0 G50
 EKO	Star 5.5 G55	Star_5_5_G55	Star 5.5 G55
@@ -7861,11 +7862,7 @@ Haier	A81G	A81G	A81G
 Haier	AD6B1H	AD6B1H	Smartfren Andromax AD6B1H
 Haier	AL40	AL40	Haier_AL40
 Haier	AP54	ts18_ap54_kliver	AP54
-Haier	APAC	hanyang	Haitech Android TV
-Haier	APAC	hanyang	haierATV
 Haier	APAC	nippori	CANDY Android TV 2K
-Haier	APAC	nippori	haierATVnippori
-Haier	APAC,EU	hanyang	CANDY Android TV
 Haier	AT7003	AT7003	AT7003
 Haier	Alpha A1	A1	A1
 Haier	Alpha A2	A2	A2
@@ -7889,10 +7886,8 @@ Haier	D2-721	D2-721G	D2-721G
 Haier	D2-751G	d2PAD	D2-751G
 Haier	D2-927G	D2-927G	D2-927G
 Haier	D2-961G	D2-961G	D2-961G
-Haier	EU	hanyang	HEC Android TV
 Haier	EU	nippori	HEC Android TV 2K
-Haier	Ecuador	hanyang	EVVO 4K Android TV
-Haier	Ecuador	hanyang	INNOVA 4K Android TV
+Haier	EVVO Android TV	hanyang	EVVO 4K Android TV
 Haier	Ecuador	nippori	EVVO 2K Android TV
 Haier	Ecuador	nippori	INNOVA 2K Android TV
 Haier	Elegance E13	E13	E13
@@ -7911,6 +7906,7 @@ Haier	G7	HM-G552-FL	HM-G552-FL
 Haier	G700	G700	G700
 Haier	G7s	G7s	G7s
 Haier	GF88	I7A-LE	I7A-LE
+Haier	HEC Android TV	hanyang	HEC Android TV
 Haier	HG-9041	HG-9041	HG-9041
 Haier	HM-I557-FL	HM-I557-FL	HM-I557-FL
 Haier	HM-N501-FL	HM-N501-FL	HM-N501-FL
@@ -7925,9 +7921,13 @@ Haier	Haier	PAD69H	PAD69H
 Haier	Haier	PAD_D85	pad_d85
 Haier	Haier	W627	W627
 Haier	Haier	W861	W861
+Haier	Haier 2K android TV	nippori	haierATVnippori
+Haier	Haier Android TV	hanyang	haierATV
 Haier	Haier Leisure L7	Haier_Leisure_L7	HM-N700-FL
 Haier	Haier Titan T5	Titan_T5	Titan_T5
+Haier	Haier android TV	hanyang	Haier 4K Android TV
 Haier	HaierG61	HM-G701-FL	HM-G701-FL
+Haier	Haitech android TV	hanyang	Haitech Android TV
 Haier	HomeSurf742_AT7003	HomeSurf742_AT7003	HomeSurf742_AT7003
 Haier	Homesurf844	Homesurf844	Binatone Homesurf844 / Hubble Smart8 (Homesurf844)
 Haier	Hyasong T1	HyasongT1	HyasongT1
@@ -7935,6 +7935,7 @@ Haier	I4	I4	I4
 Haier	I50	i50_b1b8	I50
 Haier	I6_Infinity	I6_Infinity	I6_Infinity
 Haier	INGO-TAB	INGO-TAB	INGO-TAB
+Haier	INNOVA android TV	hanyang	INNOVA 4K Android TV
 Haier	India	nippori	MAGELITE Android TV 2K
 Haier	Kogan Agora 8	Kogan_Agora_8	Kogan Agora 8
 Haier	Konnect_350	Konnect_350	Konnect_350
@@ -7950,7 +7951,6 @@ Haier	LE43U5000A	LE43U5000A	LE43U5000A
 Haier	LE48M7000CF	LE48M7000CF	LE48M7000CF
 Haier	LE49U5000A	LE49U5000A	LE49U5000A
 Haier	LE55M7000CF	LE55M7000CF	LE55M7000CF
-Haier	Latin America	hanyang	Haier 4K Android TV
 Haier	Logicom S9782	Logicom-S9782	Logicom-S9782
 Haier	M53-52401	M53-52401	M53-52401
 Haier	M7808	M7808	M7808
@@ -7960,6 +7960,7 @@ Haier	MEGAFON MS3A	Megafon	MS3A
 Haier	MT-700	MT-700	MT-700
 Haier	MXG308	MXG308	MXG308
 Haier	MXG408	MXG408	MXG408
+Haier	Magelite android TV	hanyang	MAGELITE Android TV
 Haier	Mexico,Central America, Korea	hongik	haierATVhongik
 Haier	NEO10-1	NEO10-1	NEO10-1
 Haier	NEO7-1	NEO7-1	NEO7-1
@@ -7987,7 +7988,6 @@ Haier	SP-5100	SP-5100	SP-5100
 Haier	Skill	Skill	Skill
 Haier	Smartfren Andromax AD681H	AD681H	Smartfren Andromax AD681H
 Haier	Smartfren Andromax AD9A1H	AD9A1H	Smartfren Andromax AD9A1H
-Haier	South Asia	hanyang	MAGELITE Android TV
 Haier	StarQ_Q5002	StarQ_Q5002	Q5002
 Haier	T50	Haier_T50	Haier T50
 Haier	T52P	T52P	Haier T52P
@@ -8004,6 +8004,7 @@ Haier	Voyage V6	HM-V6	HM-V6
 Haier	W717	W717	W717
 Haier	W757	W757	W757
 Haier	W860	W860	W860
+Haier	candy android TV	hanyang	CANDY Android TV
 Haier	haier lesure L7	Haier_Leisure_L7	HM-N700-FL
 Haier	i50	i50	Haier_i50
 HaloBop (ShenZhen)	BG001	HelloGenius	BG001
@@ -10666,7 +10667,6 @@ Hyundai	E553	E553	E553
 Hyundai	E601F	E601F	E601F
 Hyundai	E602	E602	E602
 Hyundai	E603	E603	E603
-Hyundai	Ecuador	hanyang	HYUNDAI 4K Android TV
 Hyundai	Ecuador	nippori	HYUNDAI 2K Android TV
 Hyundai	Eternity A24	A25024L	A25024L
 Hyundai	Eternity G22	G25022K	G25022K
@@ -10708,6 +10708,7 @@ Hyundai	Hyundai Koral 10X	HT1003X16	HT1003X16
 Hyundai	Hyundai Koral 7M3X	HT0703K	HT0703K16
 Hyundai	Hyundai Koral_7M4	HT0704K08	HT0704K08
 Hyundai	Hyundai Koral_7XL	HT0701L16	HT0701L16
+Hyundai	Hyundai android TV	hanyang	HYUNDAI 4K Android TV
 Hyundai	Hyundai_Eternity_G50	HT1G50K	Hyundai_Eternity_G50
 Hyundai	Hyundai_Eternity_G50W	HT1G50KFBK	Hyundai_Eternity_G50W
 Hyundai	Hyundai_Eternity_G57	HT2G57L	Hyundai_Eternity_G57L
@@ -10936,6 +10937,7 @@ Inco	MINI	MINI	MINI
 Inco	Rouge1	Rouge1	Rouge1
 Inco	eco_s	eco_s	eco_s
 IndiHome	B860H V5.0	B860HV5_Telkom	B860H V5.0
+IndiHome	HG680_FJ	HG680	HG680_FJ
 Indurama	indurama 2K TV	shinjuku	indurama 2K TV
 Inet-Tablet	D711HC_PG	D711HC_PG	D711HC_PG
 Inet-Tablet	D7911L3BC_OGS	D7911L3BC_OGS	D7911L3BC_OGS
@@ -11023,6 +11025,7 @@ Infinix	Infinix X571	Infinix-X571	Infinix X571
 Infinix	Infinix X572	Infinix-X572	Infinix X572
 Infinix	Infinix ZERO 8i	Infinix-X687B	Infinix X687B
 Infinix	Infinix ZERO8	Infinix-X687	Infinix X687
+Infinix	NOTE 10 Pro	Infinix-X695	Infinix X695
 Infinix	NOTE 3	X601	Infinix NOTE 3
 Infinix	NOTE 3 Pro	X601-3G	Infinix NOTE 3 Pro
 Infinix	NOTE 3 Pro	X601-LTE	Infinix NOTE 3 Pro
@@ -11937,11 +11940,11 @@ KISA phone	KPAU04	KPAU04	KPAU04
 KNC (LK)	TPC_XTE10D	TPC_XTE10D	TPC_XTE10D
 KONDE	KD2	KD2	KD2
 KONDE	KIDS_FIVE	KIDS_FIVE	KIDS_FIVE
-KONKA	Asia Pacific, Europe, MiddleEast，Africa	hanyang	KONKA Android TV 4K
 KONKA	Asia Pacific, Europe, MiddleEast，Africa	nippori	KONKA Android TV 2K
 KONKA	KM7012BK	KM7012BK	KM7012BK
 KONKA	KONKA	seocho	KONKA 4K Android TV
 KONKA	KONKA	sugamo	KONKA 2K Android TV
+KONKA	Konka android tv	hanyang	KONKA Android TV 4K
 KONKA	North America	hongik	KONKA 4K Android TV
 KONKA	North America	uguisudani	KONKA 2K Android TV
 KONKA	RE1	RE1	RE1
@@ -12235,7 +12238,6 @@ Kodak	SMARTWAY_F1	SMARTWAY_F1	SMARTWAY_F1
 Kodak	SP4	SP4	SP4
 Kodak	Smartway_T1	Smartway_T1	Smartway_T1
 Kogan	Agora 6 Plus	Kogan_Agora_6Plus	Kogan Agora 6Plus
-Kogan	Australia	hanyang	Kogan SmarterTV
 Kogan	Australia	nippori	Kogan SmarterTV 2K
 Kogan	Australia	shibuya	KoganTVAP
 Kogan	Australia	tamachi	Kogan TV
@@ -12247,6 +12249,7 @@ Kogan	Kogan Agora 9	Kogan_Agora_9	Kogan Agora 9
 Kogan	Kogan Agora Go	Agora_Go	Agora Go
 Kogan	Kogan Agora XI	AGORA_XI	AGORA XI
 Kogan	Kogan Agora XS	Kogan_Agora_XS	Agora XS
+Kogan	Kogan SmarterTV	hanyang	Kogan SmarterTV
 Komu	K22	K22	K22
 Konrow	CITY	CITY	CITY
 Konrow	CITY5	CITY5	CITY5
@@ -15072,10 +15075,10 @@ LinkNet	ST950I-LN	ST950I-LN	ST950I-LN
 LinkNet	Smart Box HD	SH940C-LN	SH940C-LN
 LinkNet	X1 Prime	DCN88_72604_LN	DCN88_72604_LN
 LinkNet	X1-Prime-c	DTC9565	X1-Prime-c
-Linsar	Australia	hanyang	Linsar Android TV
 Linsar	Linsar	bangbae	Linsar 4K Android TV
 Linsar	Linsar	komagome	Linsar 2K Android TV
 Linsar	Linsar	sadang	Linsar UK 4K Android TV
+Linsar	Linsar android TV	hanyang	Linsar Android TV
 Linsar	Llinsar	ueno	Linsar 2K Android TV
 Linsay	F10XIPS	F10XIPS	F10XIPS
 Linsay	F10XIPS	F10XIPS	LINSAY F10XIPS
@@ -19535,7 +19538,6 @@ Polaroid	A7X_PTAB735X	PTAB735X	A7X_PTAB735X
 Polaroid	A7_PTAB735	A7_PTAB735	HS-7DTB39
 Polaroid	A9x/PTAB935x	A9xPTAB935x	A9x/PTAB935x
 Polaroid	Android TV	R1	ATV R1
-Polaroid	Australia	hanyang	Polaroid Android TV
 Polaroid	BDL1064PR001	BDL1064PR001	BDL1064PR001
 Polaroid	BDL424	BDL424	BDL424
 Polaroid	BDL5048	BDL5048	BDL5048PR001
@@ -19603,6 +19605,7 @@ Polaroid	PTAB751	STJR76	PTAB751
 Polaroid	Phantom 5	Phantom5	PRO5023
 Polaroid	Polaroid	bangbae	Polaroid 4K Android TV
 Polaroid	Polaroid	komagome	Polaroid 2K Android TV
+Polaroid	Polaroid android TV	hanyang	Polaroid Android TV
 Polaroid	SIGMA 5	SIGMA-5	SIGMA-5
 Polaroid	SMX4K	GMP	SMX4K
 Polaroid	SOHO	SOHO	SOHO
@@ -20174,13 +20177,13 @@ Protab	PTBPT5QCB7	PTBPT5QCB7	PTBPT5QCB7
 Proximus	Proximus TV	uiw4020pxm	decoder
 Punos	Punos_10	Punos_10	Punos 10
 Punos	Punos_7	Punos_7	Punos 7
-QBell	EU	hanyang	QBELL Android TV
 QBell	EU	nippori	QBELL Android TV 2K
 QBell	QBell	bangbae	QBell 4K Android TV
 QBell	QBell	komagome	QBell 2K Android TV
 QBell	QPHONE_10_1	QPHONE_10_1	QPHONE_10.1
 QBell	QPHONE_9_3	QPHONE_9_3	QPHONE_9_3
 QBell	QTAB10	QTAB10	QTAB10
+QBell	Qbell android TV	hanyang	QBELL Android TV
 QFX USA	TLW-100	PhonePad	TLW-100
 QLA	C600	GBC_bravo	C600
 QLA (tw)	T1	QLA	T1
@@ -20623,6 +20626,13 @@ Realme	realme 7i	RMX2193	RMX2193
 Realme	realme 8	RMX3085L1	RMX3085
 Realme	realme 8 5G		RE513CL1	RMX3241
 Realme	realme 8 Pro	RMX3081L1	RMX3081
+Realme	realme C11	RMX2185	RMX2185
+Realme	realme C11	RMX2186	RMX2186
+Realme	realme C12	RMX2184	RMX2184
+Realme	realme C12	RMX2189	RMX2189
+Realme	realme C15	RMX2180	RMX2180
+Realme	realme C15	RMX2181	RMX2181
+Realme	realme C15	RMX2183	RMX2183
 Realme	realme C15 Qualcomm Edition	RECE4244	RMX2195
 Realme	realme C15 Qualcomm Edition	RMX2195L1	RMX2195
 Realme	realme C17	RE50BF	RMX2101
@@ -20908,8 +20918,8 @@ Ruio	S6501	S6501	S6501
 Ruio	S6506	S6506	S6506
 Rumie	RT-1708	RT-1708	RT-1708
 Runbo	F1Plus	F1Plus	F1Plus
-S Vision	Australia	hanyang	Svision Android TV
 S Vision	Australia	nippori	Svision Android TV 2K
+S Vision	S android TV	hanyang	Svision Android TV
 S&T Global	8788_7	8788_7	8788_7
 S&T Global	C20	C20	C20
 S-tell	M555i	M555i	M555i
@@ -21402,7 +21412,6 @@ Samsung	Galaxy A32	a32	SM-A325M
 Samsung	Galaxy A32 5G	SCG08	SCG08
 Samsung	Galaxy A32 5G	a32x	SM-A326B
 Samsung	Galaxy A32 5G	a32x	SM-A326BR
-Samsung	Galaxy A32 5G	a32x	SM-A326K
 Samsung	Galaxy A32 5G	a32x	SM-A326U
 Samsung	Galaxy A32 5G	a32x	SM-A326U1
 Samsung	Galaxy A32 5G	a32x	SM-A326W
@@ -22180,6 +22189,7 @@ Samsung	Galaxy J8	j8y18lte	SM-J810M
 Samsung	Galaxy J8	j8y18lte	SM-J810Y
 Samsung	Galaxy Jean	a6pltektt	SM-A605K
 Samsung	Galaxy Jean2	a20e	SM-A202K
+Samsung	Galaxy Jump	a32x	SM-A326K
 Samsung	Galaxy K	SHW-M130K	SHW-M130K
 Samsung	Galaxy K Zoom	m2a3g	SM-C111
 Samsung	Galaxy K Zoom	m2a3g	SM-C111M
@@ -24552,10 +24562,10 @@ Sonimtech	XP7	XP7700Z1	Smart-Ex 01
 Sonimtech	XP7700Z1	XP7700Z1	Smart-Ex 01
 Sonimtech	XP7705	XP7705	XP7700
 Sonimtech	XP8	XP8800	XP8800
-Soniq	Australia	hanyang	SONIQ Android TV
 Soniq	G32HW60A	osaki	2K AI Smart TV
 Soniq	PT0719A	PT0719A	PT0719A
 Soniq	PT1019A	PT1019A	PT1019A
+Soniq	Soniq android TV	hanyang	SONIQ Android TV
 Sony		C5503	C5503
 Sony		C6616	C6616
 Sony		SGP312	SGP312
@@ -28751,6 +28761,7 @@ Vivo	V2055A	PD2055	V2055A
 Vivo	V2056A	PD2056	V2056A
 Vivo	V2057A	PD2057	V2057A
 Vivo	V2059A	PD2047	V2059A
+Vivo	V2061	2061	V2061
 Vivo	V2061A	PD2061	V2061A
 Vivo	V2065	2026	V2065
 Vivo	V2065A	PD2065	V2065A
@@ -28761,6 +28772,9 @@ Vivo	V2073A	PD2073	V2073A
 Vivo	V2080A	PD2080	V2080A
 Vivo	V2085A	PD2085	V2085A
 Vivo	V2099A	PD2034D	V2099A
+Vivo	V2108	2061	V2061
+Vivo	V2108	2061	V2108
+Vivo	V2118A	PD2118	V2118A
 Vivo	V3	PD1524	vivo V3
 Vivo	V3	V3	vivo V3
 Vivo	V3Lite	V3Lite	vivo V3Lite
@@ -31702,6 +31716,8 @@ Zen	Zen Cinemax Prime	ZEN_CINEMAX_PRIME	CINEMAX_PRIME
 Zen	Zen M72 Smart	M72_Smart	M72 Smart
 Zephir	Zephir	bangbae	Zephir 4K Android TV
 Zephir	Zephir	komagome	Zephir 2K Android TV
+Zephir	Zephir 2K android TV	nippori	ZEPHIR Android TV 2K
+Zephir	Zephir android TV	hanyang	ZEPHIR Android TV
 Zettaly	ZA-407	ZA-407	Zettaly Avy ZA-407
 Zexelon	ZTAB01B	ZTAB01B	ZTAB01B
 Zilo	Zilo	Zilo	Zilo
