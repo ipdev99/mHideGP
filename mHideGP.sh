@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Pull prop settings from device/image files
-# ipdev99 @ xda-developers
+# ipdev @ xda-developers
 
 # Originally (and still) written to grab needed/useful props for use with MagiskHidePropsConfig module
 # by Didgeridoohan @ xda-developers

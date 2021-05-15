@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Pull (curl) and convert google's public certified device list into a usable file.
-# ipdev99 @ xda-developers
+# ipdev @ xda-developers
 
 # Tested on Linux (fedora 32) and MacOS (v10.13.6)
 

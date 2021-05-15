@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Merge multiple mhp files into a new file.
-# ipdev99 @ xda-developers
+# ipdev @ xda-developers
 
 # Originally (and still) written for use with MagiskHidePropsConfig module
 # by Didgeridoohan @ xda-developers
