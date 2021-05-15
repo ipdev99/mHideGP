@@ -112,7 +112,7 @@ set_prop_file() {
 }
 
 check_prop_file() {
-	if [ $prop_file = "ABORT" ]; then
+	if [ "$prop_file" = "ABORT" ]; then
 		echo " "
 		echo " No prop file found. " >&2
 		echo " Aborting ...  "
@@ -122,14 +122,23 @@ check_prop_file() {
 }
 
 ignore_prop_file() {
- 	if [ ! $BRAND ]; then
- 		echo " "
- 		echo " Device Brand was not found. "
- 		echo " This prop file is ignored. " >&2
- 		echo " Aborting ...  "
- 		echo " "
+	if [ ! "$BRAND" ]; then
+		echo " "
+		echo " Device Brand was not found. " >&2
+		echo "  This prop file is ignored. " >&2
+		echo " Aborting ...  "
+		echo " "
 		exit 1;
  	fi;
+
+	if [ ! "$MODL" ]; then
+		echo " "
+		echo " Device Model was not found. " >&2
+		echo "  This prop file is ignored. " >&2
+		echo " Aborting ...  "
+		echo " "
+		exit 1;
+	fi;
 }
 
 rename_prop_files() {
