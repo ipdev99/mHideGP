@@ -77,6 +77,21 @@ check_files() {
 	fi
 }
 
+concat_mhp_files() {
+	# Add mHide fingerprint from the mhp files(s) to $OUT file.
+	for mPrint in mhp_*.sh; do
+		cat $mPrint | sed '1!d' >> "$OUT";
+	done;
+
+	# Add a few notes to $OUT file.
+	add_notes
+
+	# Add all the rest of the device props from the mhp file(s) to the $OUT file.
+	for dProps in mhp_*.sh; do
+		cat $dProps | sed '/#/!d' | sed '/##/d' >> "$OUT";
+	done;
+}
+
 exit_0() {
 	if [ $ANDROID = "TRUE" ]; then
 		return 0; exit 0;
@@ -233,18 +248,7 @@ backup
 ## The output file is written in order of the mhp file name(s).
 ## The mHideGP script will hopefully name them in the correct order.
 
-# Add mHide fingerprint from the mhp files(s) to $OUT file.
-for mPrint in mhp_*.sh; do
-cat $mPrint | sed '1!d' >> "$OUT"
-done
-
-# Add a few notes to $OUT file.
-add_notes
-
-# Add all the rest of the device props from the mhp file(s) to the $OUT file.
-for dProps in mhp_*.sh; do
-cat $dProps | sed '/#/!d' | sed '/##/d' >> "$OUT"
-done
+[[ -n $(find -maxdepth 1 -name 'mhp_*.sh') ]] && concat_mhp_files;
 
 # Cleanup
 # (Not sure if I like the echo clutter. Removed for now.)
@@ -252,7 +256,7 @@ done
 for file in mhp_*.sh; do
 	{
 	## echo $file
-	rm $file
+	rm $file 2>/dev/null
 	}
 done
 
@@ -276,7 +280,10 @@ for file in *.img; do
 done;
 
 # Finish script
-echo ""; echo "New mHide-printslist file saved as "$OUT""
+if [ -f "$OUT" ]; then
+	echo ""; echo "New mHide-printslist file saved as "$OUT"";
+fi;
+
 echo ""; echo "Done."; echo "";
 #
 exit_0;
