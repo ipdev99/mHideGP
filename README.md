@@ -79,7 +79,7 @@ This script will download (curl) the public certified list html file and format 
   _Retail Branding  Marketing Name  Device  Model_  
   
 It is easier and quicker to search a text file than waiting for a website based table to load.  
-_Especially one that has over 29,000 entries._  
+_Especially one that has over 32,000 entries._  
   
 This script currently keeps a copy of the _HMTL_ file and the corresponding _certified.list_ file as part of the backup. These backups are not necessary but only saved for reference. They are saved to a directory named _xfiles_ in the current directory.  
   
@@ -88,10 +88,10 @@ This script currently keeps a copy of the _HMTL_ file and the corresponding _cer
 - Finish the How-To _(Instructions)_  
   
 ### Recent changes
-- Fix and cleanup of some scripts.  
-- Instructions.  (Add prop_mHideGP instructions).  
-- Update aik_mHideGP (Runs mHideGP on additional prop files).  
-- Added prop_mHideGP (Runs mHideGP on multiple prop files).  
+- Maintenance and Cleanup.  
+- Fixed a few typo(s) and cosmetic errors.  
+- Updated mHideGP to ignore the prop file if device model is not found.  
+- Updated aik_mHideGP to fix generating a printslist with only the notes.  
   
 ### How to use
   
