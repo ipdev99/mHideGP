@@ -92,8 +92,6 @@ AIDATA	ADT1012L	ADT1012L	ADT1012L
 AIDATA	ADT1061	ADT1061	ADT1061
 AIDATA	ADT1061_1	ADT1061_1	ADT1061_1
 AIDATA	ADT_1061	ADT_1061	ADT_1061
-AKIRA	Pakistan	tamachi	AKIRA FHD Android TV
-AKIRA	Pakistan	yeongdeungpo	AKIRA UHD Android TV
 AKOR	AKOR	TG1016	TG1016
 AKOR	TG797	TG797	TG797
 AKOR	TG996	TG996	TG996
@@ -477,6 +475,7 @@ Advan digital	G3	ADVAN_G3	6001
 Advan digital	G3 Pro	ADVAN_G3_Pro	6002
 Advan digital	G5	ADVAN_G5	6201
 Advan digital	G5 Elite	ADVAN_G5_Elite	6003
+Advan digital	G5 Plus	ADVAN_G5_Plus	6501
 Advan digital	G9	ADVAN_G9	6501
 Advan digital	I Tab	ADVAN_i_Tab	i7_Plus
 Advan digital	I55A	I55A	I55A
@@ -1383,6 +1382,7 @@ Archos	Quechua Tablet 8	A80RG11	A80RG11
 Archos	Smart Home Tablet	hometablet	Archos Smart Home Tablet
 Archos	Smarthome La Poste	hometablet	Archos Smart Home Tablet
 Archos	TV Connect	LUDO	ARCHOS LUDOG10
+Archos	X67 5G	ac67x5g	X67 5G
 Archos	alba 10	ac101cplv2	ALBA 10 TABLET
 Archos	alba 10	ac101cplv2	Alba 10"
 Arima	A100	A100	A100
@@ -2046,6 +2046,7 @@ Azumi	IRO A5QL	IRO_A5_QL_HD	Azumi_IRO_A5_QL
 Azumi	IRO_A4_Q_Pro	IRO_A4_Q_PRO	Azumi_IRO_A4_Q_PRO
 Azumi	IRO_A55_Q_Pro	IRO_A55_Q_Pro	Azumi IRO A55 Q Pro
 Azumi	IRO_A6_Q	IRO_A6_Q	IRO A6 Q
+Azumi	K55QL_AC04	Azumi_K55QL_AC04	Azumi K55QL
 Azumi	K55QL_AC12	Azumi_K55QL_AC12	K55QL
 Azumi	K5QL	Azumi_K5QL	Azumi K5QL
 Azumi	KINZO A55 OLi	KINZO_A55_OLi	Azumi_KINZO_A55_OLi
@@ -2721,6 +2722,7 @@ Blackview	A60 Plus	A60Plus	A60Plus
 Blackview	A60 Pro	A60Pro	A60Pro
 Blackview	A60Pro	A60Pro	A60Pro
 Blackview	A7	A7	A7
+Blackview	A70	A70	A70
 Blackview	A7PRO	A7Pro	A7Pro
 Blackview	A8 MAX	A8_MAX	A8 MAX
 Blackview	A80	A80	A80
@@ -11484,8 +11486,6 @@ Intex	INTEX AQUA STYLE 3	INTEX_AQUA_STYLE_3	INTEX AQUA STYLE 3
 Intex	INTEX Aqua Selfie	INTEX_AQUA_SELFIE	INTEX AQUA SELFIE
 Intex	INTEX_AQUA_S3	INTEX_AQUA_S3	INTEX AQUA S3
 Intex	IV0318ND	IV0318ND	IV0318ND
-Intex	India	tamachi	INTEX FHD Android TV
-Intex	India	yeongdeungpo	INTEX UHD Android TV
 Intex	Indie 22	AQUA_FulVU_e5	INTEX AQUA FulVU e5
 Intex	Indie 22	AQUA_FulVU_e5	INTEX IP0518ND
 Intex	STAARi 10	AQUA_LIONS_X1_PLUS	INTEX AQUA LIONS X1+
@@ -14020,8 +14020,6 @@ LLA	VIP6102W LLA-PA	vip6102w	VIP6102W
 LLA	VIP6102W-LLA	vip6102w	VIP6102W
 LLOYD	Android TV	R1	ATV R1
 LLOYD	Android TV	R2	ATV R2
-LLOYD	India	tamachi	LLOYD FHD Android TV
-LLOYD	India	yeongdeungpo	LLOYD UHD Android TV
 LNMBBS	H11-EEA	H11-EEA	H11-EEA
 LNMBBS	L18	L18	L18
 LNMBBS	L18-EEA	L18-EEA	L18-EEA
@@ -14832,6 +14830,8 @@ Lenovo	Lenovo K11	L38083	Lenovo L38083
 Lenovo	Lenovo K12 Note	guamp	Lenovo K12 Note
 Lenovo	Lenovo K13 Note	capri	Lenovo K12 Note
 Lenovo	Lenovo K13 Note	capri	Lenovo K13 Note
+Lenovo	Lenovo K13 Pro	caprip	Lenovo K12 Note
+Lenovo	Lenovo K13 Pro	caprip	Lenovo K13 Pro
 Lenovo	Lenovo K8	brady_f	Lenovo K
 Lenovo	Lenovo K8	brady_f	Lenovo K8
 Lenovo	Lenovo K8 Note	manning	Lenovo K8 Note
@@ -16505,8 +16505,6 @@ Mito	A10	A10_sprout	MITO_A10
 Mito	A62	A62	A62
 Mito	A67	A67	Mito A67
 Mito	A880	A880	MITO A880
-Mito	Indonesia	tamachi	MITO FHD Android TV
-Mito	Indonesia	yeongdeungpo	MITO UHD Android TV
 Mito	MITO A17	MITO_A17	MITO A17
 Mito	MITO A21	A21	MITO A21
 Mito	MITO A39	A39	mito A39
@@ -16920,6 +16918,8 @@ Motorola	Iron Rock	umts_irock	XT627
 Motorola	Lenovo K10	pokerp	Lenovo K10
 Motorola	Lenovo K11	fiji	Lenovo K11
 Motorola	Lenovo K11 Power	blackjack	Lenovo K11 Power
+Motorola	Lenovo K12	malta	Lenovo K11
+Motorola	Lenovo K12	malta	Lenovo K12
 Motorola	Lenovo K13	maltalsc	Lenovo K13
 Motorola	Lenovo K13	maltalsc	maltalsc
 Motorola	Lenovo XT2081-4	guam	Lenovo XT2081-4
@@ -17159,6 +17159,8 @@ Motorola	moto e(6i)	fijisc	moto e(6i)
 Motorola	moto e(7)	malta	malta
 Motorola	moto e(7)	malta	moto e(7)
 Motorola	moto e(7) plus	guam	moto e(7) plus
+Motorola	moto e(7) power	malta	malta
+Motorola	moto e(7) power	malta	moto e(7) power
 Motorola	moto e(7i) power	maltalsc	maltalsc
 Motorola	moto e(7i) power	maltalsc	moto e(7i) power
 Motorola	moto e5	nora	moto e5 (XT1920DL)
@@ -17204,6 +17206,8 @@ Motorola	moto g(10)	capri	moto e(7) plus
 Motorola	moto g(10)	capri	moto g(10)
 Motorola	moto g(100)	nio	moto g(100)
 Motorola	moto g(30)	caprip	moto g(30)
+Motorola	moto g(50)	ibiza	XT2137-2
+Motorola	moto g(50)	ibiza	moto g(50)
 Motorola	moto g(6)	ali	XT1925-10
 Motorola	moto g(6)	ali	moto g(6)
 Motorola	moto g(6)	ali	moto g(6) (XT1925DL)
@@ -17260,6 +17264,7 @@ Motorola	moto z4	foles	moto z4
 Motorola	motorola edge	racer	motorola edge
 Motorola	motorola edge plus	burton	motorola edge plus
 Motorola	motorola edge s	nio	XT2125-4
+Motorola	motorola egde s	nio	XT2125-4
 Motorola	motorola one	deen_sprout	motorola one
 Motorola	motorola one 5G	nairo	motorola one 5G
 Motorola	motorola one 5G UW	nairo	motorola one 5G
@@ -17787,7 +17792,6 @@ NGM Italia SRL	Smart5	Smart5	Smart5
 NGM Italia SRL	Smart5.5	Smart55	Smart5.5
 NGM Italia SRL	Smart5.5Plus	Smart55Plus	Smart5.5Plus32GB
 NGM Italia SRL	Smart5Plus	Smart5Plus	Smart5Plus
-NIKAI_PRO	GCC	yeongdeungpo	NIKAI PRO UHD Android TV
 NOA Mobile	Forte_se	Forte_se	Forte_se
 NOA Mobile	Fresh 4G	Fresh_4G	Fresh_4G
 NOA Mobile	Hummer	Hummer	Hummer
@@ -18347,7 +18351,6 @@ OTOT	V350	V350	V350
 OTTO	OTTO CR05	OTTO_CR05	OTTO CR05
 OVERTECH	OX7A	OX7A	OX7A
 OWXMobile	W77	W77	W77
-OXYGEN (in)	India	tamachi	OXYGEN FHD Android TV
 OXYGEN (in)	India	yeongdeungpo	OXYGEN UHD Android TV
 OYYU	T11	OYYUT11	OYYUT11
 OYYU	T7Pro	T7Pro	T7Pro
@@ -18474,6 +18477,7 @@ Onn (Walmart)	ONA19TB002	ONA19TB002	ONA19TB002
 Onn (Walmart)	ONA19TB003	ONA19TB003	ONA19TB003
 Onn (Walmart)	ONA19TB007	ONA19TB007	ONA19TB007
 Onn (Walmart)	Onn 2k TV stick	stephen	Onn 2k TV stick
+Onn (Walmart)	OnnTVbox	sti6140d360	sti6140d360
 Onn (Walmart)	TBBVNC100005207	TBBVNC100005207	TBBVNC100005207
 Onn (Walmart)	TBBVNC100005208	TBBVNC100005208	TBBVNC100005208
 Onn (Walmart)	TBBVNC100005209	TBBVNC100005209	TBBVNC100005209
@@ -20920,6 +20924,7 @@ Realme	50F1	gangbyeon	4K AI Smart TV
 Realme	RMX2020	RMX2020	RMX2020
 Realme	RMX2040	RMX2040	RMX2040
 Realme	realme  8	RMX3085L1	RMX3085
+Realme	realme  narzo  30	RMX2156L1	RMX2156
 Realme	realme 2 Pro	RMX1801	RMX1801
 Realme	realme 3Pro	RMX1851	RMX1851
 Realme	realme 5	RMX1911L1	RMX1911
@@ -20971,6 +20976,7 @@ Realme	realme C21	RMX3202	RMX3202
 Realme	realme C21	RMX3203L1	RMX3203
 Realme	realme C25	RMX3191	RMX3191
 Realme	realme C25	RMX3193	RMX3193
+Realme	realme C25s	RMX3195	RMX3195
 Realme	realme C3	RMX2020	RMX2020
 Realme	realme C3	RMX2021	RMX2021
 Realme	realme C3	RMX2022	RMX2022
@@ -21300,8 +21306,6 @@ SAWINK	T10	T10	T10
 SBET	X7	X7	X7
 SCHNEIDER	Android TV	R1	ATV R1
 SCHNEIDER	Android TV	R2	ATV R2
-SCHNEIDER	France	tamachi	SCHNEIDER FHD Android TV
-SCHNEIDER	France	yeongdeungpo	SCHNEIDER UHD Android TV
 SCHNEIDER	SCHNEIDER	bangbae	SCHNEIDER 4K Android TV
 SCHNEIDER	SCHNEIDER	komagome	SCHNEIDER 2K Android TV
 SCIENTIA	BBT1019863	BBT1019863	BBT1019863
@@ -21676,6 +21680,7 @@ Samsung	Galaxy A02s	a02q	SM-A025M
 Samsung	Galaxy A02s	a02q	SM-A025U
 Samsung	Galaxy A02s	a02q	SM-A025U1
 Samsung	Galaxy A02s	a02q	SM-A025V
+Samsung	Galaxy A02s	a02q	SM-S124DL
 Samsung	Galaxy A10	a10	SM-A105F
 Samsung	Galaxy A10	a10	SM-A105FN
 Samsung	Galaxy A10	a10	SM-A105G
@@ -21731,6 +21736,7 @@ Samsung	Galaxy A21s	a21s	SM-A217F
 Samsung	Galaxy A21s	a21s	SM-A217M
 Samsung	Galaxy A21s	a21s	SM-A217N
 Samsung	Galaxy A22	a22	SM-A225F
+Samsung	Galaxy A22	a22	SM-A225M
 Samsung	Galaxy A22 5G	a22x	SM-A226B
 Samsung	Galaxy A22s 5G	a22x	SM-A226B
 Samsung	Galaxy A3	a33g	SM-A300H
@@ -22596,7 +22602,7 @@ Samsung	Galaxy M20	m20lte	SM-M205FN
 Samsung	Galaxy M20	m20lte	SM-M205G
 Samsung	Galaxy M20	m20lte	SM-M205M
 Samsung	Galaxy M21	m21	SM-M215F
-Samsung	Galaxy M21 Prime Edition	m21	SM-M215G
+Samsung	Galaxy M21 2021 Edition	m21	SM-M215G
 Samsung	Galaxy M30	m30lte	SM-M305F
 Samsung	Galaxy M30	m30lte	SM-M305M
 Samsung	Galaxy M30s	m30s	SM-M3070
@@ -22604,6 +22610,8 @@ Samsung	Galaxy M30s	m30s	SM-M307F
 Samsung	Galaxy M30s	m30s	SM-M307FN
 Samsung	Galaxy M31	m31	SM-M315F
 Samsung	Galaxy M31s	m31s	SM-M317F
+Samsung	Galaxy M32	m32	SM-M325F
+Samsung	Galaxy M32	m32	SM-M325FV
 Samsung	Galaxy M40	m40	SM-M405F
 Samsung	Galaxy M42 5G	a42xq	SM-M426B
 Samsung	Galaxy M51	m51	SM-M515F
@@ -27860,6 +27868,7 @@ Tecno	TECNO POP 4	TECNO-BC2	TECNO BC2
 Tecno	TECNO POP 4	TECNO-BC2c	TECNO BC2c
 Tecno	TECNO POP 4 Air	TECNO-BC1	TECNO BC1
 Tecno	TECNO POP 5	TECNO-BD2	TECNO BD2
+Tecno	TECNO POP 5	TECNO-BD2p	TECNO BD2p
 Tecno	TECNO POP X5	TECNO-L6502S	TECNO L6502S
 Tecno	TECNO POVA 2	TECNO-LE7	TECNO LE7
 Tecno	TECNO POVA 2	TECNO-LE7n	TECNO LE7n
@@ -29066,6 +29075,7 @@ Virzo	V608C	V608C	V608C
 Virzo	V608C	V608_C	V608C
 Virzo	VT701	VT701	VT701
 Vise	32VRCHG5SP	ikebukuro	AI PONT
+Vision	B866V2	MediaBox_B866V2	B866V2
 Vision	Bangladesh	tamachi	Vision FHD Android TV
 Vision	VISION	shibuya	VISION
 Vision	VISION SMART TV	SW4H	VISION SMART TV
@@ -32358,6 +32368,7 @@ beafon	M5	M5	M5
 beafon	M6	M6	M6
 beafon	M6s	M6s	M6s
 beafon	MX1	MX1	MX1
+benco	AE9950	AE9950	AE9950
 benco	AF9010_F	AF9010_F	AF9010_F
 benco	AF9020	AF9020	AF9020
 benco	AF9030	AF9030	AF9030
