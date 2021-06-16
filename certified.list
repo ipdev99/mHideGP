@@ -2873,6 +2873,7 @@ Blu	Advance_A7	A210	Advance A7
 Blu	Advance A5 Plus LTE	A0031WW	Advance A5 Plus LTE
 Blu	B110DL	B110DL	B110DL
 Blu	B130DL	B130DL	B130DL
+Blu	B140DL	B140DL	B140DL
 Blu	BLU	G0430WW	G71
 Blu	BLU Dash XL	Dash_XL	Dash XL
 Blu	BLU Grand M3	G0070WW	Grand M3
@@ -2992,6 +2993,7 @@ Blu	Grand_M2	G190	Grand M2
 Blu	Grand_M2_LTE	G0050	Grand M2 LTE
 Blu	Grand_X	Grand_X	Grand X
 Blu	J7	J0000LL_ATT_MX	J7
+Blu	J9L	J0090WW	J9L
 Blu	LIFE ONE X	BLU_LIFE_ONE_X	BLU LIFE ONE X
 Blu	LIFE ONE X	Life_One_X	Life One X
 Blu	LIFE ONE X2	Life_One_X2	Life One X2
@@ -3843,6 +3845,7 @@ Cloud (TruConnect)	Cyclone_C4	Cyclone_C4	Cyclone_C4
 Cloud (TruConnect)	Storm C3	Storm_C3	Storm_C3
 Cloud (TruConnect)	Stratus_C5	Stratus_C5	Stratus_C5
 Cloud (TruConnect)	Sunshine_T1	Sunshine_T1	Sunshine_T1
+Cloud (TruConnect)	Typhoon_C6	Typhoon_C6	Typhoon_C6
 CloudFone	CloudFone Excite Prime 2	Excite_Prime_2	Excite Prime 2
 CloudFone	CloudFone Next Infinity Plus	Next_Infinity_Plus	Next Infinity Plus
 CloudFone	CloudFone Next Infinity Pro	Next_Infinity_Pro	Next Infinity Pro
@@ -16739,6 +16742,7 @@ Mobvoi	TicWatch C2	skipjack	TicWatch C2
 Mobvoi	TicWatch C2	skipjack	TicWatch C2+
 Mobvoi	TicWatch E2/S2	tunny	TicWatch E2
 Mobvoi	TicWatch E2/S2	tunny	TicWatch S2
+Mobvoi	TicWatch E3	ricefish	TicWatch E3
 Mobvoi	TicWatch Pro	catfish	TicWatch Pro
 Mobvoi	TicWatch Pro	catfish_ext	TicWatch Pro
 Mobvoi	TicWatch Pro	catfish_ext	TicWatch Pro S
@@ -16922,6 +16926,7 @@ Motorola	Lenovo K12	malta	Lenovo K11
 Motorola	Lenovo K12	malta	Lenovo K12
 Motorola	Lenovo K13	maltalsc	Lenovo K13
 Motorola	Lenovo K13	maltalsc	maltalsc
+Motorola	Lenovo K13 Note	java	Lenovo K13 Note
 Motorola	Lenovo XT2081-4	guam	Lenovo XT2081-4
 Motorola	Master Touch	umts_primus	XT621
 Motorola	Master Touch XT621	umts_primus	XT621
@@ -17205,6 +17210,8 @@ Motorola	moto g stylus (2021)	minsk	moto g stylus (XT2115DL)
 Motorola	moto g(10)	capri	moto e(7) plus
 Motorola	moto g(10)	capri	moto g(10)
 Motorola	moto g(100)	nio	moto g(100)
+Motorola	moto g(20)	java	moto g(20)
+Motorola	moto g(20)	java	moto g20
 Motorola	moto g(30)	caprip	moto g(30)
 Motorola	moto g(50)	ibiza	XT2137-2
 Motorola	moto g(50)	ibiza	moto g(50)
@@ -20977,6 +20984,7 @@ Realme	realme C21	RMX3203L1	RMX3203
 Realme	realme C25	RMX3191	RMX3191
 Realme	realme C25	RMX3193	RMX3193
 Realme	realme C25s	RMX3195	RMX3195
+Realme	realme C25s	RMX3197	RMX3197
 Realme	realme C3	RMX2020	RMX2020
 Realme	realme C3	RMX2021	RMX2021
 Realme	realme C3	RMX2022	RMX2022
@@ -21027,6 +21035,7 @@ Realme	realme XT	RMX1921	RMX1921
 Realme	realme XT	RMX1921L1	RMX1921
 Realme	realme XT	RMX1922	RMX1922
 Realme	realme narzo 20A	RMX2050	RMX2050
+Realme	realme narzo 30 5G	RE513CL1	RMX3242
 Realme	realme narzo 30A	RMX3171	RMX3171
 Realme	realme  X7 Pro 	RMX2121CN	RMX2121
 Realme	realme 7i	RE50C1	RMX2103
