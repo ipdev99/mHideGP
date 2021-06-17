@@ -11089,6 +11089,7 @@ IndiHome	B860H V5.0	B860HV5_Telkom	B860H V5.0
 IndiHome	HG680_FJ	HG680	HG680_FJ
 Indurama	indurama 2K TV	shinjuku	indurama 2K TV
 Indurama	indurama 4K TV	SW4H	indurama 4K TV
+Indurama	indurama smart TV	SW4H_FF	indurama smart TV
 Inet-Tablet	D711HC_PG	D711HC_PG	D711HC_PG
 Inet-Tablet	D7911L3BC_OGS	D7911L3BC_OGS	D7911L3BC_OGS
 Infinity	10.1-v2	Infinity-101-v2	Infinity-10.1-v2
@@ -17207,6 +17208,8 @@ Motorola	moto g stylus	sofiap	moto g stylus
 Motorola	moto g stylus (2021)	minsk	moto g stylus
 Motorola	moto g stylus (2021)	minsk	moto g stylus (2021)
 Motorola	moto g stylus (2021)	minsk	moto g stylus (XT2115DL)
+Motorola	moto g stylus 5G	denver	moto g stylus (2021)
+Motorola	moto g stylus 5G	denver	moto g stylus 5G
 Motorola	moto g(10)	capri	moto e(7) plus
 Motorola	moto g(10)	capri	moto g(10)
 Motorola	moto g(100)	nio	moto g(100)
@@ -18484,10 +18487,10 @@ Onn (Walmart)	ONA19TB002	ONA19TB002	ONA19TB002
 Onn (Walmart)	ONA19TB003	ONA19TB003	ONA19TB003
 Onn (Walmart)	ONA19TB007	ONA19TB007	ONA19TB007
 Onn (Walmart)	Onn 2k TV stick	stephen	Onn 2k TV stick
-Onn (Walmart)	OnnTVbox	sti6140d360	sti6140d360
 Onn (Walmart)	TBBVNC100005207	TBBVNC100005207	TBBVNC100005207
 Onn (Walmart)	TBBVNC100005208	TBBVNC100005208	TBBVNC100005208
 Onn (Walmart)	TBBVNC100005209	TBBVNC100005209	TBBVNC100005209
+Onn (Walmart)	sti6140d360	sti6140d360	sti6140d360
 Ooredoo	Ooredoo TV	diw387oor	DIW387_UHD_OOR
 Ooredoo	Smart10_Pro	Smart10_Pro	Smart10_Pro
 Opay	M1 Lite	M1_Lite	M1 Lite
@@ -19758,6 +19761,7 @@ Pioneer	SDA-835TAB	SDA_835TAB	SDA-835TAB
 Pioneer	SDA-8TAB	SDA_8TAB	SDA-8TAB
 Pioneer	XDP-100R	Fu_Zin_32	XDP-100R
 Pioneer	XDP-300R	Fu_Zin2R_32	XDP-300R
+Pioneer_Digital_TV	PD_DV_8535	DV8535-KIP	PD_DV_8535
 Piranha	Piranha8032	Piranha8032	Piranha8032
 Pitney Bowes	Pitney Bowes C-Series	ELINK2	CSD-ELINK2
 Pitney Bowes	SendPro C Series	TitanX2	CSD-TXT2
@@ -24255,6 +24259,7 @@ Senseit	Senseit_J2	Senseit	Senseit_J2
 Senter	S917V9	S917V9	S917V9
 Senwa	LS5	Telcel_LS5	LS5
 Senwa	LS5000	Senwa_LS5000	LS5000
+Senwa	LS5018FP	LS5018FP	LS5018FP
 Senwa	LS5518H	Senwa_LS5518H	LS5518H
 Senwa	LS55M	Senwa_LS55M	LS55M
 Senwa	LS5718	Senwa_LS5718	LS5718
@@ -24402,6 +24407,8 @@ Sharp	AQUOS R5G SH-51A	SH-51A	SH-51A
 Sharp	AQUOS R5G SH-R50	Banagher	SH-R50
 Sharp	AQUOS R5G SH-RM14	Banagher	SH-M14
 Sharp	AQUOS R5G SHG01	TGD	SHG01
+Sharp	AQUOS R6	Judau	A101SH
+Sharp	AQUOS R6	SH-51B	SH-51B
 Sharp	AQUOS SERIE SHL25	SHL25	SHL25
 Sharp	AQUOS SERIE SHV32	SHV32	SHV32
 Sharp	AQUOS SERIE SHV34	SHV34	SHV34
@@ -29286,6 +29293,7 @@ Vivo	V2106A	PD2106B	V2106A
 Vivo	V2108	2061	V2061
 Vivo	V2108	2061	V2108
 Vivo	V2118A	PD2118	V2118A
+Vivo	V2121A	PD2121	V2121A
 Vivo	V3	PD1524	vivo V3
 Vivo	V3	V3	vivo V3
 Vivo	V3Lite	V3Lite	vivo V3Lite
