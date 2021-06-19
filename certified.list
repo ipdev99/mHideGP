@@ -2813,6 +2813,7 @@ Blackview	SOLID_4_G2	SOLID_4_G2	SOLID 4 G2
 Blackview	Tab 10	Tab_10	Tab 10
 Blackview	Tab8	Tab8	Tab8
 Blackview	Tab8_NEU	Tab8_NEU	Tab8
+Blackview	Tab8_ROW	Tab8_ROW	Tab 8
 Blackview	Tab8_RU	Tab8_RU	Tab8_RU
 Blackview	Tab9_EEA	Tab9_EEA	Tab9
 Blackview	Tab9_NEU	Tab9_NEU	Tab 9
@@ -3344,6 +3345,7 @@ CLEVER	T45	T45	T45
 CLIO	Neo 4	Neo_4	Neo 4
 CLIO	Neo_4_Plus	Neo_4_Plus	Neo 4 Plus
 CLIO	Zion_5	Zion_5	Zion_5
+CLOUD_AiR-WiFi	ATab-1	ATab-1	CAW21T101
 CMCC	M811	m811	M811
 CMCC	M811	m811hk	M811
 COMPUMAX	BlueS10	COMPUMAX	BlueS10
@@ -5365,6 +5367,7 @@ E-Tel	Q25	Q25	Q25
 E-Tel	Q30	Q30	Q30
 E-Tel	i240	i240	E-tel i240
 E-Wealth Mobile	E508	E508	E508
+E-Wealth Mobile	E5701	E5701	E5701
 EACHPAI	706	706	706
 EACHPAI	86v	86v	86v
 EACHPAI	Q8	Q8	Q8
@@ -18271,6 +18274,7 @@ Nubio_Lite	N2 Lite	LS032I	LS032I
 Nubio_Lite	N2 Lite	LS032M	LS032M
 Nuu	A1	NUU_A1	NUU_A1
 Nuu	A10L	N5502LA	N5502L
+Nuu	A11L	S5502LA	S5502L
 Nuu	A3	NUU_A3	NUU_A3
 Nuu	A3L	NUU_A3L	NUU_A3L
 Nuu	A4L	N5001L	N5001L
@@ -20469,6 +20473,7 @@ Prism	UHD Android TV	sindorim	AI PONT
 Pritom	1AZ2P_eea	1AZ2P_eea	1AZ2P_eea
 Pritom	Benton_M10	Benton_M10	Benton_M10
 Pritom	K7	K7	K7
+Pritom	K7_A102	K7_A102	K7_A102
 Pritom	K7_EEA	K7	K7
 Pritom	L10	L10	L10
 Pritom	L10_EEA	L10_EEA	L10_EEA
@@ -23874,6 +23879,7 @@ Samsung	Galaxy Tab S7 FE	gts7xllite	SM-T737
 Samsung	Galaxy Tab S7 FE	gts7xllitewifi	SM-T730
 Samsung	Galaxy Tab S7 FE 5G	gts7xllite	SM-T736B
 Samsung	Galaxy Tab S7 FE 5G	gts7xllite	SM-T736N
+Samsung	Galaxy Tab S7 FE 5G	gts7xllite	SM-T738U
 Samsung	Galaxy Tab S7+	gts7xl	SM-T975
 Samsung	Galaxy Tab S7+	gts7xl	SM-T975N
 Samsung	Galaxy Tab S7+	gts7xlwifi	SM-T970
@@ -27657,6 +27663,7 @@ Techpad	M6	M6	M6
 Techpad	M6 Plus	M6Plus	M6Plus
 Techpad	M6Plus	M6Plus	M6Plus
 Techpad	NOTE_4CAM	NOTE_4CAM	NOTE 4CAM
+Techpad	Note_4CAM	Note_4CAM_R	Note_4CAM
 Techpad	S6	S6	S6
 Techpad	S813G	Tech_Pad_S813G	S813G
 Techpad	TECHPAD X5	F518	Techpad X5
