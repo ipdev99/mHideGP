@@ -2716,6 +2716,7 @@ Blacksonic	BS7-3G	BS7-3G	BS7-3G
 Blacksonic	BS7-BUTTERFLY	BS7-BUTTERFLY	BS7-BUTTERFLY
 Blacksonic	BS7-KIDS	BS7-KIDS	BS7-KIDS
 Blacksonic	BS9	BS9	BS9
+Blackview	A100	A100	A100
 Blackview	A20	A20	A20
 Blackview	A30-RU	A30-RU	A30-RU
 Blackview	A5	A5	A5
@@ -6705,6 +6706,7 @@ Ghia	GHIA_AXIS7	GHIA_AXIS7	GHIA_AXIS7
 Ghia	GHIA_AXIS7P	GHIA_AXIS7P	GHIA_AXIS7P
 Ghia	GHIA_L1	GHIA_L1	GHIA_L1
 Ghia	GHIA_VECTOR_3G	GHIA_VECTOR_3G	GHIA_VECTOR_3G
+Ghia	GPND133	GPND133	GPND133
 Ghia	GTA7PLUS	GTA7PLUS	GTA7PLUS
 Ghia	GTA7WF	GTA7WF	GTA7WF
 Ghia	GTAB718	GTAB718	GTAB718
@@ -12265,6 +12267,7 @@ Karbonn	Titanium_S9_Plus	Karbonn_Titanium_S9_Plus	Titanium_S9_Plus
 Karma	KG555 Pro	KG555_Pro	KG555 Pro
 Karma	KG777 Pro	KG777Pro	KG777 Pro
 Karvy	KA7Q3	KA7Q3	KA7Q3
+Kbro	A0_S905X2	sti6160d19	A0_S905X2
 Kbro	N97_A1B_72115	A1B_72115	N97_A1B_72115
 Kbro	N97_A1_3796	A1_3796	N97_A1_3796
 Keian	KI-R10	KI-R10	KI-R10
@@ -17287,7 +17290,6 @@ Motorola	moto g(9) plus	odessa	moto g(9) plus
 Motorola	moto g(9) power	cebu	moto g(9) power
 Motorola	moto g10 power	capri	moto g(10) power
 Motorola	moto g40 fusion	hanoip	moto g(40) fusion
-Motorola	moto g50	ibiza	moto g(50)
 Motorola	moto g6 play	jeter	Moto G Play
 Motorola	moto g6 play	jeter	moto g(6) play
 Motorola	moto g60	hanoip	moto g(60)
@@ -20969,6 +20971,7 @@ Realme	50F1	gangbyeon	4K AI Smart TV
 Realme	RMX2020	RMX2020	RMX2020
 Realme	RMX2040	RMX2040	RMX2040
 Realme	realme  8	RMX3085L1	RMX3085
+Realme	realme  X7 Max	RMX3031L1	RMX3031
 Realme	realme  narzo  30	RMX2156L1	RMX2156
 Realme	realme 2 Pro	RMX1801	RMX1801
 Realme	realme 3Pro	RMX1851	RMX1851
@@ -30097,6 +30100,7 @@ Wiko	Y50	W-K130	W-K130-OPE
 Wiko	Y50	W-K420	W-K420-EEA
 Wiko	Y51	W-K211	W-K211-EEA
 Wiko	Y51	W-K211	W-K211-OPE
+Wiko	Y52	W-K521	W-K521-EEA
 Wiko	Y60	W-K510	W-K510-BYT
 Wiko	Y60	W-K510	W-K510-EEA
 Wiko	Y60	W-K510	W-K510-OPE
@@ -30317,6 +30321,7 @@ XGIMI	XK03H	xgimigalileo	XK03H
 XION	XI_CEU55	XI_CEU55	XI_CEU55
 XL Axiata	AX512	DV8252	AX512
 XL Axiata	SDN200	lte_siden	SDN200
+XL Axiata	Siden - XL Axiata	lte_siden	SDN200
 XL Axiata	XL Home Pow	STI6xxx	STI6030
 XORO	Megapad_1333	XORO	Megapad_1333
 XTRATECH_IGUANAPAD	X8MT16	X8MT16	X8MT16
