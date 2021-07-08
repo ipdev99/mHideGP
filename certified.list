@@ -144,6 +144,7 @@ AT&T	QS5509A	QS5509QL	QS5509A
 AT&T	U202AA	U202AA	U202AA
 AT&T	U304AA	U304AA	U304AA
 AT&T	U318AA	U318AA	U318AA
+AT&T	U319AA	U319AA	U319AA
 AT&T	U705AA	U705AA	U705AA
 ATEAM	A1010	A1010	A1010
 ATEAM	A801	A801	A801
@@ -1400,6 +1401,7 @@ Archos	Quechua Tablet 8	A80RG11	A80RG11
 Archos	Smart Home Tablet	hometablet	Archos Smart Home Tablet
 Archos	Smarthome La Poste	hometablet	Archos Smart Home Tablet
 Archos	TV Connect	LUDO	ARCHOS LUDOG10
+Archos	X18_Ultra	X18_Ultra	X18_Ultra
 Archos	X67 5G	ac67x5g	X67 5G
 Archos	alba 10	ac101cplv2	ALBA 10 TABLET
 Archos	alba 10	ac101cplv2	Alba 10"
@@ -2482,6 +2484,7 @@ BRIGMTON	Spain	BTPC-801QC	BTPC-801QC
 BRUHM	BTF-43SG	ikebukuro	AI PONT
 BRUHM	BTF-75TG	samseong	AI PONT
 BTC Mobile	Touch	Touch	Touch
+BULSATCOM	b-box	HP44H	b-box
 BVS (AR)	BVS  4K 0TT 01	SFO	BVS 4K OTT 01
 BYD	DynaVox T10	T10	T10
 BYD	FarEastone Smart 502	Smart502	Smart 502
@@ -6037,6 +6040,7 @@ FCC Movil	GK788	GK788	GK788
 FCNT	arrows Be4 Plus F-41B	F41B	F-41B
 FELUX	LUXE 3	LUXE_3	LUXE 3
 FFFSMARTLIFE	FFFTAB10	FFFTAB10	FFFTAB10
+FFFSMARTLIFE	FFFTAB10a2	FFFTAB10a2	FFFTAB10a2
 FFFSMARTLIFE	FFFTAB10a3	FFFTAB10a3	FFFTAB10a3
 FFFSMARTLIFE	FFFTAB7	FFFTAB7	FFFTAB7
 FIREFLY MOBILE	AURII_AMUSE_3G	AURII_AMUSE_3G	AURII_AMUSE_3G
@@ -6617,6 +6621,7 @@ GOtv	SEI600GO	HND	SEI600GO
 GP-electronic	YC-102D	YC-102D	YC-102D
 GP-electronic	YC-3135D	YC-3135D	YC-3135D
 GP-electronic	YC-83T	YC-83T	YC-83T
+GREATASIA	E101GC	E101GC	E101GC
 GREATASIA	E101GC4G	E101GC4G	E101GC4G
 GREATASIA	E101GCM	E101GCM	E101GCM
 GREATASIA	ET103G	ET103G	ET103G
@@ -7228,6 +7233,7 @@ Guophone	XP9800	Guophone_XP9800	XP9800
 HAKO	HAKO mini	GMP	HAKO mini
 HANYEAL	E101GC	E101GC	E101GC
 HANYEAL	E108GC4G	E108GC4G	E108GC4G
+HAOVM	HP10	HP10	P10
 HAOVM	HP10_EEA	HP10_EEA	P10_EEA
 HAOVM	HP20	HP20	P20
 HAOVM	MediaPadP8	P8	P8
@@ -8653,6 +8659,7 @@ Hisense	Hisense E50	HLTE232E	Hisense E50
 Hisense	Hisense E50	HLTE232E_01	Hisense E50
 Hisense	Hisense E50	HLTE232E_02	Hisense E50
 Hisense	Hisense E50	HLTE232E_10	Hisense E50
+Hisense	Hisense E50	HLTE232E_11	Hisense E50
 Hisense	Hisense E50	HLTE232E_20	Hisense E50 128G
 Hisense	Hisense E50 Lite	HLTE228E	Hisense E50 Lite
 Hisense	Hisense E50 Lite	HLTE228E_01	Hisense E50 Lite
@@ -8660,6 +8667,7 @@ Hisense	Hisense E50 Lite	HLTE228E_02	Hisense E50 Lite
 Hisense	Hisense E50 Lite	HLTE228E_10	Hisense E50 Lite
 Hisense	Hisense E50 Lite	HLTE228E_11	Hisense E50 Lite
 Hisense	Hisense E50 Lite	HLTE228E_12	Hisense E50 Lite
+Hisense	Hisense E50 Lite	HLTE228E_14	Hisense E50 Lite
 Hisense	Hisense E76MINIM	HS8937QC	Hisense E76MINIM
 Hisense	Hisense E77	HS8937QC	Hisense E77
 Hisense	Hisense F15	HS6739MT	Hisense F15
@@ -8712,6 +8720,7 @@ Hisense	Hisense U40	HLTE103E_32	Hisense U40
 Hisense	Hisense U40	HLTE103E_33	Hisense U40
 Hisense	Hisense U40	SC9832E	Hisense U40
 Hisense	Hisense U50	HLTE222E	Hisense U50
+Hisense	Hisense U50	HLTE222E_01	Hisense U50
 Hisense	Hisense U50	HLTE233E_10	Hisense H50 Lite
 Hisense	Hisense U605	HS7731ESP	Hisense U30
 Hisense	Hisense U605	HS7731ESP	Hisense U50
@@ -12528,6 +12537,7 @@ Konrow	EASY62	EASY62	EASY62
 Konrow	EASY_5	EASY_5	EASY_5_EEA
 Konrow	EASY_K55	EASY_K55	EASY K55
 Konrow	EASY_S55P	EASY_S55P	EASY_S55P_EEA
+Konrow	K-TAB703	K-TAB703	K-TAB703
 Konrow	KONROW	KONROW_701X	KONROW_701X
 Konrow	KTAB_1003	KTAB_1003	KTAB_1003
 Konrow	LINK55	LINK55	LINK55
@@ -12594,6 +12604,7 @@ Kruger&Matz	MOVE9	MOVE9	MOVE9
 Kruger&Matz	MOVE_8.1	MOVE_8_1	MOVE_8
 Kubo	F99	F99	F99
 Kubo	K5	K5	K5
+Kubo	Smart TV	samseong	AI PONT
 Kudae	K10	K10	K10
 Kudae	K10 PRO	K10_PRO	K10 PRO
 Kudae	K101	K101	K101
@@ -20177,6 +20188,7 @@ Positivo	Twist 4	S514	Twist 4
 Positivo	Twist 4 Fit	S509N	Twist 4 Fit
 Positivo	Twist 4 Fit	S509N	YOLO
 Positivo	Twist 4 Pro	S518	Twist 4 Pro
+Positivo	Twist 4 Pro	S518	UP 32
 Positivo	Twist 4G	S5094G	Twist 4G
 Positivo	Twist 4G	S520_4G	Positivo Twist 4G
 Positivo	Twist Max	S540	Twist Max
@@ -21925,6 +21937,7 @@ Samsung	Galaxy A21s	a21s	SM-A217N
 Samsung	Galaxy A22	a22	SM-A225F
 Samsung	Galaxy A22	a22	SM-A225M
 Samsung	Galaxy A22 5G	a22x	SM-A226B
+Samsung	Galaxy A22 5G	a22x	SM-A226L
 Samsung	Galaxy A22s 5G	a22x	SM-A226B
 Samsung	Galaxy A3	a33g	SM-A300H
 Samsung	Galaxy A3	a3lte	SM-A300F
@@ -26048,6 +26061,7 @@ Swisstone	swisstone SD 530	SD5304G	swisstone SD 530
 Swissvoice	G50	G50	G50
 Switel	VS700	VS700	VS700
 Swosh	AndroidTV	samseong	AI PONT
+Swosh	Smart TV	samseong	AI PONT
 Syinix	32A1S	ikebukuro	AI PONT
 Syinix	55A1S	samseong	AI PONT
 Syinix	Africa	yeongdeungpo	Syinix UHD Android TV
@@ -28949,6 +28963,7 @@ Vastking	KingPad_K10Pro	KingPad_K10Pro	KingPad_K10Pro
 Vastking	KingPad_K10Pro_EEA	KingPad_K10Pro_EEA	KingPad_K10Pro_EEA
 Vastking	KingPad_K10_EEA	KingPad_K10_EEA	KingPad_K10_EEA
 Vastking	KingPad_M10	KingPad_M10	KingPad_M10
+Vastking	KingPad_M10_EEA	KingPad_M10_EEA	KingPad_M10_EEA
 Vastking	KingPad_SA10	KingPad_SA10	KingPad_SA10
 Vastking	KingPad_SA10_EEA	KingPad_SA10_EEA	KingPad_SA10_EEA
 Vastking	KingPad_SA8	KingPad_SA8	KingPad_SA8
@@ -29493,6 +29508,7 @@ Vivo	V2057A	PD2057	V2057A
 Vivo	V2058	2058	V2058
 Vivo	V2059	2059	V2059
 Vivo	V2059A	PD2047	V2059A
+Vivo	V2060	2060	V2060
 Vivo	V2061	2061	V2061
 Vivo	V2061A	PD2061	V2061A
 Vivo	V2065	2026	V2065
@@ -30434,6 +30450,7 @@ X-TIGI	A20S	A20S	A20S
 X-TIGI	A20S_PRO	A20S_PRO	A20S PRO
 X-TIGI	A3	A3	A3
 X-TIGI	A55	X-TIGI_A55	A55
+X-TIGI	Hope10_Mate	Hope10_Mate	Hope10 Mate
 X-TIGI	Hope10_Pro	Hope10_Pro	Hope10 Pro
 X-TIGI	Hope7_LTE	Hope7_LTE	Hope7 LTE
 X-TIGI	Hope7_Mate	Hope7_Mate	Hope7_Mate
@@ -32720,6 +32737,7 @@ ecom	Smart-Ex02	Smart-Ex02	Smart-Ex02 ROW
 efioo	efiootabn7a	efiootabn7a	Tab N7a
 elevn	elevn_eTab	elevn_eTab	elevn_eTab
 fplus	Life Tab Plus	lifetabplus	LifeTabPlus
+geaneePro	JT08-X1	JT08-X1	JT08-X1
 geaneePro	JT10-X	JT10-X	JT10-X
 geaneePro	JT70-X	JT07-X	JT07-X
 generaltouch	ERGO22	ERGO22	ERGO22
