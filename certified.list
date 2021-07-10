@@ -3361,6 +3361,7 @@ CHAINWAY	P80	P80	P80
 CHAINWAY	P80_EEA	P80	P80
 CHCNAV	HCE600	HCE600	HCE600
 CHCNAV	LT700	LT700	LT700
+CHEETAH	Diplomat	Diplomat	Diplomat
 CHN TELECOM	CHN-UCAN MJ	lefhd	CHN-UCAN MJ
 CHUBU TELECOMMUNICATIONS CO.,INC	STI6130C	sti6130d353	STI6130C
 CHUBU TELECOMMUNICATIONS CO.,INC	STI6130d353	sti6130d353	STI6130C
@@ -4122,6 +4123,7 @@ Contixo	K102	K102	K102
 Contixo	K4	K4	K4
 Contixo	LA703R	LA703R	LA703R
 Contixo	V10	V10	V10
+Contixo	V10X	V10X	V10X
 Contixo	V11	V11	V11
 Contixo	V80	V80	V80
 Contixo	V9	CONTIXO-V9	V9
@@ -4809,6 +4811,8 @@ Datsun	Datsun_D5001	Datsun_D5001	Datsun_D5001
 Datsun	Datsun_D5500	D5500	DATSUN_D5500
 DayMark	IT119345	IT119345	IT119345
 DayMark	IT119411	IT119411	IT119411
+Dcode	Cypher	Dcode_Cypher	DS-CR1
+Dcode	DS-X1	DS-X1	DS-X1
 Ddm	ANDY 5EI	AM5E3I047	ANDY 5EI
 DeWALT	DeWalt md501	md501	md501
 Delephas	Chang Co., Ltd	seocho	Delephas 4K Android TV
@@ -5928,6 +5932,7 @@ Evertek	M10_Pro	Evertek_M10_Pro	M10_Pro
 Evertek	M20	M20	M20
 Evertek	M20 Mini	M20_Mini	M20 Mini
 Evertek	M20 NANO	M20_NANO	M20 NANO
+Evertek	M20+Pro	M20_Pro	M20+Pro
 Evertek	M20_S	M20_S	M20 S
 Evertek	V4	V4	EVERTEK V4
 Evertek	V4 Nano	V4_Nano	V4 Nano
@@ -6032,6 +6037,9 @@ F2 Mobile	LT18	LT18	LT18
 F2 Mobile	Z8PLUS	Z8PLUS	Z8PLUS
 F2 Mobile	Z8POCKET	Z8POCKET	Z8POCKET
 FACETEL	A12	A12	A12
+FACETEL	Q3_EEA	Q3_EEA	Q3_EEA
+FACETEL	Q3pro	Q3pro	Q3pro
+FACETEL	Q3pro_eea	Q3pro_eea	Q3pro_eea
 FANGOR	UJ_1098	UJ_1098	UJ_1098
 FBC	M24IS810	MX24	TDA02
 FBC	M24IS820	fst01ms	M24IS820
@@ -6269,6 +6277,7 @@ Fone Haus	Blaze	Blaze	Blaze
 Fone Haus	Bolt	Bolt	Bolt
 Fone Haus	CoolminttTribe	CoolMinttTribe	CoolMinttTribe
 Fonos	FONOS O2	O2	O2
+Fonos	M1	M1	M1
 Fonos	O3_EEA	O3	O3
 Ford	Omni 8	Omni8	Omni8
 Formuler	GTV	GTV	GTV
@@ -11147,6 +11156,7 @@ IkuMobile	A6	A6	A6
 IkuMobile	A70	A70	iKU A70
 IkuMobile	I3	I3	IKU i3
 IkuMobile	IKU	IKU	K10
+IkuMobile	IKU A36	A36	iKU A36
 IkuMobile	IKU A4	A4	IKU A4
 IkuMobile	IKU A40	A40	IKU A40
 IkuMobile	IKU_T3	IKU_T3	IKU_T3
@@ -14205,6 +14215,7 @@ Land Rover	Explore	LRExplore	Land Rover Explore
 Land Rover	Land Rover Explore R	LRExploreR	Land Rover Explore R
 Landbyte	LT5030	LT5030	LT5030
 Landbyte	Lt6248	Lt6248	Lt6248
+Lanix	Alpha 9V	Alpha_9V	Alpha 9V
 Lanix	Alpha_950	Alpha_950	Alpha 950
 Lanix	Alpha_950XL	Alpha_950XL	Alpha 950XL
 Lanix	ILIUM L1000	Ilium_L1000	ILIUM L1000
@@ -15333,6 +15344,9 @@ Lenovo	小新Pad Pro 2021	J716F	Lenovo TB-J716F
 Lenovo	小新平板	TB-8804F	Lenovo TB-8804F
 Lenovo	小新平板	X804F	Lenovo TB-X804F
 Lenovo	拯救者电竞手机	moba	Lenovo L79031
+Lenovo	拯救者电竞手机2 Pro	doom	Lenovo L70081
+Lenovo	拯救者电竞手机2Pro	doom	Lenovo L70081
+Lenovo	拯救者电竞手机二代	doom	Lenovo L70081
 Lenovo	联想平板电脑K10 5G	TB-X607Z	Lenovo TB-X607Z
 Leotec	LEOTEC	LETAB731	LETAB731
 Leotec	Letab1020	Letab1020	SUPERNOVA Qi32
@@ -16053,6 +16067,7 @@ Maze_speed	MS5514G	MS5514G	MS5514G
 Maze_speed	SSB1000T	SSB1000T	SSB1000T
 MeanIT	C4	C4	C4
 MeanIT	MTAB32_EEA	MTAB32_EEA	meanIT K10
+MeanIT	MeanIt_X30	MeanIt_X30_EEA	MeanIt_X30
 MeanIT	meanIT C80C81	meanIT_C80C81	meanIT_C80C81
 MeanIT	meanIT-X10	meanIT-X10	meanIT X10
 MeanIT	meanIT_C10C11	meanIT_C10C11	meanIT_C10C11
@@ -16926,6 +16941,7 @@ Montblanc	Summit 2+	coralia	Summit 2+
 Montblanc	Summit Lite	icefish	SUMMIT LITE
 Morep	Mavic 10	Mavic_30	M850
 Morep	Morep Mavic 10	Mavic_10	M830
+Morep	Morep Mavic Plus	Mavic_Plus	M610
 Mosambee	Qphone2 4110	Qphone2_4110	Qphone2_4110
 Mosambee	SPPF 4110	SPPF_4110	SPPF_4110
 Most Computers	Revo You	RevoYou	RevoYou
@@ -17618,6 +17634,7 @@ Multilaser	Multilaser F Pro 2	Multilaser_F_Pro_2	Multilaser_F_Pro_2
 Multilaser	Multilaser G	Multilaser_G	Multilaser_G
 Multilaser	Multilaser G Max	Multilaser_G_Max	Multilaser_G_Max
 Multilaser	Multilaser G Max 2	Multilaser_GMAX_2_64	Multilaser_GMAX_2
+Multilaser	Multilaser G Max 2	Multilaser_GMax_2_128	Multilaser_GMax_2
 Multilaser	Multilaser G Pro	Multilaser_G_Pro	Multilaser_G_Pro
 Multilaser	Multilaser G Pro 2	Multilaser_GPRO2	Multilaser_GPRO2
 Multilaser	Multilaser G VIVO	Multilaser_G_VIVO	Multilaser_G_VIVO
@@ -18490,7 +18507,6 @@ OKAPI	Okapi10_Simple	Okapi10_Simple	Okapi10_Simple
 OKAPI	Okapi_Tab6	Okapi_Tab6	Okapi_Tab6
 OKAPI	Okapi_Tab8	Okapi_Tab8	Okapi_Tab8
 OKAPI	Tab10	Tab10	Tab10
-OKAPI	X10	X10	X10
 OKWU	PI Plus	PI_Plus	PI Plus
 ONDA TLC	T7 Pro	T7_PRO	T7_PRO
 ONDA TLC	T9 S	T9S	T9S
@@ -18541,6 +18557,8 @@ Odys	UNO X10	UNO_X10	UNO X10
 Odys	UNO X8	UNO_X8	UNO_X8
 Oioo	Model 2	wecct	Model 2
 Oioo	Model 3	wecct3	Model 3
+Olike	E1	E1	E1
+Olike	E3	E3	E3
 Olive Oil	CT4	octopus-ct4	Octopus A83 CT4
 Olive Oil	OliveOil Model 3	wecct3	CT3
 Olivetti	Graphos A10	Graphos_A10	Graphos A10
@@ -20615,7 +20633,10 @@ Prism	UHD Android TV	sindorim	AI PONT
 Pritom	1AZ2P_eea	1AZ2P_eea	1AZ2P_eea
 Pritom	Benton_M10	Benton_M10	Benton_M10
 Pritom	K7	K7	K7
+Pritom	K7_A101	K7_A101	K7_A101
+Pritom	K7_A101_EEA	K7_A101_EEA	K7_A101
 Pritom	K7_A102	K7_A102	K7_A102
+Pritom	K7_A102_EEA	K7_A102_EEA	K7_A102
 Pritom	K7_EEA	K7	K7
 Pritom	L10	L10	L10
 Pritom	L10_EEA	L10_EEA	L10_EEA
@@ -21220,6 +21241,7 @@ Realme	realme XT	RMX1921	RMX1921
 Realme	realme XT	RMX1921L1	RMX1921
 Realme	realme XT	RMX1922	RMX1922
 Realme	realme narzo 20A	RMX2050	RMX2050
+Realme	realme narzo 30	RMX2156L1	RMX2156
 Realme	realme narzo 30 5G	RE513CL1	RMX3242
 Realme	realme narzo 30A	RMX3171	RMX3171
 Realme	realme  X7 Pro 	RMX2121CN	RMX2121
@@ -21229,6 +21251,7 @@ Realme	真我 Q3 Pro 5G	RMX2205CN	RMX2205
 Realme	真我 X7 pro至尊版	RMX3116CN	RMX3116
 Realme	真我GT	RMX2202CN	RMX2202
 Realme	真我GT Neo	RMX3031CN	RMX3031
+Realme	真我GT Neo 闪速版	RE5469	RMX3350
 Realme	真我Q3 Pro 狂欢版	RE811C	RMX3142
 Realme	真我V13 5G	RE5081	RMX3041
 Realme	真我V13 5G	RE5081	RMX3042
@@ -24974,6 +24997,7 @@ Sky Devices	ELITE 5.0T	Elite_5_0T	Elite_5_0T
 Sky Devices	ELITE 5T	Elite_5T_GT	Elite 5T
 Sky Devices	ELITE 5T	Elite_5T_SV	Elite 5T
 Sky Devices	ELITE T57	Elite_T57_GT	Elite T57
+Sky Devices	ELITE T8	ELITE_US_T8	ELITE T8
 Sky Devices	Elite 45T	Elite_45SM	Elite 45T
 Sky Devices	Elite 5T	Elite_5T_GT	Elite 5T
 Sky Devices	Elite A5	BITA_5	Elite A5
@@ -27702,6 +27726,7 @@ TOPELOTEK	TOPELOTEK	KIDS09	KIDS09
 TOPELOTEK	V7	V7	V7
 TOPELOTEK	Y8	Y8	Y8
 TOPJOY	PNC450	PNC450	PNC450
+TOPJOY	SC0802	SC0802	SC0802
 TORNADO	TORNADO 2K SMART TV	shinagawa	TORNADO 2K SMART TV
 TORNADO	TORNADO Android TV	SW4H	TORNADO Android TV
 TOSCIDO	P101	P101	P101
@@ -28377,6 +28402,7 @@ Togocel		Togocel EGO plus	Togocel_EGO_plus	Togocel EGO plus
 Togocel	Togocel_F1_Max_4G	Togocel_F1_Max_4G	Togocel_F1_Max_4G
 Tokio	Phablet_III	Phablet_III	Phablet III
 Tokio	Tokio_Tablet_8	Tokio_Tablet_8	Tokio_Tablet_8
+TomStar	A1020	A1020	A1020
 TomStar	G6_pro	G6_pro	G6_pro
 Tonino Lamborghini	Antares	TL66	TL66
 Tonino Lamborghini	Antares	TL_Antares	Antares
@@ -28671,6 +28697,7 @@ Ulefone	MIX S	t815_gq_ulefone	MIX_S
 Ulefone	MIX_2	MIX_2	MIX_2
 Ulefone	Note 10	Note_10	Note 10
 Ulefone	Note 11P	Note_11P	Note 11P
+Ulefone	Note 6	Note_6	Note 6
 Ulefone	Note 8	Note_8	Note 8
 Ulefone	Note 8P	Note_8P	Note 8P
 Ulefone	Note 9P	Note_9P	Note 9P
@@ -28755,6 +28782,8 @@ Umidigi	A9 Pro R EEA	A9_Pro_R	A9 Pro
 Umidigi	A9 Pro_EEA	A9_Pro	A9 Pro
 Umidigi	BISON	BISON	BISON
 Umidigi	BISON GT EEA	BISON_GT	BISON GT
+Umidigi	BISON Pro	BISON_Pro	BISON Pro
+Umidigi	BISON Pro EEA	BISON_Pro	BISON Pro
 Umidigi	BISON R	BISON_R	BISON
 Umidigi	BISON R EEA	BISON_R	BISON
 Umidigi	BISON_GT	BISON_GT	BISON GT
@@ -28948,6 +28977,7 @@ Vankyo	VANKYO_S8	VANKYO_S8	VANKYO_S8
 Vankyo	VANKYO_S8_EEA	VANKYO_S8_EEA	VANKYO_S8_EEA
 Vankyo	Vankyo_S10	Vankyo_S10	Vankyo_S10
 Vankyo	Vankyo_S10_EEA	Vankyo_S10_EEA	Vankyo_S10_EEA
+Vankyo	X10	X10	X10
 Vankyo	Z1	Z1	Z1
 Vankyo	Z10	Z10	Z10
 Vankyo	Z12	Z1	Z1
@@ -29947,6 +29977,7 @@ WILLKOTECH	WK1863L	WK1863L	WK1863L
 WINTEK	W405	W405	W405
 WOM	SEI500W	SEI500W	WOM
 WONGKUO	T10	T10	T10
+WONGKUO	T20	T20	T20
 Wacom	Cintiq Companion Hybrid 13HD	CintiqCompanionHybrid13HD	Cintiq Companion Hybrid 13HD
 Waf	F803YM	F803YM	F803YM
 Waf	F808NM	F808NM	F808NM
@@ -29957,6 +29988,7 @@ Walton	Bangladesh and EU	yeongdeungpo	WALTON Android TV
 Walton	LT750	LT750	LT750
 Walton	PRIMO D10	PRIMO_D10	PRIMO D10
 Walton	PRIMO F10	PRIMO_F10	PRIMO F10
+Walton	PRIMO GH10	Primo_GH10	Primo GH10
 Walton	PRIMO NH4	PRIMO_NH4	PRIMO NH4
 Walton	PRIMO_RX8	PRIMO_RX8	PRIMO RX8
 Walton	PRIMO_S7	Primo_S7	Primo S7
@@ -30311,6 +30343,7 @@ Wiko	Y61	W-K560	W-K560-TVM1G
 Wiko	Y62	W-K610	W-K610-EEA
 Wiko	Y62	W-K610	W-K610-OPE
 Wiko	Y62	W-K610	W-K610-TVM
+Wiko	Y62 Plus	W-K610	W-K610-FRA
 Wiko	Y80	W-V720	W-V720-CA
 Wiko	Y80	W-V720	W-V720-EEA
 Wiko	Y80	W-V720	W-V720-OPE
@@ -30777,6 +30810,7 @@ Xtreme	XTREME TV	shinjuku	XTREME TV
 Xwave	Xpad	Xpad	Xpad_M9_3G
 YELLYOUTH	TAB_101	TAB_101	TAB_101
 YETRUE	yetruepad21	yetruepad21_EEA	yetruepad21
+YOSATOO	KIDS07A	KIDS07A	KIDS07A
 YOTOPT	M60_EEA	M60_EEA	M60_EEA
 YOTOPT	Q11-EEA	Q11-EEA	Q11-EEA
 YOTOPT	X109	X109	X109
@@ -30806,6 +30840,8 @@ YU	Yureka Black	YU5040	YU5040
 YU	Yureka Black	YU5041	YU5041
 YU	Yureka Note	YU6000	YU 6000
 YUMKEM	N10-EEA	N10-EEA	N10-EEA
+YUMKEM	U221	U221	U221
+YUMKEM	U221-EEA	U221-EEA	U221-EEA
 YUNTAB	D107	D107	D107
 YUNTAB	YUNTAB-K107	YUNTAB-K107	YUNTAB-K107
 YUNTAB	YUNTAB-K107_EEA	YUNTAB-K107_EEA	YUNTAB-K107_EEA
@@ -32782,6 +32818,7 @@ iBRIT	K2	K2	K2
 iBRIT	M4	M4	M4
 iBRIT	MAX10	MAX10	MAX10
 iBRIT	MAX10-1	MAX10-1	MAX10-1
+iBRIT	MAX12	MAX12	MAX12
 iBRIT	MAX4	MAX4	MAX4
 iBRIT	MAX7	MAX7	MAX7
 iBRIT	MAX8	MAX8	MAX8
@@ -32866,6 +32903,7 @@ iGet	SMART_G81H	SMART_G81H	SMART_G81H
 iGet	SMART_L102	iGET_SMART_L102	SMART_L102
 iGet	SMART_L103_eea	SMART_L103	SMART_L103_eea
 iGet	SMART_L104_eea	SMART_L104_eea	SMART_L104_eea
+iGet	SMART_L206	SMART_L206	SMART_L206
 iGet	SMART_L20X	SMART_L20X	SMART_L20X
 iGet	SMART_W101	SMART_W101	SMART_W101
 iGet	SMART_W10X_EEA	SMART_W10X_EEA	SMART_W10X_EEA
