@@ -18367,11 +18367,14 @@ Nokia	Nokia 8.3 5G	BGT	Nokia 8.3 5G
 Nokia	Nokia 8.3 5G	BGT_sprout	Nokia 8.3 5G
 Nokia	Nokia 9	AOP	Nokia 9
 Nokia	Nokia 9	AOP_sprout	Nokia 9
+Nokia	Nokia C01 Plus	IRS	Nokia C01 Plus
 Nokia	Nokia C1	RKU	Nokia C1
 Nokia	Nokia C1 Plus	YDU	Nokia C1 Plus
+Nokia	Nokia C10	MNT	Nokia C10
 Nokia	Nokia C2	NBL	Nebula
 Nokia	Nokia C2	NBL	Nokia C2
 Nokia	Nokia C2 Tennen	ARV_CUS	Nokia C2 Tennen
+Nokia	Nokia C20	COS	Nokia C20
 Nokia	Nokia C3	GMR	Nokia C3
 Nokia	Nokia C5 Endi	PMC_CUS	Nokia C5 Endi
 Nokia	Nokia G10	ROGA	Nokia G10
@@ -18667,6 +18670,8 @@ OnePlus	OnePlus Nord N100	OnePlusN100TMO	BE2012
 OnePlus	OnePlus Nord N100	OnePlusN100TMO	BE2013
 OnePlus	OnePlus Nord N200 5G	OnePlusN200	DE2117
 OnePlus	OnePlus Nord N200 5G	OnePlusN200TMO	DE2118
+OnePlus	OnePlus Nord2 5G	OP515BL1	DN2101
+OnePlus	OnePlus Nord2 5G	OP515BL1	DN2103
 OnePlus	OnePlus2	OnePlus2	ONE A2003
 OnePlus	OnePlus3	OnePlus3	ONEPLUS A3000
 OnePlus	OnePlus3T	OnePlus3T	ONEPLUS A3000
@@ -20712,6 +20717,8 @@ Prixton	T7014Q_Plus	T7014Q_Plus	T7014Q_Plus
 Prixton	T9120_EEA	T9120	T9120
 Prodigi Connect12	Prodigi Connect 12	connect	Prodigi Connect 12
 Professional Mobile	Pro V5	Pro_V5	Pro V5
+Profilo	Turkey	tamachi	Profilo 2K Android TV
+Profilo	Turkey	yeongdeungpo	Profilo 4K Android TV
 Proline	H10885M	H10885M	H10885M
 Proline	H10888M	H10888M	H10888M
 Proline	H7835M	H7835M	H7835M
