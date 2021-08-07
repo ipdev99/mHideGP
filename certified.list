@@ -135,6 +135,7 @@ ASTCA	AA 787 S	SURGE_AA_787_S	AA 787 S
 ASTECH	Senegal	tamachi	ASTECH FHD Android TV
 ASTECH	Senegal	yeongdeungpo	ASTECH UHD Android TV
 ASTON	IDEA	IDEA	IDEA
+ASTON	NEO	NEO	NEO
 AT&T	9020A	tint8_att	9020A
 AT&T	AT&T Maestro™ Plus	v350u	V350U
 AT&T	AT&T TV	c71kw200	AT&T TV
@@ -176,6 +177,7 @@ AVH San Luis S.A.	Vortech3.0	Vortech3_0	Vortech3.0
 AVH San Luis S.A.	Vortech_3_0	Vortech_3_0	Vortech 3.0
 AWOW	AWOW_CreaPad_1001	AWOW_CreaPad_1001	AWOW_CreaPad_1001
 AWOW	AWOW_CreaPad_1003	AWOW_CreaPad_1003_EEA	AWOW_CreaPad_1003_EEA
+AWOW	CreaPad_1002A	CreaPad_1002A	CreaPad_1002A
 AWOW	CreaPad_1005	CreaPad_1005	CreaPad_1005
 AWOW	CreaPad_1005_EEA	CreaPad_1005_EEA	CreaPad_1005_EEA
 AWOW	CreaPad_1009	CreaPad_1009	CreaPad_1009
@@ -2290,6 +2292,7 @@ BMobile	B50_1	Bmobile_B50_1	B50
 BMobile	B55	B55	B55
 BMobile	B60Pro_DG	Bmobile_B60Pro_DG	B60Pro_DG
 BMobile	B60Pro_MV03	B60Pro_MV03	B60Pro_MV03
+BMobile	BL50	Bmobile_BL50_CL	BL50_CL
 BMobile	BL50	Bmobile_BL50_TG05	BL50
 BMobile	BL50	Bmobile_BL50_TG06	BL50
 BMobile	BL50	Bmobile_BL50_TG07	BL50
@@ -2325,6 +2328,7 @@ BMobile	Speed 5	Bmobile_SPEED5	Speed 5
 BMobile	T70	Bmobile_T70	Bmobile_T70
 BMobile	X10	Bmobile_X10_MV03	X10
 BMobile	X11	Bmobile_X11	Bmobile X11
+BOTECH	WZONE	HND	WZONE
 BPL	A4300	ikebukuro	AI PONT
 BPL	A4310	samseong	AI PONT
 BQru	5060	BQru-5060	BQru-5060
@@ -2623,6 +2627,7 @@ Beneve	M7133E	M7133E	M7133E
 Beneve	M7133E3	M7133E3	M7133E3
 Beneve	M7152	M7152	M7152
 Beneve	M755	M755	M755
+Benten	Benten_T20	Benten_T20	Benten_T20
 Benten	T10	Benten_T10	T10
 Benten	T8	T8	T8
 Bentley	SDIS1	sdis1	BENTLEY ENTERTAINMENT TABLET
@@ -2858,6 +2863,7 @@ Blackview	Tab8_EEA	Tab8_EEA	Tab 8
 Blackview	Tab8_NEU	Tab8_NEU	Tab8
 Blackview	Tab8_ROW	Tab8_ROW	Tab 8
 Blackview	Tab8_RU	Tab8_RU	Tab8_RU
+Blackview	Tab8_RUS	Tab8_RUS	Tab 8
 Blackview	Tab9_EEA	Tab9_EEA	Tab9
 Blackview	Tab9_NEU	Tab9_NEU	Tab 9
 Blackview	Tab9_RU	Tab9_RU	Tab 9
@@ -2964,6 +2970,7 @@ Blu	C5L	C0040LL	C5L
 Blu	C5L	C0050	C5L
 Blu	C5L	C0051LL	C5L
 Blu	C5L 2020	C0070WW	C5L 2020
+Blu	C5L 2021	C0100TT	C5L 2021
 Blu	C5L_2020	C0070WW	C5L 2020
 Blu	C5L_Plus	C0040TT	C5L Plus
 Blu	C5X	C0000UU	C5X
@@ -3147,6 +3154,8 @@ Blu	T5	T0040TT	T5
 Blu	T5	T0050TT	T5
 Blu	T5 Plus	T0060TT	T5 Plus
 Blu	T5 Plus	T0070TT_TIGO	T5 Plus
+Blu	T6	T0080TT	T6
+Blu	T6	T0090TT	T6
 Blu	TOUCHBOOK M7	BLU_TOUCHBOOK_M7	BLU TOUCHBOOK M7
 Blu	Tank Xtreme 4.0	Tank_Xtreme_4_0	Tank Xtreme 4.0
 Blu	Tank Xtreme 5.0	Tank_Xtreme_5_0	Tank Xtreme 5.0
@@ -3617,6 +3626,7 @@ Cellacom	S51_lite	S51_lite	S51_lite
 Cellcom TV	SEI-S905X2	tai	SEI-S905X2
 Cellecor	S2	S2	S2
 Cellecor	S3	S3	S3
+Cellecor	S4	S4	S4
 Cello	C2420G	ueno	2K Android TV
 Cello	Cello	sadang	cello UK 4K Android TV
 Cello	Cello	tabata	cello 2K Android TV
@@ -3697,6 +3707,7 @@ Cherry Mobile	A940	A940	A940
 Cherry Mobile	Aqua S9	Aqua_S9	Aqua S9
 Cherry Mobile	Aqua S9 Lite	X1020	Aqua S9 lite
 Cherry Mobile	Aqua S9 Max	Aqua_S9_Max	Aqua S9 Max
+Cherry Mobile	Aqua Tab Deluxe	A950	A950
 Cherry Mobile	Aqua_Infinity	Aqua_Infinity	Aqua_Infinity
 Cherry Mobile	Cherry S8 Deluxe	Flare_S8_Deluxe	Flare_S8_Deluxe
 Cherry Mobile	Cherry W900 LTE	al7	W900 LTE
@@ -4128,9 +4139,11 @@ Connex	SEN_1055_ARM	SEN_1055_ARM	SEN_1055_ARM
 Connexion TV	VIP6102W FCGOV	vip6102w	VIP6102W
 Conquest	CONQUEST S12Pro	S12Pro	S12Pro
 Conquest	S11	conquest-S11	S11
+Conquest	conquest-S20	conquest-S20	conquest-S20
 Conquest	conquest-S20_RU	conquest-S20	conquest-S20
 Conquest	conquest_S16	conquest_S16	conquest_S16
 Conquest	conquest_S16_RU	conquest_S16	conquest_S16
+Conquest	conquest_S20_EEA	conquest_S20	conquest_S20
 Contex	Egypt	tamachi	AiPlus2K
 Contex	Egypt	yeongdeungpo	AiPlus4K
 Continental Edison	CE10402	CE10402	CE10402
@@ -4149,6 +4162,7 @@ Contixo	V10	V10	V10
 Contixo	V10X	V10X	V10X
 Contixo	V11	V11	V11
 Contixo	V80	V80	V80
+Contixo	V8X	V8X	V8X
 Contixo	V9	CONTIXO-V9	V9
 Contixo	V90	V90	V90
 Contixo	V9X	V9X	V9X
@@ -5234,9 +5248,11 @@ Doogee	N20	N20	N20
 Doogee	N20Pro	N20Pro	N20Pro
 Doogee	N30	N30	N30
 Doogee	N30E	N30E	N30E
+Doogee	N40Pro	N40Pro	N40Pro
 Doogee	S30	S30	S30
 Doogee	S35	S35	S35
 Doogee	S35Pro	S35Pro	S35Pro
+Doogee	S35_RU	S35	S35
 Doogee	S40	S40	S40
 Doogee	S40Lite	S40Lite	S40Lite
 Doogee	S40Pro	S40Pro	S40Pro
@@ -5265,6 +5281,7 @@ Doogee	S95	S95	S95
 Doogee	S95Pro	S95Pro	S95Pro
 Doogee	S96Pro	S96Pro	S96Pro
 Doogee	S97Pro	S97Pro	S97Pro
+Doogee	S97Pro_RU	S97Pro	S97Pro
 Doogee	Shoot_ 1	Shoot_1	Shoot_1
 Doogee	T5	T5	T5
 Doogee	T5S	T5S	T5S
@@ -5967,6 +5984,7 @@ Evertek	M20 Mini	M20_Mini	M20 Mini
 Evertek	M20 NANO	M20_NANO	M20 NANO
 Evertek	M20+Pro	M20_Pro	M20+Pro
 Evertek	M20_S	M20_S	M20 S
+Evertek	P17	P17	P17
 Evertek	V4	V4	EVERTEK V4
 Evertek	V4 Nano	V4_Nano	V4 Nano
 Evertek	V4+	V4_Plus	V4+
@@ -6668,6 +6686,7 @@ GP-electronic	YC-83T	YC-83T	YC-83T
 GREATASIA	E101GC	E101GC	E101GC
 GREATASIA	E101GC4G	E101GC4G	E101GC4G
 GREATASIA	E101GCM	E101GCM	E101GCM
+GREATASIA	E108GC	E108GC	E108GC
 GREATASIA	ET103G	ET103G	ET103G
 GREATASIA	Kidpad_M7	Kidpa_M7	Kidpa_M7
 GREATASIA	Pad_M30	Pad_M30	Pad_M30
@@ -7285,6 +7304,7 @@ HAOVM	HP20	HP20	P20
 HAOVM	MediaPadP8	P8	P8
 HAOVM	P9	P9	P9
 HAOVM	P9_EEA	P9_EEA	P9_EEA
+HAOVM	PS30	PS30	S30
 HAOVM	T2000	T2000	T2000
 HDC S.A.	H10_ONE	H10_ONE	H10_ONE
 HDC S.A.	H7_ONE	H7_ONE	H7_ONE
@@ -7298,6 +7318,8 @@ HKC	A79 Tablet	EM62	A79
 HKT	eye3	UY3-PCW	eye3
 HMR NETWORKS	HMR NETWORKS (PTY) LTD	HMR5012	HMR5012
 HOMII	HOMII M6	M6	M6
+HOMII	XBOOK	XBOOK	XBOOK
+HOMII	XBOOK_PRO	XBOOK_PRO	XBOOK_PRO
 HOMTOM	C13	C13	C13
 HOMTOM	C2	C2	C2
 HOMTOM	C8	C8	C8
@@ -8268,6 +8290,7 @@ Haier	W860	W860	W860
 Haier	candy android TV	hanyang	CANDY Android TV
 Haier	haier lesure L7	Haier_Leisure_L7	HM-N700-FL
 Haier	i50	i50	Haier_i50
+Haitech	HPAD_IP8045	HPAD_IP8045	HPAD_IP8045
 HaloBop (ShenZhen)	BG001	HelloGenius	BG001
 Hamic	POCKET	POCKET	POCKET
 Hamlet	Hamlet_XZPAD412W	XZPAD412W	Hamlet_XZPAD412W
@@ -8363,6 +8386,7 @@ Hiking	A21	A21	A21
 Hiking	A22	A22	A22
 Hiking	A23	A23	A23
 Hiking	A26	A26	A26
+Hiking	Fun5	Fun5	Fun5
 Hiking	HIKING_A18	HIKING_A18	HIKING_A18
 Hiking	HK-MH501	HK-MH501	HK-MH501
 Himax	M21	M21	M21
@@ -8772,6 +8796,7 @@ Hisense	Hisense U40	SC9832E	Hisense U40
 Hisense	Hisense U50	HLTE222E	Hisense U50
 Hisense	Hisense U50	HLTE222E_01	Hisense U50
 Hisense	Hisense U50	HLTE233E_10	Hisense H50 Lite
+Hisense	Hisense U605	HS7731ESP	Hisense M50 Lite 2021
 Hisense	Hisense U605	HS7731ESP	Hisense U30
 Hisense	Hisense U605	HS7731ESP	Hisense U50
 Hisense	Hisense U605	HS7731ESP	Hisense U605
@@ -9098,6 +9123,7 @@ Hoffmann	X Max	X-Max	X-Max
 Hoffmann	X-Go	X-Go	X-Go
 Hoffmann	X-Ultra	X_Ultra	X_Ultra
 Hoffmann	X_Prime	X_Prime	HOFFMANN X-Prime
+Homatics	Dongle Q	ICN	Dongle Q
 Homatics	SEI600HM	HND	Box Q
 Home Elite	Android TV	R1	ATV R1
 Homeplustv	Homeplus_ATV HCA-6010	HCA6010	HCA-6010
@@ -11031,6 +11057,7 @@ Hyundai	L553	L553	L553
 Hyundai	L575	L575	L575
 Hyundai	L601F	L601F	L601F
 Hyundai	L604	L604	L604
+Hyundai	L610	L610	L610
 Hyundai	L622	L622	L622
 Hyundai	Seoul 9	Seoul_9	Seoul 9
 Hyundai	Seoul X	Seoul_X	Seoul X
@@ -11338,6 +11365,7 @@ Infinix	Infinix X559	Infinix-X559	Infinix X559
 Infinix	Infinix X571	Infinix-X571	Infinix X571
 Infinix	Infinix X572	Infinix-X572	Infinix X572
 Infinix	Infinix ZERO 8i	Infinix-X687B	Infinix X687B
+Infinix	Infinix ZERO X NEO	Infinix-X6810	Infinix X6810
 Infinix	Infinix ZERO8	Infinix-X687	Infinix X687
 Infinix	NOTE 10 Pro	Infinix-X695	Infinix X695
 Infinix	NOTE 10 Pro	Infinix-X695C	Infinix X695C
@@ -12037,6 +12065,7 @@ JAY-TECH	TPC-G109_EEA	TPC-G109	TPC-G109
 JEEMAK	M70	M70	M70
 JEEMAK	M70E	M70E	M70E
 JHZL	J101	J101	J101
+JHZL	J101-EEA	J101-EEA	J101-EEA
 JIZHAO	JZP57	JZP57	JZP57
 JLab	PRO-7	polaris-p1gms	JLab PRO-7
 JP Sacouto	Flag Mill v2	MG101A2T_BT	Flag Mill v2
@@ -12325,6 +12354,7 @@ KZG (Ke Zhi Guang)	KZG Scope	KZG_Scope	KZG Scope
 KZG (Ke Zhi Guang)	KZG_Scope	KZG_Scope	KZG Scope
 Kaicom	H702	H702	H702
 Kaicom	K901	K901	K901
+Kaicom	K901	K901_2	K901
 Kaicom	KAICOM W660	W660	W660
 Kalley		Silver Max Pro	Silver_Max_Pro	Silver Max Pro
 Kalley	Android TV	R1	ATV R1
@@ -12515,6 +12545,7 @@ Klipad	KL553	KL553	KL553_EEA
 Klipad	KL600	KLIPAD_KL600	KLIPAD_KL600
 Klipad	KL600B	KLIPAD_KL600B	KL600B
 Klipad	KL601	KL601	KL601
+Klipad	KL602	KL602	KL602
 Klipad	KL6889B	KL6889B	KL6889B
 Klipad	KL7590	KL7590	KL7590
 Klipad	KL7590_eea	KL7590	KL7590
@@ -16041,6 +16072,7 @@ Masstel	Masstel_Juno_Q5	Masstel_Juno_Q5	Masstel_Juno_Q5
 Masstel	Masstel_Tab10	Masstel_Tab10	Masstel Tab10
 Masstel	Masstel_Tab10_4G	Masstel_Tab10_4G	Masstel_Tab10_4G
 Masstel	Masstel_Tab_101	Masstel_Tab_101	Masstel_Tab_101
+Masstel	Masstel_Tab_104	Masstel_Tab_104	Masstel_Tab_104
 Masstel	Masstel_X1	Masstel_X1	Masstel X1
 Masstel	Masstel_X5	Masstel_X5	Masstel X5
 Masstel	Masstel_X6	Masstel_X6	Masstel X6
@@ -16124,6 +16156,7 @@ Maxwest	Ranger 5	Ranger_5	Ranger_5
 Maxwest	TAB-9G	TAB-9G	TAB-9G
 Maze_speed	MS5514G	MS5514G	MS5514G
 Maze_speed	SSB1000T	SSB1000T	SSB1000T
+Maze_speed	SSB1001T	SSB1001T	SSB1001T
 MeanIT	C4	C4	C4
 MeanIT	MTAB32_EEA	MTAB32_EEA	meanIT K10
 MeanIT	MeanIt_X30	MeanIt_X30_EEA	MeanIt_X30
@@ -16981,6 +17014,7 @@ Mobvoi	Ticwatch S Smartwatch; Ticwatch E Smartwatch	mooneye	Ticwatch E
 Mobvoi	Ticwatch S Smartwatch; Ticwatch E Smartwatch	mooneye	Ticwatch S
 Mode1	MD-03P	MD-03P	MD-03P
 Mode1	MD-04P	MD-04P	MD-04P
+Mode1	MD-05P	MD-05P	MD-05P
 Mode1	MP1	MP1	MD_G1212U
 Modecom	ECHO LOLLY	ECHO_LOLLY	ECHO LOLLY
 Modecom	FreeTAB 10.1 Silver	silver	FreeTAB 10.1 Silver
@@ -18588,6 +18622,7 @@ OKAPI	Okapi_Tab6	Okapi_Tab6	Okapi_Tab6
 OKAPI	Okapi_Tab8	Okapi_Tab8	Okapi_Tab8
 OKAPI	Tab10	Tab10	Tab10
 OKWU	PI Plus	PI_Plus	PI Plus
+OLAX	Q101_EEA	Q101_EEA	Q101_EEA
 ONDA TLC	T7 Pro	T7_PRO	T7_PRO
 ONDA TLC	T9 S	T9S	T9S
 ONYX	AKA Model A	Model_A	Model A
@@ -19010,6 +19045,7 @@ Oppo	N3	N3	N5209
 Oppo	N5110	N5110	N5110
 Oppo	N5117	N5117	N5117
 Oppo	OPPO A35	OP4E7B	PEFM00
+Oppo	OPPO A53 5G	OP4E49	PECM30
 Oppo	OPPO A53s 5G	OP4F53L1	CPH2321
 Oppo	OPPO A54	OP4E7B	PEZM00
 Oppo	OPPO A54 5G	OP4F39L1	OPG02
@@ -19383,6 +19419,7 @@ Oukitel	U7 Max	U7_Max	U7 Max
 Oukitel	U7 Plus	U7_Plus	U7 Plus
 Oukitel	WP1	OUKITEL_WP1	WP1
 Oukitel	WP10	WP10	WP10
+Oukitel	WP15	WP15	WP15
 Oukitel	WP2	WP2	WP2
 Oukitel	WP5	WP5	WP5
 Oukitel	WP5 Pro	WP5_Pro	WP5 Pro
@@ -20432,6 +20469,7 @@ Premio	S81	S81	S81
 Premio	S82	S82	S82
 Premio	S83	S83	S83
 Premio	S85	S85	S85
+Premio	S86	S86	S86
 Premio	T1	T1	T1
 Premio	X1	186HS2080531	186HS2080531
 Premio	X80	X80	X80
@@ -20968,6 +21006,9 @@ QUBO	SP510	SP510	SP510
 QUBO	THOR	THOR	THOR
 QUBO	X626	X626	X626
 QUBO	X626_4G	X626_4G	X626_4G
+QUEST	Q8_Tablet	Q8_Tablet	Q8_Tablet
+QUEST	RAPTOR	RAPTOR	RAPTOR
+QUEST	Vibe	Vibe	Vibe
 Qilive	Europe	tamachi	Qilive FHD Android TV
 Qilive	Europe	yeongdeungpo	Qilive UHD Android TV
 Qilive	Q.3778	Q3778	Q.3778
@@ -22073,7 +22114,6 @@ Samsung	Galaxy A21s	a21s	SM-A217N
 Samsung	Galaxy A22	a22	SM-A225F
 Samsung	Galaxy A22	a22	SM-A225M
 Samsung	Galaxy A22 5G	a22x	SM-A226B
-Samsung	Galaxy A22 5G	a22x	SM-A226L
 Samsung	Galaxy A22s 5G	a22x	SM-A226B
 Samsung	Galaxy A3	a33g	SM-A300H
 Samsung	Galaxy A3	a3lte	SM-A300F
@@ -22421,6 +22461,7 @@ Samsung	Galaxy Avant	afyonltetmo	SM-G386T
 Samsung	Galaxy Axiom	infiniteusc	SCH-R830
 Samsung	Galaxy Beam	GT-I8250	GT-I8250
 Samsung	Galaxy Beam	GT-I8530	GT-I8530
+Samsung	Galaxy Buddy	a22x	SM-A226L
 Samsung	Galaxy C5	c5ltechn	SM-C5000
 Samsung	Galaxy C5	c5ltechn	SM-C500X
 Samsung	Galaxy C5	c5pltechn	SM-C5000
@@ -25400,6 +25441,7 @@ Sony	Xperia 1 II	XQ-AT72	XQ-AT72
 Sony	Xperia 1 III	A101SO	A101SO
 Sony	Xperia 1 III	SO-51B	SO-51B
 Sony	Xperia 1 III	SOG03	SOG03
+Sony	Xperia 1 III	XQ-BC52	XQ-BC52
 Sony	Xperia 1 III	XQ-BC72	XQ-BC72
 Sony	Xperia 1 Professional Edition	J9150	J9150
 Sony	Xperia 10	I3113	I3113
@@ -27810,6 +27852,7 @@ THTF	TSINGHUA TONGFANG CO., LTD.	TR10CD1_3	TR10CD1
 TIANHOO	EOS Pro	EOS_Pro	EOS Pro
 TIGO	ONEtv	vip6102w	ONEtv
 TIM	TIM BOX	uzw4010tim	TIM_BOX
+TIM	TIMVISIONBOX	m393gena_tim	TIMVISIONBOX
 TIM	TIMvision	dwt765ti	skipper
 TIT(SA)	TIT SMART TV	SW4H	TIT SMART TV
 TIT(SA)	TITTV	shibuya	TITTV
@@ -27886,6 +27929,8 @@ TUFEN	Q801	Q801	Q801
 TUFEN	Q86V	Q86V_EEA	Q86V
 TUFEN	Q88A_EEA	Q88A_EEA	Q88A
 TUFEN	Q88C	Q88C	Q88C
+TUFEN	TUFEN_701_EEA	TUFEN_701_EEA	TUFEN_701_EEA
+TUFEN	TUFEN_804	TUFEN_804	TUFEN_804
 TUFF	T500	T500	T500
 TUNTUN English	DREAM PAD	delight	ITP-R408W
 TUPAD	TU7_58212_18222	TU7_58212	TU7_18222
@@ -27911,6 +27956,7 @@ TabletKiosk	TK80	TK80	TK80
 Tablet_PC	T3G_07	T3G_07	T3G_07
 Tablet_PC	T3G_10B	T3G_10B	T3G_10B
 Tabletop	Tabletop_T2	Tabletop_T2	Tabletop_T2
+Tagtech	TAGPhone	TAGPhone	TAGPhone
 Taipeinet	LINKTV01	HY40A3	LINKTV01
 TaiwanMobile	A5C	A5C	A5C
 TaiwanMobile	A6S	A6S	A6S
@@ -28077,6 +28123,7 @@ Tecno	CAMON 16 S	TECNO-CD6j	TECNO CD6j
 Tecno	CAMON 17	TECNO-CG6	TECNO CG6
 Tecno	CAMON 17	TECNO-CG6j	TECNO CG6j
 Tecno	CAMON 17 Pro	TECNO-CG8	TECNO CG8
+Tecno	CAMON 17 Pro	TECNO-CG8h	TECNO CG8h
 Tecno	CAMON 17P	TECNO-CG7	TECNO CG7
 Tecno	CAMON 17P	TECNO-CG7n	TECNO CG7n
 Tecno	CAMON C7	TECNO-C7	TECNO-C7
@@ -28527,6 +28574,7 @@ Togocel		Togocel EGO plus	Togocel_EGO_plus	Togocel EGO plus
 Togocel	Togocel_F1_Max_4G	Togocel_F1_Max_4G	Togocel_F1_Max_4G
 Tokio	Phablet_III	Phablet_III	Phablet III
 Tokio	Tokio_Tablet_8	Tokio_Tablet_8	Tokio_Tablet_8
+TomStar	A1000	A1000	A1000
 TomStar	A1020	A1020	A1020
 TomStar	G6_pro	G6_pro	G6_pro
 Tonino Lamborghini	Antares	TL66	TL66
@@ -30457,6 +30505,7 @@ Wiko	W_P130	W_P130	W_P130
 Wiko	W_P200	W_P200	W_P200
 Wiko	W_P200CM	W_P200CM	View Max
 Wiko	W_P200CM	W_P200CM	W_P200CM
+Wiko	Wiko Life 3	U316AT	Wiko U316AT
 Wiko	Wiko Ride 3	U614AS	Wiko U614AS
 Wiko	Y50	W-K130	W-K130-BYT
 Wiko	Y50	W-K130	W-K130-EEA
@@ -30627,6 +30676,7 @@ X-TIGI	Hope10_Pro	Hope10_Pro	Hope10 Pro
 X-TIGI	Hope7_LTE	Hope7_LTE	Hope7 LTE
 X-TIGI	Hope7_Mate	Hope7_Mate	Hope7_Mate
 X-TIGI	Hope7_Max	Hope7_Max	Hope7 Max
+X-TIGI	Hope7_Pro	Hope7_Pro	Hope7_Pro
 X-TIGI	Hope8_LTE	Hope8_LTE	Hope8_LTE
 X-TIGI	JOY10_LTE	MID	JOY10_LTE
 X-TIGI	JOY10_Mate	JOY10_Mate	X-TIGI_JOY10 Mate
@@ -30948,6 +30998,7 @@ Xtreme	Android TV	R1	ATV R1
 Xtreme	XTREME 4K TV	SW4H	XTREME 4K TV
 Xtreme	XTREME TV	shinjuku	XTREME TV
 Xwave	Xpad	Xpad	Xpad_M9_3G
+YAYGO	SEI600YAY	HND	ATV-101
 YELLYOUTH	TAB_101	TAB_101	TAB_101
 YETRUE	yetruepad21	yetruepad21_EEA	yetruepad21
 YOSATOO	KIDS07A	KIDS07A	KIDS07A
@@ -32625,7 +32676,6 @@ Zebra	ET5X	ET55T	ET5X
 Zebra	MC18	MC18	MC18N0
 Zebra	MC20	MC2200	MC20
 Zebra	MC3300x	MC3300x	MC3300x
-Zebra	MC3300x	MC3300xC	MC3300x
 Zebra	MC330K	MC33	MC33
 Zebra	MC330K	MC33C	MC33
 Zebra	MC36	cardhu	MC36
@@ -32660,6 +32710,8 @@ Zebra	Zebra Technologies L10	L10AW	L10AW
 Zebra	Zebra Technologies MC2200	MC2200	MC2200
 Zebra	Zebra Technologies MC2700	MC2700	MC2700
 Zebra	Zebra Technologies MC3300ax	MC3300xC	MC3300ax
+Zebra	Zebra Technologies MC3300x	MC3300x	MC3300x
+Zebra	Zebra Technologies MC3300x	MC3300xC	MC3300x
 Zebra	Zebra Technologies MC3300xN	MC3300x	MC3300x
 Zebra	Zebra Technologies MC3300xNS	MC3300xC	MC3300x
 Zebra	Zebra Technologies MC9300	MC93	MC93
