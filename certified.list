@@ -4046,6 +4046,7 @@ Cloud (TruConnect)	Storm C3	Storm_C3	Storm_C3
 Cloud (TruConnect)	Stratus_C5	Stratus_C5	Stratus_C5
 Cloud (TruConnect)	Stratus_C5_Elite	Stratus_C5_Elite	Stratus_C5_Elite
 Cloud (TruConnect)	Sunshine_T1	Sunshine_T1	Sunshine_T1
+Cloud (TruConnect)	Sunshine_T1_Elite	Sunshine_T1_Elite	Sunshine_T1_Elite
 Cloud (TruConnect)	Typhoon_C6	Typhoon_C6	Typhoon_C6
 CloudFone	CloudFone Excite Prime 2	Excite_Prime_2	Excite Prime 2
 CloudFone	CloudFone Next Infinity Plus	Next_Infinity_Plus	Next Infinity Plus
@@ -4524,6 +4525,7 @@ Coolpad	Y90	Y90	Coolpad Y90
 Coolpad	Y91-921	Y91	Coolpad Y891
 Coolpad	Y91-921	Y91	Coolpad Y91-921
 Coolpad	Y92-9	Y92-9	Coolpad Y92-9
+Coolpad	coolpad COOL 20	k69v1_64	CP03
 Coolpad	coolpad N7 Air	2021	2021
 Coolpad	coolpad N7 Plus	coolpad_N7_Plus	2032
 Coolpad	cp3648A	cp3648a	cp3648A
@@ -9448,6 +9450,7 @@ Honeywell	CT40	CT40P-L1-F	CT40
 Honeywell	CT40P	CT40P-L1-D	CT40
 Honeywell	CT40P-L0-D	CT40P-L0-D	CT40
 Honeywell	CT45	CT45	CT45
+Honeywell	CT45 XP	CT45P	CT45P
 Honeywell	CT45XP	CT45P	CT45P
 Honeywell	CT50	CT50L0N-CS12S	CT50
 Honeywell	CT50	CT50L0N-CS15S	CT50
@@ -12002,6 +12005,7 @@ Ipro	Phonenix50S	Phonenix50S	Phonenix50S
 Ipro	Pro8S	Pro8S	Pro8S
 Ipro	Ruby5S	Ruby5S	Ruby5S
 Ipro	S100	S100	S100
+Ipro	S100E	S100E	S100E
 Ipro	S401	S401	S401
 Ipro	S401A	S401A	S401A
 Ipro	S501	S501	S501
@@ -22020,6 +22024,8 @@ Redmi	Redmi Note 10S	secret	M2101K7BI
 Redmi	Redmi Note 10T	camellian	M2103K19Y
 Redmi	Redmi Note 10T 5G	camellia	M2103K19I
 Redmi	Redmi Note 10T 5G	camellia	TBD
+Redmi	Redmi Note 11 Pro	pissarro	21091116C
+Redmi	Redmi Note 11 Pro+	pissarropro	21091116UC
 Redmi	Redmi Note 7	lavender	Redmi Note 7
 Redmi	Redmi Note 8	biloba	M1908C3JGG
 Redmi	Redmi Note 8	ginkgo	GINKGO
@@ -22505,6 +22511,7 @@ SWTV	TV	SW3H_ATV	SWTV
 SWTV	Taiwan	SW3H_ATV	SWTV
 SYLVANIA	SL321AN	kanda	2K Smart TV
 SYLVANIA	SLTDVD1024	mdt1005_mk_32	SLTDVD1024
+SYLVANIA	SLTDVD1024_B	SLTDVD1024_B	SLTDVD1024_B
 SYLVANIA	SLTDVD9220_C	SLTDVD9220-C	SLTDVD9220-C
 SYLVANIA	US	gangbyeon	4K Smart TV
 SZSUPER	KIDS05-X5	KIDS05-X5	KIDS05-X5
@@ -25466,6 +25473,9 @@ Sharp	AQUOS sense5G	Sarah	A004SH
 Sharp	AQUOS sense5G	Sarah	SH-M17
 Sharp	AQUOS sense5G	WJG	SHG03
 Sharp	AQUOS sense5G SH-S50	SarahH	SH-S50
+Sharp	AQUOS sense6	Chara	SH-RM19
+Sharp	AQUOS sense6	SH-54B	SH-54B
+Sharp	AQUOS sense6	ZMJ	SHG05
 Sharp	AQUOS zero	SG801SH	801SH
 Sharp	AQUOS zero	SH-Z10	SH-Z10
 Sharp	AQUOS zero	SH-Z10A	SH-Z10A
@@ -30349,7 +30359,6 @@ Vivo	I1928	I1928	I1928
 Vivo	I2009	2009	I2009
 Vivo	I2011	2011	I2011
 Vivo	I2012	2012	I2012
-Vivo	I2017	2017	I2017
 Vivo	I2018	2018	I2018
 Vivo	NEX A	PD1806B	vivo NEX A
 Vivo	PD1304DL	PD1304DL	vivo Y13iL
@@ -31786,6 +31795,7 @@ Xiaomi	Xiaomi 11 Lite 5G NE	lisa	2109119DG
 Xiaomi	Xiaomi 11 Lite NE	lisa	2109119DI
 Xiaomi	Xiaomi 11T	amber	21081111RG
 Xiaomi	Xiaomi 11T Pro	vili	2107113SG
+Xiaomi	Xiaomi 11T Pro	vili	2107113SI
 Xiaomi	Xiaomi 11T Pro	vili	2107113SR
 Xiaomi	Xiaomi Pad 5	nabu	21051182C
 Xiaomi	Xiaomi Pad 5 Pro	elish	M2105K81AC
@@ -33838,6 +33848,7 @@ g-mee	connect_2	connect_2	connect 2
 geaneePro	JT08-X1	JT08-X1	JT08-X1
 geaneePro	JT10-X	JT10-X	JT10-X
 geaneePro	JT10-X1	JT10-X1	JT10-X1
+geaneePro	JT10LTE-X1	JT10LTE-X1	JT10LTE-X1
 geaneePro	JT70-X	JT07-X	JT07-X
 generaltouch	ERGO22	ERGO22	ERGO22
 generaltouch	ERGO22	ERGO22	ERGO22_eea
