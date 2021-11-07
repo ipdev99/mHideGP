@@ -12417,6 +12417,8 @@ JVC	LT-50KC507	sindorim	AI PONT
 JVC	LT-50KD507	samseong	AI PONT
 JVC	LT-50N7115A	samseong	AI PONT
 JVC	LT-55KB597	sindorim	AI PONT
+JVC	South Africa/Australia /Israel/Paraguay	tamachi	JVC Android TV
+JVC	South Africa/Australia /Israel/Paraguay	yeongdeungpo	JVC Android TV
 JVC	UK	tabata	UK 2K Android TV
 JVC	france	tamachi	JVC 2K Android TV
 JVL (Australia)	JVL070TAB812BLK	JVL070TAB812BLK	JVL070TAB812BLK
@@ -19068,12 +19070,14 @@ ODYS	Titan_10_LTE	Titan_10_LTE	Titan_10_LTE
 ODYS	XELIO_HD10	XELIO_HD10	XELIO_HD10
 ODYS	 FALCON_10_PLUS_3G	FALCON_10_PLUS_3G	FALCON_10_PLUS_3G
 OK (Mediamark)	32770H-TAB	ikebukuro	AI PONT
+OK (Mediamark)	EU	tamachi	OK 2K Android TV
 OK (Mediamark)	ODL 32760HN-TAB	osaki	2K AI Smart TV
 OK (Mediamark)	ODL 32770H-TAB	ikebukuro	AI PONT
 OK (Mediamark)	ODL50672U-TAB	samseong	AI PONT
 OK (Mediamark)	OK	bangbae	OK 4K Android TV
 OK (Mediamark)	OK 2K TV	shinagawa	OK 2K TV
 OK (Mediamark)	Smart TV	samseong	AI PONT
+OK (Mediamark)	eu	yeongdeungpo	OK 4K Android TV
 OKAPI	Okapi10	Okapi10	Okapi10
 OKAPI	Okapi10_Pro	Okapi10_Pro	Okapi10 Pro
 OKAPI	Okapi10_Pro_Max	Okapi10_Pro_Max	Okapi10 Pro Max
@@ -29248,6 +29252,8 @@ Tesco	Technika	ewha	TECH-TVE19J
 Tesco	W032I_C3	w032i_c3	W032I_C3
 Tesco	hudl 2	HTF8A4	Hudl 2
 Tesla	AEONSR570	AEONSR570	AEONSR570
+Tesla	EU	tamachi	Tesla 2K Android TV
+Tesla	EU	yeongdeungpo	Tesla 4K Android TV
 Tesla	M8.1 3G	TTM813G	TTM813G
 Tesla	P80X_ROW	P80X	P80X
 Tesla	SMARTPHONE3.5	Tesla_SP3_5	Tesla_SP3.5
