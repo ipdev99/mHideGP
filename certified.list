@@ -922,6 +922,7 @@ AllView	X8 PRO	X8_Soul_Pro	X8_Soul_Pro
 AllView	X8 Soul Style	X8_Soul_Style	X8_Soul_Style
 Alldocube	Smile_X	T1028	Smile_X
 Alldocube	T1001	T1001	T1001
+Alldocube	T1021T	T1021T	T1021T
 Alldocube	T701	T701	T701
 Alldocube	T701_X	T701_X	T701_X
 Alldocube	T806	T806	T806
@@ -7164,6 +7165,7 @@ Gigaset	GS5	GS5	E940-2796-00
 Gigaset	GS80	GS80	GS80
 Gigaset	GX290	GX290	GX290
 Gigaset	Gigaset GS170	GS170	Gigaset GS170
+Gigaset	Gigaset GS185	GS185	GS185
 Gigaset	Gigaset GS270	Gigaset_GS270	GS270
 Gigaset	Gigaset GS270 plus	Gigaset_GS270_plus	GS270 plus
 Gigaset	Gigaset GS3	GS3	E940-2766-00
@@ -11604,6 +11606,7 @@ Infinix	HOT 10i	Infinix-X658E	Infinix X658E
 Infinix	HOT 10i	Infinix-X659	Infinix X659
 Infinix	HOT 10i	Infinix-X659B	Infinix X659B
 Infinix	HOT 11	Infinix-X662	Infinix X662
+Infinix	HOT 11	Infinix-X662B	Infinix X662B
 Infinix	HOT 11S	Infinix-X6812	Infinix X6812
 Infinix	HOT 2	Infinix_X510	Infinix X510
 Infinix	HOT 3	INFINIX-X554	Infinix HOT 3 Pro
@@ -11667,6 +11670,7 @@ Infinix	Infinix HOT 9 Pro	Infinix-X655F	Infinix X655F
 Infinix	Infinix NOTE 10	Infinix-X693	Infinix X693
 Infinix	Infinix NOTE 11	Infinix-X663	Infinix X663
 Infinix	Infinix NOTE 11	Infinix-X663B	Infinix X663B
+Infinix	Infinix NOTE 11i	Infinix-X693	Infinix X693
 Infinix	Infinix NOTE 5	Infinix-X604_sprout	Infinix X604
 Infinix	Infinix NOTE 5	Infinix-X604_sprout	Infinix X604B
 Infinix	Infinix NOTE 5 Stylus	Infinix-X605_sprout	Infinix X605
@@ -12390,6 +12394,7 @@ Itel	itel-L5007S	itel-L5007S	itel L5007S
 Itworks	TM705	TM705	NID_7010
 J:COM	XA401	XA401	XA401
 J:COM	XA402	XA402	XA402
+J:COM	XA403	sti6260d195	XA403
 JAY-TECH	TPC-G1010	TPC-G1010_EEA	TPC-G1010
 JAY-TECH	TPC-G1011LTE	TPC-G1011LTE	TPC-G1011LTE
 JAY-TECH	TPC-G109_EEA	TPC-G109	TPC-G109
@@ -22421,7 +22426,6 @@ SK Telesys	WA978	u978e_1	WA978
 SK Telesys	icube-830	icube-830	icube-830
 SKY EVO	Elite OctaPlus	Elite_OctaPlus	Elite OctaPlus
 SKY EVO	Elite OctaPlus	Elite_OctaPlusa2	Elite OctaPlus
-SKY EVO	Elite OctaX	Elite_OctaX	Elite OctaX
 SKY EVO	Elite OctaX	Elite_OctaXK2	Elite OctaX
 SKY EVO	Elite_OctaXS	Elite_OctaXS	Elite_OctaXS
 SKY EVO	SA100	HY40A	SA100
@@ -25611,6 +25615,7 @@ Sharp	AQUOS sense5G	Sarah	A004SH
 Sharp	AQUOS sense5G	Sarah	SH-M17
 Sharp	AQUOS sense5G	WJG	SHG03
 Sharp	AQUOS sense5G SH-S50	SarahH	SH-S50
+Sharp	AQUOS sense6	Chara	SH-M19
 Sharp	AQUOS sense6	Chara	SH-RM19
 Sharp	AQUOS sense6	SH-54B	SH-54B
 Sharp	AQUOS sense6	ZMJ	SHG05
@@ -25976,6 +25981,7 @@ Sky Devices	Elite OctaMax	Elite_OctaMax1	Elite OctaMax
 Sky Devices	Elite OctaMax	Elite_OctaMax3b	Elite OctaMax
 Sky Devices	Elite OctaMax	Elite_OctaMax3c	Elite OctaMax
 Sky Devices	Elite OctaMax	Elite_OctaMaxom	Elite OctaMax
+Sky Devices	Elite OctaX	Elite_OctaX	Elite OctaX
 Sky Devices	Elite OctaX	Elite_OctaXK	Elite OctaX
 Sky Devices	Elite P5	Elite_P5	Elite P5
 Sky Devices	Elite T4	Elite_T4	Elite T4
@@ -28698,6 +28704,7 @@ THTF	TSINGHUA TONGFANG CO., LTD.	TR10CD1_3	TR10CD1
 TIANHOO	EOS Pro	EOS_Pro	EOS Pro
 TIGO	ONEtv	vip6102w	ONEtv
 TIM	TIM BOX	uzw4010tim	TIM_BOX
+TIM	TIMVISION VSB	m393vsb_tim	TIMVISION VSB
 TIM	TIMVISIONBOX	m393gena_tim	TIMVISIONBOX
 TIM	TIMvision	dwt765ti	skipper
 TIT(SA)	TIT SMART TV	SW4H	TIT SMART TV
@@ -29204,6 +29211,7 @@ Tecno	TECNO SPARK 7	TECNO-KF6h	TECNO KF6h
 Tecno	TECNO SPARK 7	TECNO-KF6i	TECNO KF6i
 Tecno	TECNO SPARK 7	TECNO-KF6j	TECNO KF6j
 Tecno	TECNO SPARK 7	TECNO-KF6k	TECNO KF6k
+Tecno	TECNO SPARK 7	TECNO-KF6ks	TECNO KF6ks
 Tecno	TECNO SPARK 7	TECNO-KF6m	TECNO KF6m
 Tecno	TECNO SPARK 7	TECNO-KF6n	TECNO KF6n
 Tecno	TECNO SPARK 7	TECNO-KF6p	TECNO KF6p
@@ -29217,6 +29225,8 @@ Tecno	TECNO SPARK 8	TECNO-KG6k	TECNO KG6k
 Tecno	TECNO SPARK 8 P	TECNO-KG7	TECNO KG7
 Tecno	TECNO SPARK 8 P	TECNO-KG7n	TECNO KG7n
 Tecno	TECNO SPARK 8P	TECNO-KG7n	TECNO KG7n
+Tecno	TECNO SPARK 8T	TECNO-KG6P	TECNO KG6P
+Tecno	TECNO SPARK 8T	TECNO-KG6P	TECNO KG6p
 Tecno	TECNO SPARK Go	TECNO-KC1	TECNO KC1
 Tecno	TECNO SPARK Go 2022	TECNO-KG5	TECNO KG5
 Tecno	TECNO Tab	TECNO-P704	TECNO P704
