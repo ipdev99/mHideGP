@@ -299,8 +299,8 @@ else
 	MODL=$(grep -m1 ro.product.system.model= $prop_file | cut -f2 -d '=');
 fi
 
-if grep -q ro.product.manufacture= $prop_file; then
-	MANF=$(grep -m1 ro.product.manufacture= $prop_file | cut -f2 -d '=');
+if grep -q ro.product.manufacturer= $prop_file; then
+	MANF=$(grep -m1 ro.product.manufacturer= $prop_file | cut -f2 -d '=');
 elif grep -q ro.product.vendor.manufacturer= $prop_file; then
 	MANF=$(grep -m1 ro.product.vendor.manufacturer= $prop_file | cut -f2 -d '=');
 else
