@@ -5244,6 +5244,7 @@ Digitron	i-Buddie	TR10CD1_10	TR10CD1
 Digitron	i_Buddie	TR10CS1_12	TR10CS1
 Digix	TAB-740_G	TAB-740_G	TAB-740_G
 Digma	CITI 609	CS6063ML	CITI 609 4G CS6063ML
+Digma	CITI_13_X703_4G	CS3242ML	CITI_13_X703_4G_CS3242ML
 Digma	CITI_1590_3G_CS1207MG	CS1207MG	CITI 1590 3G CS1207MG
 Digma	CITI_1593_3G_CS1210MG	CS1210MG	CITI 1593 3G CS1210MG
 Digma	CITI_7586_3G	TS7203MG	CITI_7586_3G_TS7203MG
@@ -17993,6 +17994,8 @@ Motorola	moto g power (2021)	borneo	moto g power
 Motorola	moto g power (2021)	borneo	moto g power (2021)
 Motorola	moto g power (XT2041DL)	sofia	moto g power (XT2041DL)
 Motorola	moto g pro	sofiap_sprout	moto g pro
+Motorola	moto g pure	ellis	moto g power
+Motorola	moto g pure	ellis	moto g pure
 Motorola	moto g stylus	sofiap	moto g stylus
 Motorola	moto g stylus (2021)	minsk	moto g stylus
 Motorola	moto g stylus (2021)	minsk	moto g stylus (2021)
@@ -18212,6 +18215,7 @@ Multilaser	M7 3G PLUS	ML-JI31-M7-3G-PLUS	M7-3G-PLUS
 Multilaser	M7 3G PLUS	ML_WI0A_M7_3G_PLUS	M7_3G_PLUS
 Multilaser	M7 3G Plus	ML_WI12_M7_3G_PLUS	M7_3G_PLUS
 Multilaser	M7 WIF	ML_JI1D_M7_WIFI	M7_WIFI
+Multilaser	M7 WIFI	ML_JI2D_M7_WIFI	M7_WIFI
 Multilaser	M7 WIFI	ML_SO0E_M7_WIFI	M7_WIFI
 Multilaser	M7 WIFI	ML_SO1E_M7_Wifi	M7_WIFI
 Multilaser	M7-3G PLUS	ML-JI21-M7-3G-PLUS	M7-3G-PLUS
@@ -18293,6 +18297,7 @@ Multilaser	Ms5	MTL-MS5	MS5
 Multilaser	Ms6	MS6	MS6
 Multilaser	Multilaser E	Multilaser_E	Multilaser_E
 Multilaser	Multilaser E	Multilaser_E_A10	Multilaser_E
+Multilaser	Multilaser E 2	Multilaser_E_2	Multilaser_E_2
 Multilaser	Multilaser E Lite	Multilaser_E_Lite	Multilaser_E_Lite
 Multilaser	Multilaser E Pro	Multilaser_E_Pro	Multilaser_E_Pro
 Multilaser	Multilaser Elite 2	Multilaser_Elite_2	Multilaser_Elite_2
@@ -19655,7 +19660,6 @@ Oppo	K3	OP4679	PCGM00
 Oppo	K3	OP4679	PCGT00
 Oppo	K3	OP486B	CPH1955
 Oppo	K5	OP4AA7	PCNM00
-Oppo	K9 5G	OP4E9F	PEXM00
 Oppo	N1	N1	N1
 Oppo	N1 mimi	N1mini	N5111
 Oppo	N1 mimi	N1mini	N5116
@@ -19666,13 +19670,13 @@ Oppo	N3	N3	N5207
 Oppo	N3	N3	N5209
 Oppo	N5110	N5110	N5110
 Oppo	N5117	N5117	N5117
+Oppo	OPG02_jp_kdi	OP4F39L1	OPG02
 Oppo	OPPO A33	OP4EEA	CPH2137
 Oppo	OPPO A35	OP4E7B	PEFM00
 Oppo	OPPO A53 5G	OP4E49	PECM30
 Oppo	OPPO A53 5G	OP4E49	PECT30
 Oppo	OPPO A53s 5G	OP4F53L1	CPH2321
 Oppo	OPPO A54	OP4E7B	PEZM00
-Oppo	OPPO A54 5G	OP4F39L1	OPG02
 Oppo	OPPO A74 5G	OP4F39L1	CPH2197
 Oppo	OPPO A95 5G	OP4EB7	PELM00
 Oppo	OPPO Reno5 A	OP4F2BL1	A101OP
@@ -19689,7 +19693,9 @@ Oppo	PEHM00	OP4E99	PEHT00
 Oppo	PEMM20	OP4E8C	PEMM20
 Oppo	PEPM00	OP4ECB	PEPM00
 Oppo	PEQM00	OP4ED5	PEQM00
+Oppo	PEXM00	OP4E9F	PEXM00
 Oppo	PFCM00	OP5259	PFCM00
+Oppo	PFGM00	OP5231	PFGM00
 Oppo	R1001	OPPO72_13076	R1001
 Oppo	R1001	R1001	R1001
 Oppo	R1011	R1011	R1011
@@ -20201,6 +20207,8 @@ Panasonic	4KTV-0SUF	SW4H_FF	4KTV-0SUF
 Panasonic	4KTV-0SUW	SW4H	4KTV-0SUW
 Panasonic	55AX600C	mst918_4k2k	55AX600C
 Panasonic	55DX600C	DX600C	TH-55DX600C
+Panasonic	A-DA	balticaCA	MY21ADA
+Panasonic	A-DA	balticaDA	MY21ADA
 Panasonic	AS650C	AS650C	AS650C
 Panasonic	AX600C	AX600C	AX600C
 Panasonic	Active Surface	surface7	surface7
@@ -22465,7 +22473,7 @@ SK Broadband	B tv smart	BKO-S200	BKO-S200
 SK Broadband	BFX-AT100	BFX-AT100	BFX-AT100
 SK Broadband	BKO-AT800	BKO-AT800	BKO-AT800
 SK Broadband	BTV	vip5442	BAS-AT800
-SK Broadband	Home Entertainment Box	BIP-EB100	BIP-EB100
+SK Broadband	PlayZ	BIP-EB100	BIP-EB100
 SK Broadband	SMART3	INTEKS20SI	BID-AT200
 SK Broadband	SWAN	BFX-UA300	BFX-UA300
 SK Broadband	Smart3 Mini	BIP-UW200	BIP-UW200
@@ -25532,6 +25540,7 @@ Sharp	507SH	eve_sprout	507SH
 Sharp	8T-C**BW1	tcme8sj	AQUOS-8KTVJ19
 Sharp	8T-C**CX1	tcme8tsj	AQUOS-8KTVJ20
 Sharp	8T-C**DW1	tcve8sj	AQUOS-8KTVJ21
+Sharp	8T-C**DW1X	tcba8sx	AQUOS-TVH21A
 Sharp	8T-C**DW1X/DW2X	tcba8sx	AQUOS-TVX21A
 Sharp	8T-CxxAXAA	lcd_xxgae9a	LCD-xxGAE9A
 Sharp	A01SH	A01SH	A01SH
@@ -26442,6 +26451,7 @@ Sony	Xperia PLAY	R800i	R800i
 Sony	Xperia PRO	XQ-AQ52	XQ-AQ52
 Sony	Xperia PRO	XQ-AQ62	XQ-AQ62
 Sony	Xperia PRO-I	XQ-BE52	XQ-BE52
+Sony	Xperia PRO-I	XQ-BE72	XQ-BE72
 Sony	Xperia R1	G2199	G2199
 Sony	Xperia R1 Plus	G2299	G2299
 Sony	Xperia S	LT26i	LT26i
@@ -30271,6 +30281,8 @@ VerD	E2	E2	E2
 Verizon	Stream TV	JS8V	Stream TV
 Verizon	Stream TV	f354	Stream TV
 Verizon	Stream TV	sti6220d315	Stream TV
+Verizon	Stream TV Soundbar	sti6251d315	Stream TV Soundbar
+Verizon	Stream TV Soundbar Pro	sti6250d315	Stream TV Soundbar Pro
 Verizon	Visible Midnight	WTVIS01	WTVIS01
 Verizon Wireless	5059S	U50PLUS	5059S
 Verizon Wireless	Ellipsis 10	QTAIR7	QTAIR7
@@ -33592,6 +33604,7 @@ ZTE	ZTE 8031	P963F06_A	ZTE 8031
 ZTE	ZTE 9030	P618F05	ZTE 9030
 ZTE	ZTE 9030N	P653S07	ZTE 9030N
 ZTE	ZTE 9030RU	P618F05	ZTE 9030RU
+ZTE	ZTE 9040N	P653S11	ZTE 9040N
 ZTE	ZTE A0616	P637S15	ZTE A0616
 ZTE	ZTE A0620	P840S13	ZTE A0620
 ZTE	ZTE A0622	P817S13	ZTE A0622
@@ -34138,6 +34151,7 @@ eSTREAM 4K	EVOPRO	SEI500EV	EVOPRO
 eSTREAM 4K	IPA-1104HDH-01	eSTREAM4K_4x4	IPA-1104HDH-01
 eSTREAM 4K	IPA1104HDW-02	kunlun	IPA1104HDW-02
 eSTREAM 4K	Pyxis	SEI500TV	Pyxis
+eSTREAM 4K	Pyxis-ABB	SEI500ABB	Pyxis-ABB
 eSTREAM 4K	Pyxis-ARMSTRONG	SEI500AS	Pyxis-ARMSTRONG
 eSTREAM 4K	Pyxis-BlueRidge	SEI500BR	Pyxis-BlueRidge
 eSTREAM 4K	Pyxis-BlueStream	SEI500BS	Pyxis-BlueStream
@@ -34512,6 +34526,8 @@ realme	realme 8 Pro	RMX3081L1	RMX3081
 realme	realme C15 Qualcomm Edition	RMX2195L1	RMX2195
 realme	realme C21-Y	RED8D1	RMX3263
 realme	realme GT 5G	RMX2202L1	RMX2202
+realme	realme narzo 50A	RED8AF	RMX3430
+realme	realme pad	RE54C1L1	RMP2103
 realme	真我Q3s		RE548B	RMX3461
 realme	真我Q3s		RE548B	RMX3462
 realme	真我Q3s		RE548BL1	RMX3461
