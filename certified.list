@@ -4621,6 +4621,7 @@ Crosscall	Action-X3	HS8937QC	Action-X3
 Crosscall	Action-X3	HS8937QC	Action-X3 Pro
 Crosscall	Action-X3	HS8937QCs	ACTION-X3
 Crosscall	Action-X3	HS8937QCs	Action-X3
+Crosscall	Action-X5	L752	Action-X5
 Crosscall	CORE-M4	CORE-M4	CORE-M4
 Crosscall	CORE-M4 GO	CORE-M4-GO	CORE-M4 GO
 Crosscall	Core- X3	HS8917QC	Core-X3
@@ -16689,6 +16690,7 @@ Mecer	TF10MK1	TF10MK1_2	TF10MK1
 Mecer	TF10MK1	TF10MK1_3	TF10MK1
 Mecool	KA2	KA2	KA2
 Mecool	KD1	KD1	KD1
+Mecool	KD2	KD2	KD2
 Mecool	KM1	KM1	KM1
 Mecool	KM2	LAS	LEAP-S1
 Mecool	KM3	KM3	KM3
