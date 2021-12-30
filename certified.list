@@ -1126,6 +1126,7 @@ Aprix	Tab_X1	Tab_X1	Tab_X1
 Aprix	Tab_X2	Tab_X2	Tab_X2
 Aprix	X4	Aprix_X4	Aprix_X4
 Aqua	APAC	nippori	AQUA Android TV 2K
+Aqua	AQUA Android TV FF Pro	daan	AQUA Android TV FF Pro
 Aqua	AQUA android TV	hanyang	AQUA Android TV
 Aqua	S1 Jazz	S1_Jazz	S1 Jazz
 Arcelik	B55L 9682 5AS	arcelik_eu	arcelik_uhd_powermax_at
@@ -3548,6 +3549,7 @@ CIBER	B610A115	B610A115	B610A115
 CIBER	B610A215	B610A215	B610A215
 CILICO	C6	C6_R	C6
 CILICO	C6_P	C6	C6
+CILICO	C7X	C7X_R	C7X
 CILICO	F750	F750	F750
 CILICO	F880	F880	F880
 CIMRL	tab10	tab10	tab10
@@ -5787,6 +5789,7 @@ EKO	EKO OMEGA Q55	EKO_OMEGA_Q55	EKO OMEGA Q55
 EKO	EKO Star LTE G60	EKO_Star_LTE_G60	EKO Star LTE G60
 EKO	EKO android TV	hanyang	Ayonz Android TV
 EKO	EKO android TV ISDB	hanyang	EKO 4K Android TV
+EKO	KATV10	ICN	KATV10
 EKO	Star 4.0 G40	Star_4_0_G40	Star 4.0 G40
 EKO	Star 5.0 G50	Star_5_0_G50	Star 5.0 G50
 EKO	Star 5.5 G55	Star_5_5_G55	Star 5.5 G55
@@ -9525,6 +9528,7 @@ Hoffmann	X Max	X-Max	X-Max
 Hoffmann	X-Go	X-Go	X-Go
 Hoffmann	X-Ultra	X_Ultra	X_Ultra
 Hoffmann	X_Prime	X_Prime	HOFFMANN X-Prime
+Homatics	Box Q	HND	Box Q
 Homatics	Dongle Q	ICN	Dongle Q
 Homatics	SEI600HM	HND	Box Q
 Home Elite	Android TV	R1	ATV R1
@@ -11383,6 +11387,7 @@ Hyundai	A26062L	A26062L	A26062L
 Hyundai	A26062k	A26062K	A26062K
 Hyundai	Android TV	R1	ATV R1
 Hyundai	Android TV	R2	ATV R2
+Hyundai	Android TV	redwood	AI PONT NA
 Hyundai	Android TV	redwood	AI PONT SA
 Hyundai	Blade_C5	Blade_C5	Blade_C5
 Hyundai	Blade_C6	Blade_C6	Blade_C6
@@ -18344,6 +18349,7 @@ Multilaser	M10 4G	ML_SO0G_M10_4G	M10_4G
 Multilaser	M10 4G PRO	ML_JI0B_M10_4G_PRO	M10_4G_PRO
 Multilaser	M10 4G PRO	ML_JI0F_M10_4G_PRO	M10_4G_PRO
 Multilaser	M10 4G PRO	ML_SO1G_M10_4G_PRO	M10_4G_PRO
+Multilaser	M10 4G T3	ML-WI1C-M10-4G-T3	M10-4G-T3
 Multilaser	M10-3G	ML-JI06-M10-3G	M10-3G
 Multilaser	M10-4G	ML-JI03-M10-4G	M10-4G
 Multilaser	M10A	M10A	M10A
@@ -19477,6 +19483,7 @@ OnePlus	OnePlus 8	OnePlus8Visible	IN2015
 OnePlus	OnePlus 8 5G	OnePlus8TMO	IN2017
 OnePlus	OnePlus 8 5G UW	OnePlus8VZW	IN2019
 OnePlus	OnePlus 8 Pro	OnePlus8Pro	IN2023
+OnePlus	OnePlus 8T	OnePlus8T	KB2000
 OnePlus	OnePlus 8T	OnePlus8T	KB2005
 OnePlus	OnePlus 8T+ 5G	OnePlus8TTMO	KB2007
 OnePlus	OnePlus 9 5G	OnePlus9	LE2110
@@ -22653,13 +22660,11 @@ SIAFU	M5855	M5855	M5855
 SILVER MAX	ST-710G	ST_710G	ST-710G
 SILVER MAX	ST-810	ST_810A	ST-810
 SITI_Playtop	SITIH3455N	DTC2141	SITIH3455N
-SK Broadband	AI2 ATV	INTEKS21SI	BID-AI100
 SK Broadband	B tv smart	BHX-S100	BHX-S100
 SK Broadband	B tv smart	BKO-S200	BKO-S200
 SK Broadband	BFX-AT100	BFX-AT100	BFX-AT100
 SK Broadband	BKO-AT800	BKO-AT800	BKO-AT800
 SK Broadband	BTV	vip5442	BAS-AT800
-SK Broadband	SMART3	INTEKS20SI	BID-AT200
 SK Broadband	SWAN	BFX-UA300	BFX-UA300
 SK Telesys		K4	SK-S170
 SK Telesys		msm8255_k5	SK-S150
@@ -22680,7 +22685,9 @@ SK Telesys	WA966	u966e_2	WA966
 SK Telesys	WA978	u978e_1	WA978
 SK Telesys	icube-830	icube-830	icube-830
 SK broadband	AI2	BIP-AI100	BIP-AI100
+SK broadband	AI2 ATV	INTEKS21SI	BID-AI100
 SK broadband	PlayZ	BIP-EB100	BIP-EB100
+SK broadband	SMART3	INTEKS20SI	BID-AT200
 SK broadband	Smart3 Mini	BIP-UW200	BIP-UW200
 SKY EVO	Elite L55	Elite_L55	Elite L55
 SKY EVO	Elite OctaPlus	Elite_OctaPlus	Elite OctaPlus
@@ -27467,6 +27474,7 @@ Symphony	Z32	Z32	Symphony Z32
 Symphony	Z33	Z33	Z33
 Symphony	Z35	Z35	Z35
 Symphony	Z40	Z40	Z40
+Symphony	Z45	Z45	Symphony Z45
 Symphony	ZVII	ZVII	ZVII
 Symphony	ZVIII	ZVIII	ZVIII
 Symphony	i10	i10	i10
@@ -32402,6 +32410,7 @@ Xiaomi	Xiaomi 11T	amber	21081111RG
 Xiaomi	Xiaomi 11T Pro	vili	2107113SG
 Xiaomi	Xiaomi 11T Pro	vili	2107113SI
 Xiaomi	Xiaomi 11T Pro	vili	2107113SR
+Xiaomi	Xiaomi 12X	psyche	2112123AC
 Xiaomi	Xiaomi Civi	mona	2109119BC
 Xiaomi	Xiaomi Pad 5	nabu	21051182C
 Xiaomi	Xiaomi Pad 5 Pro	elish	M2105K81AC
@@ -32444,6 +32453,7 @@ Xtreme	XTREME AI TV	sunnyvale	XTREME AI TV
 Xtreme	XTREME TV	shinjuku	XTREME TV
 Xwave	Xpad	Xpad	Xpad_M9_3G
 YAYGO	SEI600YAY	HND	ATV-101
+YAYGO	SEI600YAY4	HND	ATV-101
 YELLYOUTH	TAB_101	TAB_101	TAB_101
 YETRUE	yetruepad21	yetruepad21_EEA	yetruepad21
 YOSATOO	KIDS07A	KIDS07A	KIDS07A
@@ -32497,6 +32507,7 @@ Yes	Altitude 3	M685Y4	M685Y4
 Yes	Altitude 4	Altitude_4	YES Altitude 4
 Yes	M631Y	M631Y	M631Y
 Yes	STING	dwi765yes	STING
+Yes	Yes	SEI800Y	yes
 Yes	yes	SEI500Y	yes
 Yes	yes	SEI800Y	yes
 YesTeL	Note_30_pro	Note_30_pro	Note 30 pro
