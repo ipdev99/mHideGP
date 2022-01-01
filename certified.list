@@ -2571,6 +2571,7 @@ BQru	BQru-5521L	BQru_5521L	BQ-5521L
 BQru	BQru-5533G	BQru-5533G	BQ-5533G
 BQru	BQru-5565L	BQru-5565L	BQ-5565L
 BQru	BQru-6022GA	BQru-6022G	BQ-6022G
+BQru	BQru-6061L	BQru-6061L	BQ-6061L
 BQru	BQru-6631G	BQru-6631G	BQ-6631G
 BQru	BQru-6631G_A11	BQru-6631G_A11	BQru-6631G_A11
 BQru	BQru-7082	BQru-7082	BQru-7082
@@ -8700,7 +8701,7 @@ Handheld Group	Nautiz X2	alta_EEA	Nautiz X2
 Handheld Group	Nautiz X2	alta_GL	Nautiz X2
 Handheld Group	Nautiz X41	albatross_EEA	Nautiz X41
 Handheld Group	Nautiz X41	albatross_GL	Nautiz X41
-Handheld Group	Nautiz X9P	Nautiz_X9P	Nautiz X9P
+Handheld Group	Nautiz X9	Nautiz_X9P	Nautiz X9P
 Handheld Group	Nautiz_X2	NAUTIZ_X2	NAUTIZ_X2
 Handheld Group	Nautiz_X9	Nautiz_X9	Nautiz_X9
 Handheld-Wireless	C6	C6	C6
@@ -27354,7 +27355,9 @@ Sumitomo Electric Industries	ST4173	ST4173	ST4173
 Sumitomo Electric Industries	ST4500	ST4500	ST-4500
 Sumitomo Electric Networks		dhe1100	Hikari-iFrame/WDPF-703SE
 Sunbio	SB-TM700	SB-TM700	SB-TM700
+Sunmi	Sunmi L2Ks	SUNMI-L2KsNFC	L2Ks_GL
 Sunmi	Sunmi V2s	V2s	V2s_GL
+Sunmi	V2sPLUSNC	V2sPLUSNC	V2sPLUSNC_EEA
 Sunny	SN10016	SN10016	SN10016
 Sunny	SN10064	TABLET	SN10064
 Sunny	SN7016	SN7016	SN7016
