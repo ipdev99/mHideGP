@@ -38,7 +38,6 @@
 
 # Set main variables
 
-# ANDROID=""
 DATE=$(date '+%Y%m%d')
 # DATE=$(date '+%Y%m%d_%H%M')
 TDIR=$(pwd)
@@ -54,20 +53,20 @@ set_target_directory() {
 }
 
 exit_0() {
-	if [ $ANDROID = "TRUE" ]; then
+	if [[ ! -z $ANDROID ]]; then
 		return 0; exit 0;
 	else
 		exit 0;
 	fi
 }
 
-exit_1() {
-	if [ $ANDROID = "TRUE" ]; then
-		return 1; exit 1;
-	else
-		exit 1;
-	fi
-}
+# exit_1() {
+# 	if [[ ! -z $ANDROID ]]; then
+# 		return 1; exit 1;
+# 	else
+# 		exit 1;
+# 	fi
+# }
 
 # Set additional functions
 
@@ -145,35 +144,37 @@ rename_prop_files() {
 	if [ -f build.prop ]; then
 		# echo ""
 		mv build.prop "$APFN"-build.prop
-		echo "build.prop file has been renamed to "$APFN"-build.prop"
-		echo "Keep it or delete it as you wish.."
+		echo "  build.prop file has been renamed to "$APFN"-build.prop"
+		echo " Keep it or delete it as you wish.."
 	fi
 
 	if [ -f prop.default ]; then
 		# echo ""
 		mv prop.default "$APFN"-prop.default
-		echo "prop.default file has been renamed as "$APFN"-prop.default"
-		echo "Keep it or delete it as you wish.."
+		echo "  prop.default file has been renamed as "$APFN"-prop.default"
+		echo " Keep it or delete it as you wish.."
 	fi
 
 	if [ -f default.prop ]; then
 		# echo ""
 		mv default.prop "$APFN"-default.prop
-		echo "default.prop file has been renamed as "$APFN"-default.prop"
-		echo "Keep it or delete it as you wish.."
+		echo "  default.prop file has been renamed as "$APFN"-default.prop"
+		echo " Keep it or delete it as you wish.."
 	fi
 
 	if [ -f getprop.props ]; then
 		# echo ""
 		mv getprop.props "$APFN"-getprop.props
-		echo "getprop.props file has been renamed as "$APFN"-getprop.props"
-		echo "Keep it or delete it as you wish.."
+		echo "  getprop.props file has been renamed as "$APFN"-getprop.props"
+		echo " Keep it or delete it as you wish.."
 	fi
 }
 
 get_prop_info() {
 	grep ro.oxygen.version $prop_file
 	# grep ro.build.date $prop_file
+	grep ro.bootimage.build.fingerprint $prop_file
+	grep ro.build.fingerprint $prop_file
 	grep ro.build.version.release $prop_file
 	grep ro.build.version.sdk $prop_file
 	grep ro.display.series $prop_file
@@ -194,6 +195,7 @@ get_prop_info() {
 	grep ro.product.odm $prop_file
 	grep ro.product.build.fingerprint $prop_file
 	grep ro.product.product $prop_file
+	grep ro.boot.hardware.sku $prop_file
 }
 
 get_prop_secure() {
@@ -249,14 +251,8 @@ add_device_title() {
 }
 
 
-# Determine if running on an Android device or MacOS/Linux.
-if [ -f /system/bin/sh ] || [ -f /system/bin/toybox ] || [ -f /system/bin/toolbox ]; then
-	# Android device
-	ANDROID=TRUE
-else
-	# MacOS/Linux
-	ANDROID=FALSE
-fi
+# Determine if running on an Android device.
+[ -f /system/bin/sh ] || [ -f /system/bin/toybox ] || [ -f /system/bin/toolbox ] && ANDROID=TRUE;
 
 # Reset and move to the target directory if needed.
 set_target_directory
@@ -604,28 +600,11 @@ echo "# # Pulled from "$prop_file"" >> $MHGP
 
 # Cleanup
 
-# # Android device
-# if [ -f getprop.props ]; then
-# 	rm getprop.props
-# fi
-
 # Rename additional prop files if needed.
 if [ -f build.prop ] || [ -f default.prop ] || [ -f prop.default ] || [ -f getprop.props ]; then
 	echo ""; echo " If an additional prop file is found or used, it will be renamed.";
 	rename_prop_files
 fi
-
-# # Android device
-# if [ $ANDROID = "TRUE" ]; then
-# 	if [ -f getprop.props ]; then
-# 		echo ""
-# 		echo "When run on an Android device."
-# 		echo "An extra file is generated. (getprop.props)"
-# 		mv getprop.props "$LBRND"_"$LMODL"_"$BUTC"-getprop.props
-# 		echo "This extra file has been saved as "$LBRND"_"$LMODL"_"$BUTC"-getprop.props"
-# 		echo "Keep it or delete it as you wish.."
-# 	fi;
-# fi;
 
 # Note backup
 if [ -f "$BACKUPFILE" ]; then
@@ -633,7 +612,7 @@ if [ -f "$BACKUPFILE" ]; then
 fi
 
 # Correct permissions if needed
-if [ $ANDROID = "FALSE" ]; then
+if [[ -z $ANDROID ]]; then
 	chmod 0664 "$MHGP"
 	if [ -f "$BACKUPFILE" ]; then
 		chmod 0664 "$BACKUPFILE"
@@ -642,6 +621,6 @@ fi;
 
 # Finish script
 echo ""; echo " Done."; echo "";
-echo " New prop file saved as "$MHGP""; echo "";
+echo " New mHideGP prop file saved as "$MHGP""; echo "";
 #
 exit_0;
