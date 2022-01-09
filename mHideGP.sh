@@ -279,10 +279,10 @@ BDATE=$(grep -m1 ro.build.date= $prop_file | sed 's/  / /g' | cut -f2,3,6 -d ' '
 # 	NAME=$(grep -m1 ro.product.vendor.name= $prop_file | cut -f2 -d '=');
 # fi
 
-if grep -q ro.bootimage.build.fingerprint= $prop_file; then
-	BPRINT=$(grep -m1 ro.bootimage.build.fingerprint= $prop_file | cut -f2 -d '=');
-elif grep -q ro.build.fingerprint= $prop_file; then
+if grep -q ro.build.fingerprint= $prop_file; then
 	BPRINT=$(grep -m1 ro.build.fingerprint= $prop_file | cut -f2 -d '=');
+elif grep -q ro.bootimage.build.fingerprint= $prop_file; then
+	BPRINT=$(grep -m1 ro.bootimage.build.fingerprint= $prop_file | cut -f2 -d '=');
 else
 	BPRINT=$(grep -m1 ro.system.build.fingerprint= $prop_file | cut -f2 -d '=');
 fi
@@ -574,10 +574,10 @@ if [ -f certified.list ]; then
 fi;
 
 # grep fingerprint and security date | sed command to add beginning comment [# ] | tee -a to add it to $MHGP
-if grep -q ro.bootimage.build.fingerprint $prop_file; then
-	grep ro.bootimage.build.fingerprint $prop_file | sed 's/^/# /g' | tee -a $MHGP
-elif grep -q ro.build.fingerprint $prop_file; then
+if grep -q ro.build.fingerprint $prop_file; then
 	grep ro.build.fingerprint $prop_file | sed 's/^/# /g' | tee -a $MHGP
+elif grep -q ro.bootimage.build.fingerprint $prop_file; then
+	grep ro.bootimage.build.fingerprint $prop_file | sed 's/^/# /g' | tee -a $MHGP
 else
 	grep ro.system.build.fingerprint $prop_file | sed 's/^/# /g' | tee -a $MHGP
 fi;
