@@ -17529,6 +17529,7 @@ Mobell	S60	mobell_S60	S60
 Mobell	S61	S61	S61
 MobiIoT	Hotah	HotahOTG_N	HotahOTG
 MobiIoT	Hotah	HotahOTG_V	HotahOTG
+MobiIoT	MobiPrint4_Plus	MobiPrint4_Plus	MobiPrint4_Plus
 MobiIoT	Mobigo2	MobiGo2	MobiGo2
 MobiOcean	MOT102	MOT102	MOT102
 Mobicell	4U	4U	4U
@@ -26439,6 +26440,7 @@ Sky Devices	Elite T6	Elite_T6	Elite T6
 Sky Devices	Elite T8Plus	Elite_T8PlusK	Elite T8Plus
 Sky Devices	Elite_A65	Elite_A65	Elite A65
 Sky Devices	Elite_D5	Elite_D5	Elite D5
+Sky Devices	Elite_D55	Elite_D55	Elite_D55
 Sky Devices	Elite_H55	Elite_H55	Elite H55
 Sky Devices	Elite_H55_HD	Elite_H55_HD	Elite H55
 Sky Devices	Elite_H5_FW	Elite_H5_FW	Elite H5
@@ -27553,6 +27555,7 @@ Syinix	32A1S	ikebukuro	AI PONT
 Syinix	55A1S	samseong	AI PONT
 Syinix	Africa	yeongdeungpo	Syinix UHD Android TV
 Symphony	ATOM	ATOM	ATOM
+Symphony	Allegro	RFIP_ST4K_2	Allegro
 Symphony	Atom ii	Atom_ii	Symphony Atom ii
 Symphony	E90	E90	E90
 Symphony	E95	E95	E95
@@ -29441,6 +29444,7 @@ Teclast	P20_RUS	P20_RUS	P20_RUS
 Teclast	P25_EEA	P25_EEA	P25_EEA
 Teclast	P25_ROW	P25_ROW	P25_ROW
 Teclast	P25_RUS	P25_RUS	P25_RUS
+Teclast	P30HD_ROW	P30HD	P30HD
 Teclast	P80X	P80X	P80X
 Teclast	P80X_EEA	P80X	P80X
 Teclast	P80X_EEA	P80X	P80X_EEA
