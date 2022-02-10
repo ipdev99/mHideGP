@@ -983,6 +983,7 @@ Allducube	T1001	T1001	T1001
 Allente	Allente 1	OnePlace2	Allente 1
 Allfine	M721	86S	M721
 Allfine	PC1038Q	fine10_Joy	PC1038Q
+Alliance	DTP9731	DTP9731	DTP9731
 Allouette	PSY7020SKD	PSY7020SKD	PSY7020SKD
 Alpha	Alpha 43G7NUA	samseong	AI PONT
 Alpha	M8T	ikebukuro	AI PONT
@@ -4813,6 +4814,7 @@ Cubot	NOTE S	CUBOT_NOTE_S	CUBOT_NOTE_S
 Cubot	NOTE_7P	NOTE_7P	NOTE 7P
 Cubot	P30	P30	P30
 Cubot	P40	P40	P40
+Cubot	P50	P50	P50
 Cubot	QUEST	QUEST	QUEST
 Cubot	QUEST LITE	QUEST_LITE	QUEST LITE
 Cubot	R15	R15	R15
@@ -8730,6 +8732,8 @@ Haier	Haier Android TV	uguisudani	haierATVuguisudani
 Haier	Haier Android TV DVB	dupont	Haier Android TV DVB
 Haier	Haier Android TV DVB2K	broadway	Haier Android TV DVB2K
 Haier	Haier Android TV FF Pro	daan	Haier Android TV FF Pro
+Haier	Haier Android TV FF Pro ISDB	daan	Haier Android TV FFProISDB
+Haier	Haier Android TV ISDB2K	broadway	Haier Android TV ISDB2K
 Haier	Haier Android TV PRO	daan	Haier Android TV PRO
 Haier	Haier Leisure L7	Haier_Leisure_L7	HM-N700-FL
 Haier	Haier Titan T5	Titan_T5	Titan_T5
@@ -12052,6 +12056,7 @@ Infinix	SMART	Infinix-X657B	Infinix X657B
 Infinix	SMART 5	Infinix-X657C	Infinix X657C
 Infinix	SMART 5(SMART 6)	Infinix-X657B	Infinix X657B
 Infinix	SMART 6	Infinix-X6511E	Infinix X6511E
+Infinix	SMART 6 PLUS	Infinix-X6511G	Infinix X6511G
 Infinix	SMART HD	Infinix-X612	Infinix X612
 Infinix	SMART HD	Infinix-X612B	Infinix X612B
 Infinix	SURF 2	INFINIX_X511	Infinix X511
@@ -22733,10 +22738,18 @@ Redmi	Redmi Note 10S	secret	M2101K7BI
 Redmi	Redmi Note 10T	camellian	M2103K19Y
 Redmi	Redmi Note 10T 5G	camellia	M2103K19I
 Redmi	Redmi Note 10T 5G	camellia	TBD
+Redmi	Redmi Note 11	spes	2201117TG
+Redmi	Redmi Note 11	spes	2201117TI
+Redmi	Redmi Note 11	spesn	2201117TY
 Redmi	Redmi Note 11 5G	evergo	21091116AC
 Redmi	Redmi Note 11 Pro	pissarro	21091116C
+Redmi	Redmi Note 11 Pro	viva	2201116TG
 Redmi	Redmi Note 11 Pro 5G	veux	2201116SG
+Redmi	Redmi Note 11 Pro 5G	veux	2201116SR
 Redmi	Redmi Note 11 Pro+	pissarropro	21091116UC
+Redmi	Redmi Note 11E Pro	veux	2201116SC
+Redmi	Redmi Note 11S	fleur	2201117SY
+Redmi	Redmi Note 11S	miel	2201117SG
 Redmi	Redmi Note 11T 5G	evergo	21091116AI
 Redmi	Redmi Note 7	lavender	Redmi Note 7
 Redmi	Redmi Note 8	biloba	M1908C3JGG
@@ -31669,6 +31682,7 @@ Vivo	Z1	PD1730C	vivo Z1
 Vivo	Z1 Pro	1951	vivo 1951
 Vivo	Z3i	PD1813C	V1813A
 Vivo	Z3i	PD1813E	V1813A
+Vivo	iQOO 9 Pro	2022	I2022
 Vivo	vivo  1907	1907	vivo 1907
 Vivo	vivo  X21i  A	PD1801	vivo X21i A
 Vivo	vivo  Y75s	PD1708C	vivo Y75s
@@ -35375,6 +35389,7 @@ realme	realme narzo 30 5G	RE513CL1	RMX3242
 realme	realme narzo 30A	RMX3171	RMX3171
 realme	realme narzo 50A	RED8AF	RMX3430
 realme	realme narzo 50i	RED8FA	RMX3235
+realme	realme pad	RE54C1L1	RMP2102
 realme	realme pad	RE54C1L1	RMP2103
 realme	真我GT 2		RE5471	RMX3310
 realme	真我GT 2		RE58B2L1	RMX3311
