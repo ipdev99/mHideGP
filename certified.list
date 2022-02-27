@@ -3573,6 +3573,7 @@ CAIXUN	Columbia	patrick	Aiplus4K
 CAIXUN	Malaysia	yeongdeungpo	AiPlus4KMY
 CAIXUN	Mexico	yeongdeungpo	AiPlus4K
 CAIXUN	South of America	martin	AiPlus2K
+CAIXUN	South of America	patrick	Aipro4K
 CAIXUN	USA	yeongdeungpo	AiPlus4K
 CALME	LT5	LT5	LT5
 CANAL-PLUS	CANAL+ BOX	HY40A2	CANAL PLUS BOX
@@ -5568,7 +5569,10 @@ Dintech	STAB8765B2-16	STAB8765B2-16	STAB8765B2-16
 Dish	AirTV Player	uiw4010ech	AirTV Player
 Dish	Celero 5G	Jupiter	WTCELERO5G
 Dish	EVOLVE	dish_cable_bcm	SH960C-DS
+Dish	Hopper Plus	SNAP2	Hopper Plus
+Dish	Joey 4	ATVMJ4	Joey 4
 Dish	SV10	HiCast	SV10
+Dish	Wireless Joey 4	ATVWJ4	Wireless Joey 4
 DishTV (IN)	D-805XATV HD	SEI110	D-805XATV HD
 DishTV-NZ	A7070	STB	A7070
 DishTV-NZ	SV10	HiCast	SV10
@@ -16583,6 +16587,7 @@ Logik	LOGIK	sadang	LOGIK 4K Android TV
 Logik	LOGIK	tabata	LOGIK 2K Android TV
 Logik	Smart TV	ueno	2K Android TV
 Logitec	LZ-AA10	LZ-AA10	LZ-AA10
+Logitech	GR0006	GR0006	GR0006
 Logitech	Revue	ka	Revue
 Louis Vuitton	Tambour Horizon	ling	Tambour
 Louis Vuitton	Tambour Horizon	sundial	Tambour
@@ -17544,6 +17549,7 @@ Micromax	Evok Power	Q4260	Micromax Q4260
 Micromax	IN1b	E6523	Micromax E6523
 Micromax	IN1b	E7533	Micromax E7533
 Micromax	IN_2b	E7544	IN_2b
+Micromax	IN_2c	E6533	IN_2c
 Micromax	IN_Note1	E7746	IN_Note1
 Micromax	IN_Note2	E7446	E7446
 Micromax	In1	E6746	IN1
@@ -17762,6 +17768,7 @@ Mobicell	FAME_DS	FAME_DS	FAME_DS
 Mobicell	FENDY_DS	FENDY_DS	FENDY_DS
 Mobicell	FEVER	FEVER	FEVER
 Mobicell	FEVER_PLUS_H	FEVER_PLUS_H	FEVER_PLUS_H
+Mobicell	FORCE	FORCE	FORCE
 Mobicell	FRIO	FRIO	FRIO
 Mobicell	Fendy plus	Fendy_plus	Fendy plus
 Mobicell	Fever_Plus	Fever_Plus	Fever_Plus
@@ -18441,6 +18448,8 @@ Motorola	moto g stylus	sofiap	moto g stylus
 Motorola	moto g stylus (2021)	minsk	moto g stylus
 Motorola	moto g stylus (2021)	minsk	moto g stylus (2021)
 Motorola	moto g stylus (2021)	minsk	moto g stylus (XT2115DL)
+Motorola	moto g stylus (2022)	milan	moto g stylus (2022)
+Motorola	moto g stylus (2022)	milan	motorola
 Motorola	moto g stylus 5G	denver	moto g stylus (2021)
 Motorola	moto g stylus 5G	denver	moto g stylus 5G
 Motorola	moto g(10)	capri	moto e(7) plus
@@ -18671,6 +18680,7 @@ Multilaser	M10A_3G	M10A_3G	M10A_3G
 Multilaser	M10A_Lite	ML_SO0A_M10A_Lite	M10A_Lite
 Multilaser	M10_3G	ML_JI0H_M10_3G	M10_3G
 Multilaser	M10_3G	ML_SO0B_M10_3G	M10_3G
+Multilaser	M10_4G _AC	ML_JI0C_M10_4G_AC	M10_4G_AC
 Multilaser	M10_4G_PRO	ML-SO0C_M10_4G_PRO_PLUS	M10_4G_PRO
 Multilaser	M10_4G_PRO	ML_SO0G_M10_4G_PRO_PLUS	M10_4G_PRO
 Multilaser	M7 3G	ML-WI1B-M7-3G	M7-3G
@@ -18717,6 +18727,7 @@ Multilaser	M7s Dual Core	NB116_NB117_NB118	M7s Dual ML03
 Multilaser	M7s Quad Core	astar-ococci	ML01-M7S-Quad-Core
 Multilaser	M7sLite	ML-SO06-M7sLite	M7sLite
 Multilaser	M8 4G	ML-WI0G-M8-4G	M8-4G
+Multilaser	M8 4G	ML_JI0I_M8_4G	M8_4G
 Multilaser	M8 4G	ML_SO0J_M8_4G	M8_4G
 Multilaser	M8 4G	ML_SO1J_M8_4G	M8_4G
 Multilaser	M8 Wifi	ML_SO0F_M8_WIFI	M8_WIFI
@@ -18796,6 +18807,7 @@ Multilaser	Oba Conecta 4G	Oba_Conecta_4G	Oba_Conecta_4G
 Multilaser	Sikur	Multilaser_GMax_2_Sikur	Multilaser_GMax_2_Sikur
 Multilaser	ULTRA 10	ML_SO0C_ULTRA_10	ULTRA_10
 MwalimuPlus	MP01A3G	MP01A3G	MP01A3G
+My	Android TV	shandao	Android TV
 My	Android TV	tokyo	Android TV
 My	Android TV	yeoksam	Android TV
 My	Android TV	yeoksam	AndroidTV
@@ -20492,6 +20504,7 @@ Orange	MouveTab7WIFI	MouveTab7WIFI	MouveTab7WIFI
 Orange	NOS Roya	Alto45	NOS Roya
 Orange	Neva 80	Orange_Neva_80	Orange Neva 80
 Orange	Neva Rise S1	Neva_Rise_S1	Neva Rise S1
+Orange	Neva leaf	Neva_leaf	Orange Neva leaf
 Orange	Neva start	Neva_start	Orange Neva start
 Orange	Nola fun	Nola_fun	Orange Nola fun
 Orange	Nura	M812	Orange Nura
@@ -20802,6 +20815,7 @@ Panasonic	Altus 32	Altus32	Altus 32
 Panasonic	Altus 4K 24	Altus4K24	Qualcomm elite
 Panasonic	Altus4K43	Altus4K43	Qualcomm elite
 Panasonic	Android TV	R1	PANASONIC TV
+Panasonic	Android TV	R2	ATV R2
 Panasonic	Android TV	R2	PANASONIC TV
 Panasonic	Android TV	R4	PANASONIC TV
 Panasonic	Asia	globe_ap	PanasonicTV
@@ -22837,6 +22851,7 @@ Redmi	Redmi Note 11 Pro	viva	2201116TG
 Redmi	Redmi Note 11 Pro 5G	veux	2201116SG
 Redmi	Redmi Note 11 Pro 5G	veux	2201116SR
 Redmi	Redmi Note 11 Pro+	pissarropro	21091116UC
+Redmi	Redmi Note 11 Pro+ 5G	pissarropro	21091116UG
 Redmi	Redmi Note 11E Pro	veux	2201116SC
 Redmi	Redmi Note 11S	fleur	2201117SY
 Redmi	Redmi Note 11S	miel	2201117SG
@@ -27963,6 +27978,7 @@ Symphony	E95	E95	E95
 Symphony	G10	G10	Symphony G10
 Symphony	G100	G100	Symphony G100
 Symphony	G10plus	G10plus	G10+
+Symphony	G50	G50	G50
 Symphony	H300	H300	H300
 Symphony	H400	H400	H400
 Symphony	H58	H58	H58
@@ -28206,6 +28222,7 @@ TCL	TCL L9 Plus	Wright	5101A
 TCL	TCL L9 Plus	Wright	5101J
 TCL	TCL L9S	Tokyo_Lite	5107G
 TCL	TCL L9S	Tokyo_Lite	5107J
+TCL	TCL NXTPAPER 10s	Odin2	9081X
 TCL	TCL PLEX	T1	T780H
 TCL	TCL PLEX	T1_L1	T780H
 TCL	TCL T Pro	Jakarta	5130M
@@ -29927,6 +29944,7 @@ Tecno	CAMON 17P	TECNO-CG7	TECNO CG7
 Tecno	CAMON 17P	TECNO-CG7n	TECNO CG7n
 Tecno	CAMON 18	TECNO-CH6	TECNO CH6
 Tecno	CAMON 18	TECNO-CH6n	TECNO CH6n
+Tecno	CAMON 18	TECNO-Mobile-CH6n	TECNO Mobile CH6n
 Tecno	CAMON 18P	TECNO-CH7	TECNO CH7
 Tecno	CAMON 18P	TECNO-CH7n	TECNO CH7n
 Tecno	CAMON C7	TECNO-C7	TECNO-C7
@@ -30098,6 +30116,8 @@ Tecno	TECNO CAMON iACE 2x	TECNO-KB2j	TECNO KB2j
 Tecno	TECNO CX Air	TECNO-CX-Air	TECNO CX Air
 Tecno	TECNO K7	TECNO-K7	TECNO K7
 Tecno	TECNO K9	TECNO-K9	TECNO K9
+Tecno	TECNO Mobile SPARK 8	TECNO-Mobile-KG6k	TECNO Mobile KG6k
+Tecno	TECNO Mobile SPARK 8T	TECNO-Mobile-KG6p	TECNO Mobile KG6p
 Tecno	TECNO P904	TECNO-P904	TECNO P904
 Tecno	TECNO POP 2 Air	TECNO-SC7S	TECNO SC7S
 Tecno	TECNO POP 2F	TECNO-B1g	TECNO B1g
@@ -35552,6 +35572,7 @@ realme	realme 7 Pro	RMX2170L1	RMX2170
 realme	realme 8	RMX3085L1	RMX3085
 realme	realme 8 5G		RE513CL1	RMX3241
 realme	realme 8 Pro	RMX3081L1	RMX3081
+realme	realme 9i	RED8C1L1	RMX3493
 realme	realme 9i		RED8C1L1	RMX3493
 realme	realme C11 2021	RMX3231	RMX3231
 realme	realme C15 Qualcomm Edition	RMX2195L1	RMX2195
