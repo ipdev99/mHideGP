@@ -696,6 +696,7 @@ Aiwa	AWM561	AWM561	AWM561
 Aiwa	AWM580	AWM580	AWM580
 Aiwa	AWM599	AWM599	AWM599
 Aiwa	AWM999	AWM999	AWM999
+Aiwa	AWT10H	AWT10H	AWT10H
 Aiwa	Aiwa	KSTB6043	KSTB6043
 Aiwa	Android TV	ikebukuro	AI PONT
 Aiwa	Android TV	samseong	AI PONT
@@ -12833,7 +12834,6 @@ JVC	JVC	seocho	JVC 4K Android TV
 JVC	JVC	seocho	JVC SA 4K Android TV
 JVC	JVC	seocho	JVC US 4K Android TV
 JVC	JVC	seocho	SA 4K Android TV
-JVC	JVC	shilin	JVC PA 4K Android TV
 JVC	JVC	sugamo	JVC 2K Android TV
 JVC	JVC	sugamo	JVC SA 2K Android TV
 JVC	JVC	sugamo	JVC US 2K Android TV
@@ -16816,6 +16816,7 @@ MTC	ENTV	seocho	ENTV 4K Android TV
 MTC	Hansung	seocho	Hansung 4K Android TV
 MTC	Infiniton	bangbae	Infiniton 4K Android TV
 MTC	Infiniton	komagome	Infiniton 2K Android TV
+MTC	JVC	shilin	JVC PA 4K Android TV
 MTC	MTC	seocho	DWSUMMUS 4K Android TV
 MTC	MTC	seocho	Posfic 4K Android TV
 MTC	MTC	seocho	WasabiMango 4K Android TV
