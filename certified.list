@@ -4136,6 +4136,7 @@ Chuwi	Hi9	Hi9	Hi9
 Chuwi	Hi9Pro	Hi9Pro	Hi9Pro
 Chuwi	HiPad-Air	HiPad-Air	HiPad-Air
 Chuwi	HiPad-Air-EEA	HiPad-Air	HiPad-Air
+Chuwi	HiPadPlus-2_EEA	HiPadPlus	HiPadPlus
 Chuwi	HiPadPlus_11_EEA	HiPadPlus	HiPadPlus
 Chuwi	HiPadPlus_EEA	HiPadPlus	HiPad Plus
 Chuwi	HiPadPlus_ROW	HiPadPlus	HiPadPlus
@@ -5535,6 +5536,7 @@ Digma	Optima 10 E600 3G TS1246PG	TS1246PG	Optima 10 E600 3G TS1246PG
 Digma	Optima 1028 3G TS1215PG	TS1215PG	Optima 1028 3G TS1215PG
 Digma	Optima 7 A102 3G TS7243PG	TS7243PG	Optima 7 A102 3G TS7243PG
 Digma	Optima 7 E200 3G TS7244PG	TS7244PG	Optima 7 E200 3G TS7244PG
+Digma	Optima 8258C 4G TS8275ML	TS8275ML	Optima 8258C 4G TS8275ML
 Digma	Optima Kids 7	TS7203RW	Optima Kids 7 TS7203RW
 Digma	Optima_10_A500S_3G_TS1220PG	TS1220PG	Optima 10 A500S 3G TS1220PG
 Digma	Optima_10_A502_3G_TS1245PG	TS1245PG	Optima 10 A502 3G TS1245PG
@@ -5989,6 +5991,7 @@ ENIE	E4Pro	E4Pro	E4Pro
 ENIE	E6	E6	E6
 ENIE	EH3	EH3	EH3
 ENIE	ENIE_E2	ENIE_E2	ENIE_E2
+ENIE	SKT706	SKT706	SKT706
 ENIE	VT8216	VT8216	VT8216
 ENTITY	GDENTMY7317	GDENTMY7317	GDENTMY7317
 EONSmartBox	CHOTT0102	CHOTT0102	CHOTT0102
@@ -11614,6 +11617,7 @@ Huskee	VULKANO	VULKANO	VULKANO
 Huskee	VULKANO_Plus	VULKANO_Plus	VULKANO_Plus
 Hyatta	Model 4	Model_4	Model 4
 Hyatta	Model 6s	Model_6s	Model 6s
+Hyatta	Model_6s	Model_6s	Model 6s
 Hyjoy	KT1006	KT1006	KT1006
 Hykker	Smart Box Android TV	DV8038	Smart Box Android TV
 Hytera	PDC550	PDC550	PDC550
@@ -17759,6 +17763,7 @@ Mito	Mito_A37_Z1	MITO_A37_Z1	MITO_A37_Z1
 Mito	Mito_A37_Z1	MITO_A37_Z1plus	MITO_A37_Z1plus
 Mito	T5091A	MITO_A16	MITO A16
 Mito	T8	T8	T8
+MoT(Mobility Technologies)	S22-8A	S22-8A	S22-8A
 Mobell	MBLTab81	MBLTab81	MBL Tab 8.1
 Mobell	Mobell S50	Mobell_S50	Mobell S50
 Mobell	NOVA P3	NOVA_P3	NOVA P3
@@ -18580,6 +18585,8 @@ Motorola	motorola edge 20 lite	kyoto	motorola
 Motorola	motorola edge 20 lite	kyoto	motorola edge 20 lite
 Motorola	motorola edge 20 pro	pstar	moto g(100)
 Motorola	motorola edge 20 pro	pstar	motorola edge 20 pro
+Motorola	motorola edge 30 pro	hiphi	motorola edge 30 pro
+Motorola	motorola edge 30 pro	hiphi	motorola edge plus
 Motorola	motorola edge 5G UW (2021)	berlna	motorola edge 5G UW
 Motorola	motorola edge 5G UW (2021)	berlna	motorola edge 5G UW (2021)
 Motorola	motorola edge S30	xpeng	XT2175-2
@@ -20299,6 +20306,7 @@ Oppo	PDKT00	OP4ABB	PDKT00
 Oppo	PDST00	OP4EA3	PDST00
 Oppo	PDYM20	OP4E21	PDYM20
 Oppo	PDYT20	OP4E21	PDYT20
+Oppo	PEAM00	OP4E6B	PEAM00
 Oppo	PEAT00	OP4E6B	PEAT00
 Oppo	PEGM00	OP4E8F	PEGM00
 Oppo	PEGM10	OP4E59	PEGM10
@@ -20311,6 +20319,7 @@ Oppo	PEXM00	OP4E9F	PEXM00
 Oppo	PEYM00	OP5245	PEYM00
 Oppo	PFCM00	OP5259	PFCM00
 Oppo	PFDM00	OP5217	PFDM00
+Oppo	PFFM20	OP520F	PFFM20
 Oppo	PFGM00	OP5231	PFGM00
 Oppo	PGCM10	OPD2A0	PGCM10
 Oppo	R1001	OPPO72_13076	R1001
@@ -22155,6 +22164,8 @@ Pritom	P7PRO_1	P7PRO_1	P7PRO_1
 Pritom	P7PRO_EEA	P7PRO_EEA	P7PRO_EEA
 Pritom	P7_EEA	P7_EEA	P7_EEA
 Pritom	PRITOM	M10_EEA	M10_EEA
+Pritom	Pritom_M50	Pritom_M50	Pritom_M50
+Pritom	Pritom_M50_EEA	Pritom_M50_EEA	Pritom_M50_EEA
 Pritom	S84	S84	S84
 Pritom	USA	M10	M10 Pro
 Prixton	Expert	Expert	Expert
@@ -23605,6 +23616,10 @@ Samsung	Galaxy A12	a12u	SM-A125U
 Samsung	Galaxy A12	a12u	SM-A125U1
 Samsung	Galaxy A12	a12u	SM-A125W
 Samsung	Galaxy A12	a12u	SM-S127DL
+Samsung	Galaxy A13	a13	SM-A135F
+Samsung	Galaxy A13	a13	SM-A135M
+Samsung	Galaxy A13	a13	SM-A135N
+Samsung	Galaxy A13	a13	SM-A135U
 Samsung	Galaxy A13 5G	a13x	SM-A136U
 Samsung	Galaxy A13 5G	a13x	SM-A136U1
 Samsung	Galaxy A13 5G	a13x	SM-A136W
@@ -25119,21 +25134,18 @@ Samsung	Galaxy S21+ 5G	t2s	SM-G996B
 Samsung	Galaxy S21+ 5G	t2s	SM-G996N
 Samsung	Galaxy S22	r0q	SM-S9010
 Samsung	Galaxy S22	r0q	SM-S901E
-Samsung	Galaxy S22	r0q	SM-S901N
 Samsung	Galaxy S22	r0q	SM-S901U
 Samsung	Galaxy S22	r0q	SM-S901U1
 Samsung	Galaxy S22	r0q	SM-S901W
 Samsung	Galaxy S22	r0s	SM-S901B
 Samsung	Galaxy S22 Ultra	b0q	SM-S9080
 Samsung	Galaxy S22 Ultra	b0q	SM-S908E
-Samsung	Galaxy S22 Ultra	b0q	SM-S908N
 Samsung	Galaxy S22 Ultra	b0q	SM-S908U
 Samsung	Galaxy S22 Ultra	b0q	SM-S908U1
 Samsung	Galaxy S22 Ultra	b0q	SM-S908W
 Samsung	Galaxy S22 Ultra	b0s	SM-S908B
 Samsung	Galaxy S22+	g0q	SM-S9060
 Samsung	Galaxy S22+	g0q	SM-S906E
-Samsung	Galaxy S22+	g0q	SM-S906N
 Samsung	Galaxy S22+	g0q	SM-S906U
 Samsung	Galaxy S22+	g0q	SM-S906U1
 Samsung	Galaxy S22+	g0q	SM-S906W
@@ -26627,6 +26639,7 @@ Sharp	PANTONE 5 SoftBank 107SH	SBM107SH	SBM107SH
 Sharp	PANTONE 6 SoftBank 200SH	SBM200SH	SBM200SH
 Sharp	PN-B501/PN-B401	PN_B_series	PN_B_series
 Sharp	PN-B501/PN-B401	PN_B_series_w	PN_B_series
+Sharp	PN-L752B	PN_L2B_series	PN_L2B_series
 Sharp	PN-M501/PN-M401	PN_M_series	PN_M_series
 Sharp	PN-M501/PN-M401	PN_M_series_w	PN_M_series
 Sharp	PN-ZC02	PN_ZC02	PN-ZC02
@@ -30460,6 +30473,7 @@ Thuraya	Thuraya X5-Touch	X5-Touch	Thuraya X5-Touch
 TiVo Stream 4K	TiVo Stream 4K	SEI400TV	TiVo Stream 4K
 Tibuta	Tibuta_MasterPad-E100	Tibuta_MasterPad-E100	Tibuta_MasterPad-E100
 Tibuta	Tibuta_MasterPad-T100	Tibuta_MasterPad-T100	Tibuta_MasterPad-T100
+Tibuta	Tibuta_MasterPad-W200	MasterPad-W200	Tibuta_MasterPad-W200
 Tibuta	Tibuta_MasterPad_K100	Tibuta_MasterPad_K100	Tibuta_MasterPad_K100
 Tigers	TIS001	TIS001	TIS001
 Tigers	TIS001	TIS001-T2	TIS001-T2
@@ -31865,6 +31879,7 @@ Vivo	V2143A	PD2143	V2143A
 Vivo	V2145A	PD2145	V2145A
 Vivo	V2146	2135	V2146
 Vivo	V2148A	PD2148	V2148A
+Vivo	V2152	2110	V2152
 Vivo	V2154A	PD2154	V2154A
 Vivo	V2156A	PD2156	V2156A
 Vivo	V2157A	PD2157	V2157A
@@ -34184,6 +34199,8 @@ ZTE	NX669J	NX669J	NX669J
 ZTE	NX669J	NX669J-EEA	NX669J
 ZTE	NX669J	NX669J-UN	NX669J
 ZTE	NX679J	NX679J	NX679J
+ZTE	NX679J	NX679J-EEA	NX679J
+ZTE	NX679J	NX679J-UN	NX679J
 ZTE	NX709J	NX709J	NX709J
 ZTE	NX907J	NX907J	NX907J
 ZTE	Nubia 4010	P963F60	Nubia 4010
