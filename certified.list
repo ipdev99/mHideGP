@@ -164,6 +164,7 @@ AT&T	U319AA	U319AA	U319AA
 AT&T	U705AA	U705AA	U705AA
 ATEAM	A1010	A1010	A1010
 ATEAM	A801	A801	A801
+ATEC	APD3	APD3	APD3
 ATID	AT908	AT908	AT908
 ATID	AT908_EEA	AT908	AT908_EEA
 ATILIM UNIVERSITY	ATILIM_mPAD07	ATILIM_mPAD07	ATILIM_mPAD07
@@ -1042,7 +1043,9 @@ Altron	OB_421_Plus	OB_421_Plus	OB_421
 Altron	OB_588	OB_588	OB_588
 Altron	OB_627	OB_627	OB_627
 Altron	OB_628	OB_628	OB_628
+Altus	Altus Android TV	kunyang	4K Pro TV
 Altus	Altus Android TV	shinagawa	Altus Android TV
+Altus	Altus UHD Android TV	kunyang	UHD Pro TV
 Americamovil	KIREI A5Q PLUS	Azumi_KIREI_A5Q_PLUS_AC06	KIREI A5Q PLUS
 Amgoo	AM350	AM350	AM350
 Amgoo	AM402	AM402	AM402
@@ -6416,6 +6419,7 @@ Evercoss	X7A	X7A	X7A
 Evercoss	X8	X8	X8
 Evercoss	X8_3gb	X8_3gb	X8
 Evercoss	X9	X9	X9
+Everex	Fine 7B	Fine_7B	FINE 7B
 Everex	Fine 7B	Fine_7B	Fine 7B
 Everis	E0109	E0109	E0109
 Everis	E0111	E0111	E0111
@@ -8812,6 +8816,7 @@ Haier	Haier Android TV DVB	dupont	Haier Android TV DVB
 Haier	Haier Android TV DVB2K	broadway	Haier Android TV DVB2K
 Haier	Haier Android TV FF Pro	daan	Haier Android TV FF Pro
 Haier	Haier Android TV FF Pro ISDB	daan	Haier Android TV FFProISDB
+Haier	Haier Android TV ISDB	dupont	Haier Android TV ISDB
 Haier	Haier Android TV ISDB2K	broadway	Haier Android TV ISDB2K
 Haier	Haier Android TV PRO	daan	Haier Android TV PRO
 Haier	Haier Leisure L7	Haier_Leisure_L7	HM-N700-FL
@@ -13155,6 +13160,7 @@ KTC (PD)	BLISS503	BLISS503	BLISS503
 KTC (PD)	BLISS_8	BLISS_8	BLISS_8
 KTCtv	AP	stanford	40D
 KTCtv	EU	zhongshan	43F
+KTCtv	SA	stanford	40DSA
 KTV	PureKTV	DV8219	Pure
 KTV	PureKTV	DV8219	PureKTV
 KUBIK	KUBIK_GENTA_10	KUBIK_GENTA_10	KUBIK_GENTA_10
@@ -13505,6 +13511,7 @@ Krono	ULTRA	ULTRA	ULTRA
 Krono	kIDS_FIVE	KIDS_FIVE	KIDS_FIVE
 KrossElegance	Acer	AS10LXPro	SOSPIRO-AS10LXPro
 KrossElegance	KE-TB1032OF	KE-TB1032OF	KE-TB1032OF
+KrossElegance	KE-TB815	KE-TB815	KE-TB815
 KrossElegance	KE-TB816OF	KE-TB816OF	KE-TB816OF
 Kruger&Matz	DRIVE 5	Drive_5	Kruger&Matz Drive 5
 Kruger&Matz	DRIVE 8	DRIVE_8	DRIVE 8
@@ -16416,7 +16423,10 @@ LinkNet	SH960C-LN	SH960C-LN	SH960C-LN
 LinkNet	ST950I-LN	ST950I-LN	ST950I-LN
 LinkNet	Smart Box HD	SH940C-LN	SH940C-LN
 LinkNet	X1 Prime	DCN88_72604_LN	DCN88_72604_LN
+LinkNet	X1-Prime-c	DTC2140	X1-Prime-c
 LinkNet	X1-Prime-c	DTC9565	X1-Prime-c
+LinkNet	X1-Prime-i	DTP2162	X1-Prime-i
+LinkNet	X1-Prime-i	DTP9718	X1-Prime-i
 Linsar	Linsar	bangbae	Linsar 4K Android TV
 Linsar	Linsar	komagome	Linsar 2K Android TV
 Linsar	Linsar	sadang	Linsar UK 4K Android TV
@@ -26070,11 +26080,7 @@ Samsung	Galaxy XCover Field Pro	haechiy19	SM-G889F
 Samsung	Galaxy XCover FieldPro	haechiy19	SM-G889G
 Samsung	Galaxy XCover FieldPro	haechiy19lteatt	SM-G889A
 Samsung	Galaxy XCover Filed Pro	haechiy19	SM-G889YB
-Samsung	Galaxy XCover Pro	xcoverpro	SM-G715A
 Samsung	Galaxy XCover Pro	xcoverpro	SM-G715FN
-Samsung	Galaxy XCover Pro	xcoverpro	SM-G715U
-Samsung	Galaxy XCover Pro	xcoverpro	SM-G715U1
-Samsung	Galaxy XCover Pro	xcoverpro	SM-G715W
 Samsung	Galaxy XCover4	xcover4lte	SM-G390F
 Samsung	Galaxy Xcover	GT-S5690	GT-S5690
 Samsung	Galaxy Xcover	GT-S5690L	GT-S5690L
@@ -29743,6 +29749,7 @@ TJD(SZ)	MT-1011OF	MT-1011OF	MT-1011OF
 TJD(SZ)	MT-701QU	MT-701QU	MT-701QU
 TJD(SZ)	MT-702QU	MT-702QU	MT-702QU
 TJD(SZ)	MT-707OF	MT-707OF	MT-707OF
+TJD(SZ)	MT-710QF	MT-710QF	MT-710QF
 TJD(SZ)	MT-710QU	MT-710QU	TJD MT-710QU
 TJD(SZ)	MT-710QU_Pro	MT-710QU_Pro	MT-710QU_Pro
 TJD(SZ)	MT-715QR	MT-715QR	MT-715QR
@@ -30971,6 +30978,7 @@ Umidigi	A11S EEA	A11S	MP01
 Umidigi	A11_Tab	A11_Tab	MT01
 Umidigi	A11_Tab-EEA	A11_Tab-EEA	MT01
 Umidigi	A13 Pro	A13_Pro	MP05
+Umidigi	A13S EEA	A13S	MP05
 Umidigi	A3	A3	A3
 Umidigi	A3S	A3S	A3S
 Umidigi	A3S_EEA	A3S	A3S
@@ -34765,6 +34773,7 @@ ZTE	ZTE 9030	P618F05	ZTE 9030
 ZTE	ZTE 9030N	P653S07	ZTE 9030N
 ZTE	ZTE 9030RU	P618F05	ZTE 9030RU
 ZTE	ZTE 9040N	P653S11	ZTE 9040N
+ZTE	ZTE 9045	P618F06	ZTE 9045
 ZTE	ZTE A0616	P637S15	ZTE A0616
 ZTE	ZTE A0620	P840S13	ZTE A0620
 ZTE	ZTE A0622	P817S13	ZTE A0622
