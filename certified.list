@@ -701,6 +701,7 @@ Aiwa	AWT10H	AWT10H	AWT10H
 Aiwa	Aiwa	KSTB6043	KSTB6043
 Aiwa	Android TV	ikebukuro	AI PONT
 Aiwa	Android TV	samseong	AI PONT
+Aiwa	Smart TV	redwood	AI PONT
 Aiwa	TA07-2GB	TA07-2GB	TA07-2GB
 Aiwa	TA10-SO10	TA10-SO10	TA10-SO10
 Aiwa	TAB_1003G	TAB_1003G	TAB_1003G
@@ -3793,6 +3794,7 @@ Casio	WSD-F20	ayu	CASIO WSD-F20
 Casio	WSD-F20	ayu	CASIO WSD-F20S
 Casio	WSD-F21HR	medaka	WSD-F21HR
 Casio	WSD-F30	kingyo	WSD-F30
+Casio	dtx450	dtx450	DT-X400/X450
 Casio	itg600	itg600	IT-G600
 Casper	Android TV	R1	ATV R1
 Casper	Android TV	R2	ATV R2
@@ -5878,6 +5880,7 @@ Dunns	Dunns Slinger	DunnsSlinger	Dunns Slinger
 Dunns	ETAB_M9041G	ETAB_M9041G	ETAB_M9041G
 Dunns	Smarty II	Smarty_II	Smarty_II
 Durabrand	Central America	nippori	Durabrand 2K Android TV
+Durabrand	DB Android TV 4K	dupont	DB Android TV 4K
 Durabrand	Durabrand android TV	hanyang	Durabrand 4K Android TV
 Duubee	D601L	Gaia	D601L
 Duubee	DT1052	DT1052	DT1052
@@ -6105,6 +6108,7 @@ Echo Mobiles	Moon	MOON	MOON
 Echo Mobiles	SURF	SURF	SURF
 Echo Mobiles	Stellar 4G	Stellar_4G	Stellar 4G
 Echolink	Echolink TV	shinagawa	Echolink TV
+EcoStar	ECOSTAR	stanford	40D
 EcoStar	ECOSTAR SMART TV	SW4H	ECOSTAR SMART TV
 EcoStar	EcostarTV	shibuya	EcostarTV
 Edcon	Motion E1.1	MotionE11	MotionE11
@@ -13160,6 +13164,7 @@ KTC (PD)	BLISS503	BLISS503	BLISS503
 KTC (PD)	BLISS_8	BLISS_8	BLISS_8
 KTCtv	AP	stanford	40D
 KTCtv	EU	zhongshan	43F
+KTCtv	Rosso	stanford	40D
 KTCtv	SA	stanford	40DSA
 KTV	PureKTV	DV8219	Pure
 KTV	PureKTV	DV8219	PureKTV
@@ -13244,6 +13249,7 @@ Karbonn	K9 Smart Yuva	K9_Smart_Yuva	K9 Smart Yuva
 Karbonn	K9 Viraat 4G	K9_VIRAAT_4G	K9 VIRAAT 4G
 Karbonn	K9_Smart_Plus	K9_Smart_Plus	K9_Smart_Plus
 Karbonn	K9_Viraat_Plus	K9_Viraat_Plus	K9_Viraat_Plus
+Karbonn	Karbonn	stanford	40D
 Karbonn	Karbonn K9 Music 4G	K9Music4G	K9 Music 4G
 Karbonn	Karbonn X21	X21	Karbonn X21
 Karbonn	Karbonn Yuva2	Karbonn_Yuva_2	Karbonn Yuva 2
@@ -13706,6 +13712,7 @@ Kyocera	zio	msm7627_surf	Zio
 Kyocera	zio	pls8600	Zio
 Kyocera	あんしんスマホ	KY-51B	KY-51B
 Kyocera	おてがるスマホ01	KYV44_u2	KYV44_u2
+Kyocera	かんたんスマホ2+	A201KC	A201KC
 Kyocera	かんたんスマホ２	A001KC	A001KC
 Kyowon	All&G PAD	mypad2	KA-E410W
 Kzen	Eva_E01	Eva_E01	Eva_E01
@@ -15186,6 +15193,7 @@ Landbyte	Lt6248	Lt6248	Lt6248
 Lanix	Alpha 1V	Alpha_1V	Alpha 1V
 Lanix	Alpha 5V	Alpha_5V	Alpha 5V
 Lanix	Alpha 9V	Alpha_9V	Alpha 9V
+Lanix	Alpha_1VPlus	Alpha_1VPlus	Alpha 1V
 Lanix	Alpha_3V	Alpha_3V	Alpha 3V
 Lanix	Alpha_950	Alpha_950	Alpha 950
 Lanix	Alpha_950XL	Alpha_950XL	Alpha 950XL
@@ -16461,6 +16469,7 @@ Logic Instrument	Logic Instrument Fieldbook N101	lifbn101	Logic Instrument Field
 Logic Instrument	Logic Instrument Fieldbook N80	lifbn80	Logic Instrument Fieldbook N80
 Logic Mobility	L4T	L4T	L4T
 Logic Mobility	L50	LOGIC_L50	LOGIC L50
+Logic Mobility	L50 Plus	L50_PLUS	L50 PLUS
 Logic Mobility	L55A	L55A	L55A
 Logic Mobility	L55B	L55B	L55B
 Logic Mobility	L55SCLARO	L55SCLARO	L55SCLARO
@@ -17274,6 +17283,7 @@ Medion	LIFETAB E732X	LIFETAB_E732X	LIFETAB_E732X
 Medion	LIFETAB E732X	LIFETAB_E733X	LIFETAB_E733X
 Medion	LIFETAB E732X	LIFETAB_E733X	LIFETAB_S733X
 Medion	LIFETAB P1034X	lifetab_p1034x	LIFETAB_P1034X
+Medion	LIFETAB P1075X	P1075X	LIFETAB_P1075X
 Medion	LIFETAB P733x	lifetab_p733x	LIFETAB_P733X
 Medion	LIFETAB P831X	lifetab_p831x	LIFETAB_P831X
 Medion	LIFETAB P831X	lifetab_p831x	LIFETAB_P831X.2
@@ -23018,6 +23028,7 @@ Reeder	P13_Blue_Pro_2022	P13_Blue_Pro_2022	P13 Blue Max Pro Lite 2022
 Reeder	P13_Lite	P13_Lite	P13_Lite
 Reeder	P9C	P9C	P9C
 Reeder	Preo P3	Preo_P3	Preo P3
+Reeder	S19 Max Pro	S19_Max_Pro	S19 Max Pro
 Reeder	T8	reeder_T8	reeder_T8
 Reeder	Turkcell_T_Tablet	Turkcell_T_Tablet	Turkcell_T_Tablet
 Reeder	reeder M10 Plus	reeder_M10_Plus	reeder_M10 Plus
@@ -23695,6 +23706,9 @@ Samsung	Galaxy A22 5G	SC-56B	SC-56B
 Samsung	Galaxy A22 5G	a22x	SM-A226B
 Samsung	Galaxy A22 5G	a22x	SM-A226BR
 Samsung	Galaxy A22s 5G	a22x	SM-A226B
+Samsung	Galaxy A23	a23	SM-A235F
+Samsung	Galaxy A23	a23	SM-A235M
+Samsung	Galaxy A23	a23	SM-A235N
 Samsung	Galaxy A3	a33g	SM-A300H
 Samsung	Galaxy A3	a3lte	SM-A300F
 Samsung	Galaxy A3	a3lte	SM-A300M
@@ -24173,6 +24187,7 @@ Samsung	Galaxy Express2	wilcoxlte	SM-G3815
 Samsung	Galaxy F02s	a02q	SM-E025F
 Samsung	Galaxy F12	f12	SM-F127G
 Samsung	Galaxy F22	f22	SM-E225F
+Samsung	Galaxy F23 5G	m23xq	SM-E236B
 Samsung	Galaxy F41	f41	SM-F415F
 Samsung	Galaxy F42 5G	f42x	SM-E426B
 Samsung	Galaxy F52 5G	f52x	SM-E5260
@@ -24578,7 +24593,6 @@ Samsung	Galaxy M20	m20lte	SM-M205M
 Samsung	Galaxy M21	m21	SM-M215F
 Samsung	Galaxy M21 2021 Edition	m21	SM-M215G
 Samsung	Galaxy M22	m22	SM-M225FV
-Samsung	Galaxy M23 5G	m23xq	SM-E236B
 Samsung	Galaxy M23 5G	m23xq	SM-M236B
 Samsung	Galaxy M30	m30lte	SM-M305F
 Samsung	Galaxy M30	m30lte	SM-M305M
@@ -26241,6 +26255,7 @@ Sansui	Nitro	Nitro	Nitro
 Sansui	SANSUI SmartTV	sunnyvale	SANSUI SmartTV
 Sansui	SANSUITV UHD	SW4H	SANSUITV UHD
 Sansui	Sansui Play	Play	Sansui Play
+Sansui	Sansui Smart TV	stanford	40D
 Sansui	Sansui_Nova	Sansui_Nova	Sansui_Nova
 Sansui	Switch	SansuiSwitch	Sansui_Switch
 Sansui	Tab 7"	ETAB_I7043G	ETAB I7043G
@@ -26857,6 +26872,7 @@ Singtech	SAPPHIRE H51	H51	H51
 Singtech	Z500	Z500	Z500
 Singtech	i-Tab Mini 3	iTab	i-Tab Mini 3
 Sintel	SINTEL-X1	SINTEL_X1	SINTEL-X1
+Siragon	SP 6200	SP-6200	SP-6200
 Siragon	SP-5000	SP-5000	Siragon SP-5000
 Siragon	SP-5250	SP-5250	SP-5250
 Siragon	SP-5300	SP-5300	SP-5300
@@ -29707,6 +29723,7 @@ TCT (Alcatel)	tbd	Mickey6TFUMTS	A576BL
 TCT (Alcatel)	tbd	U50A_PLUS_ATT	Alcatel_5059R
 TCT (Alcatel)	tmn smarta8	ONE_TOUCH_991D_gsm	moche smart a8
 TCT (Alcatel)	tmn smarta8	ONE_TOUCH_991D_gsm	tmn smart a8
+TD SYSTEMS	Android TV	redwood	TD SYSTEMS Android TV
 TD SYSTEMS	Spain	tamachi	TD SYSTEMS Android TV
 TD SYSTEMS	Spain	yeongdeungpo	TD SYSTEMS Android TV
 TDS	VIP6102W	vip6102w	VIP6102W
@@ -30795,6 +30812,7 @@ Tvstar	TVSTAR	seocho	TVSTAR 4K Android TV
 TwinMOS	MQ703G	MQ703G	MQ703G
 UBCtv	Vietnam	tamachi	UBC Android TV
 UBCtv	Vietnam	yeongdeungpo	UBC Android TV
+UD (EU)	Smart TV	redwood	AI PONT
 UJoyFeel	KIDS705-701A	KIDS705_701A	KIDS705-701A
 UJoyFeel	KIDS705_701	KIDS705-701	KIDS705-701
 UKA-Dream	UKA_Dream_1	UKA_Dream_1	UKA_Dream_1
@@ -31028,6 +31046,7 @@ Umidigi	F1	F1	F1
 Umidigi	F1_EEA	F1	F1
 Umidigi	F2	F2	F2
 Umidigi	F3 SE	F3_SE	MP09
+Umidigi	F3 SE EEA	F3_SE	MP09
 Umidigi	F3S	F3S	MP09
 Umidigi	MT02_EEA	MT02_EEA	AblePad
 Umidigi	MT02_ROW	MT02_ROW	AblePad
@@ -31088,6 +31107,7 @@ Unionaire	Africa	nippori	Unionaire Android TV 2K
 Unionaire	UnionaireATV4K	hanyang	Unionaire Android TV
 Uniqcell	UNI 10X	UNI_10X	UNI 10X
 Uniqcell	UNI GO	UNI_GO	UNI_GO
+Uniqcell	UNI X	UNI_X	UNI X
 Uniscope	S6s	S6s	S6s
 Uniscope	s6w	s6w	s6w
 Unistrong	UT10	UT10	UT10
@@ -31145,6 +31165,7 @@ Urovo	DT20_EEA	SQ57	DT20
 Urovo	DT20_RU	SQ57	DT20
 Urovo	DT40	DT40	DT40
 Urovo	DT50	DT50	DT50
+Urovo	DT50	DT50S	DT50
 Urovo	P8100	P8100	P8100
 Urovo	RT40	SQ47	RT40
 Urovo	U2	SQ46M	U2
@@ -35224,6 +35245,7 @@ Zuum	STELLAR MINI	STELLAR_MINI	STELLAR MINI
 Zuum	STELLAR P1	STELLAR_P1	STELLAR P1
 Zuum	STELLAR P3	STELLAR_P3	STELLAR P3
 Zuum	STELLAR P4	STELLAR_P4	STELLAR P4
+Zuum	STELLAR P5	STELLAR_P5	STELLAR P5
 Zuum	STELLAR PLUS	STELLAR_PLUS	STELLAR PLUS
 Zuum	STELLAR PRO	STELLAR_PRO	STELLAR PRO
 Zuum	STELLAR Z	STELLAR_Z	STELLAR Z
@@ -35268,6 +35290,7 @@ benco	benco Y51	AF9021	AF9021
 benco	benco v80	AE9010	AE9010
 benco	v6	LH9921	LH9921
 benco	v7	LE9920_P	LE9920_P
+biolux	Android TV	redwood	AI PONT
 biolux	Smart TV	longshan	AI PONT
 bontel	T20	T20	T20
 bontel	X20	X20	X20
@@ -35369,6 +35392,7 @@ geaneePro	JT70-X	JT07-X	JT07-X
 generaltouch	ERGO22	ERGO22	ERGO22
 generaltouch	ERGO22	ERGO22	ERGO22_eea
 halotel	H8502	H8502	H8502
+homez	Smart TV	redwood	AI PONT
 i-Buddie	TA10CA1	TA10CA1	TA10CA1
 i-Buddie	TA10CA2	TA10CA2	TA10CA2
 i-Buddie	TA10CA3	TA10CA3	TA10CA3
