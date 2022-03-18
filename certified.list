@@ -2167,6 +2167,8 @@ Azumi	Azumi V4	Azumi_V4_AC04	Azumi V4
 Azumi	Azumi V5	Azumi_V5_AC04	Azumi_V5
 Azumi	Azumi V54	Azumi_V54_AC01	V54
 Azumi	Azumi V54	Azumi_V54_AC23	V54
+Azumi	Azumi V65	AZUMI_V65_AC04	Azumi_V65
+Azumi	Azumi V65+	AZUMI_V65_PLUS_AC04	Azumi_V65_PLUS
 Azumi	Azumi_ V5_ AC05	Azumi_V5_AC05	V5
 Azumi	Azumi_A4PLUS_AC11	Azumi_A4PLUS_AC11	Azumi A4+
 Azumi	Azumi_A5_AC15	Azumi_A5_AC15	A5
@@ -3960,6 +3962,7 @@ Cellution	Cosmas	Cosmas	Cosmas
 Cellution	IRIS	IRIS	IRIS
 Cellution	IRIS_EV	IRIS_EV	IRIS_EV
 Cellution	PADUA	PADUA	PADUA
+Cellution	PADUA_1	PADUA_1	PADUA_1
 Centric	Centric L3	L3	Centric CM3331
 Centric	Centric L4	Centric_L4	Centric L4
 Centric	G1	CM4331	CM4331
@@ -5880,6 +5883,7 @@ Dunns	Dunns Slinger	DunnsSlinger	Dunns Slinger
 Dunns	ETAB_M9041G	ETAB_M9041G	ETAB_M9041G
 Dunns	Smarty II	Smarty_II	Smarty_II
 Durabrand	Central America	nippori	Durabrand 2K Android TV
+Durabrand	DB Android TV 2K	broadway	DB Android TV 2K
 Durabrand	DB Android TV 4K	dupont	DB Android TV 4K
 Durabrand	Durabrand android TV	hanyang	Durabrand 4K Android TV
 Duubee	D601L	Gaia	D601L
@@ -24594,6 +24598,7 @@ Samsung	Galaxy M21	m21	SM-M215F
 Samsung	Galaxy M21 2021 Edition	m21	SM-M215G
 Samsung	Galaxy M22	m22	SM-M225FV
 Samsung	Galaxy M23 5G	m23xq	SM-M236B
+Samsung	Galaxy M23 5G	m23xq	SM-M236Q
 Samsung	Galaxy M30	m30lte	SM-M305F
 Samsung	Galaxy M30	m30lte	SM-M305M
 Samsung	Galaxy M30s	m30s	SM-M3070
@@ -30956,6 +30961,7 @@ Ulefone	S9_Pro	S9_Pro	S9_Pro
 Ulefone	T1	Ulefone_T1	T1
 Ulefone	T2	T2	T2
 Ulefone	Tab A7	Ulefone_Tab_A7	Ulefone Tab A7
+Ulefone	Tab R8 5G	Tab_R8_5G	Tab R8 5G
 Ulefone	Ulefone Tab A7	Ulefone_Tab_A7	Ulefone Tab A7
 Ulefone	Ulefone_Note_7	Note_7P	Note_7P
 Ulefone	Ulefone_Note_7	Ulefone_Note_7	Ulefone_Note 7
@@ -31201,6 +31207,7 @@ VIKUSHA	V-E5	V-E5	V-E5
 VIKUSHA	V-N5	V-N5	V-N5
 VIKUSHA	V-Z40	V-Z40	V-Z40
 VIKUSHA	VZ-30	VZ-30	VZ-30
+VIMOQ	VIMOQ V51 LTE	VIMOQ-A507LE	VIMOQ A507LE
 VIPER	VIPER-Z08MK	VIPER-Z08MK	Z08MK
 VISIO	VISIO 4K Android TV	SW4H	VISIO 4K Android TV
 VISIO	VISIO TV	shinagawa	VISIO TV
