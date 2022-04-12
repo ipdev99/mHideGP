@@ -2471,6 +2471,7 @@ BMobile	B60Pro_DG	Bmobile_B60Pro_DG	B60Pro_DG
 BMobile	B60Pro_MV03	B60Pro_MV03	B60Pro_MV03
 BMobile	B61Pro_OM	Bmobile_B61Pro	Bmobile B61Pro
 BMobile	B70Pro	Bmobile_B70Pro	B70Pro
+BMobile	B70pro	Bmobile_B70Pro_MV03	B70Pro
 BMobile	BL40	Bmobile_BL40_MV12	BL40_MV12
 BMobile	BL50	Bmobile_BL50	BL50
 BMobile	BL50	Bmobile_BL50_CL	BL50_CL
@@ -3242,6 +3243,7 @@ Blu	C5L	C017U	C5L
 Blu	C5L 2020	C0070WW	C5L 2020
 Blu	C5L 2021	C0100TT	C5L 2021
 Blu	C5L 2021	C0101TT	C5L 2021
+Blu	C5L 2021	C0101WW	C5L 2021
 Blu	C5L 2021	C0110WW	C5L 2021
 Blu	C5L IW	C017U	C5L
 Blu	C5L MAX	C0160WW	C5L Max
@@ -5492,6 +5494,7 @@ Dicle	Dicle Tab Kpad	Dicle_Dtab_Kpad	Dicle_Dtab_Kpad
 Dicle	DicleTab iPlay40 Pro	DICLE_IPLAY40_PRO	DICLE_IPLAY40_PRO
 Dicle_Tab	Dicle Tab Active S	Dicle_Dtab_Active_S	Dicle_Dtab_Active_S
 Dicle_Tab	Dicle Tab MyPen P1	Tab_MyPen_P1	Tab_MyPen_P1
+Dicle_Tab	Dicle Tab U1008	Dicle_Dtab_U1008	Dicle_Dtab_U1008
 Dicle_Tab	Dicle Tab Ultra	Tab_Ultra	Tab_Ultra
 Dicle_Tab	Dicle_Tab_Active	Active	Active
 Digi	Digi C1	Digi_C1	Digi C1
@@ -7308,6 +7311,7 @@ G-Tab	C9	C9	C9
 G-Tab	F1	F1	F1
 G-Tab	F10	F10	F10
 G-Tab	F1_1	F1_1	F1_1
+G-Tab	F1_2	F1_2	F1_2
 G-Tab	F2	F2	F2
 G-Tab	F2X	F2X	F2X
 G-Tab	F4	F4	F4
@@ -7346,6 +7350,7 @@ G-TiDE	FANS7	FANS7	G-TiDE FANS7
 G-TiDE	G-TiDE_H1_1	G-TiDE_H1_1	G-TiDE_H1
 G-TiDE	G-TiDE_H1_2	G-TiDE_H1_2	G-TiDE_H1
 G-TiDE	G-TiDE_H1_3	G-TiDE_H1_3	G-TiDE_H1
+G-TiDE	G-TiDE_H1_3G	G-TiDE_H1_3G	G-TiDE_H1_3G
 G-TiDE	G-TiDE_H1_4	G-TiDE_H1_4	G-TiDE_H1
 G-TiDE	G-TiDE_H1_4G	G-TiDE_H1_4G	G-TiDE_H1_4G
 G-TiDE	G-TiDE_H1_EEA	G-TiDE_H1_EEA	G-TiDE_H1_EEA
@@ -10126,6 +10131,8 @@ Honor	HONOR 50 Lite	HNNTN	NTN-L22
 Honor	HONOR 50 Lite	HNNTN	NTN-LX1
 Honor	HONOR 50 Lite	HNNTN	NTN-LX3
 Honor	HONOR 50 lite	HNNTN	NTN-L22
+Honor	HONOR Magic 4 Lite 5G	HNANY-Q	ANY-NX1
+Honor	HONOR X7	HNCMA-Q	CMA-LX1
 Honor	HONOR X7	HNCMA-Q	CMA-LX2
 Honor	HONOR X7	HNCMA-Q	CMA-LX3
 Honor	HONOR X8	HNTFY-Q	TFY-LX1
@@ -11869,6 +11876,7 @@ Hyundai	E485	E485	E485
 Hyundai	E503F	E503F	E503F
 Hyundai	E506	E506	E506
 Hyundai	E553	E553	E553
+Hyundai	E554	E554	E554
 Hyundai	E601F	E601F	E601F
 Hyundai	E602	E602	E602
 Hyundai	E603	E603	E603
@@ -11970,6 +11978,7 @@ Hyundai	L604	L604	L604
 Hyundai	L610	L610	L610
 Hyundai	L622	L622	L622
 Hyundai	L651	L651	L651
+Hyundai	L681	L681	L681
 Hyundai	Seoul 9	Seoul_9	Seoul 9
 Hyundai	Seoul X	Seoul_X	Seoul X
 Hyundai	Seoul_S8	Seoul_S8	Seoul S8
@@ -12018,6 +12027,7 @@ IKALL	N4	N4	N4
 IKALL	N5	N5	N5
 IMO(In My Opinion)	IMO Q	IMO_Q	IMO Q
 IMO(In My Opinion)	IMO Q2 Plus	IMO_Q2_Plus	IMO Q2 Plus
+IMO(In My Opinion)	IMO Q2 Pro	IMO_Q2_Pro	IMO Q2 Pro
 IMO(In My Opinion)	IMO Q3 Plus	IMO_Q3_Plus	IMO Q3 Plus
 IMO(In My Opinion)	IMO Q4 Pro	IMO_Q4_Pro	IMO Q4 Pro
 IMO(In My Opinion)	IMO S2	S2	IMO S2
@@ -12883,6 +12893,7 @@ Itel	A46	itel-L5503	itel L5503
 Itel	A46	itel-L5503L	itel L5503L
 Itel	A49	itel-A661L	itel A661L
 Itel	A51	itel_A51	itel A51
+Itel	A512W	itel-A512W	itel A512W
 Itel	A52B	itel-A52B	itel A52B
 Itel	A55	itel-W6003	itel W6003
 Itel	A58	itel-A661W	itel A661W
@@ -13371,6 +13382,7 @@ KRIP	K50	K50	K50
 KRIP	K55g	K55g	K55g
 KRIP	K55h	K55h	K55h
 KRIP	K57	K57	K57
+KRIP	K58	K58	K58
 KRIP	K5b	K5b	K5b
 KRIP	K5c	K5c	K5c
 KRIP	K5d	K5d	K5d
@@ -16601,6 +16613,7 @@ Lenovo	d-42A	d-42A	d-42A
 Lenovo	ideatv S52	ideatv_S52	ideatv S52
 Lenovo	ideatvK82 60LX750A  52LX750A  46LX750A  60LX850A  70LX850A 80LX850A	ideatv_K82	ideatv K82
 Lenovo	启天K10 Pro	TB223FC	Lenovo TB223FC
+Lenovo	启天K10 Pro	TB226XC	Lenovo TB226XC
 Lenovo	小新 Pad GT	TB-J616F	Lenovo TB-J616F
 Lenovo	小新 Pad GT	TB-J616N	Lenovo TB-J616N
 Lenovo	小新Pad Pro 12.6	Q706F	Lenovo TB-Q706F
@@ -17283,6 +17296,7 @@ Marcel	EU	tamachi	MARCEL Android TV
 Marcel	EU	yeongdeungpo	MARCEL Android TV
 Marshall	London	KB-1501	London
 Marvie	MARVIE_CT4	MARVIE-CT4	CT4
+Mascom	MASCOM SS289	MASCOM_SS289	MASCOM SS289
 Mascom	Mascom_L850	Mascom_L850	Mascom_L850
 Mascom	Mascom_S750	Mascom_S750	Mascom S750
 Masstel	Hapi 15	Masstel_Hapi_15	Masstel Hapi 15
@@ -17376,6 +17390,7 @@ Maxwest	Astro 5 PRO	Astro_5_PRO	Astro 5 PRO
 Maxwest	Astro 55T	Astro_55T	Astro 55T
 Maxwest	Astro 5N LTE	Astro_5N_LTE	Astro_5N_LTE
 Maxwest	Astro 5P	Astro_5P	Astro 5P
+Maxwest	Astro 63R	Astro_63R	Astro 63R
 Maxwest	Astro 63T	Astro_63T	Astro 63T
 Maxwest	Astro 6M	Astro_6M	Astro 6M
 Maxwest	Astro 6R	Astro_6R	Astro 6R
@@ -18128,6 +18143,8 @@ Mobicell	DANDY_RW	DANDY_RW	DANDY_RW
 Mobicell	DANDY_ZAM	DANDY_ZAM	DANDY_ZAM
 Mobicell	ECHO	ECHO	ECHO
 Mobicell	EGO	EGO	EGO
+Mobicell	EPIC PRO 1	EPIC_PRO_1	EPIC PRO_1
+Mobicell	EPIC_1	EPIC_1	EPIC_1
 Mobicell	FAME	FAME	FAME
 Mobicell	FAME_DS	FAME_DS	FAME_DS
 Mobicell	FENDY_DS	FENDY_DS	FENDY_DS
@@ -18146,8 +18163,10 @@ Mobicell	HERO X	HERO_X	HERO_X
 Mobicell	HERO_DS	HERO_DS	HERO_DS
 Mobicell	HYPE	HYPE	HYPE
 Mobicell	Icon	Mobicel_Icon	Icon
+Mobicell	LEGEND PRO_1	LEGEND_PRO_1	LEGEND PRO_1
 Mobicell	LEGEND_MAX_LTE	LEGEND_MAX	LEGEND MAX
 Mobicell	Legend	Legend	Legend
+Mobicell	Legend Pro LTE	Legend_Pro_LTE	Legend Pro LTE
 Mobicell	Legend_Max_2	Legend_Max_2	Legend Max_2
 Mobicell	METRO2	METRO2	MOBICEL METRO2
 Mobicell	Matrix	Matrix	Matrix
@@ -18366,6 +18385,7 @@ Morep	Mavic 10	Mavic_30	M850
 Morep	Mavic_Plus_DS	Mavic_Plus	M610DS
 Morep	Morep Mavic 10	Mavic_10	M830
 Morep	Morep Mavic Plus	Mavic_Plus	M610
+Morep	Morep Pocket	Morep_Pocket	M320
 Morep	Smart V1	Smart_V1	M521
 Mosambee	Qphone2 4110	Qphone2_4110	Qphone2_4110
 Mosambee	SPPF 4110	SPPF_4110	SPPF_4110
@@ -19563,6 +19583,7 @@ NOGA	NOGA7G	NOGA7G	NOGAPAD7G
 NOGA	NOGAPAD101GHD	NOGAPAD101GHD	NOGAPAD101GHD
 NOGA	NOGAPAD101XTREME	NOGAPAD101XTREME	NOGAPAD101XTREME
 NOGA	NOGAPAD7G	NOGAPAD7G	NOGAPAD7G
+NOVOJOY	NV10	NV10	NV10
 NOWO	DV 8535 4K	DV8535-KPN	DV 8535 4K
 NOWO	DV 8935 X4	DV8935-KPN	DV 8935 X4
 NSPRE	NX-20PRO1	NX-20PRO1	NX-20PRO1
@@ -31627,6 +31648,7 @@ VIKUSHA	V-N5	V-N5	V-N5
 VIKUSHA	V-Z40	V-Z40	V-Z40
 VIKUSHA	VZ-30	VZ-30	VZ-30
 VIMOQ	VIMOQ  AC50	VIMOQ-A507LD	VIMOQ A507LD
+VIMOQ	VIMOQ A507LT	VIMOQ-A507LT	VIMOQ A507LT
 VIMOQ	VIMOQ V51 LTE	VIMOQ-A507LE	VIMOQ A507LE
 VIPER	VIPER-Z08MK	VIPER-Z08MK	Z08MK
 VISIO	VISIO 4K Android TV	SW4H	VISIO 4K Android TV
@@ -33736,6 +33758,7 @@ Xplore Technologies	RangerX	iX101T1_2G	iX101T1-2G
 Xplore Technologies	XP8105	XP8105	XP8105
 Xplore Technologies	XP8105A	XP8105A	XP8105A
 Xplore Technologies	XP8776	XP8776	XP8776
+Xplore Technologies	XPLORE X7U	X7U	XPLORE X7U
 Xplore Technologies	XSLATE_D10	XSLATE_D10	iX101B1
 Xplore Technologies	XSLATE_D10	XSLATE_D10	iX101D1
 Xplore Technologies	XSLATE_D10	XSLATE_D10	iX101D1-FIOS
@@ -34819,6 +34842,8 @@ ZTE	Quartz	platy	ZW10
 ZTE	R83	demeter	ZTE R83
 ZTE	RACER III mini	roamer2	RACER III mini
 ZTE	RED MAGIC 5G	NX659J	NX659J
+ZTE	REDMAGIC 7	NX709J-EEA	NX709J
+ZTE	REDMAGIC 7Pro	NX709J-UN	NX709J
 ZTE	Racer	mooncake	Carl
 ZTE	Racer	mooncake	MTC 916
 ZTE	Racer	mooncake	MTS-SP100
@@ -36355,7 +36380,6 @@ truevisions	N9106H-C	HB_N9106H_C_truevisions	N9106H-C
 truevisions	SKWAMX3	HP42F	SKWAMX3
 truevisions	STI6030_TRUE_TV_A01		TV_A01	STI6030_TRUE_TV_A01
 truvii	Truvii	seocho	Truvii 4K Android TV
-uLesson	uLesson_Education_Tab	uLesson_Education_Tab	uLesson_Education_Tab
 ucall	EASY1	EASY1	EASY1
 unitel	P45	P45	P45
 unitel	U901	U901	U901
