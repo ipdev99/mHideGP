@@ -2767,6 +2767,7 @@ Bauhn	Australia	nippori	Bauhn Android TV 2K
 Bauhn	BAUHN	bangbae	BAUHN 4K Android TV
 Bauhn	Bauhn	komagome	BAUHN 2K Android TV
 Bauhn	Bauhn android TV	hanyang	Tempo Android TV
+BeLeno	BeLeno_Neod_8	BeLeno_Neod_8	BeLeno_Neod_8
 Becrypt	Convex 430	granite	Becrypt Convex 430
 Becrypt	Convex 430	granite	Becrypt Indigo 430
 Beeline	Beebox	SWG2001A	SWG2001A-A
@@ -4079,6 +4080,7 @@ Challenger	4K Smart TV	gangbyeon	Challenger 4K AI Smart TV
 Challenger	Android TV	R1	ATV R1
 Challenger	Android TV	R2	ATV R2
 Challenger	Smart TV	osaki	2K AI Smart TV
+Challenger	challenger	stanford	40DCOL
 Chameleon	Chameleon-H	Chameleon-H	E9XG-A05-M
 Champtek	X-120	X-120	X-120
 Chanbly	q7	q7	q7
@@ -8096,6 +8098,7 @@ HEADWOLF	Hpad1	Hpad1	Hpad1
 HEALTHJAY	JayPad_2_0	JayPad_2_0	JayPad_2_0
 HEATZ	HZ9950	HZ9950	HZ9950
 HEATZ	Z9950	Z9950	Z9950
+HELIX_INC	C-TABLET	C-TABLET	C-TABLET
 HIMADE	UHD Android TV	sindorim	AI PONT
 HKC	A79 Tablet	EM62	A79
 HKT	eye3	UY3-PCW	eye3
@@ -10138,6 +10141,7 @@ Honor	HONOR X7	HNCMA-Q	CMA-LX3
 Honor	HONOR X8	HNTFY-Q	TFY-LX1
 Honor	HONOR X8	HNTFY-Q	TFY-LX2
 Honor	HONOR X8	HNTFY-Q	TFY-LX3
+Honor	HONOR X9	HNANY-Q1	ANY-LX2
 Honor	HONOR X9 5G	HNANY-Q	ANY-NX1
 Hoozo	HZ0010	HZ0010	HZ0010
 Hoozo	HZ0010J	HZ0010J	HZ0010J
@@ -13068,8 +13072,8 @@ Itel	itel-A16-Plus	itel-A16-Plus	itel A16 Plus
 Itel	itel-A510W	itel-A510W	itel A510W
 Itel	itel-L5007S	itel-L5007S	itel L5007S
 Itworks	TM705	TM705	NID_7010
+J-COM (cn)	SC40	SC40	SC40
 J:COM	KSTB7043	KSTB6165	KSTB7043
-J:COM	SC40	SC40	SC40
 J:COM	XA401	XA401	XA401
 J:COM	XA402	XA402	XA402
 J:COM	XA403	sti6260d195	XA403
@@ -13407,6 +13411,7 @@ KTC (PD)	BLISS503	BLISS503	BLISS503
 KTC (PD)	BLISS_8	BLISS_8	BLISS_8
 KTCtv	AP	stanford	40D
 KTCtv	Banana	zhongshan	4K SMART TV
+KTCtv	COL	stanford	40DCOL
 KTCtv	DIGGIO	stanford	CSV2K
 KTCtv	EU	zhongshan	43F
 KTCtv	INNOVA	stanford	CSV2K
@@ -16367,6 +16372,7 @@ Lenovo	Lenovo Tab M10 HD (2nd Gen) PRC	X306NC_PRC	Lenovo TB-X306NC_PRC
 Lenovo	Lenovo Tab M10 Plus	X606V	Lenovo TB-X606V
 Lenovo	Lenovo Tab M10 Plus 3rd Gen	TB125FU	Lenovo TB125FU
 Lenovo	Lenovo Tab M10 Plus 3rd Gen	TB128FU	Lenovo TB128FU
+Lenovo	Lenovo Tab M10 Plus 3rd Gen	TB128XU	Lenovo TB128XU
 Lenovo	Lenovo Tab M7	7305F	Lenovo TB-7305F
 Lenovo	Lenovo Tab M7	7305I	Lenovo TB-7305I
 Lenovo	Lenovo Tab M7	7305X	Lenovo TB-7305X
@@ -16612,6 +16618,7 @@ Lenovo	Z90a40/VIBE Shot	zoom_row	Lenovo Z90a40
 Lenovo	d-42A	d-42A	d-42A
 Lenovo	ideatv S52	ideatv_S52	ideatv S52
 Lenovo	ideatvK82 60LX750A  52LX750A  46LX750A  60LX850A  70LX850A 80LX850A	ideatv_K82	ideatv K82
+Lenovo	启天K10 Pro	TB128FU	TB128FU
 Lenovo	启天K10 Pro	TB223FC	Lenovo TB223FC
 Lenovo	启天K10 Pro	TB226XC	Lenovo TB226XC
 Lenovo	小新 Pad GT	TB-J616F	Lenovo TB-J616F
@@ -17395,6 +17402,7 @@ Maxwest	Astro 63T	Astro_63T	Astro 63T
 Maxwest	Astro 6M	Astro_6M	Astro 6M
 Maxwest	Astro 6R	Astro_6R	Astro 6R
 Maxwest	Astro 6S	Astro_6S	Astro_6S
+Maxwest	Astro 8R	Astro_8R	Astro 8R
 Maxwest	Astro 8T	Astro_8T	Astro 8T
 Maxwest	Astro_4P	Astro_4P	Astro_4P
 Maxwest	Astro_55N_LTE	Astro_55N_LTE	Astro 55N LTE
@@ -24993,6 +25001,8 @@ Samsung	Galaxy M42 5G	a42xq	SM-M426B
 Samsung	Galaxy M51	m51	SM-M515F
 Samsung	Galaxy M52 5G	m52xq	SM-M526B
 Samsung	Galaxy M52 5G	m52xq	SM-M526BR
+Samsung	Galaxy M53 5G	m53x	SM-M536B
+Samsung	Galaxy M53 5G	m53x	SM-M536S
 Samsung	Galaxy M62	m62	SM-M625F
 Samsung	Galaxy Mega 2	mega23g	SM-G750H
 Samsung	Galaxy Mega 5.8	crater	GT-I9152
@@ -25573,6 +25583,8 @@ Samsung	Galaxy S21+ 5G	t2q	SM-G996U1
 Samsung	Galaxy S21+ 5G	t2q	SM-G996W
 Samsung	Galaxy S21+ 5G	t2s	SM-G996B
 Samsung	Galaxy S21+ 5G	t2s	SM-G996N
+Samsung	Galaxy S22	SC-51C	SC-51C
+Samsung	Galaxy S22	SCG13	SCG13
 Samsung	Galaxy S22	r0q	SM-S9010
 Samsung	Galaxy S22	r0q	SM-S901E
 Samsung	Galaxy S22	r0q	SM-S901N
@@ -25580,6 +25592,8 @@ Samsung	Galaxy S22	r0q	SM-S901U
 Samsung	Galaxy S22	r0q	SM-S901U1
 Samsung	Galaxy S22	r0q	SM-S901W
 Samsung	Galaxy S22	r0s	SM-S901B
+Samsung	Galaxy S22 Ultra	SC-52C	SC-52C
+Samsung	Galaxy S22 Ultra	SCG14	SCG14
 Samsung	Galaxy S22 Ultra	b0q	SM-S9080
 Samsung	Galaxy S22 Ultra	b0q	SM-S908E
 Samsung	Galaxy S22 Ultra	b0q	SM-S908N
@@ -26107,7 +26121,6 @@ Samsung	Galaxy Tab Active3	gtactive3	SM-T575
 Samsung	Galaxy Tab Active3	gtactive3	SM-T575N
 Samsung	Galaxy Tab Active3	gtactive3	SM-T577
 Samsung	Galaxy Tab Active3	gtactive3	SM-T577U
-Samsung	Galaxy Tab Active3	gtactive3wifi	SM-T570
 Samsung	Galaxy Tab Advanced2	gtaxladwifikx	SM-T583
 Samsung	Galaxy Tab E	gtel3g	SM-T561M
 Samsung	Galaxy Tab E	gtelwifi	SM-T560
@@ -26565,7 +26578,6 @@ Samsung	Galaxy view	gvltektt	SM-T677NK
 Samsung	Galaxy view	gvltelgt	SM-T677NL
 Samsung	Galaxy win	delos3gss	GT-I8550L
 Samsung	Galaxy-A9(2016)	a9xltechn	SM-A9000
-Samsung	GalaxyA53 5G	SC-53C	SC-53C
 Samsung	Garda	gardalteMetroPCS	SGH-T399N
 Samsung	Garda	gardaltetmo	SGH-T399
 Samsung	Gear Live	sprat	Gear Live
@@ -27235,6 +27247,7 @@ Simbans	TangoTab_364	TangoTab_364	TangoTab_364
 Simbans	TangoTab_X	TangoTab_X	TangoTab_X
 Simbans	TangoTab_XL	TangoTab_XL	TangoTab_XL
 SimiMobile	G507	G507	G507
+SimiMobile	S501	S501	S501
 SimiMobile	S502	S502	S502
 SimiMobile	S507	S507	S507
 SimiMobile	S630	S630	S630
@@ -27349,6 +27362,7 @@ Sky Devices	Elite T45	Elite_T45	Elite T45
 Sky Devices	Elite T55	Elite_T55_HN	Elite T55
 Sky Devices	Elite T55	Elite_T55_SV	Elite T55
 Sky Devices	Elite T6	Elite_T6	Elite T6
+Sky Devices	Elite T8	ELITE_T8	ELITE T8
 Sky Devices	Elite T8 Plus	Elite_T8PUB	Elite T8Plus
 Sky Devices	Elite T8Plus	Elite_T8PlusK	Elite T8Plus
 Sky Devices	Elite_A65	Elite_A65	Elite A65
@@ -27557,6 +27571,7 @@ Soda	E1	soda_CSW1702	soda E1
 Soda	FIRE	soda_CSW1803	soda FIRE
 Soda	s2	soda_CSW1802	soda S2
 Soda	soda	soda_SW17W16	soda S1
+Solinftec	SOL07	SOL07	SOL07
 Solone	E1457	E1457	E1457
 Solone	W1450	W1450	W1450
 Solone	W1452	W1452	W1452
@@ -28326,6 +28341,7 @@ Stream System	Android TV	R2	ATV R2
 Strong	Android TV	R1	ATV R1
 Strong	Android TV	R2	ATV R2
 Strong	LEAP-S1	LAS	LEAP-S1
+Strong	SRT41	YYT	4K Google TV Stick
 Strong	Strong	bangbae	Strong 4K Android TV
 Strong	Strong	komagome	Strong 2K Android TV
 Strong-ZWL	SKWHP40A-ZWL	HP40A1	SKWHP40A-ZWL
@@ -30164,6 +30180,7 @@ THTF	TSINGHUA TONGFANG CO., LTD.	TR10CD1_3	TR10CD1
 TIANHOO	EOS Pro	EOS_Pro	EOS Pro
 TIGO	ONEtv	vip6102w	ONEtv
 TIM	TIM BOX	uzw4010tim	TIM_BOX
+TIM	TIMVISION Box	uzw4054tim	TIMVISION Box
 TIM	TIMVISION VSB	m393vsb_tim	TIMVISION VSB
 TIM	TIMVISIONBOX	m393gena_tim	TIMVISIONBOX
 TIM	TIMvision	dwt765ti	skipper
@@ -30243,6 +30260,7 @@ TOSCIDO	T501-EEA	T501-EEA	T501-EEA
 TOSCIDO	X102	X102	X102
 TOUCHSMART	QUICKTAB	Quicktab	Quicktab
 TOUMAI	MI_1	MI_1	MI_1
+TOYIN	RJ TOYIN	RJ_TOYIN	RJ TOYIN
 TPS	ALTAB08	ALTAB08	ALTAB08
 TPS	MTC 982o	MTC_982O	MTC_982O
 TPS	S10-9863	S10-9863	S10-9863
@@ -32207,7 +32225,6 @@ Vivo	I2009	2009	I2009
 Vivo	I2011	2011	I2011
 Vivo	I2012	2012	I2012
 Vivo	I2017	2017	I2017
-Vivo	I2018	2018	I2018
 Vivo	I2127	I2127	I2127
 Vivo	NEX A	PD1806B	vivo NEX A
 Vivo	PD1304DL	PD1304DL	vivo Y13iL
@@ -32327,7 +32344,10 @@ Vivo	V2050	2050	V2050
 Vivo	V2050	2050	V2066
 Vivo	V2052	2034	V2052
 Vivo	V2053	2041	V2053
+Vivo	V2054	2034	V2052
 Vivo	V2054	2034	V2054
+Vivo	V2054	2034	V2069
+Vivo	V2054	2034	V2101
 Vivo	V2054A	PD2054	V2054A
 Vivo	V2054A	PD2092	V2054A
 Vivo	V2054A	PD2106	V2054A
@@ -32373,7 +32393,6 @@ Vivo	V2110	2110	V2110
 Vivo	V2111	2111	V2111
 Vivo	V2111A	PD2111	V2111A
 Vivo	V2113	2113	V2113
-Vivo	V2114	2114	V2114
 Vivo	V2115	2116	V2115
 Vivo	V2115A	PD2115	V2115A
 Vivo	V2116	2116	V2116
@@ -32414,7 +32433,6 @@ Vivo	V2145A	PD2145	V2145A
 Vivo	V2146	2135	V2146
 Vivo	V2148A	PD2148	V2148A
 Vivo	V2152	2110	V2152
-Vivo	V2154A	PD2154	V2154A
 Vivo	V2156A	PD2156	V2156A
 Vivo	V2157A	PD2157	V2157A
 Vivo	V2158A	PD2158	V2158A
@@ -32454,6 +32472,7 @@ Vivo	X6S A	PD1415BA	vivo X6S A
 Vivo	X6SPlusA	PD1515BA	vivo PD1515BA
 Vivo	X7	PD1602	vivo X7
 Vivo	X7Plus	PD1603	vivo X7Plus
+Vivo	X80	V2144	V2144
 Vivo	X9	PD1616	vivo X9
 Vivo	X9i	PD1624	vivo X9i
 Vivo	Xplay5A	PD1522A	vivo PD1522A
@@ -32503,6 +32522,8 @@ Vivo	Z3i	PD1813C	V1813A
 Vivo	Z3i	PD1813E	V1813A
 Vivo	iQOO 9 Pro	2022	I2022
 Vivo	iQOO 9 SE	2019	I2019
+Vivo	iQOO Neo5S	PD2154	V2154A
+Vivo	iQOO Z5	2018	I2018
 Vivo	iQOO Z5 6000mAh	PD2188	V2188A
 Vivo	vivo  1907	1907	vivo 1907
 Vivo	vivo  X21i  A	PD1801	vivo X21i A
@@ -32575,6 +32596,7 @@ Vivo	vivo 2019	1938	vivo 2019
 Vivo	vivo NEX A	PD1806	vivo NEX A
 Vivo	vivo NEX S	PD1805	vivo NEX S
 Vivo	vivo S1	PD1831	V1831A
+Vivo	vivo X Fold	PD2178	V2178A
 Vivo	vivo X Note	PD2170	V2170A
 Vivo	vivo X20	PD1709	vivo PD1709
 Vivo	vivo X20	PD1709	vivo X20A
@@ -32584,6 +32606,8 @@ Vivo	vivo X20Plus UD	PD1721	vivo PD1721
 Vivo	vivo X20Plus UD	PD1721	vivo X20Plus UD
 Vivo	vivo X21A	PD1728	vivo X21A
 Vivo	vivo X21UD A	PD1728UD	vivo X21UD A
+Vivo	vivo X70 Pro+	2114	V2114
+Vivo	vivo X80	PD2183	V2183A
 Vivo	vivo X80 Pro 天玑9000版	PD2186	V2186A
 Vivo	vivo X9Plus	PD1619	vivo X9Plus
 Vivo	vivo X9s	PD1616B	vivo PD1616B
@@ -33486,6 +33510,7 @@ XL Axiata	SDN200	lte_siden	SDN200
 XL Axiata	Siden - XL Axiata	lte_siden	SDN200
 XL Axiata	XL Home Pow	STI6xxx	STI6030
 XORO	Megapad_1333	XORO	Megapad_1333
+XPLORE	XPLORE X7U	X7U	XPLORE X7U
 XTRATECH_IGUANAPAD	X8MT16	X8MT16	X8MT16
 Xcell	Enia	Xcell_Enia	Enia
 Xcell	View	View	View
@@ -33758,7 +33783,6 @@ Xplore Technologies	RangerX	iX101T1_2G	iX101T1-2G
 Xplore Technologies	XP8105	XP8105	XP8105
 Xplore Technologies	XP8105A	XP8105A	XP8105A
 Xplore Technologies	XP8776	XP8776	XP8776
-Xplore Technologies	XPLORE X7U	X7U	XPLORE X7U
 Xplore Technologies	XSLATE_D10	XSLATE_D10	iX101B1
 Xplore Technologies	XSLATE_D10	XSLATE_D10	iX101D1
 Xplore Technologies	XSLATE_D10	XSLATE_D10	iX101D1-FIOS
@@ -35746,6 +35770,7 @@ Zuum	ZUUM AKUS	AKUS	AKUS
 Zuum	ZUUM GRANT	GRANT	GRANT
 Zuum	ZUUM Gravity	Gravity	Gravity
 Zuum	ZUUM MAGNO PLUS	MAGNO_PLUS	MAGNO PLUS
+Zuum	ZUUM PAD Kids	ZUUM_PAD_Kids	ZUUM PAD Kids
 afriphone	smart_S5	smart_S5	smart_S5
 alter	MIG	MIG	MIG
 amulet7	P10SU_Plus	P10SU_Plus	P10SU_Plus
@@ -35862,6 +35887,7 @@ eSTREAM 4K	Pyxis-MetroNet	SEI500MN	Pyxis-MetroNet
 eSTREAM 4K	Pyxis-Midco	SEI500MC	Pyxis-Midco
 eSTREAM 4K	Pyxis-RCN	SEI500RCN	Pyxis-RCN
 eSTREAM 4K	Pyxis-SECV	SEI500SECV	Pyxis-SECV
+eSTREAM 4K	SEI500TV	SEI500TV	Pyxis
 eTalk	KAZ-N20	KAZ-N20	KAZ-N20
 eTera	E980	E980U	E980U
 ecom	Ex-Handy 10	Ex-Handy10	Ex-Handy 10 ROW
