@@ -718,6 +718,7 @@ Aiuto	AT701	AT701	AT701
 Aiuto	AT702	AT702	AT702
 Aiwa	A81	AIWA_A81	A81
 Aiwa	AFL0065S	sindorim	AI PONT
+Aiwa	AIWA	stanford	SMART TV
 Aiwa	AIWA	zhongshan	4K SMART TV
 Aiwa	AIWA 2K TV	shinagawa	AIWA 2K TV
 Aiwa	AW-LED43GKF	ikebukuro	AI PONT
@@ -3160,6 +3161,7 @@ Blackview	Tab9_RU	Tab9_RU	Tab 9
 Blackview	Tab_7_EEA	Tab_7_EEA	Tab 7
 Blackview	Tab_7_NEU	Tab_7_NEU	Tab 7
 Blaupunkt	A-STREAM	GMP	A-STREAM
+Blaupunkt	AUSTRALIA, EU, JAPAN, MIDDLE EAST	martin	BLAUPUNKT Android Monitor
 Blaupunkt	Atlantis_A10_G403	Atlantis_A10_G403	Atlantis_A10_G403
 Blaupunkt	Australia	nippori	BP Android TV 2K
 Blaupunkt	Australia	tamachi	BLAUPUNKT Android TV
@@ -3807,6 +3809,7 @@ CMCC	M811	m811	M811
 CMCC	M811	m811hk	M811
 COCOMM	F900	F900N0101	F900
 COCOMM	F910B0101	F910B0101	F910
+COEX	COEX 2K Smart TV	sunnyvale	COEX 2K Smart TV
 COMPUMAX	BLUEPAD10	BLUEPAD10	BLUEPAD10
 COMPUMAX	BlueS10	COMPUMAX	BlueS10
 COMTECO	DV8535	DV8535-KBC	DV8535
@@ -12045,6 +12048,7 @@ Hyundai	HyTab_Plus_7WA1	7WA1	7WA1
 Hyundai	Hyundai	bangbae	Hyundai 4K Android TV
 Hyundai	Hyundai	komagome	Hyundai 2K Android TV
 Hyundai	Hyundai	stanford	COL 2K SMART TV
+Hyundai	Hyundai	stanford	SA 2K SMART TV
 Hyundai	Hyundai 2K TV	shinjuku	Hyundai 2K TV
 Hyundai	Hyundai Eternity G50L	HT1G50L	Hyundai_Eternity_G50L
 Hyundai	Hyundai HyTab Pro 10LC1	HyTab_Pro_10LC1	HyTab Pro 10LC1
@@ -12355,7 +12359,7 @@ Infinity	Infinity	Infinity	Infinity
 Infinix	32X1	ikebukuro	AI PONT
 Infinix	43X3	beaudry	Infinix AndroidTV
 Infinix	55X1	samseong	AI PONT
-Infinix	HOT  11	Infinix-X689F	Infinix X689F
+Infinix	HOT	Infinix-X689F	Infinix X689F
 Infinix	HOT 10	Infinix-X682B	Infinix X682B
 Infinix	HOT 10	Infinix-X682C	Infinix X682C
 Infinix	HOT 10 Lite	Infinix-X657B	Infinix X657B
@@ -13140,6 +13144,7 @@ Itel	itel A45	itel-A45	itel A45
 Itel	itel A47	itel-L5505	itel L5505
 Itel	itel A48	itel-L6006	itel L6006
 Itel	itel A48	itel-L6006L	itel L6006L
+Itel	itel A510W	itel-A510W	itel A510W
 Itel	itel A52	itel-A52	itel A52
 Itel	itel A52 Lite	itel-A52-Lite	itel A52 Lite
 Itel	itel A52S Lite	itel-A52S-Lite	itel A52S Lite
@@ -13149,6 +13154,7 @@ Itel	itel A56 Pro	itel-W6004P	itel W6004P
 Itel	itel A56 Pro LTE	itel-L6004P	itel L6004P
 Itel	itel A57	itel-A611W	itel A611W
 Itel	itel A57 2GB	itel-A611WP	itel A611WP
+Itel	itel A58 Lite	itel-A631W-R2	itel A631W
 Itel	itel AC12	itel-A14	itel A14
 Itel	itel AC13	itel-W4001P	itel W4001P
 Itel	itel AC32	itel-A16S	itel A16S
@@ -13262,6 +13268,7 @@ JVC	JVC	sugamo	JVC 2K Android TV
 JVC	JVC	sugamo	JVC SA 2K Android TV
 JVC	JVC	sugamo	JVC US 2K Android TV
 JVC	JVC	sugamo	US 2K Android TV
+JVC	JVC	zhongshan	4K SMART TV
 JVC	JVC J20	Cunda	J20
 JVC	LT-32N3115A	ikebukuro	AI PONT
 JVC	LT-40KB308	ikebukuro	AI PONT
@@ -13269,6 +13276,7 @@ JVC	LT-40N5115A	ikebukuro	AI PONT
 JVC	LT-50KD507	samseong	AI PONT
 JVC	LT-50N7115A	samseong	AI PONT
 JVC	LT-55KB597	sindorim	AI PONT
+JVC	SA	stanford	2K SMART TV
 JVC	Smart TV	mateo	2K SA Smart TV
 JVC	Smart TV	osaki	2K AI Smart TV
 JVC	South Africa/Australia /Israel/Paraguay	tamachi	JVC Android TV
@@ -13551,17 +13559,24 @@ KTCtv	DIGGIO	stanford	CSV2K
 KTCtv	DIGGIO	zhongshan	CSV4K
 KTCtv	EU	zhongshan	43F
 KTCtv	Electroman	zhongshan	Smart UHD TV
+KTCtv	Enova	zhongshan	4K SMART TV
+KTCtv	Global	stanford	CSV2K
+KTCtv	Golbal	zhongshan	CSV4K
 KTCtv	INNOVA	stanford	CSV2K
 KTCtv	INNOVA	zhongshan	CSV4K
+KTCtv	Maxsonic_elite	stanford	2K SMART TV
+KTCtv	Maxsonic_elite	zhongshan	4K SMART TV
 KTCtv	NA	stanford	40DNA
 KTCtv	NA	zhongshan	43FNA
 KTCtv	NAKAMICHI	stanford	CSV2K
 KTCtv	NAKAMICHI	zhongshan	CSV4K
 KTCtv	Nobrand	stanford	Smart FHD TV
 KTCtv	Rosso	stanford	40D
+KTCtv	SA	stanford	2K Siera SMART TV
 KTCtv	SA	stanford	40DSA
 KTCtv	SA	stanford	F VIZZION TV
 KTCtv	SA	zhongshan	43FSA
+KTCtv	Siera	zhongshan	4K Siera SMART TV
 KTCtv	Zitro	stanford	40DSA
 KTCtv	Zitro	zhongshan	43FSA
 KTV	PureKTV	DV8219	Pure
@@ -16780,6 +16795,7 @@ Lenovo	d-42A	d-42A	d-42A
 Lenovo	ideatv S52	ideatv_S52	ideatv S52
 Lenovo	ideatvK82 60LX750A  52LX750A  46LX750A  60LX850A  70LX850A 80LX850A	ideatv_K82	ideatv K82
 Lenovo	启天K10 Pro	TB128FU	TB128FU
+Lenovo	启天K10 Pro	TB128XC	TB128XC
 Lenovo	启天K10 Pro	TB223FC	Lenovo TB223FC
 Lenovo	启天K10 Pro	TB226XC	Lenovo TB226XC
 Lenovo	小新 Pad GT	TB-J616F	Lenovo TB-J616F
@@ -18366,6 +18382,7 @@ Mobicell	Mobicel_R6	Mobicel_R6	Mobicel_R6
 Mobicell	NEO	NEO	NEO
 Mobicell	NEO LTE	Neo_LTE	Neo LTE
 Mobicell	NEO_1	NEO_1	NEO_1
+Mobicell	Neo_Plus	Neo_Plus	Neo_Plus
 Mobicell	ONYX	ONYX	ONYX
 Mobicell	OREO	OREO	OREO
 Mobicell	PLAY	PLAY	PLAY
@@ -18914,6 +18931,7 @@ Motorola	Motoluxe	umts_irock	XT627
 Motorola	Motoroi	sholest	Milestone XT720
 Motorola	Motoroi	sholest	Motorola XT720
 Motorola	Motoroi	sholest	XT720
+Motorola	Motorola	stanford	CSV2K
 Motorola	Motorola	zhongshan	CSV4K
 Motorola	Motorola Android 9.0 TV	shibuya	FlipkartTV
 Motorola	Motorola Defy	bathena	Motorola Defy
@@ -19176,6 +19194,7 @@ Motorola Solutions	LEX F10	LEXF10	LEX F10
 Motorola Solutions	LEX L10g	lexl10g	LEX L10g
 Motorola Solutions	LEX L10ig	lexl10ig	LEX L10ig
 Motorola Solutions	LEX L11	lexl11g_64	LEX L11
+Motorola Solutions	LEX L11	lexl11g_64	LEX L11j
 Motorola Solutions	MOTOTRBO ION	mkz_sdm660_64	MSLB-MKZ900
 Motorola Solutions	MOTOTRBO ION	mkz_sdm660_64	MSLB-MKZ900i
 Motorola Solutions	TC55	TC55	TC55
@@ -20721,7 +20740,6 @@ Oppo	A79kt	A79kt	OPPO A79kt
 Oppo	A79t	A79	OPPO A79t
 Oppo	A79t	A79t	OPPO A79t
 Oppo	A7n	PCDT00	PCDT00
-Oppo	A7x 中国版	OP4E7F	PERM00
 Oppo	A7x 中国版	PBBM00	PBBM00
 Oppo	A7x 中国版	PBBT00	PBBT00
 Oppo	A83	A83	OPPO A83
@@ -20870,6 +20888,7 @@ Oppo	K3	OP4679	PCGM00
 Oppo	K3	OP4679	PCGT00
 Oppo	K3	OP486B	CPH1955
 Oppo	K5	OP4AA7	PCNM00
+Oppo	K7x 中国版	OP4E7F	PERM00
 Oppo	N1	N1	N1
 Oppo	N1 mimi	N1mini	N5111
 Oppo	N1 mimi	N1mini	N5116
@@ -23400,7 +23419,6 @@ Realme	realme Narzo 20	RMX2193	RMX2193
 Realme	realme Narzo 30 Pro 5G	RMX2117L1	RMX2117
 Realme	realme Pad	RE54C1L1	RMP2102
 Realme	realme Q	RMX1971CN	RMX1971
-Realme	realme Q2 5G	RMX2117CN	RMX2117
 Realme	realme Q3 5G	RMX3161CN	RMX3161
 Realme	realme Q3 Pro Play	RE811C	RMX3142
 Realme	realme SA Smart TV	SW4H_FF	realme SA Smart TV
@@ -23412,8 +23430,6 @@ Realme	realme V11 5G	RMX3121CN	RMX3121
 Realme	realme V11 5G	RMX3122CN	RMX3122
 Realme	realme V3  5G	RMX2200CN	RMX2200
 Realme	realme V3 5G	RMX2201CN	RMX2201
-Realme	realme V5 5G	RMX2111CN	RMX2111
-Realme	realme V5 5G	RMX2112CN	RMX2112
 Realme	realme X2	RMX1991CN	RMX1991
 Realme	realme X2	RMX1992L1	RMX1992
 Realme	realme X2	RMX1993L1	RMX1993
@@ -23850,6 +23866,7 @@ SFR	Star Trail III	mobiwire_startrail3	StarTrail III
 SFR.fr	Connect TV de SFR	DV8555-SFR	Connect TV de SFR
 SFR.fr	DV8219_SFR	DV8219	DV8219_SFR
 SFR.fr	FR	DV8219	DV8219_SFR
+SGIN	C10	C10	C10
 SGIN	C8	C8	C8
 SGIN	SGIN_E10M	SGIN_E10M	SGIN_E10M
 SGIN	SGIN_X10	SGIN_X10	SGIN_X10
@@ -23929,6 +23946,7 @@ SOLO	Inspire_U5	Inspire_U5	Inspire_U5
 SOLO	Inspire_U5_PLUS	Inspire_U5_PLUS	Inspire_U5_PLUS
 SORIANA	BE_ets	BE_ets	BE_ets
 SOSMART	T5	SOSMART_T5	SOSMART_T5
+SOWLY	AG_1088_A133	AG_1088_A133	AG_1088_A133
 SPC	EU、UK、AP	martin	SPC Android TV
 SPC	GRAVITY-2	GRAVITY-2	GRAVITY 2
 SPC	GRAVITY-PRO-2	GRAVITY-PRO-2	GRAVITY PRO 2
@@ -24033,6 +24051,7 @@ SSmooth	Smooth 6.26 Lite	Smooth6_26_Lite	Smooth 6.26 Lite
 SSmooth	Smooth 6.26 Max	Smooth6_26_Max	Smooth 6.26 Max
 SSmooth	Smooth 6.26 Pro	Smooth6_26_Pro	Smooth 6.26 Pro
 SSmooth	Smooth 6.5	Smooth6_5	Smooth 6.5
+SSmooth	Smooth Note 6.8	Smooth_Note_6_8	Smooth Note 6.8
 SSmooth	Smooth6_1	Smooth6_1	Smooth 6.1
 SSmooth	Smooth6_5	Smooth6_5	Smooth 6.5
 SSmooth	Smooth_5	SSmooth_5	Smooth 5.0
@@ -24330,6 +24349,7 @@ Samsung	Galaxy A13	a13	SM-A135U
 Samsung	Galaxy A13	a13	SM-A135U1
 Samsung	Galaxy A13 5G	a13x	SM-A136B
 Samsung	Galaxy A13 5G	a13x	SM-A136M
+Samsung	Galaxy A13 5G	a13x	SM-A136S
 Samsung	Galaxy A13 5G	a13x	SM-A136U
 Samsung	Galaxy A13 5G	a13x	SM-A136U1
 Samsung	Galaxy A13 5G	a13x	SM-A136W
@@ -24856,6 +24876,7 @@ Samsung	Galaxy Express	expressziglteatt	SAMSUNG-SGH-I437Z
 Samsung	Galaxy Express2	wilcoxlte	SM-G3815
 Samsung	Galaxy F02s	a02q	SM-E025F
 Samsung	Galaxy F12	f12	SM-F127G
+Samsung	Galaxy F13	m13	SM-E135F
 Samsung	Galaxy F22	f22	SM-E225F
 Samsung	Galaxy F23 5G	m23xq	SM-E236B
 Samsung	Galaxy F41	f41	SM-F415F
@@ -25255,7 +25276,6 @@ Samsung	Galaxy M11	m11q	SM-M115M
 Samsung	Galaxy M12	m12	SM-M127F
 Samsung	Galaxy M12	m12	SM-M127G
 Samsung	Galaxy M12	m12	SM-M127N
-Samsung	Galaxy M13	m13	SM-E135F
 Samsung	Galaxy M13	m13	SM-M135F
 Samsung	Galaxy M13	m13	SM-M135M
 Samsung	Galaxy M20	m20	SM-M205N
@@ -35977,9 +35997,11 @@ Zebra	TC55	TC55	TC55
 Zebra	TC56	TC56	TC56
 Zebra	TC58	TC58	TC58
 Zebra	TC70x	TC70x	TC70x
+Zebra	TC73	TC73	TC73
 Zebra	TC75x	TC75x	TC75x
 Zebra	TC75xDF	TC75xDF	TC75x
 Zebra	TC8000	TC8000	TC8000
+Zebra	TN28	TN28	TN28
 Zebra	VC80x	VC80x	VC80x
 Zebra	WT6000	WT6000	WT6000
 Zebra	Zebra Technologies ET51	ET51L	ET51
@@ -36637,6 +36659,8 @@ iWaylink	TC603B	TC603B_GWL	TC603B_GWL
 iWaylink	TC603B_P	TC603B_GWL	TC603B_GWL
 iYOU	iYOU_M1	iYOU_M1	iYOU_M1
 ibowin	M10ES11	M10ES11	M130s
+imiia	4K Smart TV	pioneer	4K PA Smart TV
+imiia	Smart TV	mateo	2K PA Smart TV
 imiia	i-217D1	YUL	i-217D1
 imose	BAM-II	BAM-II	BAM-II
 imose	Omotab2	Omotab2	Omotab2
@@ -36765,16 +36789,18 @@ realme	realme GT Master Edition	RE507C	RMX3361
 realme	realme GT Master Edition		RE54ABL1	RMX3360
 realme	realme GT NEO 3	RED8BEL1	RMX3561
 realme	realme GT NEO 3 150W	RED8BEL1	RMX3563
-realme	realme GT NEO 3 150w	RED8BEL1	RMX3563
 realme	realme GT Neo2 5G		RE879AL1	RMX3370
 realme	realme Pad mini	RE87CCL1	RMP2105
 realme	realme Pad mini	RE87CCL1	RMP2106
+realme	realme Q2 5G	RMX2117CN	RMX2117
 realme	realme Q3s		RE548BL1	RMX3461
 realme	realme Q5i	RE873D	RMX3574
 realme	realme V15 5G	RMX3092CN	RMX3092
 realme	realme V15 5G	RMX3093CN	RMX3093
 realme	realme V23	RE5487	RMX3571
 realme	realme V25	RE547D	RMX3475
+realme	realme V5 5G	RMX2111CN	RMX2111
+realme	realme V5 5G	RMX2112CN	RMX2112
 realme	realme X3	RMX2083L1	RMX2083
 realme	realme X3	RMX2086L1	RMX2086
 realme	realme X50 Pro	RMX2075L1	RMX2075
