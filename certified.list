@@ -35,6 +35,8 @@ A1	A1 Alpha 20+	P671F60	A1 Alpha 20+
 A1	A1 Smart N9	VFD720	VFD 720
 A1	ADT-3	adt3	ADT-3
 A1	Ai-ES1059	Ai-ES1059	Ai-ES1059
+ABCTECH	X20	X20	X20
+ABCTECH	X5	X5	X5
 ACE (Global)	BUZZ 3	BUZZ_3	BUZZ 3
 ACE (Global)	BUZZ 3 Plus	BUZZ_3_Plus	BUZZ 3 Plus
 ACE (Global)	URBAN 3	URBAN_3	URBAN 3
@@ -283,7 +285,6 @@ Accent	Pearl A4 PLUS	PEARL_A4_PLUS	PEARL A4 PLUS
 Accent	Pearl_A4	Pearl_A4	Pearl A4
 Accent	SPEED S8	SPEED_S8	SPEED_S8
 Accent	TANK_P55	TANK_P55	TANK_P55
-Accent	X20	X20	X20
 Access	fm502	fm502	fm502
 Acegame S.A.	NEONHD/NEONGo	NEON	NEONHD/NEONGo
 Acegame S.A.	One_Mundial	One_Mundial	One_Mundial
@@ -5034,6 +5035,7 @@ Cubot	KINGKONG 5 Pro	KINGKONG_5_Pro	KINGKONG 5 Pro
 Cubot	KINGKONG 6	KINGKONG_6	KINGKONG 6
 Cubot	KINGKONG 7	KINGKONG_7	KINGKONG 7
 Cubot	KINGKONG MINI2	KINGKONG_MINI2	KINGKONG MINI2
+Cubot	KINGKONG MINI2 Pro	KINGKONG_MINI2_Pro	KINGKONG MINI2 Pro
 Cubot	KINGKONG MINI2 Pro	KINGKONG_MINI2_Pro	KINGKONG_MINI2_Pro
 Cubot	KINGKONG_MINI	KINGKONG_MINI	KINGKONG_MINI
 Cubot	KING_KONG_3	KING_KONG_3	KING_KONG_3
@@ -10125,6 +10127,7 @@ Honda	A-DA	yebisuAA	MY20ADA
 Honda	A-DA	yebisuBA	MY20ADA
 Honda	A-DA	yebisuCA	MY21ADA
 Honda	A-DA	yebisuDA	MY21ADA
+Honda	A-DA	yebisuFA	MY22ADA
 Honda	A-DA	yebisuGA	MY22ADA
 Honda	A-DA	yebisuHA	MY22ADA
 Honda	Accord	koelsch	MY16ADA
@@ -20424,6 +20427,7 @@ OMIX	X400	X400	X400
 OMIX	X500	X500	OMIX X500
 OMIX	X600	X600	X600
 OMIX	X700	X700	OMIX X700
+OMIX	X700	X700	X700
 ONDA TLC	T7 Pro	T7_PRO	T7_PRO
 ONDA TLC	T9 S	T9S	T9S
 ONYX	AKA Model A	Model_A	Model A
@@ -20434,6 +20438,7 @@ ORBYS	F21	F21	F21
 ORCA	Kuwait	tamachi	ORCA FHD Android TV
 ORCA	Kuwait	yeongdeungpo	ORCA UHD Android TV
 ORCA	OR-50UX400S	samseong	AI PONT
+ORION	Smart TV	longshan	AI PONT
 ORION	Smart TV	redwood	AI PONT
 OSCAL	C20	C20	C20
 OSCAL	C20 Pro	C20_Pro	C20 Pro
@@ -22446,6 +22451,7 @@ Pravion	TMS-KR01P	TMS-KR01P	TMS-KR01P
 Precision Biometric	PBTAB100-1G3	PBTAB100-1G3	PBTAB100-1G3
 Precision Biometric	PBTAB100-2G4	PBTAB100-2G4	PBTAB100-2G4
 Premier	MAXI 20	MAXI_20	MAXI 20
+Premier	Smart TV	longshan	AI PONT
 Premier	TAB-7001-16G	TAB-7001-16G	TAB-7001-16G
 Premier	TAB-7293-16G	TAB-7293-16G	TAB-7293-16G
 Premier	TAB-7304-16G3GS	TAB-7304-16G3GS	TAB-7304-16G3GS
@@ -23539,6 +23545,7 @@ Redmi	Redmi 9	lancelot	M2004J19C
 Redmi	Redmi 9	lancelot	M2004J19G
 Redmi	Redmi 9 Power	lime	M2010J19SI
 Redmi	Redmi 9 Prime	lancelot	M2004J19C
+Redmi	Redmi 9 Prime	lancelot	M2004J19I
 Redmi	Redmi 9A	dandelion	220233L2G
 Redmi	Redmi 9A	dandelion	M2006C3LC
 Redmi	Redmi 9A	dandelion	M2006C3LG
@@ -23830,6 +23837,7 @@ S-tell	P771	S-TELL	P771
 S-tell	P850	P850	P850
 SABA	A11	longshan	AI PONT
 SABA	A11	redwood	AI PONT
+SABA	Smart TV	longshan	AI PONT IT
 SABA	Smart TV	redwood	AI PONT IT
 SAELITE	MD1063B	MD1063B	MD1063B
 SAGI	E5501	E5501	E5501
@@ -24781,6 +24789,7 @@ Samsung	Galaxy Axiom	infiniteusc	SCH-R830
 Samsung	Galaxy Beam	GT-I8250	GT-I8250
 Samsung	Galaxy Beam	GT-I8530	GT-I8530
 Samsung	Galaxy Buddy	a22x	SM-A226L
+Samsung	Galaxy Buddy2	m23xq	SM-M236L
 Samsung	Galaxy C5	c5ltechn	SM-C5000
 Samsung	Galaxy C5	c5ltechn	SM-C500X
 Samsung	Galaxy C5	c5pltechn	SM-C5000
@@ -25312,7 +25321,6 @@ Samsung	Galaxy M21	m21	SM-M215F
 Samsung	Galaxy M21 2021 Edition	m21	SM-M215G
 Samsung	Galaxy M22	m22	SM-M225FV
 Samsung	Galaxy M23 5G	m23xq	SM-M236B
-Samsung	Galaxy M23 5G	m23xq	SM-M236L
 Samsung	Galaxy M23 5G	m23xq	SM-M236Q
 Samsung	Galaxy M30	m30lte	SM-M305F
 Samsung	Galaxy M30	m30lte	SM-M305M
@@ -25896,9 +25904,13 @@ Samsung	Galaxy S21 5G	o1s	SM-G991B
 Samsung	Galaxy S21 5G	o1s	SM-G991N
 Samsung	Galaxy S21 FE 5G	r9q	SM-G9900
 Samsung	Galaxy S21 FE 5G	r9q	SM-G990B
+Samsung	Galaxy S21 FE 5G	r9q	SM-G990B2
 Samsung	Galaxy S21 FE 5G	r9q	SM-G990U
 Samsung	Galaxy S21 FE 5G	r9q	SM-G990U1
+Samsung	Galaxy S21 FE 5G	r9q	SM-G990U2
+Samsung	Galaxy S21 FE 5G	r9q	SM-G990U3
 Samsung	Galaxy S21 FE 5G	r9q	SM-G990W
+Samsung	Galaxy S21 FE 5G	r9q	SM-G990W2
 Samsung	Galaxy S21 FE 5G	r9s	SM-G990E
 Samsung	Galaxy S21 Ultra 5G	SC-52B	SC-52B
 Samsung	Galaxy S21 Ultra 5G	p3q	SM-G9980
@@ -26825,6 +26837,7 @@ Samsung	Galaxy XCover Pro	xcoverpro	SM-G715FN
 Samsung	Galaxy XCover4	xcover4lte	SM-G390F
 Samsung	Galaxy XCover6 Pro	xcoverpro2	SM-G736B
 Samsung	Galaxy XCover6 Pro	xcoverpro2	SM-G736U
+Samsung	Galaxy XCover6 Pro	xcoverpro2	SM-G736W
 Samsung	Galaxy Xcover	GT-S5690	GT-S5690
 Samsung	Galaxy Xcover	GT-S5690L	GT-S5690L
 Samsung	Galaxy Xcover	GT-S5690M	GT-S5690M
@@ -27299,6 +27312,8 @@ Sharp	AQUOS wish	SX1	A104SH
 Sharp	AQUOS wish	SX1	SH-M20
 Sharp	AQUOS wish	SX1	SH-WS10
 Sharp	AQUOS wish	YLI	SHG06
+Sharp	AQUOS wish2	SH-51C	SH-51C
+Sharp	AQUOS wish2	SXI	A204SH
 Sharp	AQUOS zero	SG801SH	801SH
 Sharp	AQUOS zero	SH-Z10	SH-Z10
 Sharp	AQUOS zero	SH-Z10A	SH-Z10A
@@ -32632,6 +32647,7 @@ Vivax	FUN S20	FUN_S20	FUN_S20
 Vivax	Point X502	Point_X502	Point X502
 Vivax	Point_X2	Point_X2	Point_X2
 Vivax	Point_X503	Point_X503	Point_X503
+Vivax	Smart TV	longshan	AI PONT
 Vivax	TPC-102_4G_eea	TPC-102_4G	VIVAX TPC-102 4G
 Vivax	TPC-704-3G	TPC-704-3G	TPC-704-3G
 Vivax	TPC_8043G	TPC_8043G	TPC_8043G
