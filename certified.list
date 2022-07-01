@@ -10260,7 +10260,6 @@ Honor	HONOR 50	HNNTH	NTH-NX9
 Honor	HONOR 50 Lite	HNNTN	NTN-L22
 Honor	HONOR 50 Lite	HNNTN	NTN-LX1
 Honor	HONOR 50 Lite	HNNTN	NTN-LX3
-Honor	HONOR Magic 4 Lite 5G	HNANY-Q	ANY-NX1
 Honor	HONOR Magic4 Lite	HNANY-Q1	ANY-LX1
 Honor	HONOR Magic4 Lite 5G	HNANY-Q	ANY-NX1
 Honor	HONOR Magic4 Pro	HNLGE	LGE-NX9
@@ -16420,6 +16419,7 @@ Lenovo	L38082	L38082	Lenovo L38082
 Lenovo	LIFETAB E10310	LIFETAB_E10310	LIFETAB_E10310
 Lenovo	LIFETAB E7310	LIFETAB_E7310	LIFETAB_E7310
 Lenovo	LIFETAB E7310	LIFETAB_E7310	LIFETAB_E7312
+Lenovo	Legion Y70	halo	Lenovo L71091
 Lenovo	Lenovo	A708t	Lenovo A708t
 Lenovo	Lenovo	A880	Lenovo A880
 Lenovo	Lenovo	PB1-770P	Lenovo PB1-770P
@@ -16836,6 +16836,7 @@ Lenovo	小新 Pad GT	TB-J616F	Lenovo TB-J616F
 Lenovo	小新 Pad GT	TB-J616N	Lenovo TB-J616N
 Lenovo	小新Pad Pro 12.6	Q706F	Lenovo TB-Q706F
 Lenovo	小新Pad Pro 2021	J716F	Lenovo TB-J716F
+Lenovo	小新Pad Pro 2022	TB132FU	TB132FU
 Lenovo	小新平板	TB-8804F	Lenovo TB-8804F
 Lenovo	小新平板	X804F	Lenovo TB-X804F
 Lenovo	拯救者电竞手机	moba	Lenovo L79031
@@ -20245,6 +20246,8 @@ Nokia	Nokia C5 Endi	PMC_CUS	Nokia C5 Endi
 Nokia	Nokia G10	ROGA	Nokia G10
 Nokia	Nokia G10	ROGA_sprout	Nokia G10
 Nokia	Nokia G11	SCT_sprout	Nokia G11
+Nokia	Nokia G11 Plus	MGKA	Nokia G11 Plus
+Nokia	Nokia G11 Plus	MGKA_sprout	Nokia G11 Plus
 Nokia	Nokia G20	RNN	Nokia G20
 Nokia	Nokia G20	RNNA_sprout	Nokia G20
 Nokia	Nokia G20	RNN_sprout	Nokia G20
@@ -20599,6 +20602,8 @@ OnePlus	OnePlus 9RT 5G	OP5154L1	MT2110
 OnePlus	OnePlus 9RT 5G	OP5155L1	MT2111
 OnePlus	OnePlus Nord	Nord	AC2001
 OnePlus	OnePlus Nord	Nord	AC2003
+OnePlus	OnePlus Nord 2T 5G	OP557AL1	CPH2399
+OnePlus	OnePlus Nord 2T 5G	OP557AL1	CPH2401
 OnePlus	OnePlus Nord CE 5G	OnePlusNordCE	EB2101
 OnePlus	OnePlus Nord CE 5G	OnePlusNordCE	EB2103
 OnePlus	OnePlus Nord N10 5G	OnePlusN10	BE2026
@@ -28083,6 +28088,7 @@ Sony	Xperia 10 III	SO-52B	SO-52B
 Sony	Xperia 10 III	SOG04	SOG04
 Sony	Xperia 10 III	XQ-BT52	XQ-BT52
 Sony	Xperia 10 III Lite	XQ-BT44	XQ-BT44
+Sony	Xperia 10 IV	SO-52C	SO-52C
 Sony	Xperia 10 IV	XQ-CC54	XQ-CC54
 Sony	Xperia 10 IV	XQ-CC72	XQ-CC72
 Sony	Xperia 10 Plus	I3213	I3213
@@ -36850,6 +36856,7 @@ realme	narzo 50 Pro 5G	RE879EL1	RMX3395
 realme	narzo 50 Pro 5G	RE879EL1	RMX3396
 realme	realme  8	RMX3085L1	RMX3085
 realme	realme  9i	RED8C1L1	RMX3491
+realme	realme  V23i	RE873B	RMX3576
 realme	realme  X7 Max	RMX3031L1	RMX3031
 realme	realme 6	RMX2001L1	RMX2001
 realme	realme 6	RMX2002L1	RMX2002
