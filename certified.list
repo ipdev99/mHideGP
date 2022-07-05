@@ -104,6 +104,9 @@ AGE (in)	Age	stanford	40D
 AGE (in)	India	tamachi	AGE FHD Android TV
 AGE (in)	India	yeongdeungpo	AGE UHD Android TV
 AGM Mobile	AGM Glory G1	AGM_Glory_G1	AGM Glory G1
+AGM Mobile	AGM Glory_G1S	AGM_Glory_G1S_EU	AGM Glory_G1S
+AGM Mobile	AGM Glory_G1S	AGM_Glory_G1S_RU	AGM Glory_G1S
+AGM Mobile	AGM Glory_G1S	AGM_Glory_G1S_US	AGM Glory_G1S
 AGM Mobile	AGM H3	AGM_H3	AGM_H3
 AGM Mobile	AGM H5	AGM_H5	AGM_H5
 AIDATA	ADT1012L	ADT1012L	ADT1012L
@@ -3799,6 +3802,7 @@ CHUBU TELECOMMUNICATIONS CO.,INC	STI6130d353	sti6130d353	STI6130C
 CHiQ	H7	redwood	AI PONT
 CHiQ	H7A	samseong	AI PONT
 CHiQ	M7A	samseong	AI PONT
+CHiQ	Smart TV	dundas	AI PONT
 CHiQ	Smart TV	longshan	AI PONT
 CIBER	B610A115	B610A115	B610A115
 CIBER	B610A215	B610A215	B610A215
@@ -5913,6 +5917,7 @@ Doogee	S40	S40	S40
 Doogee	S40Lite	S40Lite	S40Lite
 Doogee	S40Pro	S40Pro	S40Pro
 Doogee	S50	t758_dg_m3t_n	S50
+Doogee	S51	S51	S51
 Doogee	S55	S55	S55
 Doogee	S55_Lite	S55_Lite	S55_Lite
 Doogee	S58Pro	S58Pro	S58Pro
@@ -5922,6 +5927,7 @@ Doogee	S60	S60	S60
 Doogee	S60 Lite	t777_dg_m1_65_n	S60 Lite
 Doogee	S60Lite	S60Lite	S60Lite
 Doogee	S61	S61	S61
+Doogee	S61Pro	M19H	S61Pro
 Doogee	S68Pro	S68Pro	S68Pro
 Doogee	S70	S70	S70
 Doogee	S70Lite	S70Lite	S70Lite
@@ -5983,6 +5989,7 @@ Doogee	X96	X96	X96
 Doogee	X96	X96T	X96
 Doogee	X96Pro	X96Pro	X96Pro
 Doogee	X96Pro	X96ProT	X96Pro
+Doogee	X97Pro	X97Pro	X97Pro
 Doogee	X9S	X9S	X9S
 Doogee	Y10	Y10	Y10
 Doogee	Y6	Y6	Y6
@@ -13190,6 +13197,7 @@ Itel	itel A56 Pro	itel-W6004P	itel W6004P
 Itel	itel A56 Pro LTE	itel-L6004P	itel L6004P
 Itel	itel A57	itel-A611W	itel A611W
 Itel	itel A57 2GB	itel-A611WP	itel A611WP
+Itel	itel A58 Lite	itel-A631W	itel A631W
 Itel	itel A58 Lite	itel-A631W-R2	itel A631W
 Itel	itel AC12	itel-A14	itel A14
 Itel	itel AC13	itel-W4001P	itel W4001P
@@ -13398,6 +13406,7 @@ Jivi	Xtreme_7	Xtreme_7	Xtreme_7
 Jooyon	J110A	J110A	J110A
 Jooyon	J210A	J210A	J210A
 Jooyon	UHD Android TV	sindorim	AI PONT
+Jumper	EZpad_M10S	EZpad_M10S	EZpad M10S
 Jumper	EZpad_M10_EEA	EZpad_M10	EZpad M10
 Juniper Systems	Cedar CT8	CT8	Cedar CT8
 Juniper Systems	Mesa3	MS3A	MS3A
@@ -21350,6 +21359,7 @@ Oukitel	C23_Pro	C23_Pro	C23 Pro
 Oukitel	C25_EEA	C25	C25
 Oukitel	C25_RU	C25	C25
 Oukitel	C27_Pro_EEA	C27_Pro	C27 Pro
+Oukitel	C31_EEA	C31	C31
 Oukitel	C6 Pro	C6_Pro	C6 Pro
 Oukitel	C8	C8	C8
 Oukitel	C8 4G	C8_4G	C8 4G
@@ -22318,6 +22328,7 @@ Polaroid	PTAB1051-PTAB1055	RCT6203W46	PTAB1051_PTAB1055
 Polaroid	PTAB751	STJR76	PTAB751
 Polaroid	Phantom 5	Phantom5	PRO5023
 Polaroid	Polaroid	bangbae	Polaroid 4K Android TV
+Polaroid	Polaroid	bruno	Polaroid 2K Android TV
 Polaroid	Polaroid	ewha	POLA-TVE19K
 Polaroid	Polaroid	komagome	Polaroid 2K Android TV
 Polaroid	Polaroid 2K Android TV	lasalle	Polaroid 2K Android TV
@@ -22892,6 +22903,7 @@ Pritom	L8_A01_EEA	L8_A01_EEA	L8
 Pritom	L8_A02	L8_A02	L8_A02
 Pritom	L8_A02_EEA	L8_A02_EEA	L8_A02_EEA
 Pritom	L8_EEA	L8_EEA	L8_EEA
+Pritom	M10	M10	M10
 Pritom	M10	M10_A01	M10
 Pritom	M10_A01_EEA	M10_A01_EEA	M10
 Pritom	M10_Air	M10_Air	M10_Air
@@ -23170,6 +23182,7 @@ Qilive	QT2110BP	QT2110BP	QT2110BP
 Qilive	W55	W55	W55
 Qisur	R106	R106	R106
 Qisur	X72	X72	X72
+Qlink	Scepter 8 Tablet	Scepter8_tablet	Scepter 8 Tablet
 Qlink	Scepter_8	Scepter_8	Scepter 8 Tablet
 Qoobex	Qphone2019_A	Qphone2019_A	Qphone2019_A
 Qpad	XL PLUS	t591_hwd_q19_hiya_we	XL PLUS
@@ -27912,6 +27925,7 @@ Skyworth	Skyworth	grape	HPA02
 Skyworth	South Africa	open_fhd_sa	open_fhd
 Skyworth	South America	globe_sa	globe
 Skyworth	South America	shinjuku	SA 2K TV
+Skyworth	UrTV1	HY44J	UrTV1
 SledovaniTV	DV8220	DV8220	DV8220
 Smadl	Abay5_Plus	SMADL_Abay5_Plus	SMADL Abay5+
 Smadl	Matri8	Matri8	Matri8
@@ -28709,6 +28723,7 @@ Spice	Xlife-450Q	Spice	Xlife-450Q
 Spice	Xlife-514Q	Spice	Xlife-514Q
 Spice	Xlife-M44Q	Spice	Xlife-M44Q
 Spice	Xlife-Proton 5 pro	Spice	Xlife-Proton5 Pro
+Spider	Spider_A10	Spider_A10	Spider_A10
 Sprint	AQT100	NKJ_AQT100	AQT100
 Sprint	AQT82	NKSA_AQT82	AQT82
 Sprint	HTC Bolt	htc_acawhl	2PYB2
@@ -34315,6 +34330,8 @@ Xiaomi	Xiaomi 12	cupid	2201123C
 Xiaomi	Xiaomi 12	cupid	2201123G
 Xiaomi	Xiaomi 12 Pro	zeus	2201122C
 Xiaomi	Xiaomi 12 Pro	zeus	2201122G
+Xiaomi	Xiaomi 12 Pro Dimensity	daumier	2207122MC
+Xiaomi	Xiaomi 12S Ultra	thor	2203121C
 Xiaomi	Xiaomi 12X	psyche	2112123AC
 Xiaomi	Xiaomi Civi	mona	2109119BC
 Xiaomi	Xiaomi Civi 1S	zijin	2109119BC
@@ -36646,6 +36663,7 @@ iHunt	Alien X Lite	Alien_X_Lite	Alien X Lite
 iHunt	AlienXLite2020	AlienXLite2020	AlienXLite2020
 iHunt	Alien_X_ApeX	Alien_X_ApeX	Alien_X_ApeX
 iHunt	Alien_X_Pro_2021	Alien_X_Pro_2021	Alien X Pro 2021
+iHunt	Cyber_Shark_EEA	Cyber_Shark	iHunt Cyber Shark 4G
 iHunt	Like 11 Panda Pro 2022	iHunt	Like 11 Panda Pro 2022
 iHunt	Like 4U	Like_4U	Like_4U
 iHunt	Like 8	Like_8	Like_8
@@ -36947,6 +36965,7 @@ realme	realme C31	RE549C	RMX3503
 realme	realme C35	RE87BAL1	RMX3511
 realme	realme C35	RE87BAL1	RMX3512
 realme	realme C35	RE87BAL1	RMX3513
+realme	realme GT 2		RE58B2L1	RMX3312
 realme	realme GT 2 Pro		RED8ACL1	RMX3301
 realme	realme GT 5G	RMX2202L1	RMX2202
 realme	realme GT Master Edition	RE507C	RMX3361
@@ -36995,7 +37014,6 @@ realme	真我 GT NEO 3	RE5489	RMX3560
 realme	真我 Q3 Pro 5G	RMX2205CN	RMX2205
 realme	真我GT 2		RE5471	RMX3310
 realme	真我GT 2		RE58B2L1	RMX3311
-realme	真我GT 2		RE58B2L1	RMX3312
 realme	真我GT 2 Pro		RE547F	RMX3300
 realme	真我GT Neo	RMX3031CN	RMX3031
 realme	真我Q3s		RE548B	RMX3461
