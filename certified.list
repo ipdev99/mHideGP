@@ -1780,6 +1780,9 @@ Asus	ROG Phone 5	ASUS_I005_1	ASUS_I005DA
 Asus	ROG Phone 5	ASUS_I005_1	ASUS_I005DB
 Asus	ROG Phone 5	ASUS_I005_1	ZS673KS
 Asus	ROG Phone 5	ASUS_I005_1	ZS676KS
+Asus	ROG Phone 6 (AI2201)	ASUS_AI2201	ASUS_AI2201_B
+Asus	ROG Phone 6 (AI2201)	ASUS_AI2201	ASUS_AI2201_C
+Asus	ROG Phone 6 (AI2201)	ASUS_AI2201	ASUS_AI2201_D
 Asus	ROG Phone ll	ASUS_I001_1	ASUS_I001D
 Asus	ROG Phone ll	ASUS_I001_1	ASUS_I001DC
 Asus	ROG Phone ll	ASUS_I001_1	ASUS_I001DE
@@ -4659,6 +4662,7 @@ Connectce	Connect Core 6	Connect_Core_6	CP6001A
 Connex	CTAB-1044	CTAB-1044	CTAB-1044
 Connex	CTAB1044hn	CTAB1044hn	CTAB1044hn
 Connex	SEN_1055_ARM	SEN_1055_ARM	SEN_1055_ARM
+Connex	SEN_1055_ARM1064	SEN_1055_ARM	SEN_1055_ARM1064
 Connexion TV	VIP6102W FCGOV	vip6102w	VIP6102W
 Conquest	CONQUEST S12Pro	S12Pro	S12Pro
 Conquest	S11	conquest-S11	S11
@@ -8729,6 +8733,8 @@ HTC	HTC Desire 21 Pro 5G	htc_thudugl	2QAG100
 HTC	HTC Desire 21 Pro 5G	htc_thudugl	HTC Desire 21 pro 5G
 HTC	HTC Desire 21 pro 5G	htc_thudugl	2QAG100
 HTC	HTC Desire 21 pro 5G	htc_thudugl	HTC Desire 21 pro 5G
+HTC	HTC Desire 22 5G	htc_botdugls	2QBK10000
+HTC	HTC Desire 22 5G	htc_botdugls	HTC Desire 22 pro
 HTC	HTC Desire 610	htc_a3ul	HTC Desire 610
 HTC	HTC Desire 628 dual sim	htc_v36bml_dugl	HTC 2PVG2
 HTC	HTC Desire 628 dual sim	htc_v36bml_dugl	HTC Desire 628 dual sim
@@ -9448,6 +9454,7 @@ Hisense	9980	taishan	SmartTV 8K FFM
 Hisense	A2	HS8937QC	Hisense A2
 Hisense	A2M	HS8953QC	Hisense A2M
 Hisense	A2T	HS8953QC	Hisense A2T
+Hisense	A36	songshan	2K Smart TV
 Hisense	A5	HLTE202N	HLTE202N
 Hisense	A5 Pro	HLTE203T	HLTE203T
 Hisense	A55	songshan	Smart TV
@@ -13160,6 +13167,7 @@ Itel	it1655S	itel_it1655S	itel it1655S
 Itel	it1702	itel_it1702	itel it1702
 Itel	it1703	itel_it1703	itel it1703
 Itel	itel  A24	itel-A507LN	itel A507LN
+Itel	itel  A58 Lite	itel-A631W-R2	itel A631W
 Itel	itel  V51 LTE	itel-A507LP	itel A507LP
 Itel	itel 4K TV	SW4H	itel 4K TV
 Itel	itel A11	itel_A11	itel A11
@@ -16871,6 +16879,7 @@ Lenovo	小新 Pad GT	TB-J616N	Lenovo TB-J616N
 Lenovo	小新Pad Pro 12.6	Q706F	Lenovo TB-Q706F
 Lenovo	小新Pad Pro 2021	J716F	Lenovo TB-J716F
 Lenovo	小新Pad Pro 2022	TB132FU	TB132FU
+Lenovo	小新Pad Pro 2022	olivine	TB138FC
 Lenovo	小新平板	TB-8804F	Lenovo TB-8804F
 Lenovo	小新平板	X804F	Lenovo TB-X804F
 Lenovo	拯救者电竞手机	moba	Lenovo L79031
@@ -23756,6 +23765,7 @@ Reeder	P10S	P10S	P10S
 Reeder	P10SE	P10SE	P10SE
 Reeder	P12 Curve	P12Curve	P12Curve
 Reeder	P13	P13	P13
+Reeder	P13  Blue Max Pro Lite 2022	P13_Blue_Pro_2022	P13 Blue Max Pro Lite 2022
 Reeder	P13 Blue	P13_Blue	P13_Blue
 Reeder	P13 Blue  Max Lite 32GB	P13_BML_32	P13 Blue Max Lite 32GB
 Reeder	P13 Blue 2022	P13_Blue_2022	P13 Blue 2022
@@ -27338,6 +27348,7 @@ Sharp	AQUOS R5G SHG01	TGD	SHG01
 Sharp	AQUOS R6	Judau	A101SH
 Sharp	AQUOS R6	Judau	SH-M22
 Sharp	AQUOS R6	SH-51B	SH-51B
+Sharp	AQUOS R7	Mineva	A202SH
 Sharp	AQUOS SERIE SHL25	SHL25	SHL25
 Sharp	AQUOS SERIE SHV32	SHV32	SHV32
 Sharp	AQUOS SERIE SHV34	SHV34	SHV34
@@ -31252,6 +31263,7 @@ Tecno	TECNO POP 5	TECNO-BD2d	TECNO BD2d
 Tecno	TECNO POP 5	TECNO-BD2p	TECNO BD2p
 Tecno	TECNO POP 5 Go	TECNO-BD1	TECNO BD1
 Tecno	TECNO POP 5 LTE	TECNO-BD4	TECNO BD4
+Tecno	TECNO POP 6	TECNO-BE7	TECNO BE7
 Tecno	TECNO POP 6 Go	TECNO-BE6-R2	TECNO BE6
 Tecno	TECNO POP 6 Go	TECNO-BE7	TECNO BE7
 Tecno	TECNO POP X5	TECNO-L6502S	TECNO L6502S
@@ -31473,6 +31485,7 @@ Tesla	EU	tamachi	Tesla 2K Android TV
 Tesla	EU	yeongdeungpo	Tesla 4K Android TV
 Tesla	EU、UK、AP	martin	Tesla Android TV
 Tesla	Explr 9	Explr_9	Explr 9
+Tesla	LEAP-S1	LAS	LEAP-S1
 Tesla	M8.1 3G	TTM813G	TTM813G
 Tesla	P80X_ROW	P80X	P80X
 Tesla	SMARTPHONE3.5	Tesla_SP3_5	Tesla_SP3.5
@@ -31509,6 +31522,7 @@ Thomson	EGO_5014G	EGO_5014G	EGO_5014G
 Thomson	Friendly TH101	Friendly_TH101	Friendly_TH101
 Thomson	HERO10RK	HERO10RK_EEA	HERO10RK
 Thomson	Hero10RK	HERO10RK	HERO10RK
+Thomson	LEAP-S1	LAS	LEAP-S1
 Thomson	PRIMO7 Tablet	PRIMO7	PRIMO7
 Thomson	PRIMO8 Tablet	AMLMY8306P	PRIMO8
 Thomson	TEO 8	TEO8LTE32	TEO8LTE
@@ -31869,6 +31883,7 @@ Ulefone	Armor 10 5G	Armor_10_5G	Armor 10 5G
 Ulefone	Armor 11 5G	Armor_11_5G	Armor 11 5G
 Ulefone	Armor 11T 5G	Armor_11T_5G	Armor 11T 5G
 Ulefone	Armor 12 5G	Armor_12_5G	Armor 12 5G
+Ulefone	Armor 15	Armor_15	Armor 15
 Ulefone	Armor 2	Armor_2	Armor_2
 Ulefone	Armor 2S	Armor_2S	Armor_2S
 Ulefone	Armor 6	Armor_6	Armor_6
@@ -34355,6 +34370,8 @@ Xiaomi	Xiaomi 12	cupid	2201123G
 Xiaomi	Xiaomi 12 Pro	zeus	2201122C
 Xiaomi	Xiaomi 12 Pro	zeus	2201122G
 Xiaomi	Xiaomi 12 Pro Dimensity	daumier	2207122MC
+Xiaomi	Xiaomi 12S	mayfly	2206123SC
+Xiaomi	Xiaomi 12S Pro	unicorn	2206122SC
 Xiaomi	Xiaomi 12S Ultra	thor	2203121C
 Xiaomi	Xiaomi 12X	psyche	2112123AC
 Xiaomi	Xiaomi Civi	mona	2109119BC
