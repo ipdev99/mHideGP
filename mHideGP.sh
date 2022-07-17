@@ -174,7 +174,9 @@ get_prop_info() {
 	grep ro.oxygen.version $prop_file
 	# grep ro.build.date $prop_file
 	grep ro.bootimage.build.fingerprint $prop_file
+	grep ro.build.description $prop_file
 	grep ro.build.fingerprint $prop_file
+	grep ro.build.version.oplusrom $prop_file
 	grep ro.build.version.release $prop_file
 	grep ro.build.version.sdk $prop_file
 	grep ro.display.series $prop_file
@@ -265,11 +267,18 @@ check_prop_file
 
 # Set variables
 SDATE=$(grep -m1 ro.build.version.security_patch= $prop_file | cut -f2 -d '=');
-aOS=$(grep -m1 ro.build.version.release= $prop_file | cut -f2 -d '=');
+# aOS=$(grep -m1 ro.build.version.release= $prop_file | cut -f2 -d '=');
 SDK=$(grep -m1 ro.build.version.sdk= $prop_file | cut -f2 -d '=');
 BUTC=$(grep -m1 ro.build.date.utc= $prop_file | cut -f2 -d '=');
 # Add sed to remove double space in some build dates.
 BDATE=$(grep -m1 ro.build.date= $prop_file | sed 's/  / /g' | cut -f2,3,6 -d ' ');
+
+# Work around SDK31 and SDK32 sharing the 12 release tag.
+if [ "$SDK" = "32" ]; then
+	aOS=12L;
+else
+	aOS=$(grep -m1 ro.build.version.release= $prop_file | cut -f2 -d '=');
+fi
 
 # Set variable names to variables. (Depends on the device and/or API/SDK/NDK version.)
 
@@ -539,7 +548,8 @@ fi;
 check_for_sdk
 
 ## Still need to improve note about using recovery.img instead of boot.img on older devices
-## and/or newer devices that do not contain a ramdisk in the boot image
+## and/or newer devices that do not contain a ramdisk in the boot image.
+## Newer devices that include a vendor_boot.img, recovery is in the vendor_boot image.
 
 ###### Finally here we go...
 
