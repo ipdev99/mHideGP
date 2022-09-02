@@ -1793,6 +1793,7 @@ Asus	ROG Phone 5	ASUS_I005_1	ASUS_I005DA
 Asus	ROG Phone 5	ASUS_I005_1	ASUS_I005DB
 Asus	ROG Phone 5	ASUS_I005_1	ZS673KS
 Asus	ROG Phone 5	ASUS_I005_1	ZS676KS
+Asus	ROG Phone 6 (AI2201)	ASUS_AI2201	ASUS_AI2201_A
 Asus	ROG Phone 6 (AI2201)	ASUS_AI2201	ASUS_AI2201_B
 Asus	ROG Phone 6 (AI2201)	ASUS_AI2201	ASUS_AI2201_C
 Asus	ROG Phone 6 (AI2201)	ASUS_AI2201	ASUS_AI2201_D
@@ -5520,7 +5521,9 @@ DayMark	IT119411	IT119411	IT119411
 Dcode	Cypher	Dcode_Cypher	DS-CR1
 Dcode	DS-X1	DS-X1	DS-X1
 Dcode	DS_BD1	DS_BD1	DS-BD1
+Dcode	DS_BD2	DS_BD2	DS-BD2
 Dcode	DS_CL1	DS_CL1	DS-CL1
+Dcode	DS_CL2_Pro	DS_CL2_Pro	DS-CL2 Pro
 Ddm	ANDY 5EI	AM5E3I047	ANDY 5EI
 DeWALT	DeWalt md501	md501	md501
 Delephas	Chang Co., Ltd	seocho	Delephas 4K Android TV
@@ -6636,9 +6639,10 @@ Envizen	VMD9002	VMD9002	VMD9002
 Envizen Digital	V100MD	V100MD	V100MD
 Envizen Digital	V917G	GK-MID9022	V917G
 Envizen Digital	VMD1029	VMD1029	VMD1029
+Epson	EF-12/EH-LS300	sti6200d101	Projector
+Epson	EH-LS800	sti6202d101	HA90
 Epson	Epson	embt4	EMBT4
 Epson	Projector	sti6200d101	Projector
-Epson	SMF2	sti6200d101	Projector
 Epson	STI6110	Bushi	STI6110
 Epson	embt4	embt4	EMBT4
 Epson	embt4cn	embt4	EMBT4
@@ -7618,6 +7622,7 @@ GREATASIA	E9863	E9863	E9863
 GREATASIA	ET103G	ET103G	ET103G
 GREATASIA	Kidpad_M7	Kidpa_M7	Kidpa_M7
 GREATASIA	Pad_M30	Pad_M30	Pad_M30
+GREATASIA	TK-E8765	TK-E8765	TK-E8765
 GREATASIA	Z8	Z8	Z8
 GRID Communications (SG)	GS6100	GRID_GS6100	GS6100
 GSmart	Akta A4	Akta_A4	Akta_A4
@@ -10377,6 +10382,7 @@ Honor	HONOR 50	HNNTH	NTH-NX9
 Honor	HONOR 50 Lite	HNNTN	NTN-L22
 Honor	HONOR 50 Lite	HNNTN	NTN-LX1
 Honor	HONOR 50 Lite	HNNTN	NTN-LX3
+Honor	HONOR 70	HNFNE	FNE-NX9
 Honor	HONOR Magic4 Lite	HNANY-Q1	ANY-LX1
 Honor	HONOR Magic4 Lite 5G	HNANY-Q	ANY-NX1
 Honor	HONOR Magic4 Pro	HNLGE	LGE-NX9
@@ -12585,6 +12591,8 @@ Infinix	Infinix HOT 10T	Infinix-X689C	Infinix X689C
 Infinix	Infinix HOT 10i	Infinix-PR652B	Infinix PR652B
 Infinix	Infinix HOT 11S NFC	Infinix-X6812B	Infinix X6812B
 Infinix	Infinix HOT 12	Infinix-X6817	Infinix X6817
+Infinix	Infinix HOT 12 PRO	Infinix-X668	Infinix X668
+Infinix	Infinix HOT 12 PRO	Infinix-X668C	Infinix X668C
 Infinix	Infinix HOT 12 Play	Infinix-X6816C	Infinix X6816C
 Infinix	Infinix HOT 12 Play NFC	Infinix-X6816D	Infinix X6816D
 Infinix	Infinix HOT 6X	Infinix-X623	Infinix X623
@@ -12606,6 +12614,7 @@ Infinix	Infinix NOTE 11i	Infinix-X693	Infinix X693
 Infinix	Infinix NOTE 12	Infinix-X663C	Infinix X663C
 Infinix	Infinix NOTE 12 2023	Infinix-X676C	Infinix X676C
 Infinix	Infinix NOTE 12 5G	Infinix-X671	Infinix X671
+Infinix	Infinix NOTE 12 PRO	Infinix-X676B	Infinix X676B
 Infinix	Infinix NOTE 12 Pro 5G	Infinix-X671B	Infinix X671B
 Infinix	Infinix NOTE 12i	Infinix-X6819	Infinix X6819
 Infinix	Infinix NOTE 5	Infinix-X604_sprout	Infinix X604
@@ -12621,6 +12630,7 @@ Infinix	Infinix X510	Infinix_X510_sprout	Infinix X510
 Infinix	Infinix X559	Infinix-X559	Infinix X559
 Infinix	Infinix X571	Infinix-X571	Infinix X571
 Infinix	Infinix X572	Infinix-X572	Infinix X572
+Infinix	Infinix ZERO 20	Infinix-X6821	Infinix X6821
 Infinix	Infinix ZERO 5G	Infinix-X6815B	Infinix X6815B
 Infinix	Infinix ZERO 8i	Infinix-X687B	Infinix X687B
 Infinix	Infinix ZERO X	Infinix-X6811B	Infinix X6811B
@@ -13760,6 +13770,8 @@ KTCtv	NA	zhongshan	43FNA
 KTCtv	NAKAMICHI	stanford	CSV2K
 KTCtv	NAKAMICHI	zhongshan	CSV4K
 KTCtv	Nobrand	stanford	Smart FHD TV
+KTCtv	POWER GREEN	zhongshan	4K SMART TV
+KTCtv	POWER_GREEN	stanford	2K SMART TV
 KTCtv	Rosso	stanford	40D
 KTCtv	SA	stanford	2K Siera SMART TV
 KTCtv	SA	stanford	40DSA
@@ -13769,6 +13781,7 @@ KTCtv	Siera	zhongshan	4K Siera SMART TV
 KTCtv	Telsa	zhongshan	Tesla 4K Android TV
 KTCtv	VISTA	stanford	2K SMART TV
 KTCtv	VISTA	zhongshan	4K SMART TV
+KTCtv	VON	stanford	2K SMART TV
 KTCtv	Zitro	stanford	40DSA
 KTCtv	Zitro	zhongshan	43FSA
 KTS (JP)	IPN99_RTD1319_TOA	TMS-KR01P	TMS-KR01P
@@ -13803,6 +13816,7 @@ Kalley	ELEMENT_PRO	ELEMENT_PRO	ELEMENT_PRO
 Kalley	ELEMENT_PRO_2	ELEMENT_PRO_2	ELEMENT_PRO_2
 Kalley	Element 4	Element_4	Element 4
 Kalley	Element 4 Plus	smartphone	Element 4 Plus
+Kalley	Element 5	Element_5	Element 5
 Kalley	Element Play	ELEMENT_PLAY	ELEMENT PLAY
 Kalley	Gold Pro	GOLD_PRO	GOLD_PRO
 Kalley	K-BOOK73G	K_BOOK73G	K-BOOK73G
@@ -18773,6 +18787,7 @@ Mobiwire	STARXTREM 5	STARXTREM5	STARXTREM5
 Mobiwire	Smart C11	Kicka_5_U	Smart C11
 Mobiwire	Smart E11	Smart_E11	SmartE11
 Mobiwire	Smart E11	Smart_E11_1	SmartE11
+Mobiwire	Smart Green	MobiWire_Verda	Vodafone Lite 4G
 Mobiwire	Smart N11	Smart_N11	SmartN11
 Mobiwire	Smart N12	Smart_N12	SmartN12
 Mobiwire	Tala	Tala	Tala
@@ -18782,6 +18797,7 @@ Mobiwire	V.40	Nextel	V.40
 Mobiwire	V.45	VSN	V.45S
 Mobiwire	VSN V.45	up06_h26_v45	V.45
 Mobiwire	Verda	MobiWire_Verda	Verda
+Mobiwire	Vodafone Lite 4G	MobiWire_Verda	Vodafone Lite 4G
 Mobvoi	TicWatch C2	skipjack	TicWatch C2
 Mobvoi	TicWatch C2	skipjack	TicWatch C2+
 Mobvoi	TicWatch E2/S2	tunny	TicWatch E2
@@ -18996,6 +19012,7 @@ Motorola	Lenovo K14 Note	cofud	Lenovo K12 Pro
 Motorola	Lenovo K14 Note	cofud	Lenovo K14 Note
 Motorola	Lenovo XT2081-4	guam	Lenovo XT2081-4
 Motorola	Lenovo XT2091-7	cebu	Lenovo XT2091-7
+Motorola	MOTOROLA	stanford	2K SMART TV
 Motorola	Master Touch	umts_primus	XT621
 Motorola	Master Touch XT621	umts_primus	XT621
 Motorola	Milestone2	umts_milestone2	A953
@@ -19395,6 +19412,8 @@ Motorola	moto z4	foles	moto z4
 Motorola	motorola edge	racer	motorola edge
 Motorola	motorola edge (2021)	berlna	motorola edge (2021)
 Motorola	motorola edge (2021)	berlna	motorola edge plus
+Motorola	motorola edge (2022)	tesla	moto g(50) 5G
+Motorola	motorola edge (2022)	tesla	motorola edge (2022)
 Motorola	motorola edge 20	berlin	motorola edge 20
 Motorola	motorola edge 20	berlin	motorola edge plus
 Motorola	motorola edge 20 fusion	kyoto	motorola
@@ -19407,6 +19426,8 @@ Motorola	motorola edge 30	dubai	moto g200 5G
 Motorola	motorola edge 30	dubai	motorola edge 30
 Motorola	motorola edge 30 fusion	tundra	moto g200 5G
 Motorola	motorola edge 30 fusion	tundra	motorola edge 30 fusion
+Motorola	motorola edge 30 neo	miami	moto g71 5G
+Motorola	motorola edge 30 neo	miami	motorola edge 30 neo
 Motorola	motorola edge 30 pro	hiphi	motorola edge 30 pro
 Motorola	motorola edge 30 pro	hiphi	motorola edge plus
 Motorola	motorola edge 30 ultra	eqs	motorola edge
@@ -20491,6 +20512,7 @@ Nokia	Nokia G400 5G	STO	Nokia G400 5G
 Nokia	Nokia G50	PHR	Nokia G50
 Nokia	Nokia G50	PHR_sprout	Nokia G50
 Nokia	Nokia Steaming Box 8000	HND	Nokia Streaming Box 8000
+Nokia	Nokia T10	PGN	Nokia T10
 Nokia	Nokia T20	RDD	Nokia T20
 Nokia	Nokia T20	RDDCN	Nokia T20
 Nokia	Nokia X10	SCW	Nokia X10
@@ -21753,6 +21775,8 @@ POCO	POCO C31	angelicain	211033MI
 POCO	POCO F2 Pro	lmi	POCO F2 Pro
 POCO	POCO F3	alioth	M2012K11AG
 POCO	POCO F3 GT	aresin	M2104K10I
+POCO	POCO F4	munch	22021211RG
+POCO	POCO F4	munch	22021211RI
 POCO	POCO F4 GT	ingres	21121210G
 POCO	POCO M2	shiva	M2004J19PI
 POCO	POCO M2 Pro	gram	POCO M2 Pro
@@ -23158,6 +23182,7 @@ Pritom	M10_PRO	M10_PRO	M10_PRO
 Pritom	M10_PRO_EEA	M10_PRO_EEA	M10_PRO_EEA
 Pritom	M30	M30	M30
 Pritom	M30_EEA	M30_EEA	M30_EEA
+Pritom	M60	M60	M60
 Pritom	P7	P7	P7
 Pritom	P7	P7_A1	P7
 Pritom	P7PLUS	P7PLUS	P7PLUS
@@ -23941,6 +23966,8 @@ Redmi	Redmi Note 11 Pro 5G	veux	2201116SR
 Redmi	Redmi Note 11 Pro+	pissarropro	21091116UC
 Redmi	Redmi Note 11 Pro+ 5G	peux	2201116SI
 Redmi	Redmi Note 11 Pro+ 5G	pissarropro	21091116UG
+Redmi	Redmi Note 11 SE	secret	22087RA4DI
+Redmi	Redmi Note 11 SE	secret	M2101K7BI
 Redmi	Redmi Note 11E	light	22041219C
 Redmi	Redmi Note 11E Pro	veux	2201116SC
 Redmi	Redmi Note 11S	fleur	2201117SY
@@ -24007,6 +24034,7 @@ Reeder	P13 Blue Max	P13_Blue_Max	P13_Blue_Max
 Reeder	P13 Blue Max 128 GB	P13_Blue_Max_128_GB	P13 Blue Max 128 GB
 Reeder	P13 Blue Max 128 GB 2022	Blue_Max_128GB_2022k1	P13 Blue Max 128 GB 2022
 Reeder	P13 Blue Max Lite	P13_BML	P13 Blue Max Lite
+Reeder	P13 Blue Max Lite 2022	P13_Blue_2022kk1	P13 Blue Max Lite 2022
 Reeder	P13 Blue Max Pro	P13_Blue_Max_Pro	P13 Blue Max Pro
 Reeder	P13 Blue Max Pro 2021	P13_Blue_Max_Pro_2021	P13 Blue Max Pro 2021
 Reeder	P13 Blue Max Pro 256 GB	P13_Blue_Max_Pro_256_GB	P13 Blue Max Pro 256 GB
@@ -24063,6 +24091,7 @@ Remdun	RD51QE	RD51QE	RD51QE
 Remdun	RD52E	RD52E	RD52E
 Remdun	RD60TE	RD60TE	RD60TE
 Remdun	RD62E	RD62E	RD62E
+Remdun	RD695TE	RD695TE	RD695TE
 Remdun	RD81PT	RD81PT	RD81PT
 Remdun	RD81PTE	RD81PTE	RD81PTE
 Remdun	RD86	RD86	RD86
@@ -24156,6 +24185,7 @@ Ruio	S6506	S6506	S6506
 Rumie	RT-1708	RT-1708	RT-1708
 Runbo	F1Plus	F1Plus	F1Plus
 Russound	XTS7	XTS7	XTS7
+S Vision	AP	stanford	2K SMART TV
 S Vision	Australia	nippori	Svision Android TV 2K
 S Vision	EU、UK、AP	martin	SVISION 2K Android TV
 S Vision	Japan,USA,Australia, Italy,German	martin	SVISION Android Monitor
@@ -24253,6 +24283,7 @@ SITI_Playtop	SITIH3455N	DTC2141	SITIH3455N
 SK Broadband	B tv smart	BHX-S100	BHX-S100
 SK Broadband	B tv smart	BKO-S200	BKO-S200
 SK Broadband	BFX-AT100	BFX-AT100	BFX-AT100
+SK Broadband	BFX-UA300	BFX-UA300	BFX-UA300
 SK Broadband	BKO-AT800	BKO-AT800	BKO-AT800
 SK Broadband	BTV	vip5442	BAS-AT800
 SK Broadband	SWAN	BFX-UA300	BFX-UA300
@@ -27168,10 +27199,10 @@ Samsung	Galaxy Watch5	heartul	SM-R915U
 Samsung	Galaxy Watch5	heartus	SM-R905F
 Samsung	Galaxy Watch5	heartus	SM-R905N
 Samsung	Galaxy Watch5	heartus	SM-R905U
-Samsung	Galaxy Watch5	projectxbl	SM-R920
-Samsung	Galaxy Watch5	projectxul	SM-R925F
-Samsung	Galaxy Watch5	projectxul	SM-R925N
-Samsung	Galaxy Watch5	projectxul	SM-R925U
+Samsung	Galaxy Watch5 Pro	projectxbl	SM-R920
+Samsung	Galaxy Watch5 Pro	projectxul	SM-R925F
+Samsung	Galaxy Watch5 Pro	projectxul	SM-R925N
+Samsung	Galaxy Watch5 Pro	projectxul	SM-R925U
 Samsung	Galaxy Wide	on7nlteskt	SM-G600S
 Samsung	Galaxy Wide2	j7popelteskt	SM-J727S
 Samsung	Galaxy Wide3	j7toplteskt	SM-J737S
@@ -31291,6 +31322,7 @@ Teclast	P20_RUS	P20_RUS	P20_RUS
 Teclast	P25_EEA	P25_EEA	P25_EEA
 Teclast	P25_ROW	P25_ROW	P25_ROW
 Teclast	P25_RUS	P25_RUS	P25_RUS
+Teclast	P25_T_ROW	P25_T	P25_T_ROW
 Teclast	P30Air_ROW	P30Air_ROW	P30Air_ROW
 Teclast	P30HD	P30HD	P30HD
 Teclast	P30HD	P30HD	P30HD_EEA
@@ -32255,6 +32287,7 @@ Ulefone	Note 11P	Note_11P	Note 11P
 Ulefone	Note 12	Note_12	Note 12
 Ulefone	Note 12P	Note_12P	Note 12P
 Ulefone	Note 13P	Note_13P	Note 13P
+Ulefone	Note 14	Note_14	Note 14
 Ulefone	Note 6	Note_6	Note 6
 Ulefone	Note 6P	Note_6P	Note 6P
 Ulefone	Note 6T	Note_6T	Note 6T
@@ -32365,6 +32398,7 @@ Umidigi	A9 Pro R	A9_Pro_R	A9 Pro
 Umidigi	A9 Pro R EEA	A9_Pro_R	A9 Pro
 Umidigi	A9 Pro_EEA	A9_Pro	A9 Pro
 Umidigi	AblePad S EEA	AblePad_S	MT03
+Umidigi	AblePad_Pro	AblePad_Pro	MT04
 Umidigi	BISON	BISON	BISON
 Umidigi	BISON 2	BISON_2	RP04
 Umidigi	BISON 2 EEA	BISON_2	RP04
@@ -32428,7 +32462,10 @@ Umidigi	S2PRO	S2_PRO	S2_PRO
 Umidigi	S3_Pro	S3_Pro	S3_Pro
 Umidigi	S5 Pro	S5_Pro	S5 Pro
 Umidigi	S5_Pro_EEA	S5_Pro	S5 Pro
+Umidigi	UMIDIGI C1	UMIDIGI_C1	MP07
+Umidigi	UMIDIGI C1 EEA	UMIDIGI_C1	MP07
 Umidigi	UMIDIGI G1	UMIDIGI_G1	MP08
+Umidigi	UMIDIGI G1 EEA	UMIDIGI_G1	MP08
 Umidigi	UMIDIGI X	UMIDIGI_X	UMIDIGI X
 Umidigi	Z2	Z2	Z2
 Umidigi	Z2 Pro	Z2_PRO	Z2_PRO
@@ -33590,6 +33627,7 @@ Vivo	vivo Y66i A	PD1621B	vivo Y66i A
 Vivo	vivo Y69A	PD1705	vivo Y69A
 Vivo	vivo Y71A	PD1731	vivo Y71A
 Vivo	vivo Y75A	PD1718	vivo Y75A
+Vivo	vivo Y75s	PD2069	V2069BA
 Vivo	vivo Y77	PD2219	V2219A
 Vivo	vivo Y83A	PD1803	vivo Y83A
 Vivo	vivo Z1i	PD1730D	vivo Y89
