@@ -17903,6 +17903,7 @@ MeanIT	MeanIt_X30	MeanIt_X30_EEA	MeanIt_X30
 MeanIT	START_S5	START_S5	START_S5
 MeanIT	X3	X3	X3
 MeanIT	meanIT C80C81	meanIT_C80C81	meanIT_C80C81
+MeanIT	meanIT X4	meanIT_X4	meanIT X4
 MeanIT	meanIT-X10	meanIT-X10	meanIT X10
 MeanIT	meanIT_C10C11	meanIT_C10C11	meanIT_C10C11
 MeanIT	meanIT_K7	meanIT_K7	meanIT_K7
@@ -20818,6 +20819,10 @@ OnePlus	OnePlus 10 Pro 5G	OP516FL1	NE2215
 OnePlus	OnePlus 10 Pro 5G	OP516FL1	NE2217
 OnePlus	OnePlus 10R 5G	OP5566L1	CPH2411
 OnePlus	OnePlus 10R 5G	OP5567L1	CPH2423
+OnePlus	OnePlus 10T 5G	OP5552L1	CPH2413
+OnePlus	OnePlus 10T 5G	OP5552L1	CPH2415
+OnePlus	OnePlus 10T 5G	OP5552L1	CPH2417
+OnePlus	OnePlus 10T 5G	OP5552L1	CPH2419
 OnePlus	OnePlus 6	OnePlus6	ONEPLUS A6000
 OnePlus	OnePlus 6	OnePlus6	ONEPLUS A6003
 OnePlus	OnePlus 7	OnePlus7	GM1900
@@ -23923,6 +23928,8 @@ Redmi	Redmi 9C NFC	angelican	angelican
 Redmi	Redmi 9T	lemon	M2010J19SY
 Redmi	Redmi 9T	lime	M2010J19SG
 Redmi	Redmi 9T	pomelo	M2010J19SL
+Redmi	Redmi A1	ice	220733SI
+Redmi	Redmi A1+	snow	220743FI
 Redmi	Redmi K20	davinci	Mi 9T
 Redmi	Redmi K20	davinci	Redmi K20
 Redmi	Redmi K20	davinciin	Redmi K20
@@ -26853,6 +26860,8 @@ Samsung	Galaxy Tab Active3	gtactive3	SM-T577
 Samsung	Galaxy Tab Active3	gtactive3	SM-T577U
 Samsung	Galaxy Tab Active4 Pro 5G	gtact4pro	SM-T636B
 Samsung	Galaxy Tab Active4 Pro 5G	gtact4pro	SM-T636N
+Samsung	Galaxy Tab Active4 Pro 5G	gtact4pro	SM-T638B
+Samsung	Galaxy Tab Active4 Pro 5G	gtact4pro	SM-T638U
 Samsung	Galaxy Tab Advanced2	gtaxladwifikx	SM-T583
 Samsung	Galaxy Tab E	gtel3g	SM-T561M
 Samsung	Galaxy Tab E	gtelwifi	SM-T560
