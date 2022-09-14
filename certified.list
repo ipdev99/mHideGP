@@ -278,6 +278,7 @@ Aamra WE	A10	A10	WE A10
 Aamra WE	A50	A50	WE A50
 Aamra WE	E2	E2	WE E2
 Abocom	A08SM	A08	A08S
+Aborder	Tanzania	martin	Aborder 2K Android TV
 Accent	Accent Camelon C5	CAMELEON_C5	CAMELEON_C5
 Accent	Accent Camelon C6	CAMELEON_C6	CAMELEON_C6
 Accent	Accent Camelon C6 Plus	CAMELEON_C6_PLUS	CAMELEON_C6_PLUS
@@ -13438,6 +13439,7 @@ JREN	J7	J7	J7
 JREN	JR-101	JR-101	JR-101
 JREN	JR-J71	JR-J71	JR-J71
 JREN	JR-J8	JR-J8	JR-J8
+JREN	JR_J7	JR_J7	JR_J7
 JUSYEA	J3	JUSYEA_J3	J3
 JUSYEA	J3_EEA	J3_EEA	J3
 JUSYEA	J5-EEA	J5-EEA	J5-EEA
@@ -21827,6 +21829,7 @@ POCO	POCO M4 5G	thunder	22041219PG
 POCO	POCO M4 Pro	fleur	2201117PG
 POCO	POCO M4 Pro	miel	2201117PI
 POCO	POCO M4 Pro 5G	evergreen	21091116AG
+POCO	POCO M5s	rosemary	2207117BPG
 POCO	POCO X2	phoenixin	POCO X2
 POCO	POCO X3	karna	M2007J20CI
 POCO	POCO X3 NFC	surya	M2007J20CG
@@ -24157,9 +24160,11 @@ Revomovil	S6525 EEA	S6525_EEA	S6525 EEA
 Revomovil	X12	S6523	S6523
 Revomovil	X12	S6523_EEA	S6523 EEA
 Revtel	R45	Revel_R45	R45
+Rhino	Atom	atom	T5se
 Rhino	C10	Rhino_C10	C10
 Rhino	M10p_001	Rhino_M10p	M10p
 Rhino	T8	Rhino_T8	T8
+Rhino	portal	portal	PACE A1
 RiksTV	SRT412	HP40A3	SRT412
 Rindo	R-32B6600	ikebukuro	AI PONT
 Rindo	Smart TV	longshan	AI PONT
@@ -29138,6 +29143,7 @@ Sprint	Slate 8 Tablet	NKS_AQT80	AQT80
 SriLankaTelecom	DV8040	DV8040	DV8040
 Star-X	Middle East	tamachi	STAR-X FHD Android TV
 Star-X	Middle East	yeongdeungpo	STAR-X UHD Android TV
+Star-X	United Arab Emirates	martin	STAR-X 2K Android TV
 StarHub	Android TV Set-Top Box	KM_SH368AT	KM_SH368AT
 StarHub	StarHub TV+ Box (Innopia)	NVSH800H1	NVSH800H1
 StarHub	StarHub TV+ Pro	m393vsb_starhub	SCSH900AT
@@ -34586,6 +34592,7 @@ X-View	X_ViewTablet10	X_ViewTablet10	X-ViewTablet
 X-mobile	X-mobile SmartWiFi	XM-SW1	XM-SW1
 X-mobile	X4	X4	X4
 X-mobile	XW	XW	XW
+XD-DML	XD	martin	XD 2K Andriod TV
 XGIMI	Halo	xgimiapollo	Halo
 XGIMI	MoGo	xgimiapollo	MoGo
 XGIMI	MoGo Pro	xgimiapollo	MoGo Pro
@@ -34789,6 +34796,7 @@ Xiaomi	MiTV	volver	MiTV-MSSP2
 Xiaomi	MiTV2	entrapment	MiTV2
 Xiaomi	MiTV4C	matrix	MiTV4C
 Xiaomi	POCO F1	beryllium	POCOPHONE F1
+Xiaomi	POCO M5s	rosemary	2207117BPG
 Xiaomi	Redmi	HM2013023	2013023
 Xiaomi	Redmi  Go	tiare	Redmi Go
 Xiaomi	Redmi  Note  6  Pro	tulip	Redmi Note 6 Pro
