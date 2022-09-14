@@ -556,6 +556,7 @@ Admiral Overseas Corporation	A2272PW4T	AOC_WW	G3SMNTA24
 Admiral Overseas Corporation	A2272PWHT	AOC_WW	G2SMNT
 Admiral Overseas Corporation	A2472PW4T	G3SMNTA24	G3SMNTA24
 Admiral Overseas Corporation	A7	A7	A7
+Admiral Overseas Corporation	ADMIRAL	zhongshan	4K SMART TV
 Admiral Overseas Corporation	ADMIRAL 4K TV	SW4H	ADMIRAL 4K TV
 Admiral Overseas Corporation	ADMIRAL TV	sunnyvale	ADMIRAL TV
 Admiral Overseas Corporation	C7	C7	C7
@@ -12562,6 +12563,7 @@ Infinix	HOT 11S	Infinix-X6812	Infinix X6812
 Infinix	HOT 12i	Infinix-X665	Infinix X665
 Infinix	HOT 12i	Infinix-X665B	Infinix X665B
 Infinix	HOT 2	Infinix_X510	Infinix X510
+Infinix	HOT 20S	Infinix-X6827	Infinix X6827
 Infinix	HOT 20i	Infinix-X665C	Infinix X665C
 Infinix	HOT 20i	Infinix-X665E	Infinix X665E
 Infinix	HOT 3	INFINIX-X554	Infinix HOT 3 Pro
@@ -13783,6 +13785,7 @@ KTCtv	ENGLAON	stanford	2K SMART TV
 KTCtv	EU	zhongshan	43F
 KTCtv	Electroman	zhongshan	Smart UHD TV
 KTCtv	Enova	zhongshan	4K SMART TV
+KTCtv	GAZER	zhongshan	4K SMART TV
 KTCtv	Global	stanford	CSV2K
 KTCtv	Golbal	zhongshan	CSV4K
 KTCtv	INNOVA	stanford	CSV2K
@@ -13809,6 +13812,7 @@ KTCtv	Telsa	zhongshan	Tesla 4K Android TV
 KTCtv	VISTA	stanford	2K SMART TV
 KTCtv	VISTA	zhongshan	4K SMART TV
 KTCtv	VON	stanford	2K SMART TV
+KTCtv	VON	zhongshan	4K SMART TV
 KTCtv	Zitro	stanford	40DSA
 KTCtv	Zitro	zhongshan	43FSA
 KTS (JP)	IPN99_RTD1319_TOA	TMS-KR01P	TMS-KR01P
@@ -19043,6 +19047,7 @@ Motorola	Lenovo K14 Note	cofud	Lenovo K14 Note
 Motorola	Lenovo XT2081-4	guam	Lenovo XT2081-4
 Motorola	Lenovo XT2091-7	cebu	Lenovo XT2091-7
 Motorola	MOTOROLA	stanford	2K SMART TV
+Motorola	MOTOROLA	zhongshan	4K SMART TV
 Motorola	Master Touch	umts_primus	XT621
 Motorola	Master Touch XT621	umts_primus	XT621
 Motorola	Milestone2	umts_milestone2	A953
@@ -20524,6 +20529,7 @@ Nokia	Nokia C21 Plus	HPE	Nokia C21 Plus
 Nokia	Nokia C3	GMR	Nokia C3
 Nokia	Nokia C30	MNI	Nokia C30
 Nokia	Nokia C30	MNR	Nokia C30
+Nokia	Nokia C31	VSI	Nokia C31
 Nokia	Nokia C5 Endi	PMC_CUS	Nokia C5 Endi
 Nokia	Nokia G10	ROGA	Nokia G10
 Nokia	Nokia G10	ROGA_sprout	Nokia G10
@@ -20543,6 +20549,7 @@ Nokia	Nokia G400 5G	STM	Nokia G400 5G
 Nokia	Nokia G400 5G	STO	Nokia G400 5G
 Nokia	Nokia G50	PHR	Nokia G50
 Nokia	Nokia G50	PHR_sprout	Nokia G50
+Nokia	Nokia G60 5G	APO_sprout	Nokia G60 5G
 Nokia	Nokia Steaming Box 8000	HND	Nokia Streaming Box 8000
 Nokia	Nokia T10	PGN	Nokia T10
 Nokia	Nokia T20	RDD	Nokia T20
@@ -20552,6 +20559,7 @@ Nokia	Nokia X10	SCW_sprout	Nokia X10
 Nokia	Nokia X100	DM5	Nokia X100
 Nokia	Nokia X20	QKS	Nokia X20
 Nokia	Nokia X20	QKS_sprout	Nokia X20
+Nokia	Nokia X30 5G	FCN_sprout	Nokia X30 5G
 Nokia	Nokia X5	PDA	Nokia X5
 Nokia	Nokia X6	DRG	Nokia X6
 Nokia	Nokia X7	PNX	Nokia X7
@@ -24239,6 +24247,7 @@ S Vision	Australia	nippori	Svision Android TV 2K
 S Vision	EU、UK、AP	martin	SVISION 2K Android TV
 S Vision	Japan,USA,Australia, Italy,German	martin	SVISION Android Monitor
 S Vision	S android TV	hanyang	Svision Android TV
+S Vision	SVISION	zhongshan	4K SMART TV
 S&T Global	8788_7	8788_7	8788_7
 S&T Global	C20	C20	C20
 S-tell	M555i	M555i	M555i
