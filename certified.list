@@ -21344,6 +21344,7 @@ Oppo	PFGM00	OP5231	PFGM00
 Oppo	PFTM10	OP526D	PFTM10
 Oppo	PFTM20	OP526D	PFTM20
 Oppo	PFZM10	OP5281	PFZM10
+Oppo	PGBM10	OP5287	PGBM10
 Oppo	PGCM10	OPD2A0	PGCM10
 Oppo	R1001	OPPO72_13076	R1001
 Oppo	R1001	R1001	R1001
@@ -23994,7 +23995,10 @@ Redmi	Redmi 9C NFC	angelican	angelican
 Redmi	Redmi 9T	lemon	M2010J19SY
 Redmi	Redmi 9T	lime	M2010J19SG
 Redmi	Redmi 9T	pomelo	M2010J19SL
+Redmi	Redmi A1	ice	220733SG
 Redmi	Redmi A1	ice	220733SI
+Redmi	Redmi A1	ice	220733SL
+Redmi	Redmi A1+	snow	220733SFG
 Redmi	Redmi A1+	snow	220743FI
 Redmi	Redmi K20	davinci	Mi 9T
 Redmi	Redmi K20	davinci	Redmi K20
@@ -26912,6 +26916,7 @@ Samsung	Galaxy Tab A7	gta4l	SM-T505
 Samsung	Galaxy Tab A7	gta4l	SM-T505C
 Samsung	Galaxy Tab A7	gta4l	SM-T505N
 Samsung	Galaxy Tab A7	gta4l	SM-T507
+Samsung	Galaxy Tab A7	gta4lve	SM-T509
 Samsung	Galaxy Tab A7	gta4lvewifi	SM-T503
 Samsung	Galaxy Tab A7	gta4lwifi	SM-T500
 Samsung	Galaxy Tab A7 Lite	gta7lite	SM-T225
