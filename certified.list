@@ -10163,6 +10163,7 @@ Hisense	Sero 8 pro	rk3288	F5281
 Hisense	Sero7	rk3168	E2171SS
 Hisense	Sero7 LE	rk3026	E2371
 Hisense	Sero8	rk3188	E2281SS
+Hisense	SmartTV 4K FFM	wuyishan	SmartTV 4K FFM
 Hisense	SoundTab MA-317	rk3028a	Hisense SoundTab MA-317
 Hisense	SoundTab MA-327	rk3028a	Hisense SoundTab MA-327
 Hisense	T963	HS7331CSC	Hisense T963
@@ -13445,6 +13446,7 @@ Itel	itel S32LTE	itel-S32LTE	itel S32LTE
 Itel	itel TV	shibuya	itel TV
 Itel	itel V41	itel-W4001S	itel W4001S
 Itel	itel V51 LTE	itel-L5007S	itel L5007S
+Itel	itel Vision 5	itel-S663LC	itel S663LC
 Itel	itel Vision1(P36 Play)	itel-L6005	itel L6005
 Itel	itel Vision2s	itel-P651L	itel P651L
 Itel	itel W4001	itel-W4001	itel W4001
@@ -34996,6 +34998,7 @@ Xiaomi	Xiaomi 12S Pro	unicorn	2206122SC
 Xiaomi	Xiaomi 12S Ultra	thor	2203121C
 Xiaomi	Xiaomi 12T	plato	22071212AG
 Xiaomi	Xiaomi 12T Pro	diting	22081212C
+Xiaomi	Xiaomi 12T Pro	diting	22081212UG
 Xiaomi	Xiaomi 12X	psyche	2112123AC
 Xiaomi	Xiaomi Civi	mona	2109119BC
 Xiaomi	Xiaomi Civi 1S	zijin	2109119BC
