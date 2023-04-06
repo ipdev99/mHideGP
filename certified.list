@@ -3624,6 +3624,7 @@ Blu	M8L Plus	M0210WW_ND	M8L PLUS
 Blu	M8L Plus	M0212WW_ND	M8L Plus
 Blu	M8L_PLUS	M0208WW	M8L PLUS
 Blu	M8L_Plus	M0213_ND	M8L Plus
+Blu	M8L_Plus	M0213_SM	M8L Plus
 Blu	NEO ENERGY MINI	BLU_NEO_ENERGY_MINI	BLU NEO ENERGY MINI
 Blu	NEO X	BLU_NEO_X	BLU NEO X
 Blu	NEO X LTE	BLU_NEO_X_LTE	BLU NEO X LTE
@@ -4588,6 +4589,7 @@ Cipherlab	RK95	RK95	RK95
 Cipherlab	RS30	Mercury	CipherLab RS30
 Cipherlab	RS31	RS31	RS31
 Cipherlab	RS35	RS35	RS35
+Cipherlab	RS36	RS36	RS36
 Cipherlab	RS51_HS	RS51_HS	RS51_HS
 Cipherlab	Saturn	RS50	RS50
 Cisco	CP-860	860	CP-860
@@ -5593,6 +5595,7 @@ DIRECTV	DIRECTV STREAM	c71kw200	c71kw200
 DIRECTV	DIRECTV STREAM	c71kw400	AT&T TV
 DIRECTV	DIRECTV STREAM	c71kw400-4gb	AT&T TV
 DIRECTV	OTT-01	HP40A	OTT-01
+DIRECTV	Pendant	p21kw500	Pendant
 DL	3406	G02DL	Tablet DL 3406
 DL	3420	Tablet_DL_3420	Tablet DL 3420
 DL	3420	Tablet_DL_3420	Tablet_DL_3420
@@ -5740,6 +5743,7 @@ Dcode	DS_BD2	DS_BD2	DS-BD2
 Dcode	DS_CL1	DS_CL1	DS-CL1
 Dcode	DS_CL2_Lite	DS_CL2_Lite	DS-CL2 Lite
 Dcode	DS_CL2_Pro	DS_CL2_Pro	DS-CL2 Pro
+Dcolor	GD1 4K	YUL	GD1 4K
 Ddm	ANDY 5EI	AM5E3I047	ANDY 5EI
 DeWALT	DeWalt md501	md501	md501
 Delephas	Chang Co., Ltd	seocho	Delephas 4K Android TV
@@ -5762,6 +5766,8 @@ Dell	Chromebook 13 3380	asuka_cheets	Dell Chromebook 13 3380
 Dell	Chromebook 13 7310	lulu_cheets	Dell Chromebook 13 (7310)
 Dell	Chromebook 13 7310	lulu_cheets	Dell Chromebook 13 7310
 Dell	Cloud Connect	capri_wyse	CS-1A13
+Dell	Dell Latitude Chromebook Enterprise	sarien_cheets	Dell Latitude 5400 Chromebook Enterprise
+Dell	Dell Latitude Chromebook Enterprise	sarien_cheets	sarien
 Dell	Latitude 7000	drallion_cheets	drallion
 Dell	Streak	streak	001DL
 Dell	Streak	streak	Dell M01M
@@ -6653,11 +6659,13 @@ ESI Enterprises	Trinity T900	Trinity_T900	Trinity T900
 ETERNITY	HERO-SP001	HERO-SP001	HERO-SP001
 ETERNITY	HEROSP001	HEROSP001	SP-001
 ETG（G）	ETG-BT1121	ETG-BT1121	ETG-BT1121
+ETOE	D1221	YUL	D1221
 EVEREST-EVERPAD	DC-1032	mid1032_mk	DC-1032
 EVEREST-EVERPAD	DC-8015	mid7015_mk	DC-8015
 EVEREST-EVERPAD	DC-M700	DC-M700	DC-M700
 EVOFORCE1	FRC1-MOBI	SEI800MOBI	FRC1-MOBI
 EVOFORCE1	FRC1-RCN	SEI800RCN	FRC1-RCN
+EVOFORCE1	USA	SEI800MOBI	FRC1-MOBI
 EVOFORCE1	USA	SEI800MOBI	MOBI-Buckeye
 EVVO	Android TV	R1	ATV R1
 EVVO	Android TV	R2	ATV R2
@@ -8047,6 +8055,7 @@ General Mobile	e-tab 20	e-tab20	e-tab 20
 General Mobile	e-tab 20	e-tab20_variant	e-tab 20
 General Motors	Infotainment 3.7	gminfo37	gminfo37
 General Motors	Infotainment 3.8	gminfo37	gminfo38
+General Motors	VCU	aegean	aegean
 GeneralMobile	E-Tab10	blue_eye	E-Tab10
 GeneralSupreme	Smart TV	longshan	AI PONT
 General_luxe	Shahin_III	Shahin_III	SHAHIN III
@@ -8439,8 +8448,10 @@ Gome	GOME C7 Note mini	GOME_C7_Note_Mini	GOME_C7_Note
 Gome	GOME_C7_Note	GOME_C7_Note	GOME_C7_Note
 Gonna	Zebra	Zebra	Zebra
 Goo	g08	v12dn	View Prime
+Google	AMD FP6 Chromebook	guybrush_cheets	guybrush
 Google	AMD Raven Ridge Chromebook	zork_cheets	zork
 Google	AMD Stoney Ridge Chromebook	grunt_cheets	grunt
+Google	Chromebase	kalista_cheets	kalista
 Google	Chromebook 14 (CB3-431)	edgar_cheets	Acer Chromebook 14 (CB3-431)
 Google	Chromebook 14 (CB3-431)	edgar_cheets	Chromebook 14 (CB3-431)
 Google	Chromebook Pixel (2015)	samus_cheets	Google Chromebook Pixel (2015)
@@ -8456,6 +8467,8 @@ Google	Galaxy S4 Google Play edition	jgedlte	GT-I9505G
 Google	Google Android Emulator	generic_x86_arm	sdk_gphone_x86
 Google	Google Play Games on PC	vsoc_kiwi_x86_64	HPE device
 Google	Intel Alder Lake Chromebook	brya_cheets	brya
+Google	Intel Alder Lake Chromebox	brask_cheets	brask
+Google	Intel Alder Lake-N Chromebook	nissa_cheets	nissa
 Google	Intel Amber Lake Y Chromebook	rammus_cheets	rammus
 Google	Intel Apollo Lake Chromebook	coral_cheets	coral
 Google	Intel Apollo Lake Chromebook	reef_cheets	ASUS Chromebook C213NA
@@ -8472,7 +8485,9 @@ Google	Intel Kaby Lake U Chromebook	nami_cheets	nami
 Google	Intel Tiger Lake Chromebook	volteer_cheets	volteer
 Google	Mediatek MT8173 Chromebook	jacuzzi_cheets	jacuzzi
 Google	Mediatek MT8183 Tablet	kukui_cheets	kukui
+Google	Mediatek MT8186 Chromebook	corsola_cheets	corsola
 Google	Mediatek MT8192 Chromebook	asurada_cheets	asurada
+Google	Mediatek MT8195 Chromebook	cherry_cheets	cherry
 Google	Mediatek MTK8173 Chromebook	hana_cheets	Lenovo N23 Yoga/Flex 11 Chromebook
 Google	Mediatek MTK8173 Chromebook	hana_cheets	Mediatek MT8173 Chromebook
 Google	Mediatek MTK8173 Chromebook	hana_cheets	Mediatek MTK8173 Chromebook
@@ -12714,6 +12729,7 @@ IMPECCA	Smart TV	kanda	IMPECCA 2K Smart TV
 IMPEX	GRANDE UHD TV	OD0M_EA_T32	GRANDE UHD TV
 IMPEX	Grande FHD TV	takao	GRANDE FHD TV
 IMTO	GKL089	GKL089	GKL089
+INFINITON	Infiniton	shilin	Infiniton4KAndroidTV
 INFINITON	SPAIN, MOROCCO, PORTUGAL	tamachi	INFINITON Android TV
 INFINITON	SPAIN, MOROCCO, PORTUGAL	yeongdeungpo	INFINITON Android TV
 INOI	A126	A126	A126
@@ -13018,6 +13034,7 @@ Infinix	Infinix HOT 12 Play NFC	Infinix-X6816D	Infinix X6816D
 Infinix	Infinix HOT 20	Infinix-X6826	Infinix X6826
 Infinix	Infinix HOT 20	Infinix-X6826B	Infinix X6826B
 Infinix	Infinix HOT 20	Infinix-X6826C	Infinix X6826C
+Infinix	Infinix HOT 30 PLAY	Infinix-X6835	Infinix X6835
 Infinix	Infinix HOT 30 PLAY	Infinix-X6835B	Infinix X6835B
 Infinix	Infinix HOT 30i	Infinix-X669	Infinix X669
 Infinix	Infinix HOT 30i	Infinix-X669C	Infinix X669C
@@ -13044,6 +13061,7 @@ Infinix	Infinix NOTE 12 5G	Infinix-X671	Infinix X671
 Infinix	Infinix NOTE 12 PRO	Infinix-X676B	Infinix X676B
 Infinix	Infinix NOTE 12 Pro 5G	Infinix-X671B	Infinix X671B
 Infinix	Infinix NOTE 12i	Infinix-X6819	Infinix X6819
+Infinix	Infinix NOTE 30	Infinix-X6833B	Infinix X6833B
 Infinix	Infinix NOTE 5	Infinix-X604_sprout	Infinix X604
 Infinix	Infinix NOTE 5	Infinix-X604_sprout	Infinix X604B
 Infinix	Infinix NOTE 5 Stylus	Infinix-X605_sprout	Infinix X605
@@ -14171,6 +14189,7 @@ KONKA	Konka Android TV	uguisudani	KONKA 2K Android TV
 KONKA	Konka android tv	hanyang	KONKA Android TV 4K
 KONKA	MOON	MOON	MOON
 KONKA	N15	N15	N15
+KONKA	N17	N17	N17
 KONKA	N7	N7	N7
 KONKA	RE1	RE1	RE1
 KONKA	RU1	RU1	RU1
@@ -23428,6 +23447,8 @@ Positivo	S440	S440	S440
 Positivo	S450	S450	S450
 Positivo	S480	S480	S480
 Positivo	S550	S550	S550
+Positivo	S620	S620	S620
+Positivo	S620	S620	Twist 5
 Positivo	SP2	SP2	SP2
 Positivo	SX1000	SX1000	Positivo SX1000
 Positivo	Selfie	S455	S455
@@ -23439,6 +23460,8 @@ Positivo	T1060	t1060	T1060C
 Positivo	T1075	T1075	Positivo T1075
 Positivo	T1085	T1085	T1085
 Positivo	T2040	T2040B	T2040
+Positivo	T2050C	T2050C	T2050C
+Positivo	T2050C	T2050C	Tab Q10
 Positivo	T701 TV	T701	T701
 Positivo	T705	T705	T705
 Positivo	T705	T705	T705/T708
@@ -23470,6 +23493,8 @@ Positivo	Twist 4 Pro	S518	Twist 4 Pro Correios
 Positivo	Twist 4 Pro	S518	UP 32
 Positivo	Twist 4G	S5094G	Twist 4G
 Positivo	Twist 4G	S520_4G	Positivo Twist 4G
+Positivo	Twist 5 Max	S650	Twist 5 Max
+Positivo	Twist 5 Pro	S640	Twist 5 Pro
 Positivo	Twist Max	S540	Twist Max
 Positivo	Twist Metal	S530	Twist Metal
 Positivo	Twist Metal 32G	S531	Twist Metal 32GB
@@ -23539,6 +23564,7 @@ Positivo	Ypy TQ7	YPY_TQ7	YPY_TQ7
 Positivo	mini I	mini_i	Positivo BGH Y300
 Positivo	mini I	mini_i	Positivo Mini I
 Positivo	quattro	X435	quattro
+Positivo BGH	BGH Series Q10	M16QF1XMT8183	Positivo BGH Series Q10"
 Positivo BGH	BGH Y100	Y700	Positivo BGH Y100
 Positivo BGH	BGH Y210	Y210	Positivo BGH 7Di-A
 Positivo BGH	BGH Y210	Y210	Positivo BGH Y210
@@ -24312,7 +24338,9 @@ Quantum	MUV UP	Q13	Quantum MUV UP
 Quantum	Mini	S431	Quantum Mini
 Quantum	Muv	Q3	MUV
 Quantum	Muv	Q3	Quantum MUV
+Quantum	Q-Test	S518AR	Q-test
 Quantum	QSPT-1952	QF3A	QT-195W-aa2
+Quantum	Qrash	S600AR	Qrash
 Quantum	Quantum FIT	S511	Quantum Fit
 Quantum	Quantum Lio +	QC84	LIO+
 Quantum	Quantum M	QM83	Quantum M
@@ -25867,7 +25895,6 @@ Samsung	Galaxy A53 5G UW	a53x	SM-A536V
 Samsung	Galaxy A54 5G	a54x	SM-A5460
 Samsung	Galaxy A54 5G	a54x	SM-A546B
 Samsung	Galaxy A54 5G	a54x	SM-A546E
-Samsung	Galaxy A54 5G	a54x	SM-A546S
 Samsung	Galaxy A54 5G	a54x	SM-A546U
 Samsung	Galaxy A54 5G	a54x	SM-A546U1
 Samsung	Galaxy A54 5G	a54x	SM-A546V
@@ -27247,6 +27274,7 @@ Samsung	Galaxy S22+	g0q	SM-S906U
 Samsung	Galaxy S22+	g0q	SM-S906U1
 Samsung	Galaxy S22+	g0q	SM-S906W
 Samsung	Galaxy S22+	g0s	SM-S906B
+Samsung	Galaxy S23	SC-51D	SC-51D
 Samsung	Galaxy S23	dm1q	SM-S9110
 Samsung	Galaxy S23	dm1q	SM-S911B
 Samsung	Galaxy S23	dm1q	SM-S911C
@@ -27254,6 +27282,7 @@ Samsung	Galaxy S23	dm1q	SM-S911N
 Samsung	Galaxy S23	dm1q	SM-S911U
 Samsung	Galaxy S23	dm1q	SM-S911U1
 Samsung	Galaxy S23	dm1q	SM-S911W
+Samsung	Galaxy S23 Ultra	SC-52D	SC-52D
 Samsung	Galaxy S23 Ultra	dm3q	SM-S9180
 Samsung	Galaxy S23 Ultra	dm3q	SM-S918B
 Samsung	Galaxy S23 Ultra	dm3q	SM-S918N
@@ -30680,6 +30709,7 @@ TCL	TCL L9S	Tokyo_Lite	5107J
 TCL	TCL NXTPAPER 10s	Odin2	9081X
 TCL	TCL PLEX	T1	T780H
 TCL	TCL PLEX	T1_L1	T780H
+TCL	TCL Stylus 5G	Challenger_CS	T779W
 TCL	TCL Stylus 5G	Challenger_TMO	T779W
 TCL	TCL T Pro	Jakarta	5130M
 TCL	TCL T Pro	Milan	5161A
@@ -30702,6 +30732,8 @@ TCL	TCL TAB 10s	Aquaman_10_Pro	9061
 TCL	TCL TAB 10s	Odin	9081X
 TCL	TCL TAB 10s 4G	Odin	9080G
 TCL	TCL TAB 10s 4G	Odin	9080X
+TCL	TCL TAB 11	Eternals11	9466X
+TCL	TCL TAB 11 LTE	Eternals11	9166G
 TCL	TCL TAB 7 Lite	U3A_7_WIFI_Refresh	9309X
 TCL	TCL TAB 7 Lite	U3A_7_WIFI_Refresh	9309X2
 TCL	TCL TAB 8	Luna	9132G
@@ -32233,6 +32265,7 @@ TUFEN	TUFEN_804	TUFEN_804	TUFEN_804
 TUFF	T500	T500	T500
 TUNTUN English	DREAM PAD	delight	ITP-R408W
 TUPAD	TU7_58212_18222	TU7_58212	TU7_18222
+TV Smart	TV Smart 4K BOX	DV8981-KPV	TV Smart 4K BOX
 TVB	A15	A151	A15
 TVCore	TV Stick	ts401	TV Stick
 TVCore	ts401l	ts401	TV StickL
@@ -32722,6 +32755,8 @@ Tecno	TECNO CAMON 16 Premier	TECNO-CE9	TECNO CE9
 Tecno	TECNO CAMON 18 Premier	TECNO-CH9	TECNO CH9
 Tecno	TECNO CAMON 18 Premier	TECNO-CH9n	TECNO CH9n
 Tecno	TECNO CAMON 19 Neo	TECNO-CH6IS	TECNO CH6IS
+Tecno	TECNO CAMON 20	TECNO-CK6	TECNO CK6
+Tecno	TECNO CAMON 20 PRO	TECNO-CK6n	TECNO CK6n
 Tecno	TECNO CAMON iACE 2	TECNO-KB2	TECNO KB2
 Tecno	TECNO CAMON iACE 2x	TECNO-KB2j	TECNO KB2j
 Tecno	TECNO CX Air	TECNO-CX-Air	TECNO CX Air
@@ -34782,6 +34817,7 @@ Vivo	iQOO Z7 5G	I2213	I2213
 Vivo	iQOO Z7i	PD2230	V2230EA
 Vivo	iQOO Z7x	PD2272	V2272A
 Vivo	iQOO Z7x (m)	PD2272	V2272A
+Vivo	iQOO Z7x 5G	I2216	I2216
 Vivo	vivo  1907	1907	vivo 1907
 Vivo	vivo  X21i  A	PD1801	vivo X21i A
 Vivo	vivo  Y75s	PD1708C	vivo Y75s
@@ -38074,6 +38110,7 @@ Zen	Zen Admire Swadesh+	ADMIRE_SWADESH_PLUS	ADMIRE SWADESH+
 Zen	Zen Cinemax Prime	ZEN_CINEMAX_PRIME	CINEMAX_PRIME
 Zen	Zen M72 Smart	M72_Smart	M72 Smart
 Zenijust	H20	H20_EEA	H20
+Zeop	Zeop N9000	B866V2F	Zeop N9000
 Zephir	EU、UK、AP	martin	Zephir 2K Android TV
 Zephir	EU、UK、AP	martin	Zephir 2K Android TV
 Zephir	Italy	guandu	Zephir 4K Android TV
@@ -38571,6 +38608,7 @@ iLife	KIDS-TAB-5	KIDS-TAB-5	KIDS-TAB-5
 iLife	KIDS_TAB_6	KIDS_TAB_6	KIDS_TAB_6
 iLife	MISA	MISA	MISA
 iMACHINE	MobilePOSTerminal	MobilePOSTerminal	AP12
+iMESH	IM-560	IM-560	IM-560
 iMin	Falcon 1	I22T01	I22T01
 iMin	Swift 1	I22M01	I22M01
 iMin	Swift 1	I22M01	Swift_1
