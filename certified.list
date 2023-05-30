@@ -1148,7 +1148,7 @@ Altus	Altus Android TV	kunyang	4K Pro TV
 Altus	Altus Android TV	shinagawa	Altus Android TV
 Altus	Altus Android TV	sinchon	4K Pro TV
 Altus	Altus UHD Android TV	kunyang	UHD Pro TV
-Altus	Europe	marina	Altus UHD Pro TV
+Altus	Altus UHD Pro TV	marina	Altus UHD Pro TV
 Altus	Turkey	martin	Altus Android TV
 Americamovil	KIREI A5Q PLUS	Azumi_KIREI_A5Q_PLUS_AC06	KIREI A5Q PLUS
 Amgoo	AM350	AM350	AM350
@@ -1860,10 +1860,10 @@ Asus	ROG Phone 6D Ultimate	ASUS_AI2203	ASUS_AI2203_B
 Asus	ROG Phone 6D Ultimate	ASUS_AI2203	ASUS_AI2203_D
 Asus	ROG Phone 7 (AI2205)	ASUS_AI2205	ASUS_AI2205_A
 Asus	ROG Phone 7 (AI2205)	ASUS_AI2205	ASUS_AI2205_C
-Asus	ROG Phone ll	ASUS_I001_1	ASUS_I001D
-Asus	ROG Phone ll	ASUS_I001_1	ASUS_I001DC
-Asus	ROG Phone ll	ASUS_I001_1	ASUS_I001DE
-Asus	ROG Phone ll	ASUS_I001_1	ZS660KL
+Asus	ROG Phone II	ASUS_I001_1	ASUS_I001D
+Asus	ROG Phone II	ASUS_I001_1	ASUS_I001DC
+Asus	ROG Phone II	ASUS_I001_1	ASUS_I001DE
+Asus	ROG Phone II	ASUS_I001_1	ZS660KL
 Asus	RTC-700A	RTC-tablet	RTC-tablet
 Asus	Smartphone for Snapdragon Insiders	ASUS_I007_1	ASUS_I007D
 Asus	T101TA	T10xTA	T10xTA
@@ -9242,6 +9242,8 @@ HTC	HTC U11+	htc_ocmdtwl	HTC 2Q4D200
 HTC	HTC U11+	htc_ocmdugl	HTC U11 plus
 HTC	HTC U11+	htc_ocmdugl	HTC_2Q4D100
 HTC	HTC U19e	htc_tetdugl	HTC 2Q7A100
+HTC	HTC U23 pro	htc_soodugls	2QC9100
+HTC	HTC U23 pro	htc_soodugls	HTC U23 pro
 HTC	HTC Wildfire X	htc_h11dugl	HTC Wildfire X
 HTC	HTC6435LVW	dlx	HTC6435LVW
 HTC	HTC909d	dlpdwg	HTC 919d
@@ -10563,6 +10565,7 @@ Hisense	U988E-1	U988E_1	HS-U988
 Hisense	U988E-2	U988E_2	HS-U988
 Hisense	U989	HS6580MT	Hisense U989
 Hisense	U989 Pro	HS6580MT	Hisense U989 Pro
+Hisense	ULED	hengshan	SmartTV 4K FFM
 Hisense	ULED	wuyishan	SmartTV 4K FFM
 Hisense	VH777	VH777	VH777
 Hisense	VIDAA_TV	Hi3751	VIDAA_TV
@@ -10810,13 +10813,13 @@ Honeywell	Thor VM1A	VM1A-L0-N	VM1A
 Honeywell	Thor VM1A	VM1A-L0-P	VM1A
 Honeywell	Thor VM3A	VM3A-L0-N	VM3A
 Honeywell	Thor VM3A	VM3A-L0-P	VM3A
-Honor	FRI	HNFRI	FRI-NX9
 Honor	HONOR 50	HNNTH	NTH-NX9
 Honor	HONOR 50 Lite	HNNTN	NTN-L22
 Honor	HONOR 50 Lite	HNNTN	NTN-LX1
 Honor	HONOR 50 Lite	HNNTN	NTN-LX3
 Honor	HONOR 70	HNFNE	FNE-NX9
 Honor	HONOR 70 Lite	HNRBN-Q	RBN-NX1
+Honor	HONOR Magic Vs	HNFRI	FRI-NX9
 Honor	HONOR Magic4 Lite	HNANY-Q1	ANY-LX1
 Honor	HONOR Magic4 Lite 5G	HNANY-Q	ANY-NX1
 Honor	HONOR Magic4 Pro	HNLGE	LGE-NX9
@@ -13017,6 +13020,7 @@ Infinity	10.1-v3	Infinity_101_v3	Infinity-10.1-v3
 Infinity	Infinity	Infinity	Infinity
 Infinix	32X1	ikebukuro	AI PONT
 Infinix	43X3	beaudry	Infinix AndroidTV
+Infinix	50X3	barking	Infinix AndroidTV
 Infinix	55X1	samseong	AI PONT
 Infinix	HOT	Infinix-X689F	Infinix X689F
 Infinix	HOT 10	Infinix-X682B	Infinix X682B
@@ -13044,6 +13048,7 @@ Infinix	HOT 3	INFINIX-X554	Infinix HOT 3 Pro
 Infinix	HOT 3	INFINIX-X554	Infinix-X554
 Infinix	HOT 3 LTE	INFINIX-X553	Infinix HOT 3 LTE
 Infinix	HOT 3 LTE	INFINIX-X553-A1	Infinix HOT 3 LTE
+Infinix	HOT 30 5G	Infinix-X6832	Infinix X6832
 Infinix	HOT 4	Infinix-X5511	Infinix HOT 4
 Infinix	HOT 4	Infinix-X5511	Infinix HOT4 LTE
 Infinix	HOT 4	X557	Infinix HOT 4
@@ -13908,6 +13913,7 @@ Itel	itel S17	itel-S661W	itel S661W
 Itel	itel S18	itel-S663L	itel S663L
 Itel	itel S18 Pro	itel-S662L	itel S662L
 Itel	itel S23	itel-S665L	itel S665L
+Itel	itel S23	itel-S665LN	itel S665LN
 Itel	itel S32LTE	itel-S32LTE	itel S32LTE
 Itel	itel TV	shibuya	itel TV
 Itel	itel V41	itel-W4001S	itel W4001S
@@ -14007,6 +14013,7 @@ JVC	JVC	expo	JVCSA 4KGoogle TV
 JVC	JVC	expo	JVCUS 4K TV
 JVC	JVC	kaitak	JVCPA 4KAndroid TV
 JVC	JVC	komagome	EU 2K Android TV
+JVC	JVC	komagome	JVC 2K Android TV
 JVC	JVC	komagome	JVC EU 2K Android TV
 JVC	JVC	seocho	JVC 4K Android TV
 JVC	JVC	seocho	JVC SA 4K Android TV
@@ -14368,8 +14375,6 @@ KTCtv	VISTA	zhongshan	4K SMART TV
 KTCtv	VIZZION	stanford	F VIZZION TV
 KTCtv	VON	stanford	2K SMART TV
 KTCtv	VON	zhongshan	4K SMART TV
-KTCtv	XITRIX	stanford	SMART TV
-KTCtv	XITRIX	zhongshan	4K SMART TV
 KTCtv	Zitro	stanford	40DSA
 KTCtv	Zitro	zhongshan	43FSA
 KTS (JP)	IPN99_RTD1319_TOA	TMS-KR01P	TMS-KR01P
@@ -17372,6 +17377,7 @@ Lenovo	Lenovo Tab E10	X104N	Lenovo TB-X104N
 Lenovo	Lenovo Tab E10	X104X	Lenovo TB-X104X
 Lenovo	Lenovo Tab E7	TB7104F	Lenovo TB-7104F
 Lenovo	Lenovo Tab E7	TB7104I	Lenovo TB-7104I
+Lenovo	Lenovo Tab Extreme	TB570FU	TB570FU
 Lenovo	Lenovo Tab K10	X6C6F	Lenovo TB-X6C6F
 Lenovo	Lenovo Tab K10	X6C6L	Lenovo TB-X6C6L
 Lenovo	Lenovo Tab K10	X6C6NBF	Lenovo TB-X6C6NBF
@@ -19513,6 +19519,7 @@ Mobvoi	TicWatch Pro 3 GPS; TicWatch Pro 3 Ultra GPS	rubyfish	TicWatch Pro 3 GPS
 Mobvoi	TicWatch Pro 3 GPS; TicWatch Pro 3 Ultra GPS	rubyfish	TicWatch Pro 3 Ultra GPS
 Mobvoi	TicWatch Pro 3 GPS; TicWatch Pro 3 Ultra GPS	rubyfish	TicWatch Pro 3U
 Mobvoi	TicWatch Pro 4G	catshark	TicWatch Pro 4G
+Mobvoi	TicWatch Pro 5	dace	TicWatch Pro 5
 Mobvoi	Ticwatch Pro 4G	catshark	TicWatch Pro 4G
 Mobvoi	Ticwatch S Smartwatch; Ticwatch E Smartwatch	mooneye	Ticwatch E
 Mobvoi	Ticwatch S Smartwatch; Ticwatch E Smartwatch	mooneye	Ticwatch S
@@ -20031,6 +20038,8 @@ Motorola	moto g stylus (2021)	minsk	moto g stylus (2021)
 Motorola	moto g stylus (2021)	minsk	moto g stylus (XT2115DL)
 Motorola	moto g stylus (2022)	milan	moto g stylus (2022)
 Motorola	moto g stylus (2022)	milan	motorola
+Motorola	moto g stylus (2023)	gnevan	moto g 5G (2022)
+Motorola	moto g stylus (2023)	gnevan	moto g stylus (2023)
 Motorola	moto g stylus 5G	denver	moto g stylus (2021)
 Motorola	moto g stylus 5G	denver	moto g stylus 5G
 Motorola	moto g stylus 5G (2022)	milanf	moto g stylus 5G (2022)
@@ -21634,6 +21643,7 @@ OnePlus	OnePlus 11 5G	OP594DL1	CPH2447
 OnePlus	OnePlus 11 5G	OP594DL1	CPH2449
 OnePlus	OnePlus 11 5G	OP594DL1	CPH2451
 OnePlus	OnePlus 11 5G 中国版	OP591BL1	PHB110
+OnePlus	OnePlus 11R 5G	OP5961L1	CPH2487
 OnePlus	OnePlus 6	OnePlus6	ONEPLUS A6000
 OnePlus	OnePlus 6	OnePlus6	ONEPLUS A6003
 OnePlus	OnePlus 7	OnePlus7	GM1900
@@ -23420,6 +23430,7 @@ Point Mobile	PM80	pm80	PM80
 Point Mobile	PM85	pm85	PM85
 Point Mobile	PM85	pm85e	PM85E
 Point Mobile	PM85R	pm85r	PM85R
+Point Mobile	PM86	PM86	PM86
 Point Mobile	PM90	pm90	PM90
 Point of view	PVT-R78-3288	PVT-R78-3288	PVT-R78-3288
 Point of view	TAB-7232-3G	TAB_7232_3G_EEA	TAB-7232-3G-V2
@@ -23428,7 +23439,6 @@ Point of view	TAB-PTDF-116	TAB-PTDF-116	TAB-PTDF-116
 Point of view	TAB_7232_3G_A	TAB_7232_3G_A	TAB_7232_3G_A
 Point of view	TAB_ASR_7232_3G_SERIES	TABLET_PC	TAB_ASR_7232_3G_SERIES
 Point of view	TAB_TS101S_LTE	TAB_TS101S_LTE	TAB_TS101S_LTE
-PointMobile	PM86	PM86	PM86
 Pokini	K6	K6	K6
 Polar	M600	pike	Polar M600
 Polaris	Condroid_X7	polaris-Condroid_X7	Condroid_X7
@@ -23610,6 +23620,7 @@ Positivo	T800	T800M	T800
 Positivo	T810	T810	T810
 Positivo	T810	T810	Tab Q8 Lite
 Positivo	T810C	T810C	T810
+Positivo	TL10	TL10	Vaio TL10
 Positivo	Tab Q10	T2050M	Tab Q10
 Positivo	Twist	S520	Positivo Twist M
 Positivo	Twist	S520	Positivo Twist S
@@ -24170,6 +24181,7 @@ Proline	M504	M504	M504
 Proline	Proline FalconXL	Proline_FalconXL	Proline_FalconXL
 Proline	base10.3g silver	H1010	H1010
 Prolink	NeoSmart5	NeoSmart5	NeoSmart5
+Promethean	Promethean OPS-A1	XM3566D	OPS-A1
 Proscan	PELTDVD1029	mdt1008_mr_32	PELTDVD1029
 Proscan	PLT1065G	PLT1065G	PLT1065G
 Proscan	PLT1077G(1GB/8GB)	PLT1077G	PLT1077G
@@ -25048,6 +25060,7 @@ Reeder	Pro Max 256GB	Pro_Max_256GB	Pro Max 256GB
 Reeder	S19 Max	S19_Max	S19 Max
 Reeder	S19 Max 64GB	S19_Max_64GB	S19 Max 64GB
 Reeder	S19 Max Pro	S19_Max_Pro	S19 Max Pro
+Reeder	S23 Pro Max	S23_Pro_Max	S23 Pro Max
 Reeder	T8	reeder_T8	reeder_T8
 Reeder	Turkcell_T_Tablet	Turkcell_T_Tablet	Turkcell_T_Tablet
 Reeder	reeder M10 Plus	reeder_M10_Plus	reeder_M10 Plus
@@ -26036,6 +26049,8 @@ Samsung	Galaxy A53 5G	a53x	SM-A536U1
 Samsung	Galaxy A53 5G	a53x	SM-A536W
 Samsung	Galaxy A53 5G	a53x	SM-S536DL
 Samsung	Galaxy A53 5G UW	a53x	SM-A536V
+Samsung	Galaxy A54 5G	SC-53D	SC-53D
+Samsung	Galaxy A54 5G	SCG21	SCG21
 Samsung	Galaxy A54 5G	a54x	SM-A5460
 Samsung	Galaxy A54 5G	a54x	SM-A546B
 Samsung	Galaxy A54 5G	a54x	SM-A546E
@@ -27421,6 +27436,7 @@ Samsung	Galaxy S22+	g0q	SM-S906U1
 Samsung	Galaxy S22+	g0q	SM-S906W
 Samsung	Galaxy S22+	g0s	SM-S906B
 Samsung	Galaxy S23	SC-51D	SC-51D
+Samsung	Galaxy S23	SCG19	SCG19
 Samsung	Galaxy S23	dm1q	SM-S9110
 Samsung	Galaxy S23	dm1q	SM-S911B
 Samsung	Galaxy S23	dm1q	SM-S911C
@@ -27429,6 +27445,7 @@ Samsung	Galaxy S23	dm1q	SM-S911U
 Samsung	Galaxy S23	dm1q	SM-S911U1
 Samsung	Galaxy S23	dm1q	SM-S911W
 Samsung	Galaxy S23 Ultra	SC-52D	SC-52D
+Samsung	Galaxy S23 Ultra	SCG20	SCG20
 Samsung	Galaxy S23 Ultra	dm3q	SM-S9180
 Samsung	Galaxy S23 Ultra	dm3q	SM-S918B
 Samsung	Galaxy S23 Ultra	dm3q	SM-S918N
@@ -28561,6 +28578,7 @@ Satewave	HPAD-IP8045	HPAD-IP8045	HPAD-IP8045
 Scanfrost	Nigeria	marina	Scanfrost TV
 Scanfrost	Nigeria	martin	Scanfrost 2K Android TV
 Sceptre	4K Smart TV	gangbyeon	4K Smart TV
+Sceptre	A557CV-UMRBX	barking	SCEPTRE AndroidTV
 Sceptre	Smart TV	kanda	2K Smart TV
 Schok	FreedomTurboXL	SFT57216	FreedomTurboXL
 Schok	SCHOK	SM7216H	SM7216H
@@ -28909,6 +28927,7 @@ Sharp	EB-WX1GJ/EB-W51GJ	Galapagos	EB-WX1GJ
 Sharp	EG1	namba	AQUOS-TVH22A
 Sharp	EG1	namba	AQUOS-TVP22A
 Sharp	EG1	namba	AQUOS-TVX22A
+Sharp	EN3/EL3	banqiao	AQUOS-TVE21F
 Sharp	EQ3/DN5	banqiao	AQUOS-TVE21A
 Sharp	EU	sindang	AQUOS-TVE19C
 Sharp	EU	sindang	AQUOS-TVE21A2
@@ -28916,6 +28935,7 @@ Sharp	EU	sindang	AQUOS_TVE19A
 Sharp	Europe	guandu	SHARP 4K EU Android TV
 Sharp	Europe	martin	SHARP 2K EU Android TV
 Sharp	FS8014	SE3	FS8014
+Sharp	FV1	sandiego	AQUOS-TVX23A
 Sharp	GALAPAGOS SoftBank 003SH	SBM003SH	SBM003SH
 Sharp	GALAPAGOS SoftBank 005SH	SBM005SH	SBM005SH
 Sharp	HC-16TT1	HCTT1	HCTT1
@@ -29644,6 +29664,7 @@ Sony	Xperia 1 IV	XQ-CT62	XQ-CT62
 Sony	Xperia 1 IV	XQ-CT72	XQ-CT72
 Sony	Xperia 1 Professional Edition	J9150	J9150
 Sony	Xperia 1 V	SO-51D	SO-51D
+Sony	Xperia 1 V	XQ-DQ72	XQ-DQ72
 Sony	Xperia 10	I3113	I3113
 Sony	Xperia 10	I3123	I3123
 Sony	Xperia 10	I4113	I4113
@@ -30649,6 +30670,7 @@ Symphony	Z42	Z42	Z42
 Symphony	Z45	Z45	Symphony Z45
 Symphony	Z60	Z60	Symphony Z60
 Symphony	Z60	Z60	Z60
+Symphony	Z60 Plus	Z60_plus	Z60 plus
 Symphony	ZVII	ZVII	ZVII
 Symphony	ZVIII	ZVIII	ZVIII
 Symphony	i10	i10	i10
@@ -34230,6 +34252,7 @@ Veon	VEON 4K Smart TV	SW6H	VEON 4K Smart TV
 VerD	E1	E1	E1
 VerD	E2	E2	E2
 Verizon	Stream TV	JS8V	Stream TV
+Verizon	Stream TV	SCSIP02	Stream TV
 Verizon	Stream TV	f354	Stream TV
 Verizon	Stream TV	sti6220d315	Stream TV
 Verizon	Stream TV Soundbar	sti6251d315	Stream TV Soundbar
@@ -34249,6 +34272,7 @@ Verizon Wireless	Ellipsis ® 10 HD	QTAXIA1	QTAXIA1
 Verizon Wireless	Gizmo Tab	QTASUN2	QTASUN2
 Verizon Wireless	Gizo Tab	QTASUN2	QTASUN2
 Verizon Wireless	QTAQZ3KID	QTAQZ3KID	QTAQZ3KID
+Verizon Wireless	TCL TAB Pro 5G	Transformer_VZW	9198S
 Verizon Wireless	Wear24	dorado	Wear24
 Vernee	Active	V1	V1
 Vernee	M3	M3	M3
@@ -34636,6 +34660,7 @@ Vivo	PD1419V	PD1419V	vivo Y923
 Vivo	PD1612	PD1612	vivo PD1612
 Vivo	PD1612	PD1612	vivo Y67
 Vivo	PD1731D	PD1731D	vivo Y71A
+Vivo	S17 Pro	PD2284	V2284A
 Vivo	T1	V2154	V2153
 Vivo	T1	V2154	V2154
 Vivo	T1	V2154	V2168
@@ -34941,6 +34966,7 @@ Vivo	Y21L	Y21L	vivo Y21L
 Vivo	Y22	Y22	vivo Y22
 Vivo	Y22s	V2206	V2206
 Vivo	Y27	Y27	vivo Y27
+Vivo	Y27 5G	V2248	V2302
 Vivo	Y28	Y28	vivo Y28
 Vivo	Y30 5G	2160	V2160
 Vivo	Y31	PD1505	vivo Y31
@@ -34959,6 +34985,7 @@ Vivo	Y35A	PD1502A	vivo Y35A
 Vivo	Y35m	PD2230	V2230A
 Vivo	Y35m+	PD2279	V2279A
 Vivo	Y36	V2247	V2247
+Vivo	Y36 5G	V2248	V2248
 Vivo	Y51	Y51	vivo Y51
 Vivo	Y51A	PD1510	vivo Y51A
 Vivo	Y53	1606	vivo 1606
@@ -35003,7 +35030,9 @@ Vivo	iQOO Neo7	I2214	I2214
 Vivo	iQOO Neo7	PD2231	V2231A
 Vivo	iQOO Neo7 SE	PD2238	V2238A
 Vivo	iQOO Neo7 竞速版	PD2232	V2232A
+Vivo	iQOO Neo8	PD2301	V2301A
 Vivo	iQOO Neo8 Pro	PD2302	V2302A
+Vivo	iQOO Pad	DPD2307	iPA2375
 Vivo	iQOO Z5	2018	I2018
 Vivo	iQOO Z5 6000mAh	PD2188	V2188A
 Vivo	iQOO Z6	I2203	I2203
@@ -35116,6 +35145,7 @@ Vivo	vivo X80 Pro 天玑9000版	PD2186	V2186A
 Vivo	vivo X90	PD2241	V2241A
 Vivo	vivo X90 Pro	PD2242	V2242A
 Vivo	vivo X90 Pro+	PD2227	V2227A
+Vivo	vivo X90s	PD2241	V2241HA
 Vivo	vivo X9Plus	PD1619	vivo X9Plus
 Vivo	vivo X9s	PD1616B	vivo PD1616B
 Vivo	vivo X9s	PD1616B	vivo X9s
@@ -36341,6 +36371,8 @@ Xiaomi	Xiaomi civi2	ziyi	2209129SC
 Xiaomi	Xiaomi pad 6 Pro	liuqin	23046RP50C
 Xiaomi	小米手表	baiji	Mi Watch
 Xinlian	HC750	HC750	HC750
+Xitrix	XITRIX	stanford	SMART TV
+Xitrix	XITRIX	zhongshan	4K SMART TV
 Xmobile	X1	X1	X1
 Xmobile	X10	XMOBILE	X10
 Xmobile	X3	Xmobile_X3	X3
@@ -37823,6 +37855,7 @@ ZTE	Z660G	nice	Z660G
 ZTE	Z6621O	Z6621O	Z6621O
 ZTE	Z665C	seanplus	Z665C
 ZTE	Z667	demi	Z667
+ZTE	Z667G	demi	Z667G
 ZTE	Z667T	bonnie	Z667T
 ZTE	Z669	demi	Z669
 ZTE	Z716BL	baffin	Z716BL
@@ -38130,7 +38163,12 @@ ZTE	ZTE Blade X10s	P963T01C	ZTE T1002
 ZTE	ZTE C2017	alice	ZTE C2017
 ZTE	ZTE E7LS	ZTE_E7LS	ZTE E7LS
 ZTE	ZTE Fanfare 3	kelly	Z852
+ZTE	ZTE N939Sc	zx55q05_64	LS-5504
+ZTE	ZTE N939Sc	zx55q05_64	ZTE Blade X9
+ZTE	ZTE N939Sc	zx55q05_64	ZTE N939Sc
+ZTE	ZTE N939Sc	zx55q05_64	ZTE N939St
 ZTE	ZTE Overture 3	jeff	Z851
+ZTE	ZTE PA01	P898P01	ZTE PA01
 ZTE	ZTE T0801			P876T01J	ZTE T0801
 ZTE	ZTE Tempo X	grayjoylite	N9137
 ZTE	ZTE U5	enterprise	ZTE U5
@@ -38177,6 +38215,8 @@ ZTE	tmn smart a15	atlas40	tmn smart a15
 ZTE	tmn smart a60	kiska	tmn smart a60
 ZTE	tmn smart a7	sailboat	tmn smart a7
 ZTE	zBox 1	YXE	zBox 1
+ZTE	中兴畅行40	P963S71	ZTE 1020L
+ZTE	中兴远航41	P720S11	ZTE 7541N
 ZUKU	A151	A155	A151
 ZUKU	DV8330-T2	DV8330-T2	DV8330-T2
 ZUOPU		JH105	JH105	ZER A10
@@ -38258,6 +38298,7 @@ Zebra	TC70x	TC70x	TC70x
 Zebra	TC73	TC73	TC73
 Zebra	TC75x	TC75x	TC75x
 Zebra	TC75xDF	TC75xDF	TC75x
+Zebra	TC78	TC78	TC78
 Zebra	TC8000	TC8000	TC8000
 Zebra	TN28	TN28	TN28
 Zebra	VC80x	VC80x	VC80x
@@ -38909,6 +38950,8 @@ iRulu	Y57	Y57	Y57
 iRulu	Y57	iRULU_Y57	Y57
 iRulu	Y57P_EEA	Y57P	Y57P
 iRulu	iRULU_G36	iRULU_G36	G36
+iSTAR	S32WD02	beaudry	iSTAR AndroidTV
+iSTAR	S55WD01	barking	iSTAR AndroidTV
 iSWAG	ALPHA	Alpha	Alpha
 iSWAG	APOLLO	APOLLO	APOLLO
 iSWAG	BLINK	BLINK	BLINK
@@ -39105,6 +39148,7 @@ realme	realme C31	RE549C	RMX3501
 realme	realme C31	RE549C	RMX3502
 realme	realme C31	RE549C	RMX3503
 realme	realme C33	RE5894	RMX3624
+realme	realme C33 128GB	RE58AF	RMX3627
 realme	realme C35	RE87BAL1	RMX3511
 realme	realme C35	RE87BAL1	RMX3512
 realme	realme C35	RE87BAL1	RMX3513
@@ -39160,6 +39204,7 @@ realme	realme narzo 50A Prime	RE54D8L1	RMX3516
 realme	realme narzo 50A Prime	RE54D8L1	RMX3517
 realme	realme narzo 50i	RED8FA	RMX3235
 realme	realme narzo 50i Prime	RE588E	RMX3506
+realme	realme narzo N53	RE58C6	RMX3761
 realme	realme pad	RE54C1L1	RMP2102
 realme	realme pad	RE54C1L1	RMP2103
 realme	realme  X7 Pro 	RMX2121CN	RMX2121
